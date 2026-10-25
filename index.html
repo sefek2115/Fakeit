@@ -1,12 +1,12 @@
 <!--
-USTAWIENIE (raz, ok. 10 min, za darmo):
-1. console.firebase.google.com -> Dodaj projekt -> Dodaj aplikację Web -> skopiuj firebaseConfig poniżej.
-2. Authentication -> Sign-in method: włącz E-mail/hasło, Google i Anonimowe.
-3. Firestore Database -> Utwórz bazę -> Reguły, wklej:
+USTAWIENIA FIREBASE (Firestore -> Rules), wklej i kliknij Publish:
 rules_version = '2'; service cloud.firestore { match /databases/{d}/documents {
   match /users/{uid}/{doc=**} { allow read, write: if request.auth.uid == uid; }
-  match /games/{g}/{doc=**} { allow read, write: if request.auth != null; } } }
-4. Wgraj ten plik na darmowy hosting (Firebase Hosting, Netlify Drop, GitHub Pages) i dodaj jego domenę w Authentication -> Settings -> Authorized domains.
+  match /games/{g}/{doc=**} { allow read, write: if request.auth != null; }
+  match /trades/{t} { allow read, write: if request.auth != null; }
+  match /cardstats/{c} { allow read, write: if request.auth != null; }
+  match /leaderboard/{u} { allow read: if request.auth != null; allow write: if request.auth.uid == u; } } }
+Pytania Geografia: wgraj plik pytania-geografia.txt obok index.html (format: Pytanie? -> Odpowiedź).
 -->
 <!DOCTYPE html><html lang="pl"><head><meta charset="utf-8"><title>Fake it</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -37,7 +37,28 @@ nav button{background:none;color:var(--mu);font-size:12px;border-radius:0;margin
 #ts{position:fixed;top:12px;left:50%;transform:translateX(-50%);background:var(--ac);color:var(--ac2);padding:10px 16px;border-radius:99px;z-index:9;font-weight:700;max-width:90%}
 .cal{display:grid;grid-template-columns:repeat(7,1fr);gap:3px;text-align:center;font-size:12px}.cal b{padding:5px 0;border-radius:8px}.cal .d{background:var(--ac);color:var(--ac2)}
 .ach{display:flex;gap:10px;padding:6px 0;align-items:center}.ach.off{opacity:.35}.ach span:first-child{font-size:26px}
-</style></head><body><div id="app"></div><nav id="nav" hidden></nav><div id="ts" hidden></div>
+nav button{padding:6px 0;font-size:11px}
+.ph{width:1.3em;height:1.3em;border-radius:50%;object-fit:cover;vertical-align:middle}
+#ov{position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;padding:16px;overflow:auto}#ov[hidden]{display:none}#ov.flash{animation:fl .9s}
+@keyframes fl{50%{background:#fff}}
+.pack{width:160px;height:230px;position:relative;cursor:pointer;animation:wob 1.2s infinite}
+.pbody{position:absolute;inset:40px 0 0;background:linear-gradient(160deg,#4d515b,#1E2026 60%,#9296A5);border:3px solid #E2E4F0;border-radius:0 0 14px 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;letter-spacing:2px}
+.ptop{position:absolute;top:0;left:0;right:0;height:46px;background:linear-gradient(160deg,#9296A5,#4d515b);border:3px solid #E2E4F0;border-radius:14px 14px 0 0;transition:all .8s}
+.pack.tear{animation:none}.pack.tear .ptop{transform:translateY(-90px) rotate(-18deg);opacity:0}.pack.tear .pbody{transform:scale(1.4);opacity:0;transition:all .9s}
+@keyframes wob{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg) scale(1.04)}}
+.rv{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:100%;max-width:420px}
+.fl{aspect-ratio:2/3;perspective:800px;cursor:pointer}.in{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .7s}.fl.on .in{transform:rotateY(180deg)}
+.bk,.fr{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:12px}.bk{background:linear-gradient(135deg,#4d515b,#1E2026);border:3px solid #9296A5;display:flex;align-items:center;justify-content:center;font-size:40px}.fr{transform:rotateY(180deg)}
+.fl.big .in{animation:pop .9s .6s}@keyframes pop{50%{filter:drop-shadow(0 0 18px gold)}}
+.tc{position:relative;aspect-ratio:2/3;border-radius:12px;padding:6px;overflow:hidden;display:flex;flex-direction:column;justify-content:space-between;color:#1E2026;border:3px solid;font-size:11px;height:100%}
+.tt{display:flex;flex-direction:column;line-height:1.1;text-align:center}.tt span{font-size:9px;opacity:.8}.ar{font-size:40px;text-align:center;filter:drop-shadow(0 2px 2px #0006)}.tb{text-align:center;font-size:9px;font-weight:700;background:#fff8;border-radius:8px;padding:2px}
+.r0{background:linear-gradient(160deg,#e4e6ee,#b8bccb);border-color:#9296A5}.r1{background:linear-gradient(160deg,#cfe6ff,#6fb2ff);border-color:#4aa3ff}.r2{background:linear-gradient(160deg,#ead7ff,#a66bff);border-color:#8a47ff}
+.r3{background:linear-gradient(160deg,#fff1b8,#ffb300);border-color:#ff9800}.r4{background:linear-gradient(135deg,#ff8ad8,#8ad6ff,#9bff8a,#ffe38a);background-size:300% 300%;animation:rb 4s linear infinite;border-color:#fff}
+@keyframes rb{50%{background-position:100% 100%}}
+.shn{position:absolute;inset:0;pointer-events:none}.r1 .shn,.r2 .shn,.r3 .shn,.r4 .shn{background:linear-gradient(115deg,transparent 35%,#fff9 50%,transparent 65%);background-size:260% 100%;animation:sh 3s linear infinite}.r4 .shn{animation-duration:1.6s}
+@keyframes sh{0%{background-position:160% 0}100%{background-position:-60% 0}}
+.cn{font-size:150px;font-weight:900;text-align:center;animation:cnp 1s}@keyframes cnp{0%{transform:scale(2.2);opacity:0}30%{opacity:1}100%{transform:scale(1)}}
+</style></head><body><div id="app"></div><nav id="nav" hidden></nav><div id="ts" hidden></div><div id="ov" hidden></div>
 <script type="module">
 import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import {getFirestore,doc,collection,getDoc,setDoc,updateDoc,deleteDoc,onSnapshot} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
@@ -88,129 +109,175 @@ const DB={general:{name:'Ogólne',q:[
 {q:DQ,a:'Kompas',d:['Busola słoneczna','Sekstant','Żyroskop'],e:'Igła magnetyczna wskazuje północ magnetyczną Ziemi.',s:S(Ci(50,50,40)+L('M50 12v10M50 78v10M12 50h10M78 50h10')+'<path d="M50 28L58 50L50 72L42 50z" fill="currentColor"/>'+Ci(50,50,3))},
 {q:DQ,a:'Metronom',d:['Wahadło Foucaulta','Stoper mechaniczny','Kamerton'],e:'Wskazuje równe tempo, np. dla muzyków ćwiczących grę.',s:S(L('M30 92h40L57 12H43z')+L('M50 78L64 24')+R(58,34,12,8,1)+Ci(50,78,3))}
 ]}};
-const C=[['🍀','Koniczyna',0,2],['🎲','Kostka',0,2],['🧩','Puzzel',0,3],['🎈','Balon',0,2],['🎭','Maska Zmyślacza',0,4],['🦊','Lis Oszust',1,12],['🎩','Cylinder Iluzjonisty',1,14],['🔮','Kula Prawdy',1,15],['🐉','Smok Ściemy',2,35],['👑','Korona Kłamcy',2,40],['💎','Diament Prawdy',3,110],['🌟','Złota Maska',3,140]];
-const RN=['Zwykła','Rzadka','Epicka','Legendarna'],RC=['#9296A5','#4aa3ff','#b06bff','#ffb300'];
-const ACH=[['first','🎭','Pierwsze oszustwo','Wkręć kogoś swoim fejkiem',s=>s.f>=1],['master','🃏','Mistrz Ściemy','Wkręć 25 osób',s=>s.f>=25],['truth','🔍','Wykrywacz Prawdy','Znajdź prawdę 10 razy',s=>s.t>=10],['coll','🗂️','Kolekcjoner Kart','Zbierz 8 różnych kart',(s,u)=>u>=8],['win','🏆','Pierwsza wygrana','Wygraj grę',s=>s.w>=1],['vet','🎮','Weteran','Zagraj 10 gier',s=>s.g>=10],['luck','🎡','Szczęściarz','Zakręć kołem 5 razy',s=>s.sp>=5]];
-const TR=[['🥉','Brąz',25],['🥈','Srebro',100],['🥇','Złoto',250],['💎','Diament',500]];
+
 const $=s=>document.querySelector(s),E=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-let db,pref,P={id:'p'+Math.random().toString(36).slice(2,9),name:'',av:'🙂',total:0,coins:10,theme:''};
+const shuf=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const qh=q=>{let h=0;for(const c of q.q+q.a)h=(h*31+c.charCodeAt(0))|0;return(h>>>0).toString(36)};
+const CATS=[['geo','Geografia','pytania-geografia.txt']];
+function parseQ(txt){const out=[],seen=new Set();txt.replace(/[\u200b\ufeff]/g,'').split(/\r?\n/).forEach(l=>{const m=l.match(/^\s*(?:\d+\.\s*)?(.+?)\s*->\s*(.+?)\s*$/);if(!m)return;const q=m[1].trim();let a=m[2].trim();if(!/\?$/.test(q)||/zależności|według|\blub\b|\s\/\s/i.test(a+q)||seen.has(q))return;let e='';const pm=a.match(/^(.*?)\s*\((.*)\)\.?$/);if(pm&&pm[1]){e=pm[2];a=pm[1]}a=a.replace(/\.$/,'').trim();if(a.length<2||a.length>45)return;seen.add(q);out.push({q,a,e:e?e[0].toUpperCase()+e.slice(1)+'.':''})});
+out.forEach(o=>{const g=o.q.split(' ').slice(0,2).join(' '),same=out.filter(x=>x!==o&&x.q.startsWith(g)&&x.a!==o.a),pool=same.length>=3?same:out.filter(x=>x!==o&&x.a!==o.a);o.d=shuf(pool).slice(0,3).map(x=>x.a)});return out}
+async function loadCats(){for(const [k,n,f] of CATS){try{const r=await fetch(f+'?v='+Date.now());if(r.ok){const q=parseQ(await r.text());if(q.length>=10)DB[k]={name:n,q}}}catch(e){}}if(DB.geo)DB.all={name:'Mieszane',q:[...DB.general.q,...DB.geo.q]}}
+/* ---- karty ---- */
+const NO=[['Lis','🦊'],['Wilk','🐺'],['Sowa','🦉'],['Smok','🐉'],['Kot','🐱'],['Pies','🐶'],['Orzeł','🦅'],['Rekin','🦈'],['Żółw','🐢'],['Lew','🦁'],['Tygrys','🐯'],['Niedźwiedź','🐻'],['Panda','🐼'],['Koala','🐨'],['Pingwin','🐧'],['Delfin','🐬'],['Ośmiornica','🐙'],['Motyl','🦋'],['Pszczoła','🐝'],['Żaba','🐸'],['Jednorożec','🦄'],['Feniks','🔥'],['Kruk','🐦'],['Jeleń','🦌'],['Zebra','🦓'],['Żyrafa','🦒'],['Słoń','🐘'],['Małpa','🐒'],['Papuga','🦜'],['Krab','🦀'],['Rybka','🐠'],['Rozdymka','🐡'],['Jaszczurka','🦎'],['Krokodyl','🐊'],['Nietoperz','🦇'],['Bóbr','🦫'],['Szop','🦝'],['Jeż','🦔'],['Królik','🐰'],['Wąż','🐍'],['Skorpion','🦂'],['Mamut','🦣'],['Wielbłąd','🐪'],['Kaktus','🌵']];
+const TN=['Zwykła','Rzadka','Epicka','Legendarna','Mityczna'],BV=[2,8,30,120,500],TW=[66,22,8.5,3,.5];
+const cd=id=>[NO[id%44][1],NO[id%44][0],Math.floor(id/44)],day=t=>Math.floor(t/864e5);
+let CS={},TR=[],LB=[],claimed=new Set();
+const scar=id=>Math.max(.5,1.8-.25*Math.log2(1+(CS[id]||0)));
+const pr=(id,d)=>Math.max(.5,+(BV[Math.floor(id/44)]*scar(id)*(1+.2*Math.sin(d*.8+id*1.7))).toFixed(1));
+const cardValue=()=>{const d=day(Date.now());return P.cards.reduce((s,c)=>s+pr(c[0],d),0)};
+const ct=(id,x)=>{const[e,n,t]=cd(id);return `<div class="tc r${t}"><div class="shn"></div><div class="tt"><b>${n}</b><span>${TN[t]}</span></div><div class="ar">${e}</div><div class="tb">#${id+1} · ${pr(id,day(Date.now()))} 🪙${x||''}</div></div>`};
+const tcard=id=>`${cd(id)[0]} ${cd(id)[1]} <small>(${TN[cd(id)[2]]})</small>`;
+const roll=()=>{let r=Math.random()*100,t=0;while(t<4&&r>=TW[t]){r-=TW[t];t++}return t*44+Math.floor(Math.random()*44)};
+async function bump(id,d){try{const r=db.doc('cardstats/'+id),s=await r.get();await r.set({n:Math.max(0,(s.exists?s.data().n:0)+d)})}catch(e){}}
+function addCard(id){const first=!P.cards.some(c=>c[0]===id);P.cards.push([id,Date.now()]);if(first)bump(id,1)}
+function remCard(id){const i=P.cards.findIndex(c=>c[0]===id);if(i<0)return false;P.cards.splice(i,1);if(!P.cards.some(c=>c[0]===id))bump(id,-1);return true}
+/* ---- profil ---- */
+let db,pref,auth,fdb,AUTH={},P,gsubs=[];
+const fresh=()=>({id:'',name:'',av:'🙂',photo:'',total:0,coins:10,theme:'',col:''});P=fresh();
 try{Object.assign(P,JSON.parse(localStorage.getItem('fk')||'{}'))}catch(e){}
-function norm(){P.st=Object.assign({g:0,w:0,f:0,t:0,pk:0,sp:0},P.st);P.inv=Object.assign({hint:0,steal:0},P.inv);['cards','hist','ach','games','rk','seen'].forEach(k=>P[k]=P[k]||[])}norm();
-let sv;const save=()=>{try{localStorage.setItem('fk',JSON.stringify(P))}catch(e){}clearTimeout(sv);sv=setTimeout(()=>{if(pref)pref.set({j:JSON.stringify(P)}).catch(()=>{})},800)};
+function norm(){P.st=Object.assign({g:0,w:0,f:0,t:0,pk:0,sp:0,tr:0},P.st);P.inv=Object.assign({hint:0,steal:0,block:0},P.inv);['cards','hist','ach','games','rk','seen'].forEach(k=>P[k]=P[k]||[]);P.cards=P.cards.filter(c=>c[0]<220)}norm();
+let sv;const save=()=>{try{localStorage.setItem('fk',JSON.stringify(P))}catch(e){}clearTimeout(sv);sv=setTimeout(()=>{if(pref)pref.set({j:JSON.stringify(P)}).catch(()=>{});if(AUTH.google&&db&&P.id)db.doc('leaderboard/'+P.id).set({n:P.name||'Gracz',av:P.av,ph:P.photo||'',col:P.col||'',w:P.st.w,c:P.coins,v:+cardValue().toFixed(1)}).catch(()=>{})},800)};
 function theme(){if(P.theme)document.documentElement.dataset.theme=P.theme;else delete document.documentElement.dataset.theme}theme();
-function toast(m){const t=$('#ts');t.textContent=m;t.hidden=false;clearTimeout(t.x);t.x=setTimeout(()=>t.hidden=true,2800)}
-function chk(){const u=new Set(P.cards.map(c=>c[0])).size;ACH.forEach(a=>{if(!P.ach.includes(a[0])&&a[4](P.st,u)){P.ach.push(a[0]);P.coins+=2;toast(a[1]+' Osiągnięcie: '+a[2]+' (+2 🪙)')}});save()}
-const day=t=>Math.floor(t/864e5),pr=(i,d)=>Math.max(1,+(C[i][3]*(1+.35*Math.sin(d*.8+i*1.7)+.1*Math.sin(d*2.3+i))).toFixed(1));
-let code='',G=null,PL=[],CH=[],sig='',unsubs=[],busy=false,hid=[],T='play',WR=0,spin=false,RG=14;
-const NAV=[['play','🎮','Graj'],['shop','🛒','Sklep'],['col','🃏','Kolekcja'],['me','👤','Profil']];
-function show(t,msg){T=t;unsub();sig='tab';$('#app').innerHTML=`<div class="top"><h1>Fake it</h1><span class="pill">🪙 ${P.coins}</span></div><div id="main"></div>`;
+function toast(m){const t=$('#ts');t.textContent=m;t.hidden=false;clearTimeout(t.x);t.x=setTimeout(()=>t.hidden=true,3000)}
+const NC=['#cd7f32','#c0c0c0','#ffd700','#4fc3f7'],TI=['🥉','🥈','🥇','💎'],TIN=['Brązowe','Srebrne','Złote','Diamentowe'];
+const ACH=[[0,'🎭','Pierwsze oszustwo','Wkręć kogoś fejkiem',s=>s.f>=1],[0,'🏆','Pierwsza wygrana','Wygraj grę',s=>s.w>=1],[0,'👃','Nos do prawdy','Znajdź prawdę',s=>s.t>=1],[0,'📦','Pierwsza paczka','Otwórz paczkę kart',s=>s.pk>=1],[0,'🎡','Szczęśliwa ręka','Zakręć kołem',s=>s.sp>=1],
+[1,'🃏','Zmyślacz','Wkręć 15 osób',s=>s.f>=15],[1,'🔍','Wykrywacz Prawdy','Znajdź prawdę 15 razy',s=>s.t>=15],[1,'🎮','Stały bywalec','Zagraj 10 gier',s=>s.g>=10],[1,'🗂️','Kolekcjoner I','25 różnych kart',(s,u)=>u>=25],[1,'🤝','Handlarz','Zrób 1 wymianę',s=>s.tr>=1],
+[2,'🎩','Mistrz Ściemy','Wkręć 75 osób',s=>s.f>=75],[2,'🕵️','Detektyw','Znajdź prawdę 60 razy',s=>s.t>=60],[2,'🛡️','Weteran','Zagraj 40 gier',s=>s.g>=40],[2,'📚','Kolekcjoner II','80 różnych kart',(s,u)=>u>=80],[2,'👑','Mistrz wygranych','Wygraj 15 gier',s=>s.w>=15],
+[3,'🌟','Legenda Ściemy','Wkręć 250 osób',s=>s.f>=250],[3,'🧠','Nieomylny','Znajdź prawdę 200 razy',s=>s.t>=200],[3,'🏛️','Wielki Kolekcjoner','160 różnych kart',(s,u)=>u>=160],[3,'🦈','Rekin handlu','Zrób 25 wymian',s=>s.tr>=25],[3,'✨','Mityczny łowca','Zdobądź kartę mityczną',(s,u,p)=>p.cards.some(c=>c[0]>=176)]];
+function chk(){const u=new Set(P.cards.map(c=>c[0])).size;ACH.forEach((a,i)=>{if(!P.ach.includes(i)&&a[4](P.st,u,P)){P.ach.push(i);P.coins+=1;toast(a[1]+' Osiągnięcie: '+a[2]+' (+1 🪙)')}});if(P.col&&!unlocked().includes(P.col))P.col='';save()}
+const unlocked=()=>[0,1,2,3].filter(t=>ACH.every((a,i)=>a[0]!==t||P.ach.includes(i))).map(t=>NC[t]);
+const TR_=[['🥉','Brąz',25],['🥈','Srebro',100],['🥇','Złoto',250],['💎','Diament',500]];
+const AV=p=>p.ph?`<img src="${p.ph}" class="ph">`:E(p.av||'🙂'),NM=p=>`<span${p.col?` style="color:${p.col}"`:''}>${E(p.name||'')}</span>`;
+/* ---- nawigacja ---- */
+let code='',G=null,PL=[],CH=[],sig='',unsubs=[],busy=false,hid=[],T='play',WR=0,spin=false,RG=14,blk=false,gF=0,gT=0,EM='';
+const NAV=[['play','🎮','Graj'],['shop','🛒','Sklep'],['col','🃏','Karty'],['rank','🏅','Ranking'],['me','👤','Profil']];
+function unsub(){unsubs.forEach(f=>f());unsubs=[];G=null;PL=[];CH=[];code=''}
+function show(t,msg){T=t;unsub();sig='tab';$('#ov').hidden=true;$('#app').innerHTML=`<div class="top"><h1>Fake it</h1><span class="pill">🪙 ${P.coins}</span></div><div id="main"></div>`;
 const n=$('#nav');n.hidden=false;n.innerHTML=NAV.map(x=>`<button class="${x[0]===t?'on':''}" data-t="${x[0]}">${x[1]}<br>${x[2]}</button>`).join('');n.querySelectorAll('button').forEach(b=>b.onclick=()=>show(b.dataset.t));TABS[t](msg)}
 const TABS={
-play(msg){$('#main').innerHTML=`<p>Każdy tworzy wiarygodne ściemy. Wyłap prawdziwą odpowiedź wśród fejków.</p>${P.name?'':'<div class="c"><h3>Jak masz na imię?</h3><input id="nm" placeholder="Twój nick" maxlength="14"></div>'}
-<div class="c"><h3>Nowa gra</h3><select id="cat">${Object.keys(DB).map(k=>`<option value="${k}">Kategoria: ${DB[k].name}</option>`)}</select><button id="mk">👥 Załóż grę ze znajomymi</button><button class="s" id="mkb">🤖 Zagraj z botami</button></div>
+play(msg){const ks=Object.keys(DB);$('#main').innerHTML=`<p>Każdy tworzy wiarygodne ściemy. Wyłap prawdziwą odpowiedź wśród fejków.</p>${P.name?'':'<div class="c"><h3>Jak masz na imię?</h3><input id="nm" placeholder="Twój nick" maxlength="14"></div>'}
+<div class="c"><h3>Nowa gra</h3><select id="cat">${ks.map(k=>`<option value="${k}">Kategoria: ${DB[k].name}</option>`)}</select><select id="rn">${[5,10,15,20,30,40,50].map(n=>`<option value="${n}" ${n===10?'selected':''}>Rundy: ${n}</option>`)}</select><button id="mk">👥 Załóż grę ze znajomymi</button><button class="s" id="mkb">🤖 Zagraj z botami (3 boty)</button></div>
 <div class="c"><h3>Dołącz do gry</h3><div class="row"><input id="cd" placeholder="Kod (3 cyfry)" inputmode="numeric" maxlength="3"><button id="jn">Dołącz</button></div></div><p id="msg" style="color:#d33">${msg||''}</p>`;
 const nick=()=>{if(!P.name){const v=$('#nm').value.trim();if(!v){$('#msg').textContent='Wpisz nick';return false}P.name=v;save()}return true};
-$('#mk').onclick=()=>nick()&&create(0,$('#cat').value);$('#mkb').onclick=()=>nick()&&create(1,$('#cat').value);$('#jn').onclick=()=>nick()&&join($('#cd').value.trim())},
-shop(){const w=[['💡'],['🪙3'],['💨'],['💡'],['🪙10'],['🕵️']];
-const sec=w.map((x,i)=>{const p=a=>[Math.cos((i*60+a-90)*Math.PI/180)*100,Math.sin((i*60+a-90)*Math.PI/180)*100].map(Math.round).join(' ');const m=[Math.cos((i*60-60)*Math.PI/180)*62,Math.sin((i*60-60)*Math.PI/180)*62];return `<path d="M0 0L${p(0)}A100 100 0 0 1 ${p(60)}Z" fill="var(--${i%2?'bg':'card'})" stroke="var(--ln)"/><text x="${m[0]}" y="${m[1]}" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="var(--tx)">${x[0]}</text>`}).join('');
-$('#main').innerHTML=`<div class="c"><h3>🎡 Koło fortuny</h3><p>4 🪙 za zakręcenie. Nagrody: 💡 Podpowiedź, 🕵️ Podmiana, 🪙 coiny.</p><svg viewBox="-110 -120 220 230" style="width:240px;display:block;margin:auto"><g id="wh" style="transform-box:fill-box;transform-origin:center;transition:transform 3.5s cubic-bezier(.2,.8,.2,1);transform:rotate(${WR}deg)">${sec}</g><path d="M-9 -118L9 -118L0 -96Z" fill="var(--ac)"/></svg><button id="sp">Zakręć (4 🪙)</button></div>
-<div class="c"><h3>📦 Paczka kart</h3><p>8 🪙 za 3 karty. Rzadkie: 25% · epickie: 8% · legendarne: 2% na kartę.</p><div id="pk" class="grid"></div><button id="op">Otwórz paczkę (8 🪙)</button></div>
-<div class="c"><h3>🎒 Twoje ułatwienia</h3><div class="pill">💡 Podpowiedź ×${P.inv.hint}</div><div class="pill">🕵️ Podmiana ×${P.inv.steal}</div><p>Podpowiedź ukrywa część błędnych opcji. Podmiana: gdy najwięcej osób wybierze cudzego fejka, jego punkty przechodzą do Ciebie. Użyjesz ich w trakcie głosowania.</p></div>`;
-$('#sp').onclick=()=>{if(spin)return;if(P.coins<4)return toast('Za mało coinów');P.coins-=4;P.st.sp++;spin=true;const wt=[14,26,34,14,9,3];let r=Math.random()*100,i=0;while(i<5&&r>=wt[i]){r-=wt[i];i++}
-WR=WR-WR%360+1440+360-(i*60+30);$('#wh').style.transform=`rotate(${WR}deg)`;setTimeout(()=>{spin=false;if(i===0||i===3){P.inv.hint++;toast('💡 Podpowiedź!')}else if(i===1){P.coins+=3;toast('+3 🪙')}else if(i===4){P.coins+=10;toast('+10 🪙')}else if(i===5){P.inv.steal++;toast('🕵️ Podmiana – rzadka wygrana!')}else toast('💨 Tym razem pusto')
+$('#mk').onclick=()=>nick()&&create(0);$('#mkb').onclick=()=>nick()&&create(1);$('#jn').onclick=()=>nick()&&join($('#cd').value.trim())},
+shop(){const WS=[['💨',24],['🪙+2',14],['💨',23],['💡',5],['💨',23],['🪙+5',6],['🕵️',3.5],['🚫',1.5]];
+const sec=WS.map((x,i)=>{const p=a=>[Math.cos((i*45+a-90)*Math.PI/180)*100,Math.sin((i*45+a-90)*Math.PI/180)*100].map(Math.round).join(' '),m=[Math.cos((i*45-67.5)*Math.PI/180)*66,Math.sin((i*45-67.5)*Math.PI/180)*66];return `<path d="M0 0L${p(0)}A100 100 0 0 1 ${p(45)}Z" fill="var(--${i%2?'bg':'card'})" stroke="var(--ln)"/><text x="${m[0]}" y="${m[1]}" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="var(--tx)">${x[0]}</text>`}).join('');
+$('#main').innerHTML=`<div class="c"><h3>🎡 Koło fortuny</h3><p>4 🪙 za zakręcenie. Ułatwienia trafiają się bardzo rzadko, najczęściej wypada pusto.</p><svg viewBox="-110 -120 220 230" style="width:240px;display:block;margin:auto"><g id="wh" style="transform-box:fill-box;transform-origin:center;transition:transform 3.5s cubic-bezier(.2,.8,.2,1);transform:rotate(${WR}deg)">${sec}</g><path d="M-9 -118L9 -118L0 -96Z" fill="var(--ac)"/></svg><button id="sp">Zakręć (4 🪙)</button></div>
+<div class="c"><h3>📦 Paczka kart</h3><p>12 🪙 za 5 kart. Zwykłe 66%, rzadkie 22%, epickie 8,5%, legendarne 3%, mityczne 0,5% na kartę. Wartość karty zależy od tego, ilu graczy ją ma.</p><button id="op">Otwórz paczkę (12 🪙)</button></div>
+<div class="c"><h3>🎒 Twoje ułatwienia</h3><div class="pill">💡 Podpowiedź ×${P.inv.hint}</div><div class="pill">🕵️ Podmiana ×${P.inv.steal}</div><div class="pill">🚫 Blokada ×${P.inv.block}</div><p>Podpowiedź ukrywa część błędnych opcji. Podmiana przenosi na Ciebie punkty za najpopularniejszego fejka. Blokada odbiera wybranemu graczowi ułatwienia i punkty za prawdę w danej rundzie. Używasz ich w głosowaniu.</p></div>`;
+$('#sp').onclick=()=>{if(spin)return;if(P.coins<4)return toast('Za mało coinów');P.coins-=4;P.st.sp++;spin=true;save();let r=Math.random()*100,i=0;while(i<7&&r>=WS[i][1]){r-=WS[i][1];i++}
+WR=WR-WR%360+1440+360-(i*45+22.5);$('#wh').style.transform=`rotate(${WR}deg)`;setTimeout(()=>{spin=false;if(i===3){P.inv.hint++;toast('💡 Podpowiedź!')}else if(i===1){P.coins+=2;toast('+2 🪙')}else if(i===5){P.coins+=5;toast('+5 🪙')}else if(i===6){P.inv.steal++;toast('🕵️ Podmiana – rzadka wygrana!')}else if(i===7){P.inv.block++;toast('🚫 Blokada – mega rzadka wygrana!')}else toast('💨 Pusto')
 chk();show('shop')},3600)};
-$('#op').onclick=()=>{if(P.coins<8)return toast('Za mało coinów');P.coins-=8;P.st.pk++;const got=[0,1,2].map(()=>{const r=Math.random()*100,rar=r<2?3:r<10?2:r<35?1:0,pool=C.map((c,i)=>i).filter(i=>C[i][2]===rar);return pool[Math.random()*pool.length|0]});got.forEach(i=>P.cards.push([i,Date.now()]));chk();show('shop');$('#pk').innerHTML=got.map(i=>tile(i,1)).join('')}},
-col(){const d=day(Date.now()),own=P.cards.map(c=>c[0]),val=own.reduce((s,i)=>s+pr(i,d),0);
+$('#op').onclick=()=>{if(P.coins<12)return toast('Za mało coinów');P.coins-=12;P.st.pk++;const got=[0,1,2,3,4].map(roll);got.forEach(addCard);chk();packAnim(got)}},
+col(){const d=day(Date.now()),val=cardValue(),owned=[...new Set(P.cards.map(c=>c[0]))].sort((a,b)=>b-a);
 const pts=[...Array(RG)].map((_,k)=>{const dd=d-RG+1+k;return P.cards.reduce((s,c)=>s+(day(c[1])<=dd?pr(c[0],dd):0),0)});
 const mx=Math.max(...pts,1),mn=Math.min(...pts),sp=Math.max(mx-mn,1),xy=pts.map((v,k)=>[10+k*280/(RG-1),120-(v-mn)/sp*95]);
-$('#main').innerHTML=`<div class="c"><p>Wartość kolekcji</p><h1>${val.toFixed(1)} 🪙</h1><p>Kart: ${own.length} · różnych: ${new Set(own).size}/${C.length}</p>
-${own.length?`<div class="row">${[7,14,30].map(n=>`<button class="${n===RG?'':'s'}" data-r="${n}">${n} dni</button>`).join('')}</div><svg id="ch" viewBox="0 0 300 140" style="width:100%;touch-action:none"><polyline points="${xy.map(p=>p.join(',')).join(' ')}" fill="none" stroke="var(--ac)" stroke-width="3"/><circle id="dot" r="5" fill="var(--ac)" cx="${xy[RG-1][0]}" cy="${xy[RG-1][1]}"/></svg><p id="tip">Dotknij wykresu, aby zobaczyć wartość w danym dniu.</p>`:'<p>Nie masz jeszcze kart – otwórz paczkę w Sklepie.</p>'}</div>
-<div class="grid">${C.map((c,i)=>tile(i)).join('')}</div>`;
-document.querySelectorAll('[data-r]').forEach(b=>b.onclick=()=>{RG=+b.dataset.r;show('col')});
-const ch=$('#ch');if(ch)ch.onpointermove=ch.onpointerdown=e=>{const b=ch.getBoundingClientRect(),k=Math.max(0,Math.min(RG-1,Math.round((e.clientX-b.left)/b.width*300/(280/(RG-1))-10/(280/(RG-1)))));$('#dot').setAttribute('cx',xy[k][0]);$('#dot').setAttribute('cy',xy[k][1]);$('#tip').textContent=new Date((d-RG+1+k)*864e5).toLocaleDateString('pl')+': '+pts[k].toFixed(1)+' 🪙'}},
-me(){const cal=new Date(),y=cal.getFullYear(),mo=cal.getMonth(),off=(new Date(y,mo,1).getDay()+6)%7,dn=new Date(y,mo+1,0).getDate(),pl=new Set(P.hist.filter(h=>h.d.startsWith(y+'-'+String(mo+1).padStart(2,'0'))).map(h=>+h.d.slice(8)));
-const u=new Set(P.cards.map(c=>c[0])).size;
-$('#main').innerHTML=`<div class="c"><div class="row"><input id="av" value="${E(P.av)}" maxlength="2" style="max-width:70px;text-align:center;font-size:26px"><input id="nm" placeholder="Nick" value="${E(P.name)}" maxlength="14"></div>
+$('#main').innerHTML=`<div class="c"><p>Wartość kolekcji</p><h1>${val.toFixed(1)} 🪙</h1><p>Kart: ${P.cards.length} · różnych: ${owned.length}/220</p><div class="row">${TN.map((n,t)=>`<span class="pill">${n} ${owned.filter(i=>Math.floor(i/44)===t).length}/44</span>`).join('')}</div>
+${P.cards.length?`<div class="row">${[7,14,30].map(n=>`<button class="${n===RG?'':'s'}" data-r="${n}">${n} dni</button>`).join('')}</div><svg id="ch" viewBox="0 0 300 140" style="width:100%;touch-action:none"><polyline points="${xy.map(p=>p.join(',')).join(' ')}" fill="none" stroke="var(--ac)" stroke-width="3"/><circle id="dot" r="5" fill="var(--ac)" cx="${xy[RG-1][0]}" cy="${xy[RG-1][1]}"/></svg><p id="tip">Dotknij wykresu, aby zobaczyć wartość w danym dniu.</p>`:'<p>Nie masz jeszcze kart – otwórz paczkę w Sklepie.</p>'}<button id="tr">🔁 Handel kartami</button></div>
+<div class="grid">${owned.map(i=>ct(i,' · ×'+P.cards.filter(c=>c[0]===i).length)).join('')}</div>`;
+$('#tr').onclick=()=>show('trade');document.querySelectorAll('[data-r]').forEach(b=>b.onclick=()=>{RG=+b.dataset.r;show('col')});
+const ch=$('#ch');if(ch)ch.onpointermove=ch.onpointerdown=e=>{const b=ch.getBoundingClientRect(),st=280/(RG-1),k=Math.max(0,Math.min(RG-1,Math.round(((e.clientX-b.left)/b.width*300-10)/st)));$('#dot').setAttribute('cx',xy[k][0]);$('#dot').setAttribute('cy',xy[k][1]);$('#tip').textContent=new Date((d-RG+1+k)*864e5).toLocaleDateString('pl')+': '+pts[k].toFixed(1)+' 🪙'}},
+trade(){const own=[...new Set(P.cards.map(c=>c[0]))].sort((a,b)=>b-a);
+$('#main').innerHTML=`<button class="s" id="bk">← Karty</button><div class="c"><h3>Wystaw ofertę</h3>${own.length?`<p>Oddajesz:</p><select id="gv">${own.map(i=>`<option value="${i}">${cd(i)[0]} ${cd(i)[1]} (${TN[cd(i)[2]]}) ×${P.cards.filter(c=>c[0]===i).length}</option>`).join('')}</select><p>Chcesz w zamian:</p><div class="row"><select id="w1">${TN.map((n,i)=>`<option value="${i}">${n}</option>`).join('')}</select><select id="w2">${NO.map((n,i)=>`<option value="${i}">${n[1]} ${n[0]}</option>`).join('')}</select></div><button id="of">Wystaw (karta trafia do depozytu)</button>`:'<p>Najpierw zdobądź karty.</p>'}</div><div class="c"><h3>Twoje oferty</h3><div id="mine"></div></div><div class="c"><h3>Oferty graczy</h3><div id="all"></div></div>`;
+$('#bk').onclick=()=>show('col');const of=$('#of');if(of)of.onclick=()=>{const g=+$('#gv').value,w=+$('#w1').value*44+ +$('#w2').value;if(g===w)return toast('To ta sama karta');if(!remCard(g))return;db.doc('trades/'+Date.now()+P.id).set({from:P.id,fn:P.name||'Gracz',give:g,want:w,st:'open',t:Date.now()});chk();toast('Oferta wystawiona');show('trade')};tl()},
+rank(){let k='w';const rl=()=>{const s=[...LB].sort((a,b)=>b[k]-a[k]).slice(0,30);$('#lb').innerHTML=s.map((p,i)=>`<div class="pl"><span>${['🥇','🥈','🥉'][i]||i+1+'.'} ${AV({ph:p.ph,av:p.av})} ${NM({name:p.n,col:p.col})}</span><b>${k==='v'?p.v.toFixed(0):p[k]}</b></div>`).join('')||'<p>Brak graczy w rankingu.</p>'};
+$('#main').innerHTML=`<div class="row">${[['w','Wygrane'],['c','Coiny'],['v','Wartość kart']].map(x=>`<button class="${x[0]==='w'?'':'s'}" data-k="${x[0]}">${x[1]}</button>`).join('')}</div><div class="c" id="lb"></div><p>${AUTH.google?'Jesteś w rankingu jako gracz zalogowany przez Google.':'W rankingu są tylko gracze zalogowani przez Google.'}</p>`;
+document.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>{k=b.dataset.k;document.querySelectorAll('[data-k]').forEach(x=>x.className=x===b?'':'s');rl()});unsubs.push(db.collection('leaderboard').onSnapshot(s=>{LB=s.docs.map(d=>d.data());rl()}))},
+me(){const cal=new Date(),y=cal.getFullYear(),mo=cal.getMonth(),off=(new Date(y,mo,1).getDay()+6)%7,dn=new Date(y,mo+1,0).getDate(),pl=new Set(P.hist.filter(h=>h.d.startsWith(y+'-'+String(mo+1).padStart(2,'0'))).map(h=>+h.d.slice(8))),ul=unlocked();
+$('#main').innerHTML=`<div class="c"><div style="text-align:center;font-size:44px">${AV(P)}</div><div class="row"><button class="s" id="ph">📷 Zdjęcie z galerii</button>${P.photo?'<button class="s" id="rp">Usuń zdjęcie</button>':''}</div><input type="file" id="pf" accept="image/*" hidden>
+<div class="row"><input id="av" value="${E(P.av)}" maxlength="2" style="max-width:70px;text-align:center;font-size:26px"><input id="nm" placeholder="Nick" value="${E(P.name)}" maxlength="14" ${P.col?`style="color:${P.col}"`:''}></div>
+<p>Kolor nicku (za komplet osiągnięć danej rangi):</p><div class="row"><button class="s" data-c="">Domyślny</button>${NC.map((c,i)=>ul.includes(c)?`<button class="s" data-c="${c}" style="color:${c}">${TI[i]}</button>`:`<button class="s" disabled>🔒${TI[i]}</button>`).join('')}</div>
 <select id="th"><option value="">Motyw: automatyczny</option><option value="dark">Ciemny</option><option value="light">Jasny</option><option value="color">Kolorowy</option><option value="retro">Retro</option></select>
-<p>${AUTH.anon?'👤 Gość – załóż konto, aby zachować statystyki na każdym urządzeniu.':'☁️ Konto: '+E(AUTH.email||'Google')+' – profil zapisuje się w chmurze.'}</p><button class="s" id="lo">Wyloguj</button></div>
-<div class="c"><h3>📊 Statystyki</h3><div class="pill">Punkty: ${P.total}</div><div class="pill">Gry: ${P.st.g}</div><div class="pill">Wygrane: ${P.st.w}</div><div class="pill">Wkręceni: ${P.st.f}</div><div class="pill">Prawdy: ${P.st.t}</div></div>
-<div class="c"><h3>🏅 Trofea</h3><div class="row">${TR.map(t=>`<div style="text-align:center;opacity:${P.total>=t[2]?1:.3}"><div style="font-size:32px">${t[0]}</div><small>${t[1]}<br>${t[2]} pkt</small></div>`).join('')}</div></div>
-<div class="c"><h3>🎖️ Osiągnięcia</h3>${ACH.map(a=>`<div class="ach ${P.ach.includes(a[0])?'':'off'}"><span>${a[1]}</span><span><b>${a[2]}</b><br><small>${a[3]}</small></span></div>`).join('')}</div>
-<div class="c"><h3>📅 Kalendarz gier – ${cal.toLocaleDateString('pl',{month:'long',year:'numeric'})}</h3><div class="cal">${'PWŚCPSN'.split('').map(x=>`<small>${x}</small>`).join('')}${'<i></i>'.repeat(off)}${[...Array(dn)].map((_,i)=>`<b class="${pl.has(i+1)?'d':''}">${i+1}</b>`).join('')}</div>
-${P.hist.slice(-5).reverse().map(h=>`<div class="pl"><span>${h.d} · 🏆 ${E(h.w)}</span><span>${h.pts} pkt · ${h.n} os.</span></div>`).join('')||'<p>Zagraj pierwszą grę, a pojawi się tu historia.</p>'}</div>`;
-$('#th').value=P.theme;$('#th').onchange=e=>{P.theme=e.target.value;theme();save()};$('#nm').onchange=e=>{P.name=e.target.value.trim();save()};$('#av').onchange=e=>{P.av=e.target.value||'🙂';save()};$('#lo').onclick=()=>signOut(auth)}};
-function tile(i,full){const c=C[i],n=P.cards.filter(x=>x[0]===i).length,d=day(Date.now()),p=pr(i,d),up=p>=pr(i,d-1);
-return `<div class="cd ${n||full?'':'off'}" style="border-color:${RC[c[2]]}"><div style="font-size:34px">${c[0]}</div><b>${c[1]}</b><br>${RN[c[2]]}${full?'':` · ×${n}`}<br>${p} 🪙 <span style="color:${up?'#2e9e5b':'#d33'}">${up?'▲':'▼'}</span></div>`}
-function unsub(){unsubs.forEach(f=>f());unsubs=[];G=null;PL=[];CH=[];code=''}
+<p>${AUTH.anon?'👤 Gość – zaloguj się, aby zachować statystyki.':'☁️ Konto: '+E(AUTH.email||'Google')}</p><button class="s" id="lo">Wyloguj</button></div>
+<div class="c"><h3>📊 Statystyki</h3><div class="pill">Punkty: ${P.total}</div><div class="pill">Gry: ${P.st.g}</div><div class="pill">Wygrane: ${P.st.w}</div><div class="pill">Wkręceni: ${P.st.f}</div><div class="pill">Prawdy: ${P.st.t}</div><div class="pill">Wymiany: ${P.st.tr}</div></div>
+<div class="c"><h3>🏅 Trofea</h3><div class="row">${TR_.map(t=>`<div style="text-align:center;opacity:${P.total>=t[2]?1:.3}"><div style="font-size:32px">${t[0]}</div><small>${t[1]}<br>${t[2]} pkt</small></div>`).join('')}</div></div>
+<div class="c"><h3>🎖️ Osiągnięcia (+1 🪙)</h3>${[0,1,2,3].map(t=>`<p><b>${TI[t]} ${TIN[t]}</b></p>`+ACH.map((a,i)=>a[0]===t?`<div class="ach ${P.ach.includes(i)?'':'off'}"><span>${a[1]}</span><span><b>${a[2]}</b><br><small>${a[3]}</small></span></div>`:'').join('')).join('')}</div>
+<div class="c"><h3>📅 Kalendarz gier – ${cal.toLocaleDateString('pl',{month:'long',year:'numeric'})}</h3><div class="cal">${'PWŚCPSN'.split('').map(x=>`<small>${x}</small>`).join('')}${'<i></i>'.repeat(off)}${[...Array(dn)].map((_,i)=>`<b class="${pl.has(i+1)?'d':''}">${i+1}</b>`).join('')}</div>${P.hist.slice(-5).reverse().map(h=>`<div class="pl"><span>${h.d} · 🏆 ${E(h.w)}</span><span>${h.pts} pkt · ${h.n} os.</span></div>`).join('')||'<p>Zagraj pierwszą grę, a pojawi się tu historia.</p>'}</div>`;
+$('#th').value=P.theme;$('#th').onchange=e=>{P.theme=e.target.value;theme();save()};$('#nm').onchange=e=>{P.name=e.target.value.trim();save()};$('#av').onchange=e=>{P.av=e.target.value||'🙂';save()};$('#lo').onclick=()=>signOut(auth);
+document.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{P.col=b.dataset.c;save();show('me')});
+$('#ph').onclick=()=>$('#pf').click();const rp=$('#rp');if(rp)rp.onclick=()=>{P.photo='';save();show('me')};
+$('#pf').onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const c=document.createElement('canvas');c.width=c.height=96;const s=Math.min(im.width,im.height);c.getContext('2d').drawImage(im,(im.width-s)/2,(im.height-s)/2,s,s,0,0,96,96);P.photo=c.toDataURL('image/jpeg',.7);save();show('me')};im.src=r.result};r.readAsDataURL(f)}}};
+function tl(){const m=$('#mine'),a=$('#all');if(!m)return;m.innerHTML=TR.filter(t=>t.from===P.id&&t.st==='open').map(t=>`<div class="pl"><span>${tcard(t.give)} → ${tcard(t.want)}</span><button class="s" data-x="${t.id}" style="width:auto">Anuluj</button></div>`).join('')||'<p>Brak.</p>';
+a.innerHTML=TR.filter(t=>t.from!==P.id&&t.st==='open').slice(0,30).map(t=>`<div class="pl"><span>${E(t.fn)}: ${tcard(t.give)} za ${tcard(t.want)}</span><button data-a="${t.id}" style="width:auto" ${P.cards.some(c=>c[0]===t.want)?'':'disabled'}>Wymień</button></div>`).join('')||'<p>Brak ofert.</p>';
+document.querySelectorAll('[data-x]').forEach(b=>b.onclick=()=>db.doc('trades/'+b.dataset.x).update({st:'cancelled'}));document.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>accept(b.dataset.a))}
+async function accept(id){const r=db.doc('trades/'+id),s=await r.get();if(!s.exists)return;const t=s.data();if(t.st!=='open')return toast('Oferta już nieaktualna');if(!remCard(t.want))return toast('Nie masz tej karty');await r.update({st:'done',by:P.id});addCard(t.give);P.st.tr++;chk();toast('Wymieniono!');if(T==='trade')show('trade')}
+function claim(){let ch=0;TR.forEach(t=>{if(t.from!==P.id||t.claimed||claimed.has(t.id))return;if(t.st==='done'){claimed.add(t.id);addCard(t.want);P.st.tr++;ch=1;db.doc('trades/'+t.id).update({claimed:true});toast('Wymiana zrealizowana!')}else if(t.st==='cancelled'){claimed.add(t.id);addCard(t.give);ch=1;db.doc('trades/'+t.id).update({claimed:true})}});if(ch)chk();if(T==='trade')tl()}
+/* ---- animacja paczki ---- */
+function packAnim(got){const o=$('#ov');o.hidden=false;o.innerHTML=`<div class="pack" id="pk"><div class="ptop"></div><div class="pbody"><div>FAKE IT</div><div style="font-size:50px">🎴</div></div></div><p>Dotknij paczkę, aby ją otworzyć</p>`;
+$('#pk').onclick=()=>{$('#pk').classList.add('tear');o.classList.add('flash');setTimeout(()=>{o.classList.remove('flash');reveal(got)},900)}}
+function reveal(got){const o=$('#ov');let n=0;o.innerHTML=`<div class="rv">${got.map((id,i)=>`<div class="fl" data-t="${cd(id)[2]}"><div class="in"><div class="bk">?</div><div class="fr">${ct(id)}</div></div></div>`).join('')}</div><p id="hn">Dotykaj kart, aby je odsłonić</p><button id="cl" hidden style="max-width:240px">Gotowe</button>`;
+o.querySelectorAll('.fl').forEach(f=>f.onclick=()=>{if(f.classList.contains('on'))return;f.classList.add('on');if(+f.dataset.t>=3)f.classList.add('big');if(++n===got.length){$('#cl').hidden=false;$('#hn').textContent=''}});$('#cl').onclick=()=>{o.hidden=true;show('shop')}}
+/* ---- gra ---- */
+const BN=['Hubert','Kuba','Seweryn','Julia','Weronika','Gertruda'];
 const gd=()=>db.doc('games/'+code),pc=()=>db.collection('games/'+code+'/players'),cc=()=>db.collection('games/'+code+'/chat');
 const isHost=()=>G&&G.host===P.id,humans=()=>PL.filter(p=>!p.bot),me=()=>PL.find(p=>p.id===P.id),QS=()=>DB[G.cat||'general'].q;
-async function create(solo,cat){if(!db)return show('play','Brak połączenia z bazą (otwórz w aplikacji Claude)');
+const botDoc=n=>({name:n+' ✨',av:'🤖',ph:'',col:'',bot:true,lvl:2,score:0,fake:'',vote:-1,steal:false,blocked:false});
+async function create(solo){const cat=$('#cat').value,n=+$('#rn').value;
 for(let i=0;i<20;i++){const c=String(Math.floor(100+Math.random()*900));if(!(await db.doc('games/'+c).get()).exists){code=c;break}}
-if(!code)return;const ord=[];
-await gd().set({host:P.id,phase:'lobby',round:0,ord,cat,t:Date.now(),opts:[]});await enter();if(solo)pc().doc('bot'+Date.now()).set({name:'Średni Bot',av:'🤖',bot:true,lvl:1,score:0,fake:'',vote:-1,steal:false})}
-async function join(c){if(!db)return show('play','Brak połączenia z bazą');if(!/^\d{3}$/.test(c))return show('play','Kod to 3 cyfry');
-const s=await db.doc('games/'+c).get();if(!s.exists)return show('play','Nie ma takiej gry');code=c;await enter()}
-async function enter(){$('#nav').hidden=true;sig='';await pc().doc(P.id).set({name:P.name,av:P.av,bot:false,score:0,fake:'',vote:-1,steal:false,seen:P.seen.slice(-150)});
-unsubs.push(gd().onSnapshot(s=>{G=s.exists?s.data():null;tick();draw()}));
-unsubs.push(pc().onSnapshot(s=>{PL=s.docs.map(d=>({id:d.id,...d.data()}));tick();draw()}));
+if(!code)return;await gd().set({host:P.id,phase:'lobby',round:0,ord:[],cat,n,t:Date.now(),opts:[]});await enter();if(solo)shuf(BN).slice(0,3).forEach((b,i)=>pc().doc('bot'+Date.now()+i).set(botDoc(b)))}
+async function join(c){if(!/^\d{3}$/.test(c))return show('play','Kod to 3 cyfry');const s=await db.doc('games/'+c).get();if(!s.exists)return show('play','Nie ma takiej gry');if(s.data().phase!=='lobby')return show('play','Gra już trwa');code=c;await enter()}
+async function enter(){$('#nav').hidden=true;sig='';await pc().doc(P.id).set({name:P.name||'Gracz',av:P.av,ph:P.photo||'',col:P.col||'',bot:false,score:0,fake:'',vote:-1,steal:false,blocked:false,seen:P.seen.slice(-150)});
+unsubs.push(gd().onSnapshot(s=>{G=s.exists?s.data():null;tick();draw()}));unsubs.push(pc().onSnapshot(s=>{PL=s.docs.map(d=>({id:d.id,...d.data()}));tick();draw()}));
 unsubs.push(cc().onSnapshot(s=>{CH=s.docs.map(d=>d.data()).sort((a,b)=>a.t-b.t).slice(-30);const c=$('#chat');if(c){c.innerHTML=CH.map(m=>`<div><b>${E(m.n)}:</b> ${E(m.m)}</div>`).join('');c.scrollTop=1e9}}))}
-function pls(){return PL.map(p=>`<div class="pl"><span>${E(p.av)} ${E(p.name)}${p.bot?' 🤖':''}${p.id===G.host?' 👑':''}</span><b>${p.score}</b></div>`).join('')}
+async function leave(){const h=isHost(),nx=humans().find(p=>p.id!==P.id);if(h&&nx)await gd().update({host:nx.id}).catch(()=>{});await pc().doc(P.id).delete().catch(()=>{});show('play')}
+function pls(){return PL.map(p=>`<div class="pl"><span>${AV(p)} ${NM(p)}${p.id===G.host?' 👑':''}</span><b>${p.score}</b></div>`).join('')}
 const ill=q=>q.s?`<div class="ill">${q.s}</div>`:'';
 function wait(){if(!G)return'';const k=G.phase==='fake'?'fake':'vote';return `Odpowiedziało: ${humans().filter(p=>k==='fake'?p.fake:p.vote>=0).length}/${humans().length}`}
-function draw(){if(!G||!code)return;const q=QS()[G.ord[G.round]],m=me()||{},s=G.phase+G.round+(m.fake?'f':'')+(m.vote>=0?'v':'')+(m.steal?'s':'')+(G.phase==='lobby'?PL.length+'x':'');
+function draw(){if(!G||!code)return;const q=QS()[G.ord[G.round]],m=me()||{},s=G.phase+G.round+(m.fake?'f':'')+(m.vote>=0?'v':'')+(m.steal?'s':'')+(m.blocked?'b':'')+(G.phase==='lobby'?PL.length+'x':'');
 if(sig===s){const l=$('#pl');if(l)l.innerHTML=pls();const w=$('#wt');if(w)w.textContent=wait();return}sig=s;const A=$('#app'),h=isHost();
-const top=`<div class="top"><b>Gra ${code}</b><span class="pill">Runda ${G.round+1}/${G.ord.length}</span></div>`;
-if(G.phase==='lobby'){const bots=PL.filter(p=>p.bot).length,ok=humans().length>=2||bots>=1;
-A.innerHTML=`${top}<div class="code">${code}</div><p style="text-align:center">Podaj kod znajomym – dołączą na swoich telefonach</p>
-<div class="c" id="pl">${pls()}</div>${h?`<div class="c"><div class="row"><select id="lv"><option value="0">Bot łatwy</option><option value="1">Bot średni</option><option value="2">Bot trudny</option></select><button id="ab">+ Dodaj bota</button></div><button id="go" ${ok?'':'disabled'}>Start gry</button>${ok?'':'<p>Do startu potrzeba min. 2 graczy albo bota.</p>'}</div>`:'<p>Czekasz na hosta…</p>'}
-<div class="c"><div id="chat"></div><div class="row"><input id="cm" placeholder="Czat"><button id="cs" style="max-width:80px">Wyślij</button></div></div><button class="s" id="lv2">Wyjdź</button>`;
-$('#lv2').onclick=()=>{pc().doc(P.id).delete().catch(()=>{});show('play')};$('#cs').onclick=()=>{const v=$('#cm').value.trim();if(v){cc().doc(Date.now()+P.id).set({n:P.name,m:v,t:Date.now()});$('#cm').value=''}};
-if(h){$('#ab').onclick=()=>{const i=bots+1,lv=+$('#lv').value;pc().doc('bot'+Date.now()).set({name:['Łatwy','Średni','Trudny'][lv]+' Bot '+i,av:'🤖',bot:true,lvl:lv,score:0,fake:'',vote:-1,steal:false})};$('#go').onclick=pick}}
-else if(G.phase==='fake'){hid=[];{const h2=qh(q);if(!P.seen.includes(h2)){P.seen.push(h2);P.seen=P.seen.slice(-200);save()}}A.innerHTML=`${top}${ill(q)}<div class="c"><h2>${E(q.q)}</h2></div>${m.fake?`<div class="c">Twój fejk: <b>${E(m.fake)}</b></div>`:`<input id="fk" placeholder="Wymyśl wiarygodną odpowiedź" maxlength="50"><button id="sf">Wyślij fejka</button><p id="er" style="color:#d33"></p>`}<p id="wt">${wait()}</p><div class="c" id="pl">${pls()}</div>${h?'<button class="s" id="nx">Wymuś dalej</button>':''}`;
-if(!m.fake)$('#sf').onclick=()=>{const v=$('#fk').value.trim();if(!v)return;if(v.toLowerCase()===q.a.toLowerCase())return $('#er').textContent='To jest prawda! Wymyśl coś innego.';pc().doc(P.id).update({fake:v})};
-if(h)$('#nx').onclick=toVote}
-else if(G.phase==='vote'){const hs=m.vote<0&&!hid.length&&P.inv.hint>0,st=m.vote<0&&!m.steal&&P.inv.steal>0;
-A.innerHTML=`${top}${ill(q)}<div class="c"><h2>${E(q.q)}</h2><p>Wybierz prawdę:</p></div>${G.opts.map((o,i)=>hid.includes(i)?'':`<button class="opt" data-i="${i}" ${m.vote>=0||o.by.includes(P.id)?'disabled':''}>${E(o.t)}${m.vote===i?' ✔':''}${o.by.includes(P.id)?' (Twój fejk)':''}</button>`).join('')}
-<div class="row">${hs?`<button class="s" id="hn">💡 Podpowiedź ×${P.inv.hint}</button>`:''}${st?`<button class="s" id="stl">🕵️ Podmiana ×${P.inv.steal}</button>`:''}</div>${m.steal?'<p>🕵️ Podmiana aktywna</p>':''}<p id="wt">${wait()}</p>${h?'<button class="s" id="nx">Wymuś dalej</button>':''}`;
+const top=`<div class="top"><b>Gra ${code}</b><span><span class="pill">Runda ${G.round+1}/${G.ord.length||G.n}</span><button class="s" id="ex2" style="width:auto;padding:4px 10px">Wyjdź</button></span></div>`;
+const bindX=()=>{const b=$('#ex2');if(b)b.onclick=()=>{if(G.phase==='lobby'||confirm('Wyjść z gry? Stracisz nagrody za tę grę.'))leave()}};
+if(G.phase==='lobby'){const bots=PL.filter(p=>p.bot).length,hs=humans().length,ok=hs>=2||(hs===1&&bots>=3);
+A.innerHTML=`${top}<div class="code">${code}</div><p style="text-align:center">Kod dla znajomych · rundy: ${G.n} · ${E(DB[G.cat].name)}</p><div class="c" id="pl">${pls()}</div>${h?`<div class="c"><button class="s" id="ab">+ Dodaj bota</button><button id="go" ${ok?'':'disabled'}>Start gry</button>${ok?'':'<p>Do startu: min. 2 graczy, albo 1 gracz i min. 3 boty.</p>'}</div>`:'<p>Czekasz na hosta…</p>'}
+<div class="c"><div id="chat"></div><div class="row"><input id="cm" placeholder="Czat"><button id="cs" style="max-width:80px">Wyślij</button></div></div>`;bindX();
+$('#cs').onclick=()=>{const v=$('#cm').value.trim();if(v){cc().doc(Date.now()+P.id).set({n:P.name,m:v,t:Date.now()});$('#cm').value=''}};
+if(h){$('#ab').onclick=()=>{const used=new Set(PL.map(p=>p.name)),f=BN.filter(n=>!used.has(n+' ✨'));if(!f.length)return toast('Brak wolnych imion botów');pc().doc('bot'+Date.now()).set(botDoc(f[Math.random()*f.length|0]))};$('#go').onclick=pick}}
+else if(G.phase==='count'){gF=gT=0;A.innerHTML=`<div class="ill"><p>Gra się zaczyna…</p><div class="cn" id="cn">3</div></div>`;let n=3;const iv=setInterval(()=>{n--;const c=$('#cn');if(!c||n<0){clearInterval(iv);return}c.textContent=n>0?n:'Start!';c.style.animation='none';void c.offsetWidth;c.style.animation=''},1000)}
+else if(G.phase==='fake'){hid=[];blk=false;{const h2=qh(q);if(!P.seen.includes(h2)){P.seen.push(h2);P.seen=P.seen.slice(-200);save()}}
+A.innerHTML=`${top}${ill(q)}<div class="c"><h2>${E(q.q)}</h2></div>${m.fake?`<div class="c">Twój fejk: <b>${E(m.fake)}</b></div>`:`<input id="fk" placeholder="Podaj swoją odpowiedź" maxlength="50"><button id="sf">Wyślij</button><p id="er" style="color:#d33"></p>`}<p id="wt">${wait()}</p><div class="c" id="pl">${pls()}</div>${h?'<button class="s" id="nx">Wymuś dalej</button>':''}`;bindX();
+if(!m.fake)$('#sf').onclick=()=>{const v=$('#fk').value.trim();if(!v)return;if(v.toLowerCase()===q.a.toLowerCase())return $('#er').textContent='To jest prawda! Wymyśl coś innego.';pc().doc(P.id).update({fake:v})};if(h)$('#nx').onclick=toVote}
+else if(G.phase==='vote'){const bl=m.blocked,hs=m.vote<0&&!bl&&!hid.length&&P.inv.hint>0,st=m.vote<0&&!bl&&!m.steal&&P.inv.steal>0,bk=m.vote<0&&!bl&&P.inv.block>0;
+A.innerHTML=`${top}${ill(q)}<div class="c"><h2>${E(q.q)}</h2><p>Wybierz prawdę:</p></div>${bl?'<p>🚫 Zablokowano: bez ułatwień i bez punktów za prawdę w tej rundzie.</p>':''}${G.opts.map((o,i)=>hid.includes(i)?'':`<button class="opt" data-i="${i}" ${m.vote>=0||o.by.includes(P.id)?'disabled':''}>${E(o.t)}${m.vote===i?' ✔':''}${o.by.includes(P.id)?' (Twój fejk)':''}</button>`).join('')}
+<div class="row">${hs?`<button class="s" id="hn">💡 ×${P.inv.hint}</button>`:''}${st?`<button class="s" id="stl">🕵️ ×${P.inv.steal}</button>`:''}${bk?`<button class="s" id="bkb">🚫 ×${P.inv.block}</button>`:''}</div>${blk?`<div class="c"><p>Kogo zablokować?</p>${PL.filter(p=>p.id!==P.id).map(p=>`<button class="s" data-b="${p.id}">${E(p.name)}</button>`).join('')}</div>`:''}${m.steal?'<p>🕵️ Podmiana aktywna</p>':''}<p id="wt">${wait()}</p>${h?'<button class="s" id="nx">Wymuś dalej</button>':''}`;bindX();
 document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>pc().doc(P.id).update({vote:+b.dataset.i}));
-if(hs)$('#hn').onclick=()=>{const w=G.opts.map((o,i)=>i).filter(i=>!G.opts[i].truth&&!G.opts[i].by.includes(P.id)).sort(()=>Math.random()-.5);hid=w.slice(0,Math.floor(w.length/2));P.inv.hint--;save();sig='';draw()};
-if(st)$('#stl').onclick=()=>{P.inv.steal--;save();pc().doc(P.id).update({steal:true})};if(h)$('#nx').onclick=toReveal}
-else if(G.phase==='reveal'){const k='r'+code+G.t+G.round;if(!P.rk.includes(k)){P.rk=[...P.rk.slice(-40),k];P.st.f+=PL.filter(p=>p.id!==P.id&&p.vote>=0&&G.opts[p.vote]&&G.opts[p.vote].by.includes(P.id)).length;if(m.vote>=0&&G.opts[m.vote]&&G.opts[m.vote].truth)P.st.t++;chk()}
-A.innerHTML=`${top}${ill(q)}<div class="c"><h2>${E(q.q)}</h2></div>${G.opts.map(o=>{const v=PL.filter(p=>p.vote>=0&&G.opts[p.vote]===o).map(p=>p.av+p.name);const au=o.truth?'✅ PRAWDA':'Fejk: '+o.by.map(id=>(PL.find(p=>p.id===id)||{}).name).join(', ');return `<div class="c ${o.truth?'t':''}"><b>${E(o.t)}</b><br><small>${E(au)}<br>Głosy: ${E(v.join(', ')||'—')}</small></div>`}).join('')}
-<button class="s" id="eb">💡 Wyjaśnij</button><div class="c" id="ex" hidden>${E(q.e)}</div><div class="c" id="pl">${pls()}</div>${h?`<button id="nx">${G.round+1>=G.ord.length?'Wyniki':'Następna runda'}</button>`:'<p>Czeka na hosta…</p>'}`;
-$('#eb').onclick=()=>{$('#ex').hidden=!$('#ex').hidden};if(h)$('#nx').onclick=()=>G.round+1>=G.ord.length?gd().update({phase:'end'}):startRound(G.round+1)}
+if(hs)$('#hn').onclick=()=>{const w=shuf(G.opts.map((o,i)=>i).filter(i=>!G.opts[i].truth&&!G.opts[i].by.includes(P.id)));hid=w.slice(0,Math.floor(w.length/2));P.inv.hint--;save();sig='';draw()};
+if(st)$('#stl').onclick=()=>{P.inv.steal--;save();pc().doc(P.id).update({steal:true})};
+if(bk)$('#bkb').onclick=()=>{blk=true;sig='';draw()};document.querySelectorAll('[data-b]').forEach(b=>b.onclick=()=>{P.inv.block--;save();blk=false;pc().doc(b.dataset.b).update({blocked:true});toast('Zablokowano gracza!')});if(h)$('#nx').onclick=toReveal}
+else if(G.phase==='reveal'){const k='r'+code+G.t+G.round;if(!P.rk.includes(k)){P.rk=[...P.rk.slice(-40),k];const f=PL.filter(p=>p.id!==P.id&&p.vote>=0&&G.opts[p.vote]&&G.opts[p.vote].by.includes(P.id)).length;P.st.f+=f;gF+=f;if(m.vote>=0&&G.opts[m.vote]&&G.opts[m.vote].truth&&!m.blocked){P.st.t++;gT++}chk()}
+A.innerHTML=`${top}${ill(q)}<div class="c"><h2>${E(q.q)}</h2></div>${G.opts.map(o=>{const v=PL.filter(p=>p.vote>=0&&G.opts[p.vote]===o).map(p=>p.name);const au=o.truth?'✅ PRAWDA':'Fejk: '+o.by.map(id=>(PL.find(p=>p.id===id)||{}).name).join(', ');return `<div class="c ${o.truth?'t':''}"><b>${E(o.t)}</b><br><small>${E(au)}<br>Głosy: ${E(v.join(', ')||'—')}</small></div>`}).join('')}
+${q.e?`<button class="s" id="eb">💡 Wyjaśnij</button><div class="c" id="ex" hidden>${E(q.e)}</div>`:''}<div class="c" id="pl">${pls()}</div>${h?`<button id="nx">${G.round+1>=G.ord.length?'Wyniki':'Następna runda'}</button>`:'<p>Czeka na hosta…</p>'}`;bindX();
+const eb=$('#eb');if(eb)eb.onclick=()=>{$('#ex').hidden=!$('#ex').hidden};if(h)$('#nx').onclick=()=>G.round+1>=G.ord.length?gd().update({phase:'end'}):startRound(G.round+1)}
 else{const s2=[...PL].sort((a,b)=>b.score-a.score),w=s2[0],key='g'+code+G.t;
-if(!P.games.includes(key)){P.games=[...P.games.slice(-20),key];P.total+=m.score||0;P.st.g++;const win=w&&w.id===P.id;if(win){P.st.w++;P.coins+=5}const dt=new Date();P.hist.push({d:dt.getFullYear()+'-'+String(dt.getMonth()+1).padStart(2,'0')+'-'+String(dt.getDate()).padStart(2,'0'),w:w?w.name:'',pts:m.score||0,n:PL.length});P.hist=P.hist.slice(-60);chk()}
-A.innerHTML=`<h1>🏆 ${E(w?w.name:'')}</h1><div class="c">${s2.map((p,i)=>`<div class="pl"><span>${i+1}. ${E(p.av)} ${E(p.name)}</span><b>${p.score}</b></div>`).join('')}</div><p>Twoje łączne punkty: ${P.total} · Coiny: ${P.coins}${w&&w.id===P.id?' (+5 🪙 za wygraną)':''}</p><button id="hm">Menu główne</button>`;$('#hm').onclick=()=>show('play')}}
-const qh=q=>{let h=0;for(const c of q.q+q.a)h=(h*31+c.charCodeAt(0))|0;return(h>>>0).toString(36)};
-const shuf=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
-async function pick(){const all=QS(),seen=new Set(PL.flatMap(p=>p.seen||[])),ids=shuf([...all.keys()]);
-G.ord=[...ids.filter(i=>!seen.has(qh(all[i]))),...ids.filter(i=>seen.has(qh(all[i])))].slice(0,5);await gd().update({ord:G.ord});startRound(0)}
-async function startRound(r){const q=QS()[G.ord[r]];
-for(const p of PL)await pc().doc(p.id).update({fake:p.bot?(p.lvl===0?['Nie wiem','Chyba tak','Coś tam'][Math.random()*3|0]:q.d[Math.random()*3|0]):'',vote:-1,steal:false});
-await gd().update({phase:'fake',round:r,opts:[]})}
+if(!P.games.includes(key)&&m.name){P.games=[...P.games.slice(-20),key];const rk=s2.findIndex(p=>p.id===P.id),pl=[5,3,2][rk]||1,fb=Math.min(3,Math.floor(gF/4)),tb=gT>=Math.ceil(G.ord.length*.6)?1:0;let c=pl+fb+tb;const solo=humans().length<2;if(solo)c=Math.max(1,Math.floor(c/2));P.coins+=c;P.total+=m.score||0;P.st.g++;if(rk===0&&PL.length>1)P.st.w++;
+EM=`+${c} 🪙 (miejsce ${rk+1}: ${pl}${fb?`, wkręcenia: ${fb}`:''}${tb?', nos do prawdy: 1':''}${solo?', gra z botami: połowa':''})`;const dt=new Date();P.hist.push({d:dt.getFullYear()+'-'+String(dt.getMonth()+1).padStart(2,'0')+'-'+String(dt.getDate()).padStart(2,'0'),w:w?w.name:'',pts:m.score||0,n:PL.length});P.hist=P.hist.slice(-60);chk()}
+A.innerHTML=`<h1>🏆 ${w?NM(w):''}</h1><div class="c">${s2.map((p,i)=>`<div class="pl"><span>${i+1}. ${AV(p)} ${NM(p)}</span><b>${p.score}</b></div>`).join('')}</div><p>${E(EM)}</p><p>Punkty łącznie: ${P.total} · Coiny: ${P.coins}</p><button id="hm">Menu główne</button>`;$('#hm').onclick=()=>show('play')}}
+async function pick(){const all=QS(),seen=new Set(PL.flatMap(p=>p.seen||[])),ids=shuf([...all.keys()]),n=Math.min(G.n,all.length);
+G.ord=[...ids.filter(i=>!seen.has(qh(all[i]))),...ids.filter(i=>seen.has(qh(all[i])))].slice(0,n);await gd().update({ord:G.ord});startRound(0)}
+async function startRound(r){const q=QS()[G.ord[r]];await Promise.all(PL.map(p=>pc().doc(p.id).update({fake:p.bot?q.d[Math.random()*q.d.length|0]:'',vote:-1,steal:false,blocked:false})));
+if(r===0){await gd().update({phase:'count',round:0,opts:[]});setTimeout(()=>gd().update({phase:'fake'}),3600)}else await gd().update({phase:'fake',round:r,opts:[]})}
 async function toVote(){if(busy)return;busy=true;const q=QS()[G.ord[G.round]],m={};PL.forEach(p=>{const k=(p.fake||'').toLowerCase();if(!k)return;(m[k]=m[k]||{t:p.fake,by:[],truth:false}).by.push(p.id)});
-const opts=Object.values(m);opts.push({t:q.a,by:[],truth:true});opts.sort(()=>Math.random()-.5);
-for(const p of PL.filter(p=>p.bot)){const ti=opts.findIndex(o=>o.truth),ch=[.15,.45,.75][p.lvl];let v;if(Math.random()<ch)v=ti;else{const c=opts.map((o,i)=>i).filter(i=>i!==ti&&!opts[i].by.includes(p.id));v=c.length?c[Math.random()*c.length|0]:ti}await pc().doc(p.id).update({vote:v})}
+const opts=shuf([...Object.values(m),{t:q.a,by:[],truth:true}]);
+for(const p of PL.filter(p=>p.bot)){const ti=opts.findIndex(o=>o.truth);let v;if(Math.random()<.7)v=ti;else{const c=opts.map((o,i)=>i).filter(i=>i!==ti&&!opts[i].by.includes(p.id));v=c.length?c[Math.random()*c.length|0]:ti}await pc().doc(p.id).update({vote:v})}
 await gd().update({phase:'vote',opts});busy=false}
 async function toReveal(){if(busy)return;busy=true;const add={},cnt=G.opts.map(()=>0);
-PL.forEach(p=>{if(p.vote<0)return;const o=G.opts[p.vote];if(!o)return;cnt[p.vote]++;if(o.truth)add[p.id]=(add[p.id]||0)+2;else o.by.forEach(id=>add[id]=(add[id]||0)+1)});
-const st=PL.find(p=>p.steal);if(st){let bi=-1,bm=0;G.opts.forEach((o,i)=>{if(!o.truth&&cnt[i]>bm){bm=cnt[i];bi=i}});if(bi>=0){let g=0;G.opts[bi].by.forEach(id=>{if(id!==st.id){add[id]-=cnt[bi];g+=cnt[bi]}});add[st.id]=(add[st.id]||0)+g}}
+PL.forEach(p=>{if(p.vote<0)return;const o=G.opts[p.vote];if(!o)return;cnt[p.vote]++;if(o.truth){if(!p.blocked)add[p.id]=(add[p.id]||0)+2}else o.by.forEach(id=>add[id]=(add[id]||0)+1)});
+const st=PL.find(p=>p.steal&&!p.blocked);if(st){let bi=-1,bm=0;G.opts.forEach((o,i)=>{if(!o.truth&&cnt[i]>bm){bm=cnt[i];bi=i}});if(bi>=0){let g=0;G.opts[bi].by.forEach(id=>{if(id!==st.id){add[id]-=cnt[bi];g+=cnt[bi]}});add[st.id]=(add[st.id]||0)+g}}
 for(const p of PL)if(add[p.id])await pc().doc(p.id).update({score:p.score+add[p.id]});await gd().update({phase:'reveal'});busy=false}
-function tick(){if(!G||!isHost()||busy||!PL.length)return;const hs=humans();
-if(G.phase==='fake'&&hs.length&&hs.every(p=>p.fake))toVote();else if(G.phase==='vote'&&hs.length&&hs.every(p=>p.vote>=0))toReveal()}
-let auth,fdb,AUTH={};
+function tick(){if(!G||!isHost()||busy||!PL.length)return;const hs=humans();if(G.phase==='fake'&&hs.length&&hs.every(p=>p.fake))toVote();else if(G.phase==='vote'&&hs.length&&hs.every(p=>p.vote>=0))toReveal()}
+/* ---- logowanie ---- */
 const mkDoc=ref=>({get:async()=>{const x=await getDoc(ref);return{id:x.id,exists:x.exists(),data:()=>x.data()}},set:d=>setDoc(ref,d),update:d=>updateDoc(ref,d),delete:()=>deleteDoc(ref),onSnapshot:(n,e)=>onSnapshot(ref,x=>n({id:x.id,exists:x.exists(),data:()=>x.data()}),e)});
-function loginScreen(msg){unsub();$('#nav').hidden=true;$('#app').innerHTML=`<h1>Fake it</h1><div class="c"><input id="em" type="email" placeholder="E-mail"><input id="pw" type="password" placeholder="Hasło (min. 6 znaków)" style="margin-top:8px"><button id="li">Zaloguj</button><button class="s" id="rg">Załóż konto</button><button class="s" id="gg">Zaloguj przez Google</button></div><div class="c"><button class="s" id="gu">Graj jako gość</button><p>Gość straci statystyki po wyczyszczeniu przeglądarki.</p></div><p id="msg" style="color:#d33">${E(msg||'')}</p>`;
+function loginScreen(msg){unsub();$('#nav').hidden=true;$('#app').innerHTML=`<h1>Fake it</h1><div class="c"><input id="em" type="email" placeholder="E-mail"><input id="pw" type="password" placeholder="Hasło (min. 6 znaków)" style="margin-top:8px"><button id="li">Zaloguj</button><button class="s" id="rg">Załóż konto</button><button class="s" id="gg">Zaloguj przez Google</button></div><div class="c"><button class="s" id="gu">Graj jako gość</button><p>Gość nie trafia do rankingu i traci statystyki po wyczyszczeniu przeglądarki.</p></div><p id="msg" style="color:#d33">${E(msg||'')}</p>`;
 const go=fn=>async()=>{try{await fn()}catch(e){$('#msg').textContent='Błąd: '+(e.code||e.message)}};
-$('#li').onclick=go(()=>signInWithEmailAndPassword(auth,$('#em').value,$('#pw').value));$('#rg').onclick=go(()=>createUserWithEmailAndPassword(auth,$('#em').value,$('#pw').value));
-$('#gg').onclick=go(()=>signInWithPopup(auth,new GoogleAuthProvider()));$('#gu').onclick=go(()=>signInAnonymously(auth))}
-if(!firebaseConfig.apiKey||firebaseConfig.apiKey==='WKLEJ_TUTAJ'){$('#app').innerHTML='<h1>Fake it</h1><div class="c"><h3>Konfiguracja</h3><p>Wklej dane projektu Firebase w stałej firebaseConfig na początku pliku (instrukcja w komentarzu na górze).</p></div>'}
+$('#li').onclick=go(()=>signInWithEmailAndPassword(auth,$('#em').value,$('#pw').value));$('#rg').onclick=go(()=>createUserWithEmailAndPassword(auth,$('#em').value,$('#pw').value));$('#gg').onclick=go(()=>signInWithPopup(auth,new GoogleAuthProvider()));$('#gu').onclick=go(()=>signInAnonymously(auth))}
+if(!firebaseConfig.apiKey||firebaseConfig.apiKey==='WKLEJ_TUTAJ'){$('#app').innerHTML='<h1>Fake it</h1><div class="c"><p>Uzupełnij firebaseConfig na początku pliku.</p></div>'}
 else{const app=initializeApp(firebaseConfig);auth=getAuth(app);fdb=getFirestore(app);
 db={doc:p=>mkDoc(doc(fdb,p)),collection:path=>({doc:id=>mkDoc(doc(fdb,path,id)),onSnapshot:(n,e)=>onSnapshot(collection(fdb,path),x=>n({docs:x.docs.map(d=>({id:d.id,data:()=>d.data()}))}),e)})};
-onAuthStateChanged(auth,async u=>{if(!u){pref=null;return loginScreen()}
-AUTH={anon:u.isAnonymous,email:u.email};pref=db.collection('users/'+u.uid+'/data').doc('profile');
-let fresh={id:u.uid,name:'',av:'🙂',total:0,coins:10,theme:''};
-try{const x=await pref.get();if(x.exists)fresh=Object.assign(fresh,JSON.parse(x.data().j))}catch(e){}
-P=fresh;P.id=u.uid;norm();theme();save();show('play')})}
+const cp=loadCats();
+onAuthStateChanged(auth,async u=>{gsubs.forEach(f=>f());gsubs=[];if(!u){pref=null;AUTH={};return loginScreen()}
+AUTH={anon:u.isAnonymous,email:u.email,google:u.providerData.some(p=>p.providerId==='google.com')};pref=db.collection('users/'+u.uid+'/data').doc('profile');
+let f=fresh();try{const x=await pref.get();if(x.exists)f=Object.assign(f,JSON.parse(x.data().j))}catch(e){}
+P=f;P.id=u.uid;norm();theme();await cp;
+gsubs.push(db.collection('cardstats').onSnapshot(s=>{CS={};s.docs.forEach(d=>CS[d.id]=d.data().n||0)}),db.collection('trades').onSnapshot(s=>{TR=s.docs.map(d=>({id:d.id,...d.data()}));claim()}));
+chk();show('play')})}
+
 </script></body></html>
