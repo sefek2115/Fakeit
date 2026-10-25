@@ -42,7 +42,7 @@ nav button{background:none;color:var(--mu);font-size:12px;border-radius:0;margin
 import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import {getFirestore,doc,collection,getDoc,setDoc,updateDoc,deleteDoc,onSnapshot} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 import {getAuth,onAuthStateChanged,GoogleAuthProvider,signInWithPopup,createUserWithEmailAndPassword,signInWithEmailAndPassword,signInAnonymously,signOut} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
-const firebaseConfig={apiKey:"AIzaSyCO3RkMdamyusuVNuf42I8awO091LKx7Seo",authDomain:"fakeit-3c695.firebaseapp.com",projectId:"fakeit-3c695",appId:"1:20643286055:web:1c93d28e6d14de5bd89202"};
+const firebaseConfig={apiKey:"AIzaSyCO3RkMdamyusuVNuf42I8awO91LKx7Seo",authDomain:"fakeit-3c695.firebaseapp.com",projectId:"fakeit-3c695",appId:"1:20643286055:web:1c93d28e6d14de5bd89202"};
 const S=x=>`<svg viewBox="0 0 100 100">${x}</svg>`,R=(x,y,w,h,f)=>`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="3"${f?' fill="currentColor"':''}/>`,Ci=(x,y,r,f)=>`<circle cx="${x}" cy="${y}" r="${r}"${f?' fill="currentColor"':''}/>`,L=d=>`<path d="${d}"/>`;
 const ar=(n,f)=>[...Array(n)].map((_,i)=>f(i)).join('');
 const DQ='Jak nazywa się to urządzenie?';
