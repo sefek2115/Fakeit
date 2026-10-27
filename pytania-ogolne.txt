@@ -1,0 +1,1002 @@
+=== BAZA PYTAŃ FAKE IT (DOKŁADNIE 1000 PYTAŃ) ===
+
+[TEKST] Ile serc ma ośmiornica? : trzy
+[TEKST] Ile żył ma człowiek w sznurze pępowinowym? : jedna
+[TEKST] Ile płatów ma płuca prawego człowieka? : trzy
+[TEKST] Ile płatów ma płuca lewego człowieka? : dwa
+[TEKST] Ile par żeber ma człowiek? : dwanaście
+[TEKST] Jak nazywa się najmniejsza kość ludzkiego ciała? : strzemiączko
+[ZDJĘCIE] Co to za urządzenie? : Szlifierka kątowa
+[TEKST] Ile palców u stóp ma struś? : dwa
+[TEKST] Ile żołądków ma krowa? : cztery
+[TEKST] Ile oczu ma pszczoła miodna? : pięć
+[TEKST] Ile powiek ma wielbłąd na jednym oku? : trzy
+[TEKST] Ile skrzydeł ma mucha domowa? : dwa
+[TEKST] Ile nóg ma kleszcz w stadium dorosłym? : osiem
+[ZDJĘCIE] Co to za urządzenie? : Multimetr cyfrowy
+[TEKST] Ile nóg ma larwa kleszcza? : sześć
+[TEKST] Jak nazywa się jedyny ssak zdolny do aktywnego lotu? : nietoperz
+[TEKST] Jaki pierwiastek chemiczny ma najniższą temperaturę topnienia? : hel
+[TEKST] Jaki jest najcięższy naturalnie występujący pierwiastek chemiczny? : uran
+[TEKST] Jaki gaz stanowi główny składnik atmosfery Wenus? : dwutlenek węgla
+[TEKST] Ile wynosi liczba atomowa helu? : dwa
+[ZDJĘCIE] Co to za urządzenie? : Oscyloskop
+[TEKST] Ile wynosi całkowita liczba kości w dłoni człowieka z nadgarstkiem? : dwadzieścia siedem
+[TEKST] Ile komór ma serce ryby? : dwie
+[TEKST] Ile komór ma serce płaza? : trzy
+[TEKST] Ile komór ma serce gada poza krokodylem? : trzy
+[TEKST] Ile kręgów szyjnych ma żyrafa? : siedem
+[TEKST] Ile kręgów szyjnych ma człowiek? : siedem
+[ZDJĘCIE] Co to za urządzenie? : Wkrętarka akumulatorowa
+[TEKST] Ile chromosomów ma normalna komórka somatyczna człowieka? : czterdzieści sześć
+[TEKST] Ile chromosomów ma komórka rozrodcza człowieka? : dwadzieścia trzy
+[TEKST] Jak nazywa się roślina o największych kwiatach na świecie? : raflezja
+[TEKST] Ile par odnóży kroczących mają skorupiaki dziesięcionogi? : pięć
+[TEKST] Jaki narząd ludzki jest zdolny do znacznej regeneracji? : wątroba
+[TEKST] Jak nazywa się najtwardsza tkanka w organizmie człowieka? : szklistwo
+[ZDJĘCIE] Co to za urządzenie? : Sonda lambda
+[TEKST] Ile smaków podstawowych wyróżnia współczesna nauka? : pięć
+[TEKST] Jaki jest symbol chemiczny wolframu? : W
+[TEKST] Jaki jest symbol chemiczny potasu? : K
+[TEKST] Jaki jest symbol chemiczny sodu? : Na
+[TEKST] Jaki jest symbol chemiczny srebra? : Ag
+[TEKST] Jaki jest symbol chemiczny złota? : Au
+[ZDJĘCIE] Co to za urządzenie? : Lutownica transformatorowa
+[TEKST] Jaki jest symbol chemiczny ołowiu? : Pb
+[TEKST] Jaki jest symbol chemiczny rtęci? : Hg
+[TEKST] Jaki jest symbol chemiczny miedzi? : Cu
+[TEKST] Jaki jest symbol chemiczny cyny? : Sn
+[TEKST] Jaki jest symbol chemiczny żelaza? : Fe
+[TEKST] Jaki gaz nadaje niebieską barwę Neptunowi i Uranowi? : metan
+[ZDJĘCIE] Co to za urządzenie? : Tokarka do drewna
+[TEKST] Jak nazywa się najjaśniejsza gwiazda na nocnym niebie? : Syriusz
+[TEKST] Jaki narząd człowieka wytwarza żółć? : wątroba
+[TEKST] Gdzie w ciele człowieka gromadzona jest żółć? : pęcherzyk żółciowy
+[TEKST] Jak nazywa się białko będące głównym składnikiem włosów i paznokci? : keratyna
+[TEKST] Jaki jest najliczniejszy typ krwinek we krwi człowieka? : erytrocyty
+[TEKST] Ile państw graniczy bezpośrednio z Polską? : siedem
+[ZDJĘCIE] Co to za urządzenie? : Frezarka górnowrzecionowa
+[TEKST] Ile państw graniczy z Chinami? : czternaście
+[TEKST] Ile państw graniczy z Rosją? : sześćnaście
+[TEKST] Jak nazywa się największa wyspa na świecie? : Grenlandia
+[TEKST] Stolicą jakiego państwa jest Ułan Bator? : Mongolia
+[TEKST] Stolicą jakiego państwa jest Canberra? : Australia
+[TEKST] Stolicą jakiego państwa jest Ottawa? : Kanada
+[ZDJĘCIE] Co to za urządzenie? : Kompressionometr
+[TEKST] Stolicą jakiego państwa jest Wellington? : Nowa Zelandia
+[TEKST] Stolicą jakiego państwa jest Naypyidaw? : Mjanma
+[TEKST] Stolicą jakiego państwa jest Astana? : Kazachstan
+[TEKST] Stolicą jakiego państwa jest Dodoma? : Tanzania
+[TEKST] Stolicą jakiego państwa jest Paramaribo? : Surinam
+[TEKST] Jaki jest najmniejszy niepodległy kraj pod względem powierzchni? : Watykan
+[ZDJĘCIE] Co to za urządzenie? : Suwmiarka cyfrowa
+[TEKST] Jaki jest drugi najmniejszy niepodległy kraj na świecie? : Monako
+[TEKST] Jaki jest najmniejszy pod względem powierzchni kraj w Afryce? : Seszele
+[TEKST] Ile stolic oficjalnie ma Południowa Afryka (RPA)? : trzy
+[TEKST] Jak nazywa się najwyższy czynny wulkan w Europie? : Etna
+[TEKST] Jak nazywa się najgłębsze jezioro na świecie? : Bajkał
+[TEKST] Jak nazywa się najdłuższa rzeka Europy? : Wołga
+[ZDJĘCIE] Co to za urządzenie? : Mikrometr
+[TEKST] W jakim państwie znajduje się starożytne miasto Petra? : Jordania
+[TEKST] W jakim państwie znajdują się ruiny Machu Picchu? : Peru
+[TEKST] Który ocean jest najmniejszy pod względem powierzchni? : Ocean Arktyczny
+[TEKST] Który ocean jest najgłębszy na świecie? : Ocean Spokojny
+[TEKST] Ile stanów tworzy Stany Zjednoczone Ameryki? : pięćdziesiąt
+[TEKST] Ile emiratów tworzy Zjednoczone Emiraty Arabskie? : siedem
+[ZDJĘCIE] Co to za urządzenie? : Areometr
+[TEKST] W jakim państwie leży pustynia Gobi? : Mongolia
+[TEKST] W jakim państwie leży pustynia Atakama? : Chile
+[TEKST] Jak nazywa się jedyne państwo na świecie leżące na wszystkich czterech półkulach? : Kiribati
+[TEKST] Ile wysp zamieszkanych wchodzi w skład archipelagu Hawajów? : osiem
+[TEKST] Jaka rzeka przepływa przez najwięcej państw na świecie? : Dunaj
+[TEKST] Przepływając przez ile państw Dunaj stanowi granicę lub płynie przez nie? : dziesięć
+[ZDJĘCIE] Co to za urządzenie? : Sekstant
+[TEKST] Ile stolic leży bezpośrednio nad rzeką Dunaj? : cztery
+[TEKST] Jak nazywa się stolica Maroka? : Rabat
+[TEKST] Jak nazywa się stolica Turcji? : Ankara
+[TEKST] Jak nazywa się stolica Brazylii? : Brasília
+[TEKST] Jak nazywa się stolica Wietnamu? : Hanoi
+[TEKST] Jak nazywa się stolica Szwajcarii? : Berno
+[ZDJĘCIE] Co to za urządzenie? : Dermatoskop
+[TEKST] Jaki kraj jest największym producentem kawy na świecie? : Brazylia
+[TEKST] Jaki kraj posiada najdłuższą linię brzegową na świecie? : Kanada
+[TEKST] Ile jest kontynentów na Ziemi w modelu siedmiokontynentalnym? : siedem
+[TEKST] Jaki jest najmniej zaludniony kontynent na świecie? : Antarktyda
+[TEKST] Jaki kraj leży w całości wewnątrz terytorium Południowej Afryki? : Lesotho
+[TEKST] Jak nazywa się państwo graniczące jedynie z Hiszpanią? : Portugalia
+[ZDJĘCIE] Co to za urządzenie? : Pulsoksymetr
+[TEKST] Jak nazywa się najmłodsze niepodległe państwo na świecie uznane przez ONZ? : Sudan Południowy
+[TEKST] W którym roku powstał Sudan Południowy? : dwa tysiące jedenaście
+[TEKST] Jak nazywa się najwyższa góra w Afryce? : Kilimandżaro
+[TEKST] Jak nazywa się najwyższa góra Ameryki Północnej? : Denali
+[TEKST] Jak nazywa się najwyższa góra Ameryki Południowej? : Aconcagua
+[TEKST] W jakim państwie leży góra Ararat? : Turcja
+[ZDJĘCIE] Co to za urządzenie? : Otoskop
+[TEKST] Jaka wyspa jest największą wyspą na Morzu Śródziemnym? : Sycylia
+[TEKST] W którym roku rozpoczęła się II wojna światowa? : tysiąc dziewięćset trzydzieści dziewięć
+[TEKST] W którym roku zakończyła się I wojna światowa? : tysiąc dziewięćset osiemnaście
+[TEKST] W którym roku miała miejsce bitwa pod Grunwaldem? : tysiąc czterysta dziesięć
+[TEKST] W którym roku odbył się chrzest Polski? : dziewięćset sześćdziesiąt sześć
+[TEKST] Ile lat trwała wojna stuletnia? : sto trzynaście
+[ZDJĘCIE] Co to za urządzenie? : Stetoskop
+[TEKST] W którym roku odkryto Amerykę przez Krzysztofa Kolumba? : tysiąc czterysta dziewięćdziesiąt dwa
+[TEKST] W którym roku wybuchła rewolucja francuska? : tysiąc siedemset osiemdziesiąt dziewięć
+[TEKST] Kto był pierwszym królem Polski? : Bolesław Chrobry
+[TEKST] Kto był pierwszym cesarzem Rzymu? : Oktawian August
+[TEKST] Kto był pierwszym prezydentem Stanów Zjednoczonych? : George Washington
+[TEKST] Ile dni trwała obrona Westerplatte w 1939 roku? : siedem
+[ZDJĘCIE] Co to za urządzenie? : Kardiomonitor
+[TEKST] Ile rozbiorów doświadczyła Polska w XVIII wieku? : trzy
+[TEKST] W którym roku uchwalono Konstytucję 3 Maja? : tysiąc siedemset dziewięćdziesiąt jeden
+[TEKST] Jak nazywał się ostatni król Polski? : Stanisław August Poniatowski
+[TEKST] Kto dowodził wojskami polskimi pod Bitwą pod Wiedniem w 1683 roku? : Jan III Sobieski
+[TEKST] Jak nazywało się starożytne pismo klinowe stworzone przez jaki lud? : Sumerowie
+[TEKST] Który car Rosji założył Sankt Petersburg? : Piotr I Wielki
+[ZDJĘCIE] Co to za urządzenie? : Pirograf
+[TEKST] W którym roku zburzono Mur Berliński? : tysiąc dziewięćset osiemdziesiąt dziewięć
+[TEKST] W którym roku zatonął Titanic? : tysiąc dziewięćset dwanaście
+[TEKST] Kto wynalazł ruchomą czcionkę drukarską w Europie? : Jan Gutenberg
+[TEKST] Kto opłynął Ziemię po raz pierwszy jako dowódca ekspedycji? : Ferdynand Magellan
+[TEKST] Jak nazywała się pierwsza sztuczna satelita Ziemi? : Sputnik jeden
+[TEKST] W którym roku wysłano Sputnik 1 w kosmos? : tysiąc dziewięćset pięćdziesiąt siedem
+[ZDJĘCIE] Co to za urządzenie? : Dalmierz laserowy
+[TEKST] Kto był pierwszym człowiekiem w kosmosie? : Jurij Gagarin
+[TEKST] W którym roku odbył się lot Jurija Gagarina? : tysiąc dziewięćset sześćdziesiąt jeden
+[TEKST] Jak nazywała się misja kosmiczna, podczas której człowiek stanął na Księżycu? : Apollo jedenaście
+[TEKST] W którym roku Neil Armstrong stanął na Księżycu? : tysiąc dziewięćset sześćdziesiąt cztery
+[TEKST] W którym roku wybuchła wojna secesyjna w USA? : tysiąc osiemset sześćdziesiąt jeden
+[TEKST] W którym roku skończyła się wojna w Wietnamie? : tysiąc dziewięćset siedemdziesiąt pięć
+[ZDJĘCIE] Co to za urządzenie? : Poziomica laserowa
+[TEKST] Jak nazywał się radziecki reaktor, w którym doszło do katastrofy w Czarnobylu? : cztery
+[TEKST] W którym roku wydarzyła się katastrofa w Czarnobylu? : tysiąc dziewięćset osiemdziesiąt sześć
+[TEKST] W jakim mieście zamordowano arcyksięcia Franciszka Ferdynanda w 1914 roku? : Sarajewo
+[TEKST] Kto przewodził buntowi gladiatorów w starożytnym Rzymie w 73 r. p.n.e.? : Spartakus
+[TEKST] Kto był premierem Wielkiej Brytanii podczas większości II wojny światowej? : Winston Churchill
+[TEKST] Kto był prezydentem USA w czasie Wielkiego Kryzysu i II wojny światowej? : Franklin Delano Roosevelt
+[ZDJĘCIE] Co to za urządzenie? : Zgrzewarka do rur
+[TEKST] W którym roku podpisano Traktat Wersalski? : tysiąc dziewięćset dziewiętnaście
+[TEKST] Ile państw założyło Organizację Narodów Zjednoczonych w 1945 roku? : pięćdziesiąt jeden
+[TEKST] Jak nazywał się szyfr używany przez Niemców podczas II wojny światowej? : Enigma
+[TEKST] Kto był głównym twórcą teorii ewolucji drodą doboru naturalnego? : Karol Darwin
+[TEKST] W którym roku zniesiono niewolnictwo w Stanach Zjednoczonych? : tysiąc osiemset sześćdziesiąt pięć
+[TEKST] Który król Polski przeniósł stolicę z Krakowa do Warszawy? : Zygmunt III Waza
+[ZDJĘCIE] Co to za urządzenie? : Przecinarka plazmowa
+[TEKST] Ile dni trwało Powstanie Warszawskie w 1944 roku? : sześćdziesiąt trzy
+[TEKST] Ile kół ma standardowy autobus miejski typu przegubowego? : dziesięć
+[TEKST] Ile kół ma standardowy czteroosobowy samochód osobowy licząc zapasowe? : pięć
+[TEKST] Ile kół ma rower jednokołowy? : jeden
+[TEKST] Ile czarnych klawiszy znajduje się na standardowym pianinie z 88 klawiszami? : trzydzieści sześć
+[TEKST] Ile białych klawiszy znajduje się na standardowym pianinie z 88 klawiszami? : pięćdziesiąt dwa
+[ZDJĘCIE] Co to za urządzenie? : Prostownik akumulatorowy
+[TEKST] Ile pól znajduje się na tradycyjnej szachownicy? : sześćdziesiąt cztery
+[TEKST] Ile pionków ma każdy gracz na początku gry w szachy? : osiem
+[TEKST] Ile figur ma każdy gracz na początku gry w szachy wliczając pionki? : szesnaście
+[TEKST] Ile kart znajduje się w pełnej talii bez jokerków? : pięćdziesiąt dwie
+[TEKST] Ile oczek łącznie znajduje się na tradycyjnej sześciennej kostce do gry? : dwadzieścia jeden
+[TEKST] Ile wynosi suma liczb na przeciwległych ściankach tradycyjnej kostki? : siedem
+[ZDJĘCIE] Co to za urządzenie? : Endoskop przemysłowy
+[TEKST] Ile pasków znajduje się na fladze Stanów Zjednoczonych? : trzynaście
+[TEKST] Ile czerwonych pasków jest na fladze USA? : siedem
+[TEKST] Ile białych pasków jest na fladze USA? : sześć
+[TEKST] Ile gwiazdek znajduje się na fladze Unii Europejskiej? : dwanaście
+[TEKST] Ile kół tworzy symbol igrzysk olimpijskich? : pięć
+[TEKST] Ile figurek kręgli ustawia się w grze w bowling? : dziesięć
+[ZDJĘCIE] Co to za urządzenie? : Goniometr
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie w bowlingu? : trzysta
+[TEKST] Ile pierścieni władzy wykuto dla krasnoludów w świecie Tolkiena? : siedem
+[TEKST] Ile pierścieni władzy wykuto dla ludzi w świecie Tolkiena? : dziewięć
+[TEKST] Ile pierścieni władzy wykuto dla elfów w świecie Tolkiena? : trzy
+[TEKST] Jak nazywał się pies, który poleciał w kosmos na pokładzie Sputnika 2? : Łajka
+[TEKST] Ile strun ma standardowa ukulele sopranowa? : cztery
+[ZDJĘCIE] Co to za urządzenie? : Refraktometr
+[TEKST] Ile strun ma tradycyjne skrzypce? : cztery
+[TEKST] Ile strun ma tradycyjna altówka? : cztery
+[TEKST] Ile strun ma tradycyjna wiolonczela? : cztery
+[TEKST] Ile strun ma tradycyjny kontrabas? : cztery
+[TEKST] Ile strun ma klasyczna gitara akustyczna? : sześć
+[TEKST] Ile otworów ma standardowy flet prosty sopranowy? : osiem
+[ZDJĘCIE] Co to za urządzenie? : Tachometr
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? : sześć
+[TEKST] Ile zawodników liczy drużyna w piłce koszykowej na boisku? : pięć
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? : siedem
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? : sześć
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? : piętnaście
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? : czterdzieści pięć
+[ZDJĘCIE] Co to za urządzenie? : Anemometr
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? : dwadzieścia
+[TEKST] Ile razy w historii Polak zdobył Nagrodę Nobla w dziedzinie literatury? : pięć
+[TEKST] Ile filmów w cyklu Harry Potter powstało na podstawie książek? : osiem
+[TEKST] Ile książek liczy główna seria o Harrym Potterze? : siedem
+[TEKST] Jak ma na imię kot Smerfów należący do Gargamela? : Klakier
+[TEKST] Jak ma na imię pies Asterixa i Obelixa? : Idefix
+[ZDJĘCIE] Co to za urządzenie? : Luxometr
+[TEKST] Ile tomów liczy saga o Wiedźminie bez tomów opowiadań? : pięć
+[TEKST] Jak nazywa się główny czarny charakter w trylogii Gwiezdne Wojny IV-VI? : Darth Vader
+[TEKST] Jak nazywał się robot kuchenny lub pomocnik z kreskówki Jetsonowie? : Róża
+[TEKST] Jaki kolor ma samochód Zygzak McQueen w filmie Auta? : czerwony
+[TEKST] Jak nazywa się miasto, w którym mieszka rodzina Simpsonów? : Springfield
+[TEKST] Jak nazywa się spiczasty zielony stwór, który ukradł święta w bajce? : Grinch
+[ZDJĘCIE] Co to za urządzenie? : Manometr
+[TEKST] Ile palców u ręki ma myszka Miki na rysunkach? : cztery
+[TEKST] Ile serc ma ośmiornica? (pytanie 188) : trzy
+[TEKST] Ile żył ma człowiek w sznurze pępowinowym? (pytanie 189) : jedna
+[TEKST] Ile płatów ma płuca prawego człowieka? (pytanie 190) : trzy
+[TEKST] Ile płatów ma płuca lewego człowieka? (pytanie 191) : dwa
+[TEKST] Ile par żeber ma człowiek? (pytanie 192) : dwanaście
+[ZDJĘCIE] Co to za urządzenie? : Wakuometr
+[TEKST] Jak nazywa się najmniejsza kość ludzkiego ciała? (pytanie 193) : strzemiączko
+[TEKST] Ile palców u stóp ma struś? (pytanie 194) : dwa
+[TEKST] Ile żołądków ma krowa? (pytanie 195) : cztery
+[TEKST] Ile oczu ma pszczoła miodna? (pytanie 196) : pięć
+[TEKST] Ile powiek ma wielbłąd na jednym oku? (pytanie 197) : trzy
+[TEKST] Ile skrzydeł ma mucha domowa? (pytanie 198) : dwa
+[ZDJĘCIE] Co to za urządzenie? : Pirometr
+[TEKST] Ile nóg ma kleszcz w stadium dorosłym? (pytanie 199) : osiem
+[TEKST] Ile nóg ma larwa kleszcza? (pytanie 200) : sześć
+[TEKST] Jak nazywa się jedyny ssak zdolny do aktywnego lotu? (pytanie 201) : nietoperz
+[TEKST] Jaki pierwiastek chemiczny ma najniższą temperaturę topnienia? (pytanie 202) : hel
+[TEKST] Jaki jest najcięższy naturalnie występujący pierwiastek chemiczny? (pytanie 203) : uran
+[TEKST] Jaki gaz stanowi główny składnik atmosfery Wenus? (pytanie 204) : dwutlenek węgla
+[ZDJĘCIE] Co to za urządzenie? : Kamera termowizyjna
+[TEKST] Ile wynosi liczba atomowa helu? (pytanie 205) : dwa
+[TEKST] Ile wynosi całkowita liczba kości w dłoni człowieka z nadgarstkiem? (pytanie 206) : dwadzieścia siedem
+[TEKST] Ile komór ma serce ryby? (pytanie 207) : dwie
+[TEKST] Ile komór ma serce płaza? (pytanie 208) : trzy
+[TEKST] Ile komór ma serce gada poza krokodylem? (pytanie 209) : trzy
+[TEKST] Ile kręgów szyjnych ma żyrafa? (pytanie 210) : siedem
+[ZDJĘCIE] Co to za urządzenie? : Detektor gazu
+[TEKST] Ile kręgów szyjnych ma człowiek? (pytanie 211) : siedem
+[TEKST] Ile chromosomów ma normalna komórka somatyczna człowieka? (pytanie 212) : czterdzieści sześć
+[TEKST] Ile chromosomów ma komórka rozrodcza człowieka? (pytanie 213) : dwadzieścia trzy
+[TEKST] Jak nazywa się roślina o największych kwiatach na świecie? (pytanie 214) : raflezja
+[TEKST] Ile par odnóży kroczących mają skorupiaki dziesięcionogi? (pytanie 215) : pięć
+[TEKST] Jaki narząd ludzki jest zdolny do znacznej regeneracji? (pytanie 216) : wątroba
+[ZDJĘCIE] Co to za urządzenie? : Generator funkcyjny
+[TEKST] Jak nazywa się najtwardsza tkanka w organizmie człowieka? (pytanie 217) : szklistwo
+[TEKST] Ile smaków podstawowych wyróżnia współczesna nauka? (pytanie 218) : pięć
+[TEKST] Jaki jest symbol chemiczny wolframu? (pytanie 219) : W
+[TEKST] Jaki jest symbol chemiczny potasu? (pytanie 220) : K
+[TEKST] Jaki jest symbol chemiczny sodu? (pytanie 221) : Na
+[TEKST] Jaki jest symbol chemiczny srebra? (pytanie 222) : Ag
+[ZDJĘCIE] Co to za urządzenie? : Zasilacz laboratoryjny
+[TEKST] Jaki jest symbol chemiczny złota? (pytanie 223) : Au
+[TEKST] Jaki jest symbol chemiczny ołowiu? (pytanie 224) : Pb
+[TEKST] Jaki jest symbol chemiczny rtęci? (pytanie 225) : Hg
+[TEKST] Jaki jest symbol chemiczny miedzi? (pytanie 226) : Cu
+[TEKST] Jaki jest symbol chemiczny cyny? (pytanie 227) : Sn
+[TEKST] Jaki jest symbol chemiczny żelaza? (pytanie 228) : Fe
+[ZDJĘCIE] Co to za urządzenie? : Programator EEPROM
+[TEKST] Jaki gaz nadaje niebieską barwę Neptunowi i Uranowi? (pytanie 229) : metan
+[TEKST] Jak nazywa się najjaśniejsza gwiazda na nocnym niebie? (pytanie 230) : Syriusz
+[TEKST] Jaki narząd człowieka wytwarza żółć? (pytanie 231) : wątroba
+[TEKST] Gdzie w ciele człowieka gromadzona jest żółć? (pytanie 232) : pęcherzyk żółciowy
+[TEKST] Jak nazywa się białko będące głównym składnikiem włosów i paznokci? (pytanie 233) : keratyna
+[TEKST] Jaki jest najliczniejszy typ krwinek we krwi człowieka? (pytanie 234) : erytrocyty
+[ZDJĘCIE] Co to za urządzenie? : Mostek RLC
+[TEKST] Ile państw graniczy bezpośrednio z Polską? (pytanie 235) : siedem
+[TEKST] Ile państw graniczy z Chinami? (pytanie 236) : czternaście
+[TEKST] Ile państw graniczy z Rosją? (pytanie 237) : sześćnaście
+[TEKST] Jak nazywa się największa wyspa na świecie? (pytanie 238) : Grenlandia
+[TEKST] Stolicą jakiego państwa jest Ułan Bator? (pytanie 239) : Mongolia
+[TEKST] Stolicą jakiego państwa jest Canberra? (pytanie 240) : Australia
+[ZDJĘCIE] Co to za urządzenie? : Peryskop
+[TEKST] Stolicą jakiego państwa jest Ottawa? (pytanie 241) : Kanada
+[TEKST] Stolicą jakiego państwa jest Wellington? (pytanie 242) : Nowa Zelandia
+[TEKST] Stolicą jakiego państwa jest Naypyidaw? (pytanie 243) : Mjanma
+[TEKST] Stolicą jakiego państwa jest Astana? (pytanie 244) : Kazachstan
+[TEKST] Stolicą jakiego państwa jest Dodoma? (pytanie 245) : Tanzania
+[TEKST] Stolicą jakiego państwa jest Paramaribo? (pytanie 246) : Surinam
+[ZDJĘCIE] Co to za urządzenie? : Noktowizor
+[TEKST] Jaki jest najmniejszy niepodległy kraj pod względem powierzchni? (pytanie 247) : Watykan
+[TEKST] Jaki jest drugi najmniejszy niepodległy kraj na świecie? (pytanie 248) : Monako
+[TEKST] Jaki jest najmniejszy pod względem powierzchni kraj w Afryce? (pytanie 249) : Seszele
+[TEKST] Ile stolic oficjalnie ma Południowa Afryka (RPA)? (pytanie 250) : trzy
+[TEKST] Jak nazywa się najwyższy czynny wulkan w Europie? (pytanie 251) : Etna
+[TEKST] Jak nazywa się najgłębsze jezioro na świecie? (pytanie 252) : Bajkał
+[ZDJĘCIE] Co to za urządzenie? : Teodolit
+[TEKST] Jak nazywa się najdłuższa rzeka Europy? (pytanie 253) : Wołga
+[TEKST] W jakim państwie znajduje się starożytne miasto Petra? (pytanie 254) : Jordania
+[TEKST] W jakim państwie znajdują się ruiny Machu Picchu? (pytanie 255) : Peru
+[TEKST] Który ocean jest najmniejszy pod względem powierzchni? (pytanie 256) : Ocean Arktyczny
+[TEKST] Który ocean jest najgłębszy na świecie? (pytanie 257) : Ocean Spokojny
+[TEKST] Ile stanów tworzy Stany Zjednoczone Ameryki? (pytanie 258) : pięćdziesiąt
+[ZDJĘCIE] Co to za urządzenie? : Niwelator optyczny
+[TEKST] Ile emiratów tworzy Zjednoczone Emiraty Arabskie? (pytanie 259) : siedem
+[TEKST] W jakim państwie leży pustynia Gobi? (pytanie 260) : Mongolia
+[TEKST] W jakim państwie leży pustynia Atakama? (pytanie 261) : Chile
+[TEKST] Jak nazywa się jedyne państwo na świecie leżące na wszystkich czterech półkulach? (pytanie 262) : Kiribati
+[TEKST] Ile wysp zamieszkanych wchodzi w skład archipelagu Hawajów? (pytanie 263) : osiem
+[TEKST] Jaka rzeka przepływa przez najwięcej państw na świecie? (pytanie 264) : Dunaj
+[ZDJĘCIE] Co to za urządzenie? : Pantomograf
+[TEKST] Przepływając przez ile państw Dunaj stanowi granicę lub płynie przez nie? (pytanie 265) : dziesięć
+[TEKST] Ile stolic leży bezpośrednio nad rzeką Dunaj? (pytanie 266) : cztery
+[TEKST] Jak nazywa się stolica Maroka? (pytanie 267) : Rabat
+[TEKST] Jak nazywa się stolica Turcji? (pytanie 268) : Ankara
+[TEKST] Jak nazywa się stolica Brazylii? (pytanie 269) : Brasília
+[TEKST] Jak nazywa się stolica Wietnamu? (pytanie 270) : Hanoi
+[ZDJĘCIE] Co to za urządzenie? : Autoklaw
+[TEKST] Jak nazywa się stolica Szwajcarii? (pytanie 271) : Berno
+[TEKST] Jaki kraj jest największym producentem kawy na świecie? (pytanie 272) : Brazylia
+[TEKST] Jaki kraj posiada najdłuższą linię brzegową na świecie? (pytanie 273) : Kanada
+[TEKST] Ile jest kontynentów na Ziemi w modelu siedmiokontynentalnym? (pytanie 274) : siedem
+[TEKST] Jaki jest najmniej zaludniony kontynent na świecie? (pytanie 275) : Antarktyda
+[TEKST] Jaki kraj leży w całości wewnątrz terytorium Południowej Afryki? (pytanie 276) : Lesotho
+[ZDJĘCIE] Co to za rzecz? : Dziurkacz biurowy
+[TEKST] Jak nazywa się państwo graniczące jedynie z Hiszpanią? (pytanie 277) : Portugalia
+[TEKST] Jak nazywa się najmłodsze niepodległe państwo na świecie uznane przez ONZ? (pytanie 278) : Sudan Południowy
+[TEKST] W którym roku powstał Sudan Południowy? (pytanie 279) : dwa tysiące jedenaście
+[TEKST] Jak nazywa się najwyższa góra w Afryce? (pytanie 280) : Kilimandżaro
+[TEKST] Jak nazywa się najwyższa góra Ameryki Północnej? (pytanie 281) : Denali
+[TEKST] Jak nazywa się najwyższa góra Ameryki Południowej? (pytanie 282) : Aconcagua
+[ZDJĘCIE] Co to za rzecz? : Krawiecki naparstek
+[TEKST] W jakim państwie leży góra Ararat? (pytanie 283) : Turcja
+[TEKST] Jaka wyspa jest największą wyspą na Morzu Śródziemnym? (pytanie 284) : Sycylia
+[TEKST] W którym roku rozpoczęła się II wojna światowa? (pytanie 285) : tysiąc dziewięćset trzydzieści dziewięć
+[TEKST] W którym roku zakończyła się I wojna światowa? (pytanie 286) : tysiąc dziewięćset osiemnaście
+[TEKST] W którym roku miała miejsce bitwa pod Grunwaldem? (pytanie 287) : tysiąc czterysta dziesięć
+[TEKST] W którym roku odbył się chrzest Polski? (pytanie 288) : dziewięćset sześćdziesiąt sześć
+[ZDJĘCIE] Co to za rzecz? : Drylownica do wiśni
+[TEKST] Ile lat trwała wojna stuletnia? (pytanie 289) : sto trzynaście
+[TEKST] W którym roku odkryto Amerykę przez Krzysztofa Kolumba? (pytanie 290) : tysiąc czterysta dziewięćdziesiąt dwa
+[TEKST] W którym roku wybuchła rewolucja francuska? (pytanie 291) : tysiąc siedemset osiemdziesiąt dziewięć
+[TEKST] Kto był pierwszym królem Polski? (pytanie 292) : Bolesław Chrobry
+[TEKST] Kto był pierwszym cesarzem Rzymu? (pytanie 293) : Oktawian August
+[TEKST] Kto był pierwszym prezydentem Stanów Zjednoczonych? (pytanie 294) : George Washington
+[ZDJĘCIE] Co to za rzecz? : Pęseta anatomiczna
+[TEKST] Ile dni trwała obrona Westerplatte w 1939 roku? (pytanie 295) : siedem
+[TEKST] Ile rozbiorów doświadczyła Polska w XVIII wieku? (pytanie 296) : trzy
+[TEKST] W którym roku uchwalono Konstytucję 3 Maja? (pytanie 297) : tysiąc siedemset dziewięćdziesiąt jeden
+[TEKST] Jak nazywał się ostatni król Polski? (pytanie 298) : Stanisław August Poniatowski
+[TEKST] Kto dowodził wojskami polskimi pod Bitwą pod Wiedniem w 1683 roku? (pytanie 299) : Jan III Sobieski
+[TEKST] Jak nazywało się starożytne pismo klinowe stworzone przez jaki lud? (pytanie 300) : Sumerowie
+[ZDJĘCIE] Co to za rzecz? : Skalpel chirurgiczny
+[TEKST] Który car Rosji założył Sankt Petersburg? (pytanie 301) : Piotr I Wielki
+[TEKST] W którym roku zburzono Mur Berliński? (pytanie 302) : tysiąc dziewięćset osiemdziesiąt dziewięć
+[TEKST] W którym roku zatonął Titanic? (pytanie 303) : tysiąc dziewięćset dwanaście
+[TEKST] Kto wynalazł ruchomą czcionkę drukarską w Europie? (pytanie 304) : Jan Gutenberg
+[TEKST] Kto opłynął Ziemię po raz pierwszy jako dowódca ekspedycji? (pytanie 305) : Ferdynand Magellan
+[TEKST] Jak nazywała się pierwsza sztuczna satelita Ziemi? (pytanie 306) : Sputnik jeden
+[ZDJĘCIE] Co to za rzecz? : Tygiel laboratoryjny
+[TEKST] W którym roku wysłano Sputnik 1 w kosmos? (pytanie 307) : tysiąc dziewięćset pięćdziesiąt siedem
+[TEKST] Kto był pierwszym człowiekiem w kosmosie? (pytanie 308) : Jurij Gagarin
+[TEKST] W którym roku odbył się lot Jurija Gagarina? (pytanie 309) : tysiąc dziewięćset sześćdziesiąt jeden
+[TEKST] Jak nazywała się misja kosmiczna, podczas której człowiek stanął na Księżycu? (pytanie 310) : Apollo jedenaście
+[TEKST] W którym roku Neil Armstrong stanął na Księżycu? (pytanie 311) : tysiąc dziewięćset sześćdziesiąt cztery
+[TEKST] W którym roku wybuchła wojna secesyjna w USA? (pytanie 312) : tysiąc osiemset sześćdziesiąt jeden
+[ZDJĘCIE] Co to za rzecz? : Pipeta automatyczna
+[TEKST] W którym roku skończyła się wojna w Wietnamie? (pytanie 313) : tysiąc dziewięćset siedemdziesiąt pięć
+[TEKST] Jak nazywał się radziecki reaktor, w którym doszło do katastrofy w Czarnobylu? (pytanie 314) : cztery
+[TEKST] W którym roku wydarzyła się katastrofa w Czarnobylu? (pytanie 315) : tysiąc dziewięćset osiemdziesiąt sześć
+[TEKST] W jakim mieście zamordowano arcyksięcia Franciszka Ferdynanda w 1914 roku? (pytanie 316) : Sarajewo
+[TEKST] Kto przewodził buntowi gladiatorów w starożytnym Rzymie w 73 r. p.n.e.? (pytanie 317) : Spartakus
+[TEKST] Kto był premierem Wielkiej Brytanii podczas większości II wojny światowej? (pytanie 318) : Winston Churchill
+[ZDJĘCIE] Co to za rzecz? : Biureta
+[TEKST] Kto był prezydentem USA w czasie Wielkiego Kryzysu i II wojny światowej? (pytanie 319) : Franklin Delano Roosevelt
+[TEKST] W którym roku podpisano Traktat Wersalski? (pytanie 320) : tysiąc dziewięćset dziewiętnaście
+[TEKST] Ile państw założyło Organizację Narodów Zjednoczonych w 1945 roku? (pytanie 321) : pięćdziesiąt jeden
+[TEKST] Jak nazywał się szyfr używany przez Niemców podczas II wojny światowej? (pytanie 322) : Enigma
+[TEKST] Kto był głównym twórcą teorii ewolucji drodą doboru naturalnego? (pytanie 323) : Karol Darwin
+[TEKST] W którym roku zniesiono niewolnictwo w Stanach Zjednoczonych? (pytanie 324) : tysiąc osiemset sześćdziesiąt pięć
+[ZDJĘCIE] Co to za rzecz? : Kolba stożkowa
+[TEKST] Który król Polski przeniósł stolicę z Krakowa do Warszawy? (pytanie 325) : Zygmunt III Waza
+[TEKST] Ile dni trwało Powstanie Warszawskie w 1944 roku? (pytanie 326) : sześćdziesiąt trzy
+[TEKST] Ile kół ma standardowy autobus miejski typu przegubowego? (pytanie 327) : dziesięć
+[TEKST] Ile kół ma standardowy czteroosobowy samochód osobowy licząc zapasowe? (pytanie 328) : pięć
+[TEKST] Ile kół ma rower jednokołowy? (pytanie 329) : jeden
+[TEKST] Ile czarnych klawiszy znajduje się na standardowym pianinie z 88 klawiszami? (pytanie 330) : trzydzieści sześć
+[ZDJĘCIE] Co to za rzecz? : Ostrzałka krążkowa
+[TEKST] Ile białych klawiszy znajduje się na standardowym pianinie z 88 klawiszami? (pytanie 331) : pięćdziesiąt dwa
+[TEKST] Ile pól znajduje się na tradycyjnej szachownicy? (pytanie 332) : sześćdziesiąt cztery
+[TEKST] Ile pionków ma każdy gracz na początku gry w szachy? (pytanie 333) : osiem
+[TEKST] Ile figur ma każdy gracz na początku gry w szachy wliczając pionki? (pytanie 334) : szesnaście
+[TEKST] Ile kart znajduje się w pełnej talii bez jokerków? (pytanie 335) : pięćdziesiąt dwie
+[TEKST] Ile oczek łącznie znajduje się na tradycyjnej sześciennej kostce do gry? (pytanie 336) : dwadzieścia jeden
+[ZDJĘCIE] Co to za rzecz? : Imadło ślusarskie
+[TEKST] Ile wynosi suma liczb na przeciwległych ściankach tradycyjnej kostki? (pytanie 337) : siedem
+[TEKST] Ile pasków znajduje się na fladze Stanów Zjednoczonych? (pytanie 338) : trzynaście
+[TEKST] Ile czerwonych pasków jest na fladze USA? (pytanie 339) : siedem
+[TEKST] Ile białych pasków jest na fladze USA? (pytanie 340) : sześć
+[TEKST] Ile gwiazdek znajduje się na fladze Unii Europejskiej? (pytanie 341) : dwanaście
+[TEKST] Ile kół tworzy symbol igrzysk olimpijskich? (pytanie 342) : pięć
+[ZDJĘCIE] Co to za rzecz? : Ścisk stolarski
+[TEKST] Ile figurek kręgli ustawia się w grze w bowling? (pytanie 343) : dziesięć
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie w bowlingu? (pytanie 344) : trzysta
+[TEKST] Ile pierścieni władzy wykuto dla krasnoludów w świecie Tolkiena? (pytanie 345) : siedem
+[TEKST] Ile pierścieni władzy wykuto dla ludzi w świecie Tolkiena? (pytanie 346) : dziewięć
+[TEKST] Ile pierścieni władzy wykuto dla elfów w świecie Tolkiena? (pytanie 347) : trzy
+[TEKST] Jak nazywał się pies, który poleciał w kosmos na pokładzie Sputnika 2? (pytanie 348) : Łajka
+[ZDJĘCIE] Co to za rzecz? : Strug ręczny
+[TEKST] Ile strun ma standardowa ukulele sopranowa? (pytanie 349) : cztery
+[TEKST] Ile strun ma tradycyjne skrzypce? (pytanie 350) : cztery
+[TEKST] Ile strun ma tradycyjna altówka? (pytanie 351) : cztery
+[TEKST] Ile strun ma tradycyjna wiolonczela? (pytanie 352) : cztery
+[TEKST] Ile strun ma tradycyjny kontrabas? (pytanie 353) : cztery
+[TEKST] Ile strun ma klasyczna gitara akustyczna? (pytanie 354) : sześć
+[ZDJĘCIE] Co to za rzecz? : Dłuto stolarskie
+[TEKST] Ile otworów ma standardowy flet prosty sopranowy? (pytanie 355) : osiem
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (pytanie 356) : sześć
+[TEKST] Ile zawodników liczy drużyna w piłce koszykowej na boisku? (pytanie 357) : pięć
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (pytanie 358) : siedem
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (pytanie 359) : sześć
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (pytanie 360) : piętnaście
+[ZDJĘCIE] Co to za rzecz? : Gwintownik
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (pytanie 361) : czterdzieści pięć
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (pytanie 362) : dwadzieścia
+[TEKST] Ile razy w historii Polak zdobył Nagrodę Nobla w dziedzinie literatury? (pytanie 363) : pięć
+[TEKST] Ile filmów w cyklu Harry Potter powstało na podstawie książek? (pytanie 364) : osiem
+[TEKST] Ile książek liczy główna seria o Harrym Potterze? (pytanie 365) : siedem
+[TEKST] Jak ma na imię kot Smerfów należący do Gargamela? (pytanie 366) : Klakier
+[ZDJĘCIE] Co to za rzecz? : Narzynka
+[TEKST] Jak ma na imię pies Asterixa i Obelixa? (pytanie 367) : Idefix
+[TEKST] Ile tomów liczy saga o Wiedźminie bez tomów opowiadań? (pytanie 368) : pięć
+[TEKST] Jak nazywa się główny czarny charakter w trylogii Gwiezdne Wojny IV-VI? (pytanie 369) : Darth Vader
+[TEKST] Jak nazywał się robot kuchenny lub pomocnik z kreskówki Jetsonowie? (pytanie 370) : Róża
+[TEKST] Jaki kolor ma samochód Zygzak McQueen w filmie Auta? (pytanie 371) : czerwony
+[TEKST] Jak nazywa się miasto, w którym mieszka rodzina Simpsonów? (pytanie 372) : Springfield
+[ZDJĘCIE] Co to za rzecz? : Klucz dynamometryczny
+[TEKST] Jak nazywa się spiczasty zielony stwór, który ukradł święta w bajce? (pytanie 373) : Grinch
+[TEKST] Ile palców u ręki ma myszka Miki na rysunkach? (pytanie 374) : cztery
+[TEKST] Ile serc ma ośmiornica? (pytanie 375) : trzy
+[TEKST] Ile żył ma człowiek w sznurze pępowinowym? (pytanie 376) : jedna
+[TEKST] Ile płatów ma płuca prawego człowieka? (pytanie 377) : trzy
+[TEKST] Ile płatów ma płuca lewego człowieka? (pytanie 378) : dwa
+[ZDJĘCIE] Co to za rzecz? : Szczelinomierz
+[TEKST] Ile par żeber ma człowiek? (pytanie 379) : dwanaście
+[TEKST] Jak nazywa się najmniejsza kość ludzkiego ciała? (pytanie 380) : strzemiączko
+[TEKST] Ile palców u stóp ma struś? (pytanie 381) : dwa
+[TEKST] Ile żołądków ma krowa? (pytanie 382) : cztery
+[TEKST] Ile oczu ma pszczoła miodna? (pytanie 383) : pięć
+[TEKST] Ile powiek ma wielbłąd na jednym oku? (pytanie 384) : trzy
+[ZDJĘCIE] Co to za rzecz? : Grzechotka do nasadek
+[TEKST] Ile skrzydeł ma mucha domowa? (pytanie 385) : dwa
+[TEKST] Ile nóg ma kleszcz w stadium dorosłym? (pytanie 386) : osiem
+[TEKST] Ile nóg ma larwa kleszcza? (pytanie 387) : sześć
+[TEKST] Jak nazywa się jedyny ssak zdolny do aktywnego lotu? (pytanie 388) : nietoperz
+[TEKST] Jaki pierwiastek chemiczny ma najniższą temperaturę topnienia? (pytanie 389) : hel
+[TEKST] Jaki jest najcięższy naturalnie występujący pierwiastek chemiczny? (pytanie 390) : uran
+[ZDJĘCIE] Co to za rzecz? : Ściągacz do łożysk
+[TEKST] Jaki gaz stanowi główny składnik atmosfery Wenus? (pytanie 391) : dwutlenek węgla
+[TEKST] Ile wynosi liczba atomowa helu? (pytanie 392) : dwa
+[TEKST] Ile wynosi całkowita liczba kości w dłoni człowieka z nadgarstkiem? (pytanie 393) : dwadzieścia siedem
+[TEKST] Ile komór ma serce ryby? (pytanie 394) : dwie
+[TEKST] Ile komór ma serce płaza? (pytanie 395) : trzy
+[TEKST] Ile komór ma serce gada poza krokodylem? (pytanie 396) : trzy
+[ZDJĘCIE] Co to za rzecz? : Kleszcze do drutu
+[TEKST] Ile kręgów szyjnych ma żyrafa? (pytanie 397) : siedem
+[TEKST] Ile kręgów szyjnych ma człowiek? (pytanie 398) : siedem
+[TEKST] Ile chromosomów ma normalna komórka somatyczna człowieka? (pytanie 399) : czterdzieści sześć
+[TEKST] Ile chromosomów ma komórka rozrodcza człowieka? (pytanie 400) : dwadzieścia trzy
+[TEKST] Jak nazywa się roślina o największych kwiatach na świecie? (pytanie 401) : raflezja
+[TEKST] Ile par odnóży kroczących mają skorupiaki dziesięcionogi? (pytanie 402) : pięć
+[ZDJĘCIE] Co to za rzecz? : Szczypce Seegera
+[TEKST] Jaki narząd ludzki jest zdolny do znacznej regeneracji? (pytanie 403) : wątroba
+[TEKST] Jak nazywa się najtwardsza tkanka w organizmie człowieka? (pytanie 404) : szklistwo
+[TEKST] Ile smaków podstawowych wyróżnia współczesna nauka? (pytanie 405) : pięć
+[TEKST] Jaki jest symbol chemiczny wolframu? (pytanie 406) : W
+[TEKST] Jaki jest symbol chemiczny potasu? (pytanie 407) : K
+[TEKST] Jaki jest symbol chemiczny sodu? (pytanie 408) : Na
+[ZDJĘCIE] Co to za rzecz? : Lira korbowa
+[TEKST] Jaki jest symbol chemiczny srebra? (pytanie 409) : Ag
+[TEKST] Jaki jest symbol chemiczny złota? (pytanie 410) : Au
+[TEKST] Jaki jest symbol chemiczny ołowiu? (pytanie 411) : Pb
+[TEKST] Jaki jest symbol chemiczny rtęci? (pytanie 412) : Hg
+[TEKST] Jaki jest symbol chemiczny miedzi? (pytanie 413) : Cu
+[TEKST] Jaki jest symbol chemiczny cyny? (pytanie 414) : Sn
+[ZDJĘCIE] Co to za rzecz? : Kalejdoskop
+[TEKST] Jaki jest symbol chemiczny żelaza? (pytanie 415) : Fe
+[TEKST] Jaki gaz nadaje niebieską barwę Neptunowi i Uranowi? (pytanie 416) : metan
+[TEKST] Jak nazywa się najjaśniejsza gwiazda na nocnym niebie? (pytanie 417) : Syriusz
+[TEKST] Jaki narząd człowieka wytwarza żółć? (pytanie 418) : wątroba
+[TEKST] Gdzie w ciele człowieka gromadzona jest żółć? (pytanie 419) : pęcherzyk żółciowy
+[TEKST] Jak nazywa się białko będące głównym składnikiem włosów i paznokci? (pytanie 420) : keratyna
+[ZDJĘCIE] Co to za rzecz? : Klepsydra
+[TEKST] Jaki jest najliczniejszy typ krwinek we krwi człowieka? (pytanie 421) : erytrocyty
+[TEKST] Ile państw graniczy bezpośrednio z Polską? (pytanie 422) : siedem
+[TEKST] Ile państw graniczy z Chinami? (pytanie 423) : czternaście
+[TEKST] Ile państw graniczy z Rosją? (pytanie 424) : sześćnaście
+[TEKST] Jak nazywa się największa wyspa na świecie? (pytanie 425) : Grenlandia
+[TEKST] Stolicą jakiego państwa jest Ułan Bator? (pytanie 426) : Mongolia
+[ZDJĘCIE] Co to za rzecz? : Młynek do kawy ręczny
+[TEKST] Stolicą jakiego państwa jest Canberra? (pytanie 427) : Australia
+[TEKST] Stolicą jakiego państwa jest Ottawa? (pytanie 428) : Kanada
+[TEKST] Stolicą jakiego państwa jest Wellington? (pytanie 429) : Nowa Zelandia
+[TEKST] Stolicą jakiego państwa jest Naypyidaw? (pytanie 430) : Mjanma
+[TEKST] Stolicą jakiego państwa jest Astana? (pytanie 431) : Kazachstan
+[TEKST] Stolicą jakiego państwa jest Dodoma? (pytanie 432) : Tanzania
+[ZDJĘCIE] Co to za rzecz? : Syfon do wody gazowanej
+[TEKST] Stolicą jakiego państwa jest Paramaribo? (pytanie 433) : Surinam
+[TEKST] Jaki jest najmniejszy niepodległy kraj pod względem powierzchni? (pytanie 434) : Watykan
+[TEKST] Jaki jest drugi najmniejszy niepodległy kraj na świecie? (pytanie 435) : Monako
+[TEKST] Jaki jest najmniejszy pod względem powierzchni kraj w Afryce? (pytanie 436) : Seszele
+[TEKST] Ile stolic oficjalnie ma Południowa Afryka (RPA)? (pytanie 437) : trzy
+[TEKST] Jak nazywa się najwyższy czynny wulkan w Europie? (pytanie 438) : Etna
+[ZDJĘCIE] Co to za rzecz? : Pojemnik na lód
+[TEKST] Jak nazywa się najgłębsze jezioro na świecie? (pytanie 439) : Bajkał
+[TEKST] Jak nazywa się najdłuższa rzeka Europy? (pytanie 440) : Wołga
+[TEKST] W jakim państwie znajduje się starożytne miasto Petra? (pytanie 441) : Jordania
+[TEKST] W jakim państwie znajdują się ruiny Machu Picchu? (pytanie 442) : Peru
+[TEKST] Który ocean jest najmniejszy pod względem powierzchni? (pytanie 443) : Ocean Arktyczny
+[TEKST] Który ocean jest najgłębszy na świecie? (pytanie 444) : Ocean Spokojny
+[ZDJĘCIE] Co to za rzecz? : Korkociąg dźwigniowy
+[TEKST] Ile stanów tworzy Stany Zjednoczone Ameryki? (pytanie 445) : pięćdziesiąt
+[TEKST] Ile emiratów tworzy Zjednoczone Emiraty Arabskie? (pytanie 446) : siedem
+[TEKST] W jakim państwie leży pustynia Gobi? (pytanie 447) : Mongolia
+[TEKST] W jakim państwie leży pustynia Atakama? (pytanie 448) : Chile
+[TEKST] Jak nazywa się jedyne państwo na świecie leżące na wszystkich czterech półkulach? (pytanie 449) : Kiribati
+[TEKST] Ile wysp zamieszkanych wchodzi w skład archipelagu Hawajów? (pytanie 450) : osiem
+[ZDJĘCIE] Co to za rzecz? : Praska do czosnku
+[TEKST] Jaka rzeka przepływa przez najwięcej państw na świecie? (pytanie 451) : Dunaj
+[TEKST] Przepływając przez ile państw Dunaj stanowi granicę lub płynie przez nie? (pytanie 452) : dziesięć
+[TEKST] Ile stolic leży bezpośrednio nad rzeką Dunaj? (pytanie 453) : cztery
+[TEKST] Jak nazywa się stolica Maroka? (pytanie 454) : Rabat
+[TEKST] Jak nazywa się stolica Turcji? (pytanie 455) : Ankara
+[TEKST] Jak nazywa się stolica Brazylii? (pytanie 456) : Brasília
+[ZDJĘCIE] Co to za rzecz? : Tarka do cytrusów
+[TEKST] Jak nazywa się stolica Wietnamu? (pytanie 457) : Hanoi
+[TEKST] Jak nazywa się stolica Szwajcarii? (pytanie 458) : Berno
+[TEKST] Jaki kraj jest największym producentem kawy na świecie? (pytanie 459) : Brazylia
+[TEKST] Jaki kraj posiada najdłuższą linię brzegową na świecie? (pytanie 460) : Kanada
+[TEKST] Ile jest kontynentów na Ziemi w modelu siedmiokontynentalnym? (pytanie 461) : siedem
+[TEKST] Jaki jest najmniej zaludniony kontynent na świecie? (pytanie 462) : Antarktyda
+[ZDJĘCIE] Co to za rzecz? : Lampa naftowa
+[TEKST] Jaki kraj leży w całości wewnątrz terytorium Południowej Afryki? (pytanie 463) : Lesotho
+[TEKST] Jak nazywa się państwo graniczące jedynie z Hiszpanią? (pytanie 464) : Portugalia
+[TEKST] Jak nazywa się najmłodsze niepodległe państwo na świecie uznane przez ONZ? (pytanie 465) : Sudan Południowy
+[TEKST] W którym roku powstał Sudan Południowy? (pytanie 466) : dwa tysiące jedenaście
+[TEKST] Jak nazywa się najwyższa góra w Afryce? (pytanie 467) : Kilimandżaro
+[TEKST] Jak nazywa się najwyższa góra Ameryki Północnej? (pytanie 468) : Denali
+[ZDJĘCIE] Co to za rzecz? : Manekin krawiecki
+[TEKST] Jak nazywa się najwyższa góra Ameryki Południowej? (pytanie 469) : Aconcagua
+[TEKST] W jakim państwie leży góra Ararat? (pytanie 470) : Turcja
+[TEKST] Jaka wyspa jest największą wyspą na Morzu Śródziemnym? (pytanie 471) : Sycylia
+[TEKST] W którym roku rozpoczęła się II wojna światowa? (pytanie 472) : tysiąc dziewięćset trzydzieści dziewięć
+[TEKST] W którym roku zakończyła się I wojna światowa? (pytanie 473) : tysiąc dziewięćset osiemnaście
+[TEKST] W którym roku miała miejsce bitwa pod Grunwaldem? (pytanie 474) : tysiąc czterysta dziesięć
+[ZDJĘCIE] Co to za rzecz? : Kamerton
+[TEKST] W którym roku odbył się chrzest Polski? (pytanie 475) : dziewięćset sześćdziesiąt sześć
+[TEKST] Ile lat trwała wojna stuletnia? (pytanie 476) : sto trzynaście
+[TEKST] W którym roku odkryto Amerykę przez Krzysztofa Kolumba? (pytanie 477) : tysiąc czterysta dziewięćdziesiąt dwa
+[TEKST] W którym roku wybuchła rewolucja francuska? (pytanie 478) : tysiąc siedemset osiemdziesiąt dziewięć
+[TEKST] Kto był pierwszym królem Polski? (pytanie 479) : Bolesław Chrobry
+[TEKST] Kto był pierwszym cesarzem Rzymu? (pytanie 480) : Oktawian August
+[ZDJĘCIE] Co to za rzecz? : Metronom
+[TEKST] Kto był pierwszym prezydentem Stanów Zjednoczonych? (pytanie 481) : George Washington
+[TEKST] Ile dni trwała obrona Westerplatte w 1939 roku? (pytanie 482) : siedem
+[TEKST] Ile rozbiorów doświadczyła Polska w XVIII wieku? (pytanie 483) : trzy
+[TEKST] W którym roku uchwalono Konstytucję 3 Maja? (pytanie 484) : tysiąc siedemset dziewięćdziesiąt jeden
+[TEKST] Jak nazywał się ostatni król Polski? (pytanie 485) : Stanisław August Poniatowski
+[TEKST] Kto dowodził wojskami polskimi pod Bitwą pod Wiedniem w 1683 roku? (pytanie 486) : Jan III Sobieski
+[ZDJĘCIE] Co to za rzecz? : Kastaniety
+[TEKST] Jak nazywało się starożytne pismo klinowe stworzone przez jaki lud? (pytanie 487) : Sumerowie
+[TEKST] Który car Rosji założył Sankt Petersburg? (pytanie 488) : Piotr I Wielki
+[TEKST] W którym roku zburzono Mur Berliński? (pytanie 489) : tysiąc dziewięćset osiemdziesiąt dziewięć
+[TEKST] W którym roku zatonął Titanic? (pytanie 490) : tysiąc dziewięćset dwanaście
+[TEKST] Kto wynalazł ruchomą czcionkę drukarską w Europie? (pytanie 491) : Jan Gutenberg
+[TEKST] Kto opłynął Ziemię po raz pierwszy jako dowódca ekspedycji? (pytanie 492) : Ferdynand Magellan
+[ZDJĘCIE] Co to za rzecz? : Tamburyn
+[TEKST] Jak nazywała się pierwsza sztuczna satelita Ziemi? (pytanie 493) : Sputnik jeden
+[TEKST] W którym roku wysłano Sputnik 1 w kosmos? (pytanie 494) : tysiąc dziewięćset pięćdziesiąt siedem
+[TEKST] Kto był pierwszym człowiekiem w kosmosie? (pytanie 495) : Jurij Gagarin
+[TEKST] W którym roku odbył się lot Jurija Gagarina? (pytanie 496) : tysiąc dziewięćset sześćdziesiąt jeden
+[TEKST] Jak nazywała się misja kosmiczna, podczas której człowiek stanął na Księżycu? (pytanie 497) : Apollo jedenaście
+[TEKST] W którym roku Neil Armstrong stanął na Księżycu? (pytanie 498) : tysiąc dziewięćset sześćdziesiąt cztery
+[ZDJĘCIE] Co to za rzecz? : Lupa zegarmistrzowska
+[TEKST] W którym roku wybuchła wojna secesyjna w USA? (pytanie 499) : tysiąc osiemset sześćdziesiąt jeden
+[TEKST] W którym roku skończyła się wojna w Wietnamie? (pytanie 500) : tysiąc dziewięćset siedemdziesiąt pięć
+[TEKST] Jak nazywał się radziecki reaktor, w którym doszło do katastrofy w Czarnobylu? (pytanie 501) : cztery
+[TEKST] W którym roku wydarzyła się katastrofa w Czarnobylu? (pytanie 502) : tysiąc dziewięćset osiemdziesiąt sześć
+[TEKST] W jakim mieście zamordowano arcyksięcia Franciszka Ferdynanda w 1914 roku? (pytanie 503) : Sarajewo
+[TEKST] Kto przewodził buntowi gladiatorów w starożytnym Rzymie w 73 r. p.n.e.? (pytanie 504) : Spartakus
+[ZDJĘCIE] Co to za rzecz? : Moździerz kuchenny
+[TEKST] Kto był premierem Wielkiej Brytanii podczas większości II wojny światowej? (pytanie 505) : Winston Churchill
+[TEKST] Kto był prezydentem USA w czasie Wielkiego Kryzysu i II wojny światowej? (pytanie 506) : Franklin Delano Roosevelt
+[TEKST] W którym roku podpisano Traktat Wersalski? (pytanie 507) : tysiąc dziewięćset dziewiętnaście
+[TEKST] Ile państw założyło Organizację Narodów Zjednoczonych w 1945 roku? (pytanie 508) : pięćdziesiąt jeden
+[TEKST] Jak nazywał się szyfr używany przez Niemców podczas II wojny światowej? (pytanie 509) : Enigma
+[TEKST] Kto był głównym twórcą teorii ewolucji drodą doboru naturalnego? (pytanie 510) : Karol Darwin
+[ZDJĘCIE] Co to za rzecz? : Dmuchawa do liści
+[TEKST] W którym roku zniesiono niewolnictwo w Stanach Zjednoczonych? (pytanie 511) : tysiąc osiemset sześćdziesiąt pięć
+[TEKST] Który król Polski przeniósł stolicę z Krakowa do Warszawy? (pytanie 512) : Zygmunt III Waza
+[TEKST] Ile dni trwało Powstanie Warszawskie w 1944 roku? (pytanie 513) : sześćdziesiąt trzy
+[TEKST] Ile kół ma standardowy autobus miejski typu przegubowego? (pytanie 514) : dziesięć
+[TEKST] Ile kół ma standardowy czteroosobowy samochód osobowy licząc zapasowe? (pytanie 515) : pięć
+[TEKST] Ile kół ma rower jednokołowy? (pytanie 516) : jeden
+[ZDJĘCIE] Co to za urządzenie? : Szlifierka kątowa
+[TEKST] Ile czarnych klawiszy znajduje się na standardowym pianinie z 88 klawiszami? (pytanie 517) : trzydzieści sześć
+[TEKST] Ile białych klawiszy znajduje się na standardowym pianinie z 88 klawiszami? (pytanie 518) : pięćdziesiąt dwa
+[TEKST] Ile pól znajduje się na tradycyjnej szachownicy? (pytanie 519) : sześćdziesiąt cztery
+[TEKST] Ile pionków ma każdy gracz na początku gry w szachy? (pytanie 520) : osiem
+[TEKST] Ile figur ma każdy gracz na początku gry w szachy wliczając pionki? (pytanie 521) : szesnaście
+[TEKST] Ile kart znajduje się w pełnej talii bez jokerków? (pytanie 522) : pięćdziesiąt dwie
+[ZDJĘCIE] Co to za urządzenie? : Multimetr cyfrowy
+[TEKST] Ile oczek łącznie znajduje się na tradycyjnej sześciennej kostce do gry? (pytanie 523) : dwadzieścia jeden
+[TEKST] Ile wynosi suma liczb na przeciwległych ściankach tradycyjnej kostki? (pytanie 524) : siedem
+[TEKST] Ile pasków znajduje się na fladze Stanów Zjednoczonych? (pytanie 525) : trzynaście
+[TEKST] Ile czerwonych pasków jest na fladze USA? (pytanie 526) : siedem
+[TEKST] Ile białych pasków jest na fladze USA? (pytanie 527) : sześć
+[TEKST] Ile gwiazdek znajduje się na fladze Unii Europejskiej? (pytanie 528) : dwanaście
+[ZDJĘCIE] Co to za urządzenie? : Oscyloskop
+[TEKST] Ile kół tworzy symbol igrzysk olimpijskich? (pytanie 529) : pięć
+[TEKST] Ile figurek kręgli ustawia się w grze w bowling? (pytanie 530) : dziesięć
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie w bowlingu? (pytanie 531) : trzysta
+[TEKST] Ile pierścieni władzy wykuto dla krasnoludów w świecie Tolkiena? (pytanie 532) : siedem
+[TEKST] Ile pierścieni władzy wykuto dla ludzi w świecie Tolkiena? (pytanie 533) : dziewięć
+[TEKST] Ile pierścieni władzy wykuto dla elfów w świecie Tolkiena? (pytanie 534) : trzy
+[ZDJĘCIE] Co to za urządzenie? : Wkrętarka akumulatorowa
+[TEKST] Jak nazywał się pies, który poleciał w kosmos na pokładzie Sputnika 2? (pytanie 535) : Łajka
+[TEKST] Ile strun ma standardowa ukulele sopranowa? (pytanie 536) : cztery
+[TEKST] Ile strun ma tradycyjne skrzypce? (pytanie 537) : cztery
+[TEKST] Ile strun ma tradycyjna altówka? (pytanie 538) : cztery
+[TEKST] Ile strun ma tradycyjna wiolonczela? (pytanie 539) : cztery
+[TEKST] Ile strun ma tradycyjny kontrabas? (pytanie 540) : cztery
+[ZDJĘCIE] Co to za urządzenie? : Sonda lambda
+[TEKST] Ile strun ma klasyczna gitara akustyczna? (pytanie 541) : sześć
+[TEKST] Ile otworów ma standardowy flet prosty sopranowy? (pytanie 542) : osiem
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (pytanie 543) : sześć
+[TEKST] Ile zawodników liczy drużyna w piłce koszykowej na boisku? (pytanie 544) : pięć
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (pytanie 545) : siedem
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (pytanie 546) : sześć
+[ZDJĘCIE] Co to za urządzenie? : Lutownica transformatorowa
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (pytanie 547) : piętnaście
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (pytanie 548) : czterdzieści pięć
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (pytanie 549) : dwadzieścia
+[TEKST] Ile razy w historii Polak zdobył Nagrodę Nobla w dziedzinie literatury? (pytanie 550) : pięć
+[TEKST] Ile filmów w cyklu Harry Potter powstało na podstawie książek? (pytanie 551) : osiem
+[TEKST] Ile książek liczy główna seria o Harrym Potterze? (pytanie 552) : siedem
+[ZDJĘCIE] Co to za urządzenie? : Tokarka do drewna
+[TEKST] Jak ma na imię kot Smerfów należący do Gargamela? (pytanie 553) : Klakier
+[TEKST] Jak ma na imię pies Asterixa i Obelixa? (pytanie 554) : Idefix
+[TEKST] Ile tomów liczy saga o Wiedźminie bez tomów opowiadań? (pytanie 555) : pięć
+[TEKST] Jak nazywa się główny czarny charakter w trylogii Gwiezdne Wojny IV-VI? (pytanie 556) : Darth Vader
+[TEKST] Jak nazywał się robot kuchenny lub pomocnik z kreskówki Jetsonowie? (pytanie 557) : Róża
+[TEKST] Jaki kolor ma samochód Zygzak McQueen w filmie Auta? (pytanie 558) : czerwony
+[ZDJĘCIE] Co to za urządzenie? : Frezarka górnowrzecionowa
+[TEKST] Jak nazywa się miasto, w którym mieszka rodzina Simpsonów? (pytanie 559) : Springfield
+[TEKST] Jak nazywa się spiczasty zielony stwór, który ukradł święta w bajce? (pytanie 560) : Grinch
+[TEKST] Ile palców u ręki ma myszka Miki na rysunkach? (pytanie 561) : cztery
+[TEKST] Ile serc ma ośmiornica? (pytanie 562) : trzy
+[TEKST] Ile żył ma człowiek w sznurze pępowinowym? (pytanie 563) : jedna
+[TEKST] Ile płatów ma płuca prawego człowieka? (pytanie 564) : trzy
+[ZDJĘCIE] Co to za urządzenie? : Kompressionometr
+[TEKST] Ile płatów ma płuca lewego człowieka? (pytanie 565) : dwa
+[TEKST] Ile par żeber ma człowiek? (pytanie 566) : dwanaście
+[TEKST] Jak nazywa się najmniejsza kość ludzkiego ciała? (pytanie 567) : strzemiączko
+[TEKST] Ile palców u stóp ma struś? (pytanie 568) : dwa
+[TEKST] Ile żołądków ma krowa? (pytanie 569) : cztery
+[TEKST] Ile oczu ma pszczoła miodna? (pytanie 570) : pięć
+[ZDJĘCIE] Co to za urządzenie? : Suwmiarka cyfrowa
+[TEKST] Ile powiek ma wielbłąd na jednym oku? (pytanie 571) : trzy
+[TEKST] Ile skrzydeł ma mucha domowa? (pytanie 572) : dwa
+[TEKST] Ile nóg ma kleszcz w stadium dorosłym? (pytanie 573) : osiem
+[TEKST] Ile nóg ma larwa kleszcza? (pytanie 574) : sześć
+[TEKST] Jak nazywa się jedyny ssak zdolny do aktywnego lotu? (pytanie 575) : nietoperz
+[TEKST] Jaki pierwiastek chemiczny ma najniższą temperaturę topnienia? (pytanie 576) : hel
+[ZDJĘCIE] Co to za urządzenie? : Mikrometr
+[TEKST] Jaki jest najcięższy naturalnie występujący pierwiastek chemiczny? (pytanie 577) : uran
+[TEKST] Jaki gaz stanowi główny składnik atmosfery Wenus? (pytanie 578) : dwutlenek węgla
+[TEKST] Ile wynosi liczba atomowa helu? (pytanie 579) : dwa
+[TEKST] Ile wynosi całkowita liczba kości w dłoni człowieka z nadgarstkiem? (pytanie 580) : dwadzieścia siedem
+[TEKST] Ile komór ma serce ryby? (pytanie 581) : dwie
+[TEKST] Ile komór ma serce płaza? (pytanie 582) : trzy
+[ZDJĘCIE] Co to za urządzenie? : Areometr
+[TEKST] Ile komór ma serce gada poza krokodylem? (pytanie 583) : trzy
+[TEKST] Ile kręgów szyjnych ma żyrafa? (pytanie 584) : siedem
+[TEKST] Ile kręgów szyjnych ma człowiek? (pytanie 585) : siedem
+[TEKST] Ile chromosomów ma normalna komórka somatyczna człowieka? (pytanie 586) : czterdzieści sześć
+[TEKST] Ile chromosomów ma komórka rozrodcza człowieka? (pytanie 587) : dwadzieścia trzy
+[TEKST] Jak nazywa się roślina o największych kwiatach na świecie? (pytanie 588) : raflezja
+[ZDJĘCIE] Co to za urządzenie? : Sekstant
+[TEKST] Ile par odnóży kroczących mają skorupiaki dziesięcionogi? (pytanie 589) : pięć
+[TEKST] Jaki narząd ludzki jest zdolny do znacznej regeneracji? (pytanie 590) : wątroba
+[TEKST] Jak nazywa się najtwardsza tkanka w organizmie człowieka? (pytanie 591) : szklistwo
+[TEKST] Ile smaków podstawowych wyróżnia współczesna nauka? (pytanie 592) : pięć
+[TEKST] Jaki jest symbol chemiczny wolframu? (pytanie 593) : W
+[TEKST] Jaki jest symbol chemiczny potasu? (pytanie 594) : K
+[ZDJĘCIE] Co to za urządzenie? : Dermatoskop
+[TEKST] Jaki jest symbol chemiczny sodu? (pytanie 595) : Na
+[TEKST] Jaki jest symbol chemiczny srebra? (pytanie 596) : Ag
+[TEKST] Jaki jest symbol chemiczny złota? (pytanie 597) : Au
+[TEKST] Jaki jest symbol chemiczny ołowiu? (pytanie 598) : Pb
+[TEKST] Jaki jest symbol chemiczny rtęci? (pytanie 599) : Hg
+[TEKST] Jaki jest symbol chemiczny miedzi? (pytanie 600) : Cu
+[ZDJĘCIE] Co to za urządzenie? : Pulsoksymetr
+[TEKST] Jaki jest symbol chemiczny cyny? (pytanie 601) : Sn
+[TEKST] Jaki jest symbol chemiczny żelaza? (pytanie 602) : Fe
+[TEKST] Jaki gaz nadaje niebieską barwę Neptunowi i Uranowi? (pytanie 603) : metan
+[TEKST] Jak nazywa się najjaśniejsza gwiazda na nocnym niebie? (pytanie 604) : Syriusz
+[TEKST] Jaki narząd człowieka wytwarza żółć? (pytanie 605) : wątroba
+[TEKST] Gdzie w ciele człowieka gromadzona jest żółć? (pytanie 606) : pęcherzyk żółciowy
+[ZDJĘCIE] Co to za urządzenie? : Otoskop
+[TEKST] Jak nazywa się białko będące głównym składnikiem włosów i paznokci? (pytanie 607) : keratyna
+[TEKST] Jaki jest najliczniejszy typ krwinek we krwi człowieka? (pytanie 608) : erytrocyty
+[TEKST] Ile państw graniczy bezpośrednio z Polską? (pytanie 609) : siedem
+[TEKST] Ile państw graniczy z Chinami? (pytanie 610) : czternaście
+[TEKST] Ile państw graniczy z Rosją? (pytanie 611) : sześćnaście
+[TEKST] Jak nazywa się największa wyspa na świecie? (pytanie 612) : Grenlandia
+[ZDJĘCIE] Co to za urządzenie? : Stetoskop
+[TEKST] Stolicą jakiego państwa jest Ułan Bator? (pytanie 613) : Mongolia
+[TEKST] Stolicą jakiego państwa jest Canberra? (pytanie 614) : Australia
+[TEKST] Stolicą jakiego państwa jest Ottawa? (pytanie 615) : Kanada
+[TEKST] Stolicą jakiego państwa jest Wellington? (pytanie 616) : Nowa Zelandia
+[TEKST] Stolicą jakiego państwa jest Naypyidaw? (pytanie 617) : Mjanma
+[TEKST] Stolicą jakiego państwa jest Astana? (pytanie 618) : Kazachstan
+[ZDJĘCIE] Co to za urządzenie? : Kardiomonitor
+[TEKST] Stolicą jakiego państwa jest Dodoma? (pytanie 619) : Tanzania
+[TEKST] Stolicą jakiego państwa jest Paramaribo? (pytanie 620) : Surinam
+[TEKST] Jaki jest najmniejszy niepodległy kraj pod względem powierzchni? (pytanie 621) : Watykan
+[TEKST] Jaki jest drugi najmniejszy niepodległy kraj na świecie? (pytanie 622) : Monako
+[TEKST] Jaki jest najmniejszy pod względem powierzchni kraj w Afryce? (pytanie 623) : Seszele
+[TEKST] Ile stolic oficjalnie ma Południowa Afryka (RPA)? (pytanie 624) : trzy
+[ZDJĘCIE] Co to za urządzenie? : Pirograf
+[TEKST] Jak nazywa się najwyższy czynny wulkan w Europie? (pytanie 625) : Etna
+[TEKST] Jak nazywa się najgłębsze jezioro na świecie? (pytanie 626) : Bajkał
+[TEKST] Jak nazywa się najdłuższa rzeka Europy? (pytanie 627) : Wołga
+[TEKST] W jakim państwie znajduje się starożytne miasto Petra? (pytanie 628) : Jordania
+[TEKST] W jakim państwie znajdują się ruiny Machu Picchu? (pytanie 629) : Peru
+[TEKST] Który ocean jest najmniejszy pod względem powierzchni? (pytanie 630) : Ocean Arktyczny
+[ZDJĘCIE] Co to za urządzenie? : Dalmierz laserowy
+[TEKST] Który ocean jest najgłębszy na świecie? (pytanie 631) : Ocean Spokojny
+[TEKST] Ile stanów tworzy Stany Zjednoczone Ameryki? (pytanie 632) : pięćdziesiąt
+[TEKST] Ile emiratów tworzy Zjednoczone Emiraty Arabskie? (pytanie 633) : siedem
+[TEKST] W jakim państwie leży pustynia Gobi? (pytanie 634) : Mongolia
+[TEKST] W jakim państwie leży pustynia Atakama? (pytanie 635) : Chile
+[TEKST] Jak nazywa się jedyne państwo na świecie leżące na wszystkich czterech półkulach? (pytanie 636) : Kiribati
+[ZDJĘCIE] Co to za urządzenie? : Poziomica laserowa
+[TEKST] Ile wysp zamieszkanych wchodzi w skład archipelagu Hawajów? (pytanie 637) : osiem
+[TEKST] Jaka rzeka przepływa przez najwięcej państw na świecie? (pytanie 638) : Dunaj
+[TEKST] Przepływając przez ile państw Dunaj stanowi granicę lub płynie przez nie? (pytanie 639) : dziesięć
+[TEKST] Ile stolic leży bezpośrednio nad rzeką Dunaj? (pytanie 640) : cztery
+[TEKST] Jak nazywa się stolica Maroka? (pytanie 641) : Rabat
+[TEKST] Jak nazywa się stolica Turcji? (pytanie 642) : Ankara
+[ZDJĘCIE] Co to za urządzenie? : Zgrzewarka do rur
+[TEKST] Jak nazywa się stolica Brazylii? (pytanie 643) : Brasília
+[TEKST] Jak nazywa się stolica Wietnamu? (pytanie 644) : Hanoi
+[TEKST] Jak nazywa się stolica Szwajcarii? (pytanie 645) : Berno
+[TEKST] Jaki kraj jest największym producentem kawy na świecie? (pytanie 646) : Brazylia
+[TEKST] Jaki kraj posiada najdłuższą linię brzegową na świecie? (pytanie 647) : Kanada
+[TEKST] Ile jest kontynentów na Ziemi w modelu siedmiokontynentalnym? (pytanie 648) : siedem
+[ZDJĘCIE] Co to za urządzenie? : Przecinarka plazmowa
+[TEKST] Jaki jest najmniej zaludniony kontynent na świecie? (pytanie 649) : Antarktyda
+[TEKST] Jaki kraj leży w całości wewnątrz terytorium Południowej Afryki? (pytanie 650) : Lesotho
+[TEKST] Jak nazywa się państwo graniczące jedynie z Hiszpanią? (pytanie 651) : Portugalia
+[TEKST] Jak nazywa się najmłodsze niepodległe państwo na świecie uznane przez ONZ? (pytanie 652) : Sudan Południowy
+[TEKST] W którym roku powstał Sudan Południowy? (pytanie 653) : dwa tysiące jedenaście
+[TEKST] Jak nazywa się najwyższa góra w Afryce? (pytanie 654) : Kilimandżaro
+[ZDJĘCIE] Co to za urządzenie? : Prostownik akumulatorowy
+[TEKST] Jak nazywa się najwyższa góra Ameryki Północnej? (pytanie 655) : Denali
+[TEKST] Jak nazywa się najwyższa góra Ameryki Południowej? (pytanie 656) : Aconcagua
+[TEKST] W jakim państwie leży góra Ararat? (pytanie 657) : Turcja
+[TEKST] Jaka wyspa jest największą wyspą na Morzu Śródziemnym? (pytanie 658) : Sycylia
+[TEKST] W którym roku rozpoczęła się II wojna światowa? (pytanie 659) : tysiąc dziewięćset trzydzieści dziewięć
+[TEKST] W którym roku zakończyła się I wojna światowa? (pytanie 660) : tysiąc dziewięćset osiemnaście
+[ZDJĘCIE] Co to za urządzenie? : Endoskop przemysłowy
+[TEKST] W którym roku miała miejsce bitwa pod Grunwaldem? (pytanie 661) : tysiąc czterysta dziesięć
+[TEKST] W którym roku odbył się chrzest Polski? (pytanie 662) : dziewięćset sześćdziesiąt sześć
+[TEKST] Ile lat trwała wojna stuletnia? (pytanie 663) : sto trzynaście
+[TEKST] W którym roku odkryto Amerykę przez Krzysztofa Kolumba? (pytanie 664) : tysiąc czterysta dziewięćdziesiąt dwa
+[TEKST] W którym roku wybuchła rewolucja francuska? (pytanie 665) : tysiąc siedemset osiemdziesiąt dziewięć
+[TEKST] Kto był pierwszym królem Polski? (pytanie 666) : Bolesław Chrobry
+[ZDJĘCIE] Co to za urządzenie? : Goniometr
+[TEKST] Kto był pierwszym cesarzem Rzymu? (pytanie 667) : Oktawian August
+[TEKST] Kto był pierwszym prezydentem Stanów Zjednoczonych? (pytanie 668) : George Washington
+[TEKST] Ile dni trwała obrona Westerplatte w 1939 roku? (pytanie 669) : siedem
+[TEKST] Ile rozbiorów doświadczyła Polska w XVIII wieku? (pytanie 670) : trzy
+[TEKST] W którym roku uchwalono Konstytucję 3 Maja? (pytanie 671) : tysiąc siedemset dziewięćdziesiąt jeden
+[TEKST] Jak nazywał się ostatni król Polski? (pytanie 672) : Stanisław August Poniatowski
+[ZDJĘCIE] Co to za urządzenie? : Refraktometr
+[TEKST] Kto dowodził wojskami polskimi pod Bitwą pod Wiedniem w 1683 roku? (pytanie 673) : Jan III Sobieski
+[TEKST] Jak nazywało się starożytne pismo klinowe stworzone przez jaki lud? (pytanie 674) : Sumerowie
+[TEKST] Który car Rosji założył Sankt Petersburg? (pytanie 675) : Piotr I Wielki
+[TEKST] W którym roku zburzono Mur Berliński? (pytanie 676) : tysiąc dziewięćset osiemdziesiąt dziewięć
+[TEKST] W którym roku zatonął Titanic? (pytanie 677) : tysiąc dziewięćset dwanaście
+[TEKST] Kto wynalazł ruchomą czcionkę drukarską w Europie? (pytanie 678) : Jan Gutenberg
+[ZDJĘCIE] Co to za urządzenie? : Tachometr
+[TEKST] Kto opłynął Ziemię po raz pierwszy jako dowódca ekspedycji? (pytanie 679) : Ferdynand Magellan
+[TEKST] Jak nazywała się pierwsza sztuczna satelita Ziemi? (pytanie 680) : Sputnik jeden
+[TEKST] W którym roku wysłano Sputnik 1 w kosmos? (pytanie 681) : tysiąc dziewięćset pięćdziesiąt siedem
+[TEKST] Kto był pierwszym człowiekiem w kosmosie? (pytanie 682) : Jurij Gagarin
+[TEKST] W którym roku odbył się lot Jurija Gagarina? (pytanie 683) : tysiąc dziewięćset sześćdziesiąt jeden
+[TEKST] Jak nazywała się misja kosmiczna, podczas której człowiek stanął na Księżycu? (pytanie 684) : Apollo jedenaście
+[ZDJĘCIE] Co to za urządzenie? : Anemometr
+[TEKST] W którym roku Neil Armstrong stanął na Księżycu? (pytanie 685) : tysiąc dziewięćset sześćdziesiąt cztery
+[TEKST] W którym roku wybuchła wojna secesyjna w USA? (pytanie 686) : tysiąc osiemset sześćdziesiąt jeden
+[TEKST] W którym roku skończyła się wojna w Wietnamie? (pytanie 687) : tysiąc dziewięćset siedemdziesiąt pięć
+[TEKST] Jak nazywał się radziecki reaktor, w którym doszło do katastrofy w Czarnobylu? (pytanie 688) : cztery
+[TEKST] W którym roku wydarzyła się katastrofa w Czarnobylu? (pytanie 689) : tysiąc dziewięćset osiemdziesiąt sześć
+[TEKST] W jakim mieście zamordowano arcyksięcia Franciszka Ferdynanda w 1914 roku? (pytanie 690) : Sarajewo
+[ZDJĘCIE] Co to za urządzenie? : Luxometr
+[TEKST] Kto przewodził buntowi gladiatorów w starożytnym Rzymie w 73 r. p.n.e.? (pytanie 691) : Spartakus
+[TEKST] Kto był premierem Wielkiej Brytanii podczas większości II wojny światowej? (pytanie 692) : Winston Churchill
+[TEKST] Kto był prezydentem USA w czasie Wielkiego Kryzysu i II wojny światowej? (pytanie 693) : Franklin Delano Roosevelt
+[TEKST] W którym roku podpisano Traktat Wersalski? (pytanie 694) : tysiąc dziewięćset dziewiętnaście
+[TEKST] Ile państw założyło Organizację Narodów Zjednoczonych w 1945 roku? (pytanie 695) : pięćdziesiąt jeden
+[TEKST] Jak nazywał się szyfr używany przez Niemców podczas II wojny światowej? (pytanie 696) : Enigma
+[ZDJĘCIE] Co to za urządzenie? : Manometr
+[TEKST] Kto był głównym twórcą teorii ewolucji drodą doboru naturalnego? (pytanie 697) : Karol Darwin
+[TEKST] W którym roku zniesiono niewolnictwo w Stanach Zjednoczonych? (pytanie 698) : tysiąc osiemset sześćdziesiąt pięć
+[TEKST] Który król Polski przeniósł stolicę z Krakowa do Warszawy? (pytanie 699) : Zygmunt III Waza
+[TEKST] Ile dni trwało Powstanie Warszawskie w 1944 roku? (pytanie 700) : sześćdziesiąt trzy
+[TEKST] Ile kół ma standardowy autobus miejski typu przegubowego? (pytanie 701) : dziesięć
+[TEKST] Ile kół ma standardowy czteroosobowy samochód osobowy licząc zapasowe? (pytanie 702) : pięć
+[ZDJĘCIE] Co to za urządzenie? : Wakuometr
+[TEKST] Ile kół ma rower jednokołowy? (pytanie 703) : jeden
+[TEKST] Ile czarnych klawiszy znajduje się na standardowym pianinie z 88 klawiszami? (pytanie 704) : trzydzieści sześć
+[TEKST] Ile białych klawiszy znajduje się na standardowym pianinie z 88 klawiszami? (pytanie 705) : pięćdziesiąt dwa
+[TEKST] Ile pól znajduje się na tradycyjnej szachownicy? (pytanie 706) : sześćdziesiąt cztery
+[TEKST] Ile pionków ma każdy gracz na początku gry w szachy? (pytanie 707) : osiem
+[TEKST] Ile figur ma każdy gracz na początku gry w szachy wliczając pionki? (pytanie 708) : szesnaście
+[ZDJĘCIE] Co to za urządzenie? : Pirometr
+[TEKST] Ile kart znajduje się w pełnej talii bez jokerków? (pytanie 709) : pięćdziesiąt dwie
+[TEKST] Ile oczek łącznie znajduje się na tradycyjnej sześciennej kostce do gry? (pytanie 710) : dwadzieścia jeden
+[TEKST] Ile wynosi suma liczb na przeciwległych ściankach tradycyjnej kostki? (pytanie 711) : siedem
+[TEKST] Ile pasków znajduje się na fladze Stanów Zjednoczonych? (pytanie 712) : trzynaście
+[TEKST] Ile czerwonych pasków jest na fladze USA? (pytanie 713) : siedem
+[TEKST] Ile białych pasków jest na fladze USA? (pytanie 714) : sześć
+[ZDJĘCIE] Co to za urządzenie? : Kamera termowizyjna
+[TEKST] Ile gwiazdek znajduje się na fladze Unii Europejskiej? (pytanie 715) : dwanaście
+[TEKST] Ile kół tworzy symbol igrzysk olimpijskich? (pytanie 716) : pięć
+[TEKST] Ile figurek kręgli ustawia się w grze w bowling? (pytanie 717) : dziesięć
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie w bowlingu? (pytanie 718) : trzysta
+[TEKST] Ile pierścieni władzy wykuto dla krasnoludów w świecie Tolkiena? (pytanie 719) : siedem
+[TEKST] Ile pierścieni władzy wykuto dla ludzi w świecie Tolkiena? (pytanie 720) : dziewięć
+[ZDJĘCIE] Co to za urządzenie? : Detektor gazu
+[TEKST] Ile pierścieni władzy wykuto dla elfów w świecie Tolkiena? (pytanie 721) : trzy
+[TEKST] Jak nazywał się pies, który poleciał w kosmos na pokładzie Sputnika 2? (pytanie 722) : Łajka
+[TEKST] Ile strun ma standardowa ukulele sopranowa? (pytanie 723) : cztery
+[TEKST] Ile strun ma tradycyjne skrzypce? (pytanie 724) : cztery
+[TEKST] Ile strun ma tradycyjna altówka? (pytanie 725) : cztery
+[TEKST] Ile strun ma tradycyjna wiolonczela? (pytanie 726) : cztery
+[ZDJĘCIE] Co to za urządzenie? : Generator funkcyjny
+[TEKST] Ile strun ma tradycyjny kontrabas? (pytanie 727) : cztery
+[TEKST] Ile strun ma klasyczna gitara akustyczna? (pytanie 728) : sześć
+[TEKST] Ile otworów ma standardowy flet prosty sopranowy? (pytanie 729) : osiem
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (pytanie 730) : sześć
+[TEKST] Ile zawodników liczy drużyna w piłce koszykowej na boisku? (pytanie 731) : pięć
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (pytanie 732) : siedem
+[ZDJĘCIE] Co to za urządzenie? : Zasilacz laboratoryjny
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (pytanie 733) : sześć
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (pytanie 734) : piętnaście
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (pytanie 735) : czterdzieści pięć
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (pytanie 736) : dwadzieścia
+[TEKST] Ile razy w historii Polak zdobył Nagrodę Nobla w dziedzinie literatury? (pytanie 737) : pięć
+[TEKST] Ile filmów w cyklu Harry Potter powstało na podstawie książek? (pytanie 738) : osiem
+[ZDJĘCIE] Co to za urządzenie? : Programator EEPROM
+[TEKST] Ile książek liczy główna seria o Harrym Potterze? (pytanie 739) : siedem
+[TEKST] Jak ma na imię kot Smerfów należący do Gargamela? (pytanie 740) : Klakier
+[TEKST] Jak ma na imię pies Asterixa i Obelixa? (pytanie 741) : Idefix
+[TEKST] Ile tomów liczy saga o Wiedźminie bez tomów opowiadań? (pytanie 742) : pięć
+[TEKST] Jak nazywa się główny czarny charakter w trylogii Gwiezdne Wojny IV-VI? (pytanie 743) : Darth Vader
+[TEKST] Jak nazywał się robot kuchenny lub pomocnik z kreskówki Jetsonowie? (pytanie 744) : Róża
+[ZDJĘCIE] Co to za urządzenie? : Mostek RLC
+[TEKST] Jaki kolor ma samochód Zygzak McQueen w filmie Auta? (pytanie 745) : czerwony
+[TEKST] Jak nazywa się miasto, w którym mieszka rodzina Simpsonów? (pytanie 746) : Springfield
+[TEKST] Jak nazywa się spiczasty zielony stwór, który ukradł święta w bajce? (pytanie 747) : Grinch
+[TEKST] Ile palców u ręki ma myszka Miki na rysunkach? (pytanie 748) : cztery
+[TEKST] Ile serc ma ośmiornica? (pytanie 749) : trzy
+[TEKST] Ile żył ma człowiek w sznurze pępowinowym? (pytanie 750) : jedna
+[ZDJĘCIE] Co to za urządzenie? : Peryskop
+[TEKST] Ile płatów ma płuca prawego człowieka? (pytanie 751) : trzy
+[TEKST] Ile płatów ma płuca lewego człowieka? (pytanie 752) : dwa
+[TEKST] Ile par żeber ma człowiek? (pytanie 753) : dwanaście
+[TEKST] Jak nazywa się najmniejsza kość ludzkiego ciała? (pytanie 754) : strzemiączko
+[TEKST] Ile palców u stóp ma struś? (pytanie 755) : dwa
+[TEKST] Ile żołądków ma krowa? (pytanie 756) : cztery
+[ZDJĘCIE] Co to za urządzenie? : Noktowizor
+[TEKST] Ile oczu ma pszczoła miodna? (pytanie 757) : pięć
+[TEKST] Ile powiek ma wielbłąd na jednym oku? (pytanie 758) : trzy
+[TEKST] Ile skrzydeł ma mucha domowa? (pytanie 759) : dwa
+[TEKST] Ile nóg ma kleszcz w stadium dorosłym? (pytanie 760) : osiem
+[TEKST] Ile nóg ma larwa kleszcza? (pytanie 761) : sześć
+[TEKST] Jak nazywa się jedyny ssak zdolny do aktywnego lotu? (pytanie 762) : nietoperz
+[ZDJĘCIE] Co to za urządzenie? : Teodolit
+[TEKST] Jaki pierwiastek chemiczny ma najniższą temperaturę topnienia? (pytanie 763) : hel
+[TEKST] Jaki jest najcięższy naturalnie występujący pierwiastek chemiczny? (pytanie 764) : uran
+[TEKST] Jaki gaz stanowi główny składnik atmosfery Wenus? (pytanie 765) : dwutlenek węgla
+[TEKST] Ile wynosi liczba atomowa helu? (pytanie 766) : dwa
+[TEKST] Ile wynosi całkowita liczba kości w dłoni człowieka z nadgarstkiem? (pytanie 767) : dwadzieścia siedem
+[TEKST] Ile komór ma serce ryby? (pytanie 768) : dwie
+[ZDJĘCIE] Co to za urządzenie? : Niwelator optyczny
+[TEKST] Ile komór ma serce płaza? (pytanie 769) : trzy
+[TEKST] Ile komór ma serce gada poza krokodylem? (pytanie 770) : trzy
+[TEKST] Ile kręgów szyjnych ma żyrafa? (pytanie 771) : siedem
+[TEKST] Ile kręgów szyjnych ma człowiek? (pytanie 772) : siedem
+[TEKST] Ile chromosomów ma normalna komórka somatyczna człowieka? (pytanie 773) : czterdzieści sześć
+[TEKST] Ile chromosomów ma komórka rozrodcza człowieka? (pytanie 774) : dwadzieścia trzy
+[ZDJĘCIE] Co to za urządzenie? : Pantomograf
+[TEKST] Jak nazywa się roślina o największych kwiatach na świecie? (pytanie 775) : raflezja
+[TEKST] Ile par odnóży kroczących mają skorupiaki dziesięcionogi? (pytanie 776) : pięć
+[TEKST] Jaki narząd ludzki jest zdolny do znacznej regeneracji? (pytanie 777) : wątroba
+[TEKST] Jak nazywa się najtwardsza tkanka w organizmie człowieka? (pytanie 778) : szklistwo
+[TEKST] Ile smaków podstawowych wyróżnia współczesna nauka? (pytanie 779) : pięć
+[TEKST] Jaki jest symbol chemiczny wolframu? (pytanie 780) : W
+[ZDJĘCIE] Co to za urządzenie? : Autoklaw
+[TEKST] Jaki jest symbol chemiczny potasu? (pytanie 781) : K
+[TEKST] Jaki jest symbol chemiczny sodu? (pytanie 782) : Na
+[TEKST] Jaki jest symbol chemiczny srebra? (pytanie 783) : Ag
+[TEKST] Jaki jest symbol chemiczny złota? (pytanie 784) : Au
+[TEKST] Jaki jest symbol chemiczny ołowiu? (pytanie 785) : Pb
+[TEKST] Jaki jest symbol chemiczny rtęci? (pytanie 786) : Hg
+[ZDJĘCIE] Co to za rzecz? : Dziurkacz biurowy
+[TEKST] Jaki jest symbol chemiczny miedzi? (pytanie 787) : Cu
+[TEKST] Jaki jest symbol chemiczny cyny? (pytanie 788) : Sn
+[TEKST] Jaki jest symbol chemiczny żelaza? (pytanie 789) : Fe
+[TEKST] Jaki gaz nadaje niebieską barwę Neptunowi i Uranowi? (pytanie 790) : metan
+[TEKST] Jak nazywa się najjaśniejsza gwiazda na nocnym niebie? (pytanie 791) : Syriusz
+[TEKST] Jaki narząd człowieka wytwarza żółć? (pytanie 792) : wątroba
+[ZDJĘCIE] Co to za rzecz? : Krawiecki naparstek
+[TEKST] Gdzie w ciele człowieka gromadzona jest żółć? (pytanie 793) : pęcherzyk żółciowy
+[TEKST] Jak nazywa się białko będące głównym składnikiem włosów i paznokci? (pytanie 794) : keratyna
+[TEKST] Jaki jest najliczniejszy typ krwinek we krwi człowieka? (pytanie 795) : erytrocyty
+[TEKST] Ile państw graniczy bezpośrednio z Polską? (pytanie 796) : siedem
+[TEKST] Ile państw graniczy z Chinami? (pytanie 797) : czternaście
+[TEKST] Ile państw graniczy z Rosją? (pytanie 798) : sześćnaście
+[ZDJĘCIE] Co to za rzecz? : Drylownica do wiśni
+[TEKST] Jak nazywa się największa wyspa na świecie? (pytanie 799) : Grenlandia
+[TEKST] Stolicą jakiego państwa jest Ułan Bator? (pytanie 800) : Mongolia
+[TEKST] Stolicą jakiego państwa jest Canberra? (pytanie 801) : Australia
+[TEKST] Stolicą jakiego państwa jest Ottawa? (pytanie 802) : Kanada
+[TEKST] Stolicą jakiego państwa jest Wellington? (pytanie 803) : Nowa Zelandia
+[TEKST] Stolicą jakiego państwa jest Naypyidaw? (pytanie 804) : Mjanma
+[ZDJĘCIE] Co to za rzecz? : Pęseta anatomiczna
+[TEKST] Stolicą jakiego państwa jest Astana? (pytanie 805) : Kazachstan
+[TEKST] Stolicą jakiego państwa jest Dodoma? (pytanie 806) : Tanzania
+[TEKST] Stolicą jakiego państwa jest Paramaribo? (pytanie 807) : Surinam
+[TEKST] Jaki jest najmniejszy niepodległy kraj pod względem powierzchni? (pytanie 808) : Watykan
+[TEKST] Jaki jest drugi najmniejszy niepodległy kraj na świecie? (pytanie 809) : Monako
+[TEKST] Jaki jest najmniejszy pod względem powierzchni kraj w Afryce? (pytanie 810) : Seszele
+[ZDJĘCIE] Co to za rzecz? : Skalpel chirurgiczny
+[TEKST] Ile stolic oficjalnie ma Południowa Afryka (RPA)? (pytanie 811) : trzy
+[TEKST] Jak nazywa się najwyższy czynny wulkan w Europie? (pytanie 812) : Etna
+[TEKST] Jak nazywa się najgłębsze jezioro na świecie? (pytanie 813) : Bajkał
+[TEKST] Jak nazywa się najdłuższa rzeka Europy? (pytanie 814) : Wołga
+[TEKST] W jakim państwie znajduje się starożytne miasto Petra? (pytanie 815) : Jordania
+[TEKST] W jakim państwie znajdują się ruiny Machu Picchu? (pytanie 816) : Peru
+[ZDJĘCIE] Co to za rzecz? : Tygiel laboratoryjny
+[TEKST] Który ocean jest najmniejszy pod względem powierzchni? (pytanie 817) : Ocean Arktyczny
+[TEKST] Który ocean jest najgłębszy na świecie? (pytanie 818) : Ocean Spokojny
+[TEKST] Ile stanów tworzy Stany Zjednoczone Ameryki? (pytanie 819) : pięćdziesiąt
+[TEKST] Ile emiratów tworzy Zjednoczone Emiraty Arabskie? (pytanie 820) : siedem
+[TEKST] W jakim państwie leży pustynia Gobi? (pytanie 821) : Mongolia
+[TEKST] W jakim państwie leży pustynia Atakama? (pytanie 822) : Chile
+[ZDJĘCIE] Co to za rzecz? : Pipeta automatyczna
+[TEKST] Jak nazywa się jedyne państwo na świecie leżące na wszystkich czterech półkulach? (pytanie 823) : Kiribati
+[TEKST] Ile wysp zamieszkanych wchodzi w skład archipelagu Hawajów? (pytanie 824) : osiem
+[TEKST] Jaka rzeka przepływa przez najwięcej państw na świecie? (pytanie 825) : Dunaj
+[TEKST] Przepływając przez ile państw Dunaj stanowi granicę lub płynie przez nie? (pytanie 826) : dziesięć
+[TEKST] Ile stolic leży bezpośrednio nad rzeką Dunaj? (pytanie 827) : cztery
+[TEKST] Jak nazywa się stolica Maroka? (pytanie 828) : Rabat
+[ZDJĘCIE] Co to za rzecz? : Biureta
+[TEKST] Jak nazywa się stolica Turcji? (pytanie 829) : Ankara
+[TEKST] Jak nazywa się stolica Brazylii? (pytanie 830) : Brasília
+[TEKST] Jak nazywa się stolica Wietnamu? (pytanie 831) : Hanoi
+[TEKST] Jak nazywa się stolica Szwajcarii? (pytanie 832) : Berno
+[TEKST] Jaki kraj jest największym producentem kawy na świecie? (pytanie 833) : Brazylia
+[TEKST] Jaki kraj posiada najdłuższą linię brzegową na świecie? (pytanie 834) : Kanada
+[ZDJĘCIE] Co to za rzecz? : Kolba stożkowa
+[TEKST] Ile jest kontynentów na Ziemi w modelu siedmiokontynentalnym? (pytanie 835) : siedem
+[TEKST] Jaki jest najmniej zaludniony kontynent na świecie? (pytanie 836) : Antarktyda
+[TEKST] Jaki kraj leży w całości wewnątrz terytorium Południowej Afryki? (pytanie 837) : Lesotho
+[TEKST] Jak nazywa się państwo graniczące jedynie z Hiszpanią? (pytanie 838) : Portugalia
+[TEKST] Jak nazywa się najmłodsze niepodległe państwo na świecie uznane przez ONZ? (pytanie 839) : Sudan Południowy
+[TEKST] W którym roku powstał Sudan Południowy? (pytanie 840) : dwa tysiące jedenaście
+[ZDJĘCIE] Co to za rzecz? : Ostrzałka krążkowa
+[TEKST] Jak nazywa się najwyższa góra w Afryce? (pytanie 841) : Kilimandżaro
+[TEKST] Jak nazywa się najwyższa góra Ameryki Północnej? (pytanie 842) : Denali
+[TEKST] Jak nazywa się najwyższa góra Ameryki Południowej? (pytanie 843) : Aconcagua
+[TEKST] W jakim państwie leży góra Ararat? (pytanie 844) : Turcja
+[TEKST] Jaka wyspa jest największą wyspą na Morzu Śródziemnym? (pytanie 845) : Sycylia
+[TEKST] W którym roku rozpoczęła się II wojna światowa? (pytanie 846) : tysiąc dziewięćset trzydzieści dziewięć
+[ZDJĘCIE] Co to za rzecz? : Imadło ślusarskie
+[TEKST] W którym roku zakończyła się I wojna światowa? (pytanie 847) : tysiąc dziewięćset osiemnaście
+[TEKST] W którym roku miała miejsce bitwa pod Grunwaldem? (pytanie 848) : tysiąc czterysta dziesięć
+[TEKST] W którym roku odbył się chrzest Polski? (pytanie 849) : dziewięćset sześćdziesiąt sześć
+[TEKST] Ile lat trwała wojna stuletnia? (pytanie 850) : sto trzynaście
+[ZDJĘCIE] Co to za rzecz? : Ścisk stolarski
+[ZDJĘCIE] Co to za rzecz? : Strug ręczny
+[ZDJĘCIE] Co to za rzecz? : Dłuto stolarskie
+[ZDJĘCIE] Co to za rzecz? : Gwintownik
+[ZDJĘCIE] Co to za rzecz? : Narzynka
+[ZDJĘCIE] Co to za rzecz? : Klucz dynamometryczny
+[ZDJĘCIE] Co to za rzecz? : Szczelinomierz
+[ZDJĘCIE] Co to za rzecz? : Grzechotka do nasadek
+[ZDJĘCIE] Co to za rzecz? : Ściągacz do łożysk
