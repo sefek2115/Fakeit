@@ -93,11 +93,12 @@ const NUMW=/^(zero|jeden|jedna|jedno|dwa|dwie|dwóch|trzy|cztery|pięć|sześć|
 const kind=a=>NUMW.test(a)?'n':/^\d/.test(a)?'d':a.length<=3?'s':'x',cap=t=>t?t[0].toUpperCase()+t.slice(1):t;
 function parseQ(txt){const out=[],seen=new Set();
 txt.replace(/[\u200b\ufeff]/g,'').split(/\r?\n/).forEach(l=>{let q,a,ph=false,dec=[],e='',s='';const bm=l.match(/^\s*\[(TEKST|ZDJ[ĘE]CIE)\]\s*(.+)$/i);
-if(bm){ph=/^ZDJ/i.test(bm[1]);const r=bm[2],i=r.lastIndexOf(' : ');if(i<0)return;q=r.slice(0,i).replace(/\s*\(pytanie \d+\)/i,'').trim();a=r.slice(i+3).trim()}
+if(bm){ph=/^ZDJ/i.test(bm[1]);const r=bm[2].split('|').map(x=>x.trim()),main=r[0],i=main.lastIndexOf(' : ');if(i<0)return;q=main.slice(0,i).trim();a=main.slice(i+3).trim();
+r.slice(1).forEach(t=>{if(/^e:/i.test(t))e=t.slice(2).trim();else if(/^img:/i.test(t))s=IMG[t.slice(4).trim().toLowerCase()]||'';else if(t)dec.push(t)})}
 else{const m=l.match(/^\s*(?:\d+\.\s*)?(.+?)\s*->\s*(.+?)\s*$/);if(!m)return;q=m[1].trim();const parts=m[2].split('|').map(x=>x.trim());a=parts[0];
 parts.slice(1).forEach(t=>{if(/^img:/i.test(t))s=IMG[t.slice(4).trim().toLowerCase()]||'';else if(/^e:/i.test(t))e=t.slice(2).trim();else if(/^foto:?$/i.test(t))ph=true;else if(t)dec.push(t)});
 if(!dec.length&&!e){if(/zależności|według|\blub\b|\s\/\s/i.test(a+q))return;const pm=a.match(/^(.*?)\s*\((.*)\)\.?$/);if(pm&&pm[1]){e=cap(pm[2])+'.';a=pm[1]}}}
-a=a.replace(/\.$/,'').trim();if(!/\?$/.test(q)||!a||a.length>60||seen.has(q+'|'+a))return;seen.add(q+'|'+a);out.push({q,a,e,s,ph,d:dec.filter(x=>x!==a),h:qh({q,a})})});
+q=q.replace(/\s*\((?:pytanie|zdjęcie|zdjecie)\s*\d+\)/ig,'').trim();a=a.replace(/\.$/,'').trim();if(!/\?$/.test(q)||!a||a.length>60||seen.has(q+'|'+a))return;seen.add(q+'|'+a);out.push({q,a,e,s,ph,d:dec.filter(x=>x!==a),h:qh({q,a})})});
 out.forEach(o=>{if(o.d.length<3){const g=o.q.split(' ').slice(0,3).join(' '),k=kind(o.a),ok=x=>x!==o&&x.a.toLowerCase()!==o.a.toLowerCase()&&!o.d.includes(x.a),same=out.filter(x=>ok(x)&&x.q.startsWith(g)&&kind(x.a)===k),kk=out.filter(x=>ok(x)&&kind(x.a)===k),pool=same.length>=3?same:kk.length>=3?kk:out.filter(ok);o.d=[...o.d,...shuf(pool).slice(0,3-o.d.length).map(x=>x.a)]}});return out}
 const MAPQ=new Map();
 async function loadCats(){let cats=CATS;try{const r=await fetch('kategorie.txt?v='+Date.now());if(r.ok){const t=(await r.text()).split(/\r?\n/).map(l=>l.split('|').map(x=>x.trim())).filter(x=>x.length>=2&&x[0]&&x[1]&&!x[0].startsWith('#'));if(t.length)cats=t.map(x=>[x[0].toLowerCase().replace(/[^a-z0-9]/g,'')||'k',x[0],x.slice(1)])}}catch(e){}
