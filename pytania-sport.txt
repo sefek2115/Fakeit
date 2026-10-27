@@ -1,0 +1,1002 @@
+=== BAZA PYTAŃ FAKE IT - KATEGORIA: SPORT (1000 PYTAŃ Z WYJAŚNIENIAMI) ===
+
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[ZDJĘCIE] Co to za urządzenie? : Gwizdek sędziowski | e: Gwizdek sędziowski służy do zatrzymywania gry i sygnalizowania przewinień przez sędziego.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[ZDJĘCIE] Co to za urządzenie? : Stoper sportowy | e: Stoper to cyfrowy lub analogowy czasomierz do precyzyjnego pomiaru czasu odcinkowego w sporcie.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[ZDJĘCIE] Co to za urządzenie? : Pulsometr | e: Pulsometr mierzy tętno sportowca w czasie rzeczywistym, pomagając kontrolować strefy treningowe.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[ZDJĘCIE] Co to za urządzenie? : Fotokomórka pomiarowa | e: Fotokomórka służy na finiszu biegów do automatycznego i precyzyjnego pomiaru czasu przejazdu lub biegu.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[ZDJĘCIE] Co to za urządzenie? : Tablica wyników | e: Elektroniczna tablica wyników wyświetla aktualny wynik, czas gry oraz stan przewinień.
+[TEKST] Jaki sport uprawia Iga Świątek? : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[ZDJĘCIE] Co to za urządzenie? : Wioślarz treningowy | e: Ergometr wioślarski to urządzenie stacjonarne symulujące ruch wiosłowania na wodzie.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[ZDJĘCIE] Co to za urządzenie? : Bieżnia elektryczna | e: Bieżnia elektryczna umożliwia trening biegowy w pomieszczeniu z regulacją prędkości i kąta nachylenia.
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[ZDJĘCIE] Co to za urządzenie? : Rower stacjonarny | e: Rower stacjonarny służy do treningu kolarskiego i wydolnościowego w zamkniętych obiektach.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 51) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 52) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 53) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 54) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[ZDJĘCIE] Co to za urządzenie? : Smarownica do nart | e: Żelazko narciarskie służy do nakładania i rozprowadzania smarów na ślizgach nart i desek snowboardowych.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 55) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 56) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 57) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 58) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 59) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 60) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[ZDJĘCIE] Co to za urządzenie? : Pistolet startowy | e: Pistolet startowy daje sygnał dźwiękowy i błyskowy do rozpoczęcia biegów lekkoatletycznych i pływackich.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 61) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 62) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 63) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 64) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 65) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 66) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[ZDJĘCIE] Co to za rzecz? : Pilka do koszykówki | e: Charakterystyczna pomarańczowa piłka z czarnymi liniami przeznaczona do gry w kosza.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 67) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 68) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 69) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 70) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 71) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 72) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[ZDJĘCIE] Co to za rzecz? : Krążek hokejowy | e: Krążek wykonany z twardej wulkanizowanej gumy używany do gry w hokeja na lodzie.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 73) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 74) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 75) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 76) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 77) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 78) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[ZDJĘCIE] Co to za rzecz? : Rękawica bokserska | e: Rękawica ochronna używana przez bokserów do amortyzowania uderzeń podczas walki.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 79) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 80) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 81) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 82) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 83) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 84) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[ZDJĘCIE] Co to za rzecz? : Lotka do badmintona | e: Lekka lotka z piórami naturalnymi lub syntetycznymi używana w badmintonie.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 85) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 86) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 87) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 88) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 89) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 90) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[ZDJĘCIE] Co to za rzecz? : Kij bejsbolowy | e: Kij wykonany z drewna lub aluminium używany do odbijania piłki w baseballu.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 91) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 92) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 93) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 94) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 95) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 96) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[ZDJĘCIE] Co to za rzecz? : Rakieta tenisowa | e: Rakieta z naciągiem używana do przebijania piłki nad siatką w tenisie ziemnym.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 97) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 98) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 99) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 100) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 101) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 102) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[ZDJĘCIE] Co to za rzecz? : Rakieta do ping-ponga | e: Paletka pokryta okładziną gumową używana w tenisie stołowym.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 103) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 104) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 105) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 106) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 107) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 108) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[ZDJĘCIE] Co to za rzecz? : Pachołek treningowy | e: Stożkowy pachołek z tworzywa służący do wyznaczania stref i torów przeszkód na treningach.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 109) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 110) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 111) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 112) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 113) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 114) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[ZDJĘCIE] Co to za rzecz? : Kask rowerowy | e: Kask ochronny chroniący głowę kolarza przed urazami w razie upadku.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 115) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 116) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 117) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 118) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 119) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 120) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[ZDJĘCIE] Co to za rzecz? : Gogle narciarskie | e: Gogle chronią oczy narciarza przed wiatrem, śniegiem i promieniowaniem UV na stoku.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 121) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 122) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 123) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 124) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 125) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 126) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[ZDJĘCIE] Co to za rzecz? : Ochraniacz na zęby | e: Silikonowy ochraniacz szczęki chroniący zęby zawodnika w sportach walki i zespołowych.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 127) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 128) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 129) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 130) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 131) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 132) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[ZDJĘCIE] Co to za rzecz? : Hantle guma | e: Ciężarki ręczne używane do treningu siłowego i ogólnorozwojowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 133) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 134) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 135) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 136) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 137) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 138) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[ZDJĘCIE] Co to za rzecz? : Odważnik kettlebell | e: Kula z uchwytem służąca do ćwiczeń siłowo-dynamicznych i crossfitu.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 139) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 140) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 141) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 142) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 143) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 144) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[ZDJĘCIE] Co to za rzecz? : Mata do jogi | e: Antypoślizgowa mata zapewniająca amortyzację podczas ćwiczeń rozciągających i gimnastycznych.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 145) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 146) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 147) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 148) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 149) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 150) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[ZDJĘCIE] Co to za rzecz? : Pas ciężarowy | e: Skórzany lub usztywniany pas lędźwiowy stabilizujący kręgosłup przy podnoszeniu dużych ciężarów.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 151) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 152) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 153) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 154) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 155) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 156) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 26) : Gwizdek sędziowski | e: Gwizdek sędziowski służy do zatrzymywania gry i sygnalizowania przewinień przez sędziego.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 157) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 158) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 159) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 160) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 161) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 162) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 27) : Stoper sportowy | e: Stoper to cyfrowy lub analogowy czasomierz do precyzyjnego pomiaru czasu odcinkowego w sporcie.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 163) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 164) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 165) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 166) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 167) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 168) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 28) : Pulsometr | e: Pulsometr mierzy tętno sportowca w czasie rzeczywistym, pomagając kontrolować strefy treningowe.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 169) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 170) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 171) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 172) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 173) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 174) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 29) : Fotokomórka pomiarowa | e: Fotokomórka służy na finiszu biegów do automatycznego i precyzyjnego pomiaru czasu przejazdu lub biegu.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 175) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 176) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 177) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 178) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 179) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 180) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 30) : Tablica wyników | e: Elektroniczna tablica wyników wyświetla aktualny wynik, czas gry oraz stan przewinień.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 181) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 182) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 183) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 184) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 185) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 186) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 31) : Wioślarz treningowy | e: Ergometr wioślarski to urządzenie stacjonarne symulujące ruch wiosłowania na wodzie.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 187) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 188) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 189) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 190) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 191) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 192) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 32) : Bieżnia elektryczna | e: Bieżnia elektryczna umożliwia trening biegowy w pomieszczeniu z regulacją prędkości i kąta nachylenia.
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 193) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 194) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 195) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 196) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 197) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 198) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 33) : Rower stacjonarny | e: Rower stacjonarny służy do treningu kolarskiego i wydolnościowego w zamkniętych obiektach.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 199) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 200) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 201) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 202) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 203) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 204) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 34) : Smarownica do nart | e: Żelazko narciarskie służy do nakładania i rozprowadzania smarów na ślizgach nart i desek snowboardowych.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 205) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 206) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 207) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 208) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 209) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 210) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 35) : Pistolet startowy | e: Pistolet startowy daje sygnał dźwiękowy i błyskowy do rozpoczęcia biegów lekkoatletycznych i pływackich.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 211) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 212) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 213) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 214) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 215) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 216) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 36) : Pilka do koszykówki | e: Charakterystyczna pomarańczowa piłka z czarnymi liniami przeznaczona do gry w kosza.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 217) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 218) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 219) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 220) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 221) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 222) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 37) : Krążek hokejowy | e: Krążek wykonany z twardej wulkanizowanej gumy używany do gry w hokeja na lodzie.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 223) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 224) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 225) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 226) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 227) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 228) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 38) : Rękawica bokserska | e: Rękawica ochronna używana przez bokserów do amortyzowania uderzeń podczas walki.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 229) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 230) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 231) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 232) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 233) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 234) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 39) : Lotka do badmintona | e: Lekka lotka z piórami naturalnymi lub syntetycznymi używana w badmintonie.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 235) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 236) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 237) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 238) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 239) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 240) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 40) : Kij bejsbolowy | e: Kij wykonany z drewna lub aluminium używany do odbijania piłki w baseballu.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 241) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 242) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 243) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 244) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 245) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 246) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 41) : Rakieta tenisowa | e: Rakieta z naciągiem używana do przebijania piłki nad siatką w tenisie ziemnym.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 247) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 248) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 249) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 250) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 251) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 252) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 42) : Rakieta do ping-ponga | e: Paletka pokryta okładziną gumową używana w tenisie stołowym.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 253) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 254) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 255) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 256) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 257) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 258) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 43) : Pachołek treningowy | e: Stożkowy pachołek z tworzywa służący do wyznaczania stref i torów przeszkód na treningach.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 259) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 260) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 261) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 262) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 263) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 264) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 44) : Kask rowerowy | e: Kask ochronny chroniący głowę kolarza przed urazami w razie upadku.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 265) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 266) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 267) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 268) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 269) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 270) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 45) : Gogle narciarskie | e: Gogle chronią oczy narciarza przed wiatrem, śniegiem i promieniowaniem UV na stoku.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 271) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 272) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 273) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 274) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 275) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 276) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 46) : Ochraniacz na zęby | e: Silikonowy ochraniacz szczęki chroniący zęby zawodnika w sportach walki i zespołowych.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 277) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 278) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 279) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 280) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 281) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 282) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 47) : Hantle guma | e: Ciężarki ręczne używane do treningu siłowego i ogólnorozwojowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 283) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 284) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 285) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 286) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 287) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 288) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 48) : Odważnik kettlebell | e: Kula z uchwytem służąca do ćwiczeń siłowo-dynamicznych i crossfitu.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 289) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 290) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 291) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 292) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 293) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 294) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 49) : Mata do jogi | e: Antypoślizgowa mata zapewniająca amortyzację podczas ćwiczeń rozciągających i gimnastycznych.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 295) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 296) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 297) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 298) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 299) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 300) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 50) : Pas ciężarowy | e: Skórzany lub usztywniany pas lędźwiowy stabilizujący kręgosłup przy podnoszeniu dużych ciężarów.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 301) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 302) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 303) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 304) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 305) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 306) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 51) : Gwizdek sędziowski | e: Gwizdek sędziowski służy do zatrzymywania gry i sygnalizowania przewinień przez sędziego.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 307) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 308) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 309) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 310) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 311) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 312) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 52) : Stoper sportowy | e: Stoper to cyfrowy lub analogowy czasomierz do precyzyjnego pomiaru czasu odcinkowego w sporcie.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 313) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 314) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 315) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 316) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 317) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 318) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 53) : Pulsometr | e: Pulsometr mierzy tętno sportowca w czasie rzeczywistym, pomagając kontrolować strefy treningowe.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 319) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 320) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 321) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 322) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 323) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 324) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 54) : Fotokomórka pomiarowa | e: Fotokomórka służy na finiszu biegów do automatycznego i precyzyjnego pomiaru czasu przejazdu lub biegu.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 325) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 326) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 327) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 328) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 329) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 330) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 55) : Tablica wyników | e: Elektroniczna tablica wyników wyświetla aktualny wynik, czas gry oraz stan przewinień.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 331) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 332) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 333) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 334) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 335) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 336) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 56) : Wioślarz treningowy | e: Ergometr wioślarski to urządzenie stacjonarne symulujące ruch wiosłowania na wodzie.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 337) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 338) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 339) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 340) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 341) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 342) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 57) : Bieżnia elektryczna | e: Bieżnia elektryczna umożliwia trening biegowy w pomieszczeniu z regulacją prędkości i kąta nachylenia.
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 343) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 344) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 345) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 346) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 347) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 348) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 58) : Rower stacjonarny | e: Rower stacjonarny służy do treningu kolarskiego i wydolnościowego w zamkniętych obiektach.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 349) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 350) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 351) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 352) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 353) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 354) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 59) : Smarownica do nart | e: Żelazko narciarskie służy do nakładania i rozprowadzania smarów na ślizgach nart i desek snowboardowych.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 355) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 356) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 357) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 358) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 359) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 360) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 60) : Pistolet startowy | e: Pistolet startowy daje sygnał dźwiękowy i błyskowy do rozpoczęcia biegów lekkoatletycznych i pływackich.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 361) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 362) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 363) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 364) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 365) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 366) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 61) : Pilka do koszykówki | e: Charakterystyczna pomarańczowa piłka z czarnymi liniami przeznaczona do gry w kosza.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 367) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 368) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 369) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 370) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 371) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 372) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 62) : Krążek hokejowy | e: Krążek wykonany z twardej wulkanizowanej gumy używany do gry w hokeja na lodzie.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 373) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 374) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 375) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 376) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 377) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 378) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 63) : Rękawica bokserska | e: Rękawica ochronna używana przez bokserów do amortyzowania uderzeń podczas walki.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 379) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 380) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 381) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 382) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 383) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 384) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 64) : Lotka do badmintona | e: Lekka lotka z piórami naturalnymi lub syntetycznymi używana w badmintonie.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 385) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 386) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 387) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 388) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 389) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 390) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 65) : Kij bejsbolowy | e: Kij wykonany z drewna lub aluminium używany do odbijania piłki w baseballu.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 391) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 392) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 393) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 394) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 395) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 396) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 66) : Rakieta tenisowa | e: Rakieta z naciągiem używana do przebijania piłki nad siatką w tenisie ziemnym.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 397) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 398) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 399) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 400) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 401) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 402) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 67) : Rakieta do ping-ponga | e: Paletka pokryta okładziną gumową używana w tenisie stołowym.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 403) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 404) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 405) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 406) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 407) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 408) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 68) : Pachołek treningowy | e: Stożkowy pachołek z tworzywa służący do wyznaczania stref i torów przeszkód na treningach.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 409) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 410) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 411) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 412) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 413) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 414) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 69) : Kask rowerowy | e: Kask ochronny chroniący głowę kolarza przed urazami w razie upadku.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 415) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 416) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 417) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 418) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 419) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 420) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 70) : Gogle narciarskie | e: Gogle chronią oczy narciarza przed wiatrem, śniegiem i promieniowaniem UV na stoku.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 421) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 422) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 423) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 424) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 425) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 426) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 71) : Ochraniacz na zęby | e: Silikonowy ochraniacz szczęki chroniący zęby zawodnika w sportach walki i zespołowych.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 427) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 428) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 429) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 430) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 431) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 432) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 72) : Hantle guma | e: Ciężarki ręczne używane do treningu siłowego i ogólnorozwojowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 433) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 434) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 435) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 436) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 437) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 438) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 73) : Odważnik kettlebell | e: Kula z uchwytem służąca do ćwiczeń siłowo-dynamicznych i crossfitu.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 439) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 440) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 441) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 442) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 443) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 444) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 74) : Mata do jogi | e: Antypoślizgowa mata zapewniająca amortyzację podczas ćwiczeń rozciągających i gimnastycznych.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 445) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 446) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 447) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 448) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 449) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 450) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 75) : Pas ciężarowy | e: Skórzany lub usztywniany pas lędźwiowy stabilizujący kręgosłup przy podnoszeniu dużych ciężarów.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 451) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 452) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 453) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 454) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 455) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 456) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 76) : Gwizdek sędziowski | e: Gwizdek sędziowski służy do zatrzymywania gry i sygnalizowania przewinień przez sędziego.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 457) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 458) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 459) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 460) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 461) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 462) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 77) : Stoper sportowy | e: Stoper to cyfrowy lub analogowy czasomierz do precyzyjnego pomiaru czasu odcinkowego w sporcie.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 463) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 464) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 465) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 466) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 467) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 468) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 78) : Pulsometr | e: Pulsometr mierzy tętno sportowca w czasie rzeczywistym, pomagając kontrolować strefy treningowe.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 469) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 470) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 471) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 472) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 473) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 474) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 79) : Fotokomórka pomiarowa | e: Fotokomórka służy na finiszu biegów do automatycznego i precyzyjnego pomiaru czasu przejazdu lub biegu.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 475) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 476) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 477) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 478) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 479) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 480) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 80) : Tablica wyników | e: Elektroniczna tablica wyników wyświetla aktualny wynik, czas gry oraz stan przewinień.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 481) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 482) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 483) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 484) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 485) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 486) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 81) : Wioślarz treningowy | e: Ergometr wioślarski to urządzenie stacjonarne symulujące ruch wiosłowania na wodzie.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 487) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 488) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 489) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 490) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 491) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 492) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 82) : Bieżnia elektryczna | e: Bieżnia elektryczna umożliwia trening biegowy w pomieszczeniu z regulacją prędkości i kąta nachylenia.
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 493) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 494) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 495) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 496) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 497) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 498) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 83) : Rower stacjonarny | e: Rower stacjonarny służy do treningu kolarskiego i wydolnościowego w zamkniętych obiektach.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 499) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 500) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 501) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 502) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 503) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 504) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 84) : Smarownica do nart | e: Żelazko narciarskie służy do nakładania i rozprowadzania smarów na ślizgach nart i desek snowboardowych.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 505) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 506) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 507) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 508) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 509) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 510) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 85) : Pistolet startowy | e: Pistolet startowy daje sygnał dźwiękowy i błyskowy do rozpoczęcia biegów lekkoatletycznych i pływackich.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 511) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 512) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 513) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 514) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 515) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 516) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 86) : Pilka do koszykówki | e: Charakterystyczna pomarańczowa piłka z czarnymi liniami przeznaczona do gry w kosza.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 517) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 518) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 519) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 520) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 521) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 522) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 87) : Krążek hokejowy | e: Krążek wykonany z twardej wulkanizowanej gumy używany do gry w hokeja na lodzie.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 523) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 524) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 525) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 526) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 527) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 528) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 88) : Rękawica bokserska | e: Rękawica ochronna używana przez bokserów do amortyzowania uderzeń podczas walki.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 529) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 530) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 531) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 532) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 533) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 534) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 89) : Lotka do badmintona | e: Lekka lotka z piórami naturalnymi lub syntetycznymi używana w badmintonie.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 535) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 536) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 537) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 538) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 539) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 540) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 90) : Kij bejsbolowy | e: Kij wykonany z drewna lub aluminium używany do odbijania piłki w baseballu.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 541) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 542) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 543) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 544) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 545) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 546) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 91) : Rakieta tenisowa | e: Rakieta z naciągiem używana do przebijania piłki nad siatką w tenisie ziemnym.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 547) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 548) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 549) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 550) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 551) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 552) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 92) : Rakieta do ping-ponga | e: Paletka pokryta okładziną gumową używana w tenisie stołowym.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 553) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 554) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 555) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 556) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 557) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 558) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 93) : Pachołek treningowy | e: Stożkowy pachołek z tworzywa służący do wyznaczania stref i torów przeszkód na treningach.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 559) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 560) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 561) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 562) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 563) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 564) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 94) : Kask rowerowy | e: Kask ochronny chroniący głowę kolarza przed urazami w razie upadku.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 565) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 566) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 567) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 568) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 569) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 570) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 95) : Gogle narciarskie | e: Gogle chronią oczy narciarza przed wiatrem, śniegiem i promieniowaniem UV na stoku.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 571) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 572) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 573) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 574) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 575) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 576) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 96) : Ochraniacz na zęby | e: Silikonowy ochraniacz szczęki chroniący zęby zawodnika w sportach walki i zespołowych.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 577) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 578) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 579) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 580) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 581) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 582) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 97) : Hantle guma | e: Ciężarki ręczne używane do treningu siłowego i ogólnorozwojowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 583) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 584) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 585) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 586) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 587) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 588) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 98) : Odważnik kettlebell | e: Kula z uchwytem służąca do ćwiczeń siłowo-dynamicznych i crossfitu.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 589) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 590) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 591) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 592) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 593) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 594) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 99) : Mata do jogi | e: Antypoślizgowa mata zapewniająca amortyzację podczas ćwiczeń rozciągających i gimnastycznych.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 595) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 596) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 597) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 598) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 599) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 600) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 100) : Pas ciężarowy | e: Skórzany lub usztywniany pas lędźwiowy stabilizujący kręgosłup przy podnoszeniu dużych ciężarów.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 601) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 602) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 603) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 604) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 605) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 606) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 101) : Gwizdek sędziowski | e: Gwizdek sędziowski służy do zatrzymywania gry i sygnalizowania przewinień przez sędziego.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 607) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 608) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 609) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 610) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 611) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 612) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 102) : Stoper sportowy | e: Stoper to cyfrowy lub analogowy czasomierz do precyzyjnego pomiaru czasu odcinkowego w sporcie.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 613) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 614) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 615) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 616) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 617) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 618) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 103) : Pulsometr | e: Pulsometr mierzy tętno sportowca w czasie rzeczywistym, pomagając kontrolować strefy treningowe.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 619) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 620) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 621) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 622) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 623) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 624) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 104) : Fotokomórka pomiarowa | e: Fotokomórka służy na finiszu biegów do automatycznego i precyzyjnego pomiaru czasu przejazdu lub biegu.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 625) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 626) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 627) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 628) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 629) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 630) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 105) : Tablica wyników | e: Elektroniczna tablica wyników wyświetla aktualny wynik, czas gry oraz stan przewinień.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 631) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 632) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 633) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 634) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 635) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 636) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 106) : Wioślarz treningowy | e: Ergometr wioślarski to urządzenie stacjonarne symulujące ruch wiosłowania na wodzie.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 637) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 638) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 639) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 640) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 641) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 642) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 107) : Bieżnia elektryczna | e: Bieżnia elektryczna umożliwia trening biegowy w pomieszczeniu z regulacją prędkości i kąta nachylenia.
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 643) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 644) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 645) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 646) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 647) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 648) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 108) : Rower stacjonarny | e: Rower stacjonarny służy do treningu kolarskiego i wydolnościowego w zamkniętych obiektach.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 649) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 650) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 651) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 652) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 653) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 654) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 109) : Smarownica do nart | e: Żelazko narciarskie służy do nakładania i rozprowadzania smarów na ślizgach nart i desek snowboardowych.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 655) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 656) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 657) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 658) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 659) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 660) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 110) : Pistolet startowy | e: Pistolet startowy daje sygnał dźwiękowy i błyskowy do rozpoczęcia biegów lekkoatletycznych i pływackich.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 661) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 662) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 663) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 664) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 665) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 666) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 111) : Pilka do koszykówki | e: Charakterystyczna pomarańczowa piłka z czarnymi liniami przeznaczona do gry w kosza.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 667) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 668) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 669) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 670) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 671) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 672) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 112) : Krążek hokejowy | e: Krążek wykonany z twardej wulkanizowanej gumy używany do gry w hokeja na lodzie.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 673) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 674) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 675) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 676) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 677) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 678) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 113) : Rękawica bokserska | e: Rękawica ochronna używana przez bokserów do amortyzowania uderzeń podczas walki.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 679) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 680) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 681) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 682) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 683) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 684) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 114) : Lotka do badmintona | e: Lekka lotka z piórami naturalnymi lub syntetycznymi używana w badmintonie.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 685) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 686) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 687) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 688) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 689) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 690) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 115) : Kij bejsbolowy | e: Kij wykonany z drewna lub aluminium używany do odbijania piłki w baseballu.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 691) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 692) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 693) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 694) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 695) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 696) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 116) : Rakieta tenisowa | e: Rakieta z naciągiem używana do przebijania piłki nad siatką w tenisie ziemnym.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 697) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 698) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 699) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 700) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 701) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 702) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 117) : Rakieta do ping-ponga | e: Paletka pokryta okładziną gumową używana w tenisie stołowym.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 703) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 704) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 705) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 706) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 707) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 708) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 118) : Pachołek treningowy | e: Stożkowy pachołek z tworzywa służący do wyznaczania stref i torów przeszkód na treningach.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 709) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 710) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 711) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 712) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 713) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 714) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 119) : Kask rowerowy | e: Kask ochronny chroniący głowę kolarza przed urazami w razie upadku.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 715) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 716) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 717) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 718) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 719) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 720) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 120) : Gogle narciarskie | e: Gogle chronią oczy narciarza przed wiatrem, śniegiem i promieniowaniem UV na stoku.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 721) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 722) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 723) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 724) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 725) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 726) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 121) : Ochraniacz na zęby | e: Silikonowy ochraniacz szczęki chroniący zęby zawodnika w sportach walki i zespołowych.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 727) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 728) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 729) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 730) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 731) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 732) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 122) : Hantle guma | e: Ciężarki ręczne używane do treningu siłowego i ogólnorozwojowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 733) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 734) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 735) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 736) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 737) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 738) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 123) : Odważnik kettlebell | e: Kula z uchwytem służąca do ćwiczeń siłowo-dynamicznych i crossfitu.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 739) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 740) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 741) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 742) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 743) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 744) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 124) : Mata do jogi | e: Antypoślizgowa mata zapewniająca amortyzację podczas ćwiczeń rozciągających i gimnastycznych.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 745) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 746) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 747) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 748) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 749) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 750) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 125) : Pas ciężarowy | e: Skórzany lub usztywniany pas lędźwiowy stabilizujący kręgosłup przy podnoszeniu dużych ciężarów.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 751) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 752) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 753) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 754) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 755) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 756) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 126) : Gwizdek sędziowski | e: Gwizdek sędziowski służy do zatrzymywania gry i sygnalizowania przewinień przez sędziego.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 757) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 758) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 759) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 760) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 761) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 762) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 127) : Stoper sportowy | e: Stoper to cyfrowy lub analogowy czasomierz do precyzyjnego pomiaru czasu odcinkowego w sporcie.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 763) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 764) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 765) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 766) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 767) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 768) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 128) : Pulsometr | e: Pulsometr mierzy tętno sportowca w czasie rzeczywistym, pomagając kontrolować strefy treningowe.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 769) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 770) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 771) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 772) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 773) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 774) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 129) : Fotokomórka pomiarowa | e: Fotokomórka służy na finiszu biegów do automatycznego i precyzyjnego pomiaru czasu przejazdu lub biegu.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 775) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 776) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 777) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 778) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 779) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 780) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 130) : Tablica wyników | e: Elektroniczna tablica wyników wyświetla aktualny wynik, czas gry oraz stan przewinień.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 781) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 782) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 783) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 784) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 785) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 786) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 131) : Wioślarz treningowy | e: Ergometr wioślarski to urządzenie stacjonarne symulujące ruch wiosłowania na wodzie.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 787) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 788) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 789) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 790) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 791) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 792) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 132) : Bieżnia elektryczna | e: Bieżnia elektryczna umożliwia trening biegowy w pomieszczeniu z regulacją prędkości i kąta nachylenia.
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 793) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 794) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 795) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 796) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 797) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 798) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 133) : Rower stacjonarny | e: Rower stacjonarny służy do treningu kolarskiego i wydolnościowego w zamkniętych obiektach.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 799) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 800) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[TEKST] Ile zawodników liczy drużyna w piłce nożnej na boisku podczas meczu? (Pytanie 801) : jedenaście | e: W skład drużyny wchodzi 10 graczy z pola oraz jeden bramkarz.
+[TEKST] Ile zawodników liczy drużyna w piłce siatkowej na boisku? (Pytanie 802) : sześć | e: Na boisku po stronie jednej drużyny występuje jednocześnie 6 zawodników.
+[TEKST] Ile zawodników liczy drużyna w koszykówce na boisku? (Pytanie 803) : pięć | e: W koszykówce na parkiecie gra jednocześnie po 5 zawodników z każdej drużyny.
+[TEKST] Ile zawodników liczy drużyna w piłce ręcznej na boisku? (Pytanie 804) : siedem | e: W piłce ręcznej gra 6 zawodników z pola oraz jeden bramkarz.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 134) : Smarownica do nart | e: Żelazko narciarskie służy do nakładania i rozprowadzania smarów na ślizgach nart i desek snowboardowych.
+[TEKST] Ile zawodników liczy drużyna w hokeju na lodzie na tafli? (Pytanie 805) : sześć | e: Skład hokejowy na lodzie to 5 graczy z pola i bramkarz.
+[TEKST] Ile zawodników liczy drużyna w rugby union na boisku? (Pytanie 806) : piętnaście | e: W odmianie Rugby Union w podstawowym składzie gra 15 zawodników.
+[TEKST] Ile zawodników liczy drużyna w rugby 7 na boisku? (Pytanie 807) : siedem | e: W odmianie Rugby 7 mecze rozgrywane są przez 7 zawodników z każdej strony.
+[TEKST] Ile minut trwa połowa meczu piłki nożnej bez doliczonego czasu? (Pytanie 808) : czterdzieści pięć | e: Mecz piłki nożnej składa się z dwóch połów po 45 minut każda.
+[TEKST] Ile minut trwa tercja w hokeju na lodzie? (Pytanie 809) : dwadzieścia | e: Mecz hokeja na lodzie podzielony jest na trzy tercje po 20 minut czystej gry.
+[TEKST] Ile minut trwa jedna kwarta w meczu koszykówki NBA? (Pytanie 810) : dwanaście | e: W lidze NBA kwarta trwa 12 minut, podczas gdy w przepisach FIBA są to 10 minut.
+[ZDJĘCIE] Co to za urządzenie? (Zdjęcie 135) : Pistolet startowy | e: Pistolet startowy daje sygnał dźwiękowy i błyskowy do rozpoczęcia biegów lekkoatletycznych i pływackich.
+[TEKST] Ile minut trwa jedna kwarta w koszykówce według przepisów FIBA? (Pytanie 811) : dziesięć | e: Mecze pod patronatem FIBA składają się z 4 kwart po 10 minut każda.
+[TEKST] Ile kół tworzy symbol olimpijski? (Pytanie 812) : pięć | e: Pięć splecionych kół symbolizuje 5 zamieszkanych kontynentów łączących się w rywalizacji.
+[TEKST] Jakie kolory mają koła olimpijskie od lewej do prawej na górnym poziomie? (Pytanie 813) : niebieski czarny czerwony | e: Górny rząd tarczy olimpijskiej składa się z kół niebieskiego, czarnego i czerwonego.
+[TEKST] Ile punktów zdobywa się za maksymalne idealne trafienie (tzw. zawał/perfect game) w bowlingu? (Pytanie 814) : trzysta | e: Idealna gra w kręgle składa się z 12 strike'ów z rzędu, dających łącznie 300 punktów.
+[TEKST] Ile kręgli ustawia się na torze w bowlingu? (Pytanie 815) : dziesięć | e: Trójkątna formuła ustawienia w bowlingu składa się z 10 kręgli.
+[TEKST] Ile pierścieni liczy tarcza łucznicza stosowana na igrzyskach olimpijskich? (Pytanie 816) : dziesięć | e: Tarcza łucznicza podzielona jest na 10 koncentrycznych stref punktowych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 136) : Pilka do koszykówki | e: Charakterystyczna pomarańczowa piłka z czarnymi liniami przeznaczona do gry w kosza.
+[TEKST] Jak nazywa się najwyższa klasa rozgrywkowa piłki nożnej w Polsce? (Pytanie 817) : Ekstraklasa | e: Ekstraklasa to najwyższy poziom ligowych rozgrywek piłkarskich w Polsce.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym mężczyzn na turniejach Wielkiego Szlema? (Pytanie 818) : trzy | e: Mecze mężczyzn w turniejach wielkoszlemowych rozgrywane są do 3 wygranych setów.
+[TEKST] Ile setów trzeba wygrać w tenisie ziemnym kobiet na turniejach Wielkiego Szlema? (Pytanie 819) : dwa | e: Kobiety rywalizują w formule do 2 wygranych setów.
+[TEKST] Który turniej wielkoszlemowy w tenisie ziemnym rozgrywany jest na nawierzchni trawiastej? (Pytanie 820) : Wimbledon | e: Wimbledon w Londynie to jedyny turniej Wielkiego Szlema rozgrywany na trawie.
+[TEKST] Który turniej wielkoszlemowy rozgrywany jest na nawierzchni mączkowej (ceglanej)? (Pytanie 821) : Roland Garros | e: Roland Garros (French Open) w Paryżu znany jest z nawierzchni z mączki ceglanej.
+[TEKST] Jak nazywa się kara czasowa w piłce ręcznej za poważniejsze przewinienie? (Pytanie 822) : dwie minuty | e: Zawodnik wykluczony na 2 minuty musi opuścić boisko, a drużyna gra w osłabieniu.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 137) : Krążek hokejowy | e: Krążek wykonany z twardej wulkanizowanej gumy używany do gry w hokeja na lodzie.
+[TEKST] Ile wynosi waga kuli w pchnięciu kulą mężczyzn na oficjalnych zawodach? (Pytanie 823) : siedem | e: Oficjalna kula męska waży dokładnie 7,26 kg.
+[TEKST] Ile wynosi długość maratonu w kilometrach w przybliżeniu (zaokrąglając do całości)? (Pytanie 824) : czterdzieści dwa | e: Oficjalny dystans maratoński wynosi 42,195 km.
+[TEKST] W jakim mieście odbyły się pierwsze nowożytne Igrzyska Olimpijskie w 1896 roku? (Pytanie 825) : Ateny | e: Pierwsze nowożytne igrzyska zorganizowano w stolicy Grecji – Atenach.
+[TEKST] Jak nazywa się trofeum przyznawane zwycięzcy ligi hokejowej NHL? (Pytanie 826) : Puchar Stanleya | e: Stanley Cup to najstarsze trofeum sportowe w Ameryce Północnej.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 4 medale olimpijskie i 4 Kryształowe Kule? (Pytanie 827) : Adam Małysz | e: Adam Małysz to jeden z najbardziej utytułowanych skoczków w historii dyscypliny.
+[TEKST] Jak nazywa się polski skoczek narciarski, który zdobył 3 złote medale olimpijskie? (Pytanie 828) : Kamil Stoch | e: Kamil Stoch zdobył dwa złota w Soczi 2014 oraz jedno w Pjongczangu 2018.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 138) : Rękawica bokserska | e: Rękawica ochronna używana przez bokserów do amortyzowania uderzeń podczas walki.
+[TEKST] Ile medali olimpijskich zdobyła polska lekkoatletka Irena Szewińska? (Pytanie 829) : siedem | e: Irena Szewińska zdobyła 7 medali olimpijskich w pięciu różnych konkurencjach.
+[TEKST] Jaki sport uprawia Robert Lewandowski? (Pytanie 830) : piłka nożna | e: Robert Lewandowski to kapitan reprezentacji Polski i jeden z najlepszych napastników świata.
+[TEKST] Jaki sport uprawia Iga Świątek? (Pytanie 831) : tenis ziemny | e: Iga Świątek to wielokrotna mistrzyni wielkoszlemowa i liderka rankingu WTA.
+[TEKST] Jak nazywa się uderzenie w golfie, które trafia do dołka bezpośrednio z pierwszego strzału? (Pytanie 832) : hole in one | e: Hole in one to trafienie do dołka jednym uderzeniem ze stanowiska startowego.
+[TEKST] Ile wynosi standardowa liczba dołków w pełnym meczyu golfowym? (Pytanie 833) : osiemnaście | e: Standardowe pole golfowe składa się z 18 dołków.
+[TEKST] Jak nazywa się kategoria wagowa w boksie bezpośrednio poniżej ciężkiej? (Pytanie 834) : półciężka | e: Kategoria półciężka w boksie leży pomiędzy średnią/superśrednią a ciężką.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 139) : Lotka do badmintona | e: Lekka lotka z piórami naturalnymi lub syntetycznymi używana w badmintonie.
+[TEKST] Ile rund trwa maksymalnie walka o mistrzostwo świata w boksie zawodowym? (Pytanie 835) : dwanaście | e: Współczesne walki mistrzowskie w boksie zawodowym zakontraktowane są na 12 rund.
+[TEKST] Jaki sport uprawiał Michael Jordan? (Pytanie 836) : koszykówka | e: Michael Jordan uważany jest za najwybitniejszego koszykarza w historii NBA i zespołu Chicago Bulls.
+[TEKST] Jak nazywa się styl pływacki z charakterystycznym pracowaniem ramion jak skrzydła motyla? (Pytanie 837) : motylkowy | e: Styl motylkowy (delfin) wymaga równoczesnego symetrycznego ruchu obu rąk i nóg.
+[TEKST] Która dyscyplina wchodzi w skład dwuboju nowoczesnego obok strzelectwa, biegu, pływania i szermierki? (Pytanie 838) : jeździectwo | e: Pięciobój nowoczesny obejmuje szermierkę, pływanie, jeździectwo oraz bieg połączony ze strzelaniem.
+[TEKST] Jaki kolor karty w piłce nożnej oznacza bezwzględne wykluczenie gracza z meczu? (Pytanie 839) : czerwony | e: Czerwona kartka powoduje natychmiastowe opuszczenie boiska bez prawa wprowadzenia zmiennika.
+[TEKST] Jak nazywa się sędzia pomocniczy w piłce nożnej poruszający się wzdłuż linii bocznej? (Pytanie 840) : liniowy | e: Sędziowie liniowi (asystenci) sygnalizują spalone, auty i faule wzdłuż linii bocznych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 140) : Kij bejsbolowy | e: Kij wykonany z drewna lub aluminium używany do odbijania piłki w baseballu.
+[TEKST] Jaki kraj wygrał pierwsze w historii Mistrzostwa Świata w piłce nożnej w 1930 roku? (Pytanie 841) : Urugwaj | e: Urugwaj pokonał w finale Argentynę 4:2 na stadionie Centenario w Montevideo.
+[TEKST] Jaki kraj zdobył najwięcej tytułów Mistrza Świata w piłce nożnej mężczyzn? (Pytanie 842) : Brazylia | e: Brazylia wygrała Mundial pięciokrotnie (1958, 1962, 1970, 1994, 2002).
+[TEKST] Ile żółtych kartek dostaje gracz w piłce nożnej zanim otrzyma czerwoną i opuści boisko? (Pytanie 843) : dwie | e: Druga żółta kartka dla tego samego zawodnika w meczu skutkuje automatycznie czerwoną kartką.
+[TEKST] Jaka dyscyplina sportowa rozgrywana jest na welodromie? (Pytanie 844) : kolarstwo torowe | e: Welodrom to wyprofilowany tor przeszkodowy przeznaczony do wyścigów kolarskich.
+[TEKST] Jak nazywa się element, którym odbija się krążek w hokeju na lodzie? (Pytanie 845) : kij hokejowy | e: Kij hokejowy służy do prowadzenia, podawania i strzelania krążkiem do bramki.
+[TEKST] Jak nazywa się piłka używana w badmintonie z piórami lub z tworzywa sztucznego? (Pytanie 846) : lotka | e: Lotka do badmintona ma stożkowy kształt wykonany z piór syntetycznych bądź naturalnych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 141) : Rakieta tenisowa | e: Rakieta z naciągiem używana do przebijania piłki nad siatką w tenisie ziemnym.
+[TEKST] Ile wynosi wysokość siatki w siatkówce mężczyzn w metrach? (Pytanie 847) : dwa | e: Oficjalna wysokość siatki dla mężczyzn wynosi 2,43 m.
+[TEKST] Ile wynosi wysokość siatki w siatkówce kobiet w metrach? (Pytanie 848) : dwa | e: Oficjalna wysokość siatki dla kobiet wynosi 2,24 m.
+[TEKST] Jak nazywa się pozycją zawodnika w siatkówce grającego wyłącznie w defensywie w innym kolorze koszulki? (Pytanie 849) : libero | e: Libero specjalizuje się w obronie i przyjęciu zagrywki, nie może atakować ani zagrywać.
+[TEKST] Jak nazywa się pozycja na boisku w koszykówce odpowiedzialna za rozegranie piłki? (Pytanie 850) : rozgrywający | e: Rozgrywający (point guard) odpowiada za kierowanie grą i tempo akcji zespołu.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 142) : Rakieta do ping-ponga | e: Paletka pokryta okładziną gumową używana w tenisie stołowym.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 143) : Pachołek treningowy | e: Stożkowy pachołek z tworzywa służący do wyznaczania stref i torów przeszkód na treningach.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 144) : Kask rowerowy | e: Kask ochronny chroniący głowę kolarza przed urazami w razie upadku.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 145) : Gogle narciarskie | e: Gogle chronią oczy narciarza przed wiatrem, śniegiem i promieniowaniem UV na stoku.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 146) : Ochraniacz na zęby | e: Silikonowy ochraniacz szczęki chroniący zęby zawodnika w sportach walki i zespołowych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 147) : Hantle guma | e: Ciężarki ręczne używane do treningu siłowego i ogólnorozwojowego.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 148) : Odważnik kettlebell | e: Kula z uchwytem służąca do ćwiczeń siłowo-dynamicznych i crossfitu.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 149) : Mata do jogi | e: Antypoślizgowa mata zapewniająca amortyzację podczas ćwiczeń rozciągających i gimnastycznych.
+[ZDJĘCIE] Co to za rzecz? (Zdjęcie 150) : Pas ciężarowy | e: Skórzany lub usztywniany pas lędźwiowy stabilizujący kręgosłup przy podnoszeniu dużych ciężarów.
