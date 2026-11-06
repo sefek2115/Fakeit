@@ -75,8 +75,8 @@ nav{max-width:720px;margin:0 auto}
 .gift{font-size:110px;cursor:pointer;animation:wob 1s infinite}.gift.pop{animation:gp .6s}@keyframes gp{50%{transform:scale(1.6) rotate(10deg)}}
 .ver{text-align:center;font-size:10px;opacity:.25;margin:20px 0 4px}
 .cdw{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:78vh;padding-top:14vh;text-align:center;overflow:hidden}.cn{font-size:min(36vw,140px);font-weight:900;line-height:1;animation:cnp 1s}.cn.st{font-size:min(13vw,52px)}
-@media(min-width:700px){#app{max-width:720px}.grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}.qs{grid-template-columns:repeat(4,minmax(0,1fr))}}
-@media(min-width:1100px){#app{max-width:980px}.grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}}
+@media(min-width:700px){#app{max-width:600px}#app.wide{max-width:780px}.grid{grid-template-columns:repeat(auto-fill,minmax(130px,1fr))}.qs{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(min-width:1100px){#app.wide{max-width:1120px}.grid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}}
 .qi{max-width:100%;max-height:230px;border-radius:14px;object-fit:contain;background:var(--card)}
 /* ===== ramki awatara ===== */
 .fw{position:relative;display:inline-flex;align-items:center;justify-content:center;border-radius:50%;padding:.07em;vertical-align:middle;flex-shrink:0}
@@ -88,7 +88,6 @@ nav{max-width:720px;margin:0 auto}
 @keyframes hg{50%{box-shadow:0 0 .55em #ff7a00,0 0 1.2em #7b2cbf}}
 @keyframes hb{50%{transform:translateY(-.15em) rotate(-12deg)}}
 .avb{overflow:visible}.avb .fw,.avb .fi{width:100%;height:100%}
-.frg{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px}
 .frb{display:flex;flex-direction:column;align-items:center;gap:8px;padding:12px 4px;font-size:13px}
 .frb.on{border:2px solid var(--ac)}.frp{font-size:34px;line-height:1.3}
 .fn{margin:auto;max-width:360px;text-align:center}.fn p,.fn li{color:#ddd}.fn b{color:#ffb347}
@@ -107,6 +106,19 @@ nav{max-width:720px;margin:0 auto}
 .cre{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:30px;opacity:0;pointer-events:none;transition:opacity 2.5s}.cre.on{opacity:1;pointer-events:auto}
 .crbig{font-size:min(9vw,44px);font-weight:700;letter-spacing:4px;color:#fff}
 .crx2{width:auto;background:none;color:#fff;border:1px solid #fff6;padding:10px 26px;border-radius:99px}
+/* ===== update 2: motyw puder, ramki przewijane, sklep, responsywnosc ===== */
+:root[data-theme=puder]{--bg:#f8e6ec;--card:#fff6f8;--tx:#5a3a45;--mu:#8e6b78;--ac:#c9708f;--ac2:#fff;--ln:#ecc7d3;--hero:linear-gradient(135deg,#c9708f,#e3a0b6);color-scheme:light}
+.frg{display:flex;gap:8px;overflow-x:auto;padding:16px 8px 10px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;scrollbar-width:thin}
+.frb{width:112px;flex:0 0 112px;scroll-snap-align:start}
+.shg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.shi{display:flex;flex-direction:column;gap:5px;min-width:0}
+.sho{font-size:11px;text-align:center;color:var(--mu);font-weight:700}.sho.y{color:#2e9e5b}
+.shp{text-align:center;font-weight:800}.shd{text-align:center;font-size:12px;color:#2e9e5b;font-weight:700;padding:8px 0}
+.shi .bar{margin:0}.shb{padding:8px 2px;font-size:12px;margin:0}
+.rv.one{grid-template-columns:minmax(0,170px);justify-content:center}
+@media(hover:hover){button:not(:disabled):hover{filter:brightness(1.08)}}
+@media(min-width:700px){body{font-size:17px}.rv{max-width:560px;gap:14px}.fn{max-width:460px}.ill svg{width:190px;height:190px}.qi{max-height:320px}.opt{padding:15px 18px}nav button{font-size:13px;padding:10px 0}.crlogo{font-size:28px}.crl p{font-size:38px}.crl h4{font-size:15px}#ts{font-size:17px}}
+@media(min-width:900px){.m-play,.m-shop,.m-me{column-count:2;column-gap:18px}.m-play>.c,.m-shop>.c,.m-me>.c{break-inside:avoid}.m-play>.hd,.m-play>.hero,.m-play>.qs,.m-play>.sec{column-span:all}.m-trade,.m-battle,.m-rank{max-width:660px;margin:0 auto}}
 </style></head><body><div id="app"></div><nav id="nav" hidden></nav><div id="ts" hidden></div><div id="ov" hidden></div>
 <script type="module">
 import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
@@ -186,7 +198,7 @@ const FRN={hal:'🎃 Halloween'};const AV=p=>{const i=p.ph?`<img src="${p.ph}" c
 let FT=-1,FO=0,code='',G=null,PL=[],CH=[],sig='',unsubs=[],busy=false,hid=[],T='play',WR=0,spin=false,RG=14,blk=false,gF=0,gT=0,EM='',prevN=0;
 const NAV=[['play','🎮','Graj'],['shop','🛒','Sklep'],['col','🃏','Karty'],['rank','🏅','Ranking'],['me','👤','Profil']];
 function unsub(){unsubs.forEach(f=>f());unsubs=[];G=null;PL=[];CH=[];code=''}
-function show(t,msg){T=t;unsub();sig='tab';$('#ov').hidden=true;$('#app').innerHTML=`<div class="top"><h1>Fake it</h1><span class="pill">🔥 ${(P.dy||{n:0}).n} · 🪙 ${P.coins}</span></div><div id="main"></div>`;
+function show(t,msg){T=t;unsub();sig='tab';$('#ov').hidden=true;$('#app').className='wide';$('#app').innerHTML=`<div class="top"><h1>Fake it</h1><span class="pill">🔥 ${(P.dy||{n:0}).n} · 🪙 ${P.coins}</span></div><div id="main" class="m-${t}"></div>`;
 const n=$('#nav');n.hidden=false;n.innerHTML=NAV.map(x=>`<button class="${x[0]===t?'on':''}" data-t="${x[0]}">${x[1]}<br>${x[2]}</button>`).join('');n.querySelectorAll('button').forEach(b=>b.onclick=()=>show(b.dataset.t));TABS[t](msg)}
 const TABS={
 play(msg){const ks=Object.keys(DB).sort((a,b)=>(b==='all')-(a==='all')),d=P.dy||{n:0,cl:[]},nx=[7,14,21,28].find(x=>x>d.n)||28,rec=P.hist.slice(-3).reverse();
@@ -235,12 +247,12 @@ me(){const cal=new Date(),y=cal.getFullYear(),mo=cal.getMonth(),off=(new Date(y,
 $('#main').innerHTML=`<div class="c"><div style="text-align:center;font-size:44px">${AV(P)}</div><div class="row"><button class="s" id="ph">📷 Zdjęcie z galerii</button>${P.photo?'<button class="s" id="rp">Usuń zdjęcie</button>':''}</div><input type="file" id="pf" accept="image/*" hidden>
 <div class="row"><input id="av" value="${E(P.av)}" maxlength="2" style="max-width:70px;text-align:center;font-size:26px"><input id="nm" placeholder="Nick" value="${E(P.name)}" maxlength="14" ${P.col&&P.col!=='rainbow'?`style="color:${P.col}"`:''}></div>
 <p>Kolor nicku (odblokowują go trofea i komplety osiągnięć):</p><div class="wr"><button class="s" data-c="" style="width:auto">Domyślny</button>${TR_.map(t=>ul.includes(t[3])?`<button class="s" data-c="${t[3]}" style="width:auto"><span ${t[3]==='rainbow'?'class="rb"':`style="color:${t[3]}"`}>${t[0]} ${t[1]}</span></button>`:`<button class="s" disabled style="width:auto">🔒 ${t[1]}</button>`).join('')}</div>
-<select id="th"><option value="">Motyw: automatyczny</option><option value="dark">Ciemny</option><option value="light">Jasny</option><option value="color">Kolorowy</option><option value="retro">Retro</option><option value="royal">Królewski (granat, złoto, czerwień)</option></select>
+<select id="th"><option value="">Motyw: automatyczny</option><option value="dark">Ciemny</option><option value="light">Jasny</option><option value="color">Kolorowy</option><option value="retro">Retro</option><option value="royal">Królewski (granat, złoto, czerwień)</option><option value="puder">Różowy pudrowy</option></select>
 <p>${AUTH.anon?'👤 Gość – zaloguj się, aby zachować statystyki.':'☁️ Konto: '+E(AUTH.email||'Google')}</p><button class="s" id="sd">${P.mute?'🔇 Dźwięki: wył.':'🔊 Dźwięki: wł.'}</button><button class="s" id="lo">Wyloguj</button></div>
 <div class="c"><h3>📊 Statystyki</h3><div class="pill">Punkty: ${P.total}</div><div class="pill">Gry: ${P.st.g}</div><div class="pill">Wygrane: ${P.st.w}</div><div class="pill">Wkręceni: ${P.st.f}</div><div class="pill">Prawdy: ${P.st.t}</div><div class="pill">Wymiany: ${P.st.tr}</div></div>
 <div class="c"><h3>🏅 Trofea</h3><div class="wr">${TR_.map(t=>`<div style="text-align:center;width:30%;opacity:${P.total>=t[2]?1:.3}"><div style="font-size:32px">${t[0]}</div><small>${t[1]}<br>${t[2]} pkt</small></div>`).join('')}</div></div>
 <div class="c"><h3>🎖️ Osiągnięcia (+1 🪙)</h3>${[0,1,2,3].map(t=>`<p><b>${TI[t]} ${TIN[t]}</b></p>`+ACH.map((a,i)=>a[0]===t?`<div class="ach ${P.ach.includes(i)?'':'off'}"><span>${a[1]}</span><span><b>${a[2]}</b><br><small>${a[3]}</small></span></div>`:'').join('')).join('')}</div>
-<div class="c"><h3>📅 Kalendarz gier – ${cal.toLocaleDateString('pl',{month:'long',year:'numeric'})}</h3><div class="cal">${'PWŚCPSN'.split('').map(x=>`<small>${x}</small>`).join('')}${'<i></i>'.repeat(off)}${[...Array(dn)].map((_,i)=>`<b class="${pl.has(i+1)?'d':''}">${i+1}</b>`).join('')}</div>${P.hist.slice(-5).reverse().map(h=>`<div class="pl"><span>${h.d} · 🏆 ${E(h.w)}</span><span>${h.pts} pkt · ${h.n} os.</span></div>`).join('')||'<p>Zagraj pierwszą grę, a pojawi się tu historia.</p>'}</div><p class="ver" id="vr">v2.0</p>`;
+<div class="c"><h3>📅 Kalendarz gier – ${cal.toLocaleDateString('pl',{month:'long',year:'numeric'})}</h3><div class="cal">${'PWŚCPSN'.split('').map(x=>`<small>${x}</small>`).join('')}${'<i></i>'.repeat(off)}${[...Array(dn)].map((_,i)=>`<b class="${pl.has(i+1)?'d':''}">${i+1}</b>`).join('')}</div>${P.hist.slice(-5).reverse().map(h=>`<div class="pl"><span>${h.d} · 🏆 ${E(h.w)}</span><span>${h.pts} pkt · ${h.n} os.</span></div>`).join('')||'<p>Zagraj pierwszą grę, a pojawi się tu historia.</p>'}</div><p class="ver" id="vr">v2.1</p>`;
 $('#th').value=P.theme;$('#th').onchange=e=>{P.theme=e.target.value;theme();save()};$('#nm').onchange=e=>{P.name=e.target.value.trim();save()};$('#av').onchange=e=>{P.av=e.target.value||'🙂';save()};$('#lo').onclick=()=>signOut(auth);$('#sd').onclick=()=>{P.mute=!P.mute;save();show('me')};{let rc=0,rt;$('#vr').onclick=()=>{rc++;clearTimeout(rt);rt=setTimeout(()=>rc=0,2000);if(rc>=3){rc=0;resetAll()}}}
 document.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{P.col=b.dataset.c;save();show('me')});
 $('#ph').onclick=()=>$('#pf').click();const rp=$('#rp');if(rp)rp.onclick=()=>{P.photo='';save();show('me')};
@@ -253,7 +265,7 @@ function claim(){let ch=0;TR.forEach(t=>{if(t.from!==P.id||t.claimed||claimed.ha
 /* ---- animacja paczki ---- */
 function packAnim(got){const o=$('#ov');o.hidden=false;o.innerHTML=`<div class="pack" id="pk"><div class="ptop"></div><div class="pbody"><div>FAKE IT</div><div style="font-size:50px">🎴</div></div></div><p>Dotknij paczkę, aby ją otworzyć</p>`;
 $('#pk').onclick=()=>{SND.open();$('#pk').classList.add('tear');o.classList.add('flash');setTimeout(()=>{o.classList.remove('flash');reveal(got)},900)}}
-function reveal(got){const o=$('#ov');let n=0;o.innerHTML=`<div class="rv">${got.map((id,i)=>`<div class="fl" data-t="${cd(id)[2]}"><div class="in"><div class="bk">?</div><div class="fr">${ct(id)}</div></div></div>`).join('')}</div><p id="hn">Dotykaj kart, aby je odsłonić</p><button id="cl" hidden style="max-width:240px">Gotowe</button>`;
+function reveal(got){const o=$('#ov');let n=0;o.innerHTML=`<div class="rv${got.length<2?' one':''}">${got.map((id,i)=>`<div class="fl" data-t="${cd(id)[2]}"><div class="in"><div class="bk">?</div><div class="fr">${ct(id)}</div></div></div>`).join('')}</div><p id="hn">Dotykaj kart, aby je odsłonić</p><button id="cl" hidden style="max-width:240px">Gotowe</button>`;
 o.querySelectorAll('.fl').forEach(f=>f.onclick=()=>{if(f.classList.contains('on'))return;f.classList.add('on');SND.flip();if(+f.dataset.t>=3){f.classList.add('big');setTimeout(SND.ach,500)}if(++n===got.length){$('#cl').hidden=false;$('#hn').textContent=''}});$('#cl').onclick=()=>{o.hidden=true;show('shop')}}
 /* ---- gra ---- */
 const BN=['Hubert','Kuba','Seweryn','Julia','Weronika','Gertruda'];
@@ -272,7 +284,7 @@ function pls(){return [...PL].sort((a,b)=>b.score-a.score).map((p,i)=>`<div clas
 const ill=q=>q.s?`<div class="ill">${q.s}</div>`:q.ph&&G.im&&G.im[q.h]?`<div class="ill"><img class="qi" src="${E(G.im[q.h])}" referrerpolicy="no-referrer" alt=""></div>`:q.ph?'<div class="ill" style="font-size:60px">🖼️</div>':'';
 function wait(){if(!G)return'';const k=G.phase==='fake'?'fake':'vote';return `Odpowiedziało: ${humans().filter(p=>k==='fake'?p.fake:p.vote>=0).length}/${humans().length}`}
 function draw(){if(!G||!code)return;const q=QQ(G.ord[G.round]),m=me()||{},s=G.phase+G.round+(m.fake?'f':'')+(m.vote>=0?'v':'')+(m.steal?'s':'')+(m.blocked?'b':'')+(G.phase==='lobby'?PL.length+'x':'');
-if(sig===s){const l=$('#pl');if(l)l.innerHTML=pls();const w=$('#wt');if(w)w.textContent=wait();return}sig=s;const A=$('#app'),h=isHost();
+if(sig===s){const l=$('#pl');if(l)l.innerHTML=pls();const w=$('#wt');if(w)w.textContent=wait();return}sig=s;const A=$('#app'),h=isHost();A.className='';
 const top=`<div class="top"><b>Gra ${code}</b><span><span class="pill">Runda ${G.round+1}/${G.ord.length||G.n}</span><button class="s" id="ex2" style="width:auto;padding:4px 10px">Wyjdź</button></span></div>`;
 const bindX=()=>{const b=$('#ex2');if(b)b.onclick=()=>{if(G.phase==='lobby'||confirm('Wyjść z gry? Stracisz nagrody za tę grę.'))leave()}};
 if(G.phase==='lobby'){const bots=PL.filter(p=>p.bot).length,hs=humans().length,ok=hs>=2?PL.length>=3:(hs===1&&bots>=3);
@@ -332,7 +344,7 @@ function showInvite(i){const o=$('#ov');o.hidden=false;SND.ach();o.innerHTML=`<p
 $('#ia').onclick=async()=>{o.hidden=true;await db.doc('invites/'+i.id).update({st:'accepted'}).catch(()=>{});if(P.name)join(i.code)};$('#ib').onclick=()=>{o.hidden=true;db.doc('invites/'+i.id).update({st:'declined'}).catch(()=>{})}}
 /* ---- logowanie ---- */
 const mkDoc=ref=>({get:async()=>{const x=await getDoc(ref);return{id:x.id,exists:x.exists(),data:()=>x.data()}},set:d=>setDoc(ref,d),update:d=>updateDoc(ref,d),delete:()=>deleteDoc(ref),onSnapshot:(n,e)=>onSnapshot(ref,x=>n({id:x.id,exists:x.exists(),data:()=>x.data()}),e)});
-function loginScreen(msg){unsub();$('#nav').hidden=true;$('#app').innerHTML=`<h1>Fake it</h1><div class="c"><input id="em" type="email" placeholder="E-mail"><input id="pw" type="password" placeholder="Hasło (min. 6 znaków)" style="margin-top:8px"><button id="li">Zaloguj</button><button class="s" id="rg">Załóż konto</button><button class="s" id="gg">Zaloguj przez Google</button></div><div class="c"><button class="s" id="gu">Graj jako gość</button><p>Gość nie trafia do rankingu i traci statystyki po wyczyszczeniu przeglądarki.</p></div><p id="msg" style="color:#d33">${E(msg||'')}</p>`;
+function loginScreen(msg){unsub();$('#nav').hidden=true;$('#app').className='';$('#app').innerHTML=`<h1>Fake it</h1><div class="c"><input id="em" type="email" placeholder="E-mail"><input id="pw" type="password" placeholder="Hasło (min. 6 znaków)" style="margin-top:8px"><button id="li">Zaloguj</button><button class="s" id="rg">Załóż konto</button><button class="s" id="gg">Zaloguj przez Google</button></div><div class="c"><button class="s" id="gu">Graj jako gość</button><p>Gość nie trafia do rankingu i traci statystyki po wyczyszczeniu przeglądarki.</p></div><p id="msg" style="color:#d33">${E(msg||'')}</p>`;
 const go=fn=>async()=>{try{await fn()}catch(e){$('#msg').textContent='Błąd: '+(e.code||e.message)}};
 $('#li').onclick=go(()=>signInWithEmailAndPassword(auth,$('#em').value,$('#pw').value));$('#rg').onclick=go(()=>createUserWithEmailAndPassword(auth,$('#em').value,$('#pw').value));$('#gg').onclick=go(()=>signInWithPopup(auth,new GoogleAuthProvider()));$('#gu').onclick=go(()=>signInAnonymously(auth))}
 if(!firebaseConfig.apiKey||firebaseConfig.apiKey==='WKLEJ_TUTAJ'){$('#app').innerHTML='<h1>Fake it</h1><div class="c"><p>Uzupełnij firebaseConfig na początku pliku.</p></div>'}
@@ -363,4 +375,17 @@ o.innerHTML=`<div class="crlogo">Fake it by Sefek</div><button class="crx">✕</
 document.body.appendChild(o);const cl=()=>o.remove(),l=o.querySelector('.crl');o.querySelector('.crx').onclick=cl;o.querySelector('.crx2').onclick=cl;
 l.addEventListener('animationend',()=>{l.style.visibility='hidden';o.querySelector('.cre').classList.add('on')})}
 
+/* ===== SKLEP: KARTY TYGODNIA ===== */
+const SHP=[30,75,180,450,1200],SHW=[48,28,15,7,2];
+const shopWeek=()=>Math.floor((day(Date.now())-4)/7);
+const shopHash=s=>{let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return h>>>0};
+const shopRng=seed=>{let a=seed>>>0;return()=>{a=(a+0x6D2B79F5)>>>0;let t=a;t=Math.imul(t^(t>>>15),t|1);t^=t+Math.imul(t^(t>>>7),t|61);return((t^(t>>>14))>>>0)/4294967296}};
+function shopOffers(){const r=shopRng(shopHash((P.id||'x')+':'+shopWeek())),out=[];let g=0;while(out.length<3&&g++<60){let x=r()*100,t=0;while(t<4&&x>=SHW[t]){x-=SHW[t];t++}const id=t*44+Math.floor(r()*44);if(!out.includes(id))out.push(id)}return out}
+const _shop=TABS.shop;
+TABS.shop=function(m){_shop(m);const mn=$('#main');if(!mn)return;const w=shopWeek();if(!P.sh||P.sh.w!==w)P.sh={w,b:[]};
+const nd=(w+1)*7+4-day(Date.now()),offs=shopOffers();
+const item=id=>{const t=cd(id)[2],price=SHP[t],own=P.cards.filter(c=>c[0]===id).length,need=price-P.coins,done=P.sh.b.includes(id);
+return `<div class="shi"><div class="shc">${ct(id)}</div><div class="sho${own?' y':''}">${own?'✅ Masz ×'+own:'Nie masz tej karty'}</div>${done?'<div class="shd">✔ Kupiono</div>':`<div class="shp">🪙 ${price}</div><div class="bar"><i style="width:${Math.min(100,P.coins/price*100)}%"></i></div><button class="shb" data-buy="${id}" ${need>0?'disabled':''}>${need>0?'Brakuje '+need+' 🪙':'Kup'}</button>`}</div>`};
+mn.insertAdjacentHTML('afterbegin',`<div class="c"><h3>🛍️ Karty tygodnia</h3><p>Trzy karty tylko dla Ciebie, każdy gracz ma inne. Oferta odnowi się w poniedziałek (za ${nd} ${nd===1?'dzień':'dni'}). Ceny zależą od rzadkości: ${TN.map((n,i)=>n+' '+SHP[i]).join(' · ')} 🪙. Każdą kartę możesz kupić raz na tydzień.</p><div class="shg">${offs.map(item).join('')}</div></div>`);
+mn.querySelectorAll('[data-buy]').forEach(b=>b.onclick=()=>{const id=+b.dataset.buy,price=SHP[Math.floor(id/44)];if(P.sh.b.includes(id))return;if(P.coins<price)return toast('Za mało coinów');P.coins-=price;P.sh.b.push(id);addCard(id);chk();packAnim([id])})};
 </script></body></html>
