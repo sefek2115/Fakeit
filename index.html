@@ -119,7 +119,22 @@ nav{max-width:720px;margin:0 auto}
 @media(hover:hover){button:not(:disabled):hover{filter:brightness(1.08)}}
 @media(min-width:700px){body{font-size:17px}.rv{max-width:560px;gap:14px}.fn{max-width:460px}.ill svg{width:190px;height:190px}.qi{max-height:320px}.opt{padding:15px 18px}nav button{font-size:13px;padding:10px 0}.crlogo{font-size:28px}.crl p{font-size:38px}.crl h4{font-size:15px}#ts{font-size:17px}}
 @media(min-width:900px){.m-play,.m-shop,.m-me{column-count:2;column-gap:18px}.m-play>.c,.m-shop>.c,.m-me>.c{break-inside:avoid}.m-play>.hd,.m-play>.hero,.m-play>.qs,.m-play>.sec{column-span:all}.m-trade,.m-battle,.m-rank{max-width:660px;margin:0 auto}}
-</style></head><body><div id="app"></div><nav id="nav" hidden></nav><div id="ts" hidden></div><div id="ov" hidden></div>
+/* ===== update 3: ekran wczytywania, okno aktualizacji ===== */
+#ld{position:fixed;inset:0;z-index:60;background:#0b0d14;display:flex;align-items:center;justify-content:center;transition:opacity .6s}
+#ld.off{opacity:0;pointer-events:none}
+#ld span{font-size:min(22vw,110px);font-weight:900;letter-spacing:2px;line-height:1.2;background:linear-gradient(90deg,#e83e26,#f5b301,#7CFFB2,#4fc3f7,#7c4dff,#ff2e88,#c9708f,#E2E4F0,#e83e26);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:ldg 2s linear infinite,ldp 1.2s ease-in-out infinite alternate}
+@keyframes ldg{to{background-position:200% 0}}
+@keyframes ldp{from{transform:scale(.94)}to{transform:scale(1.05)}}
+#um{position:fixed;inset:0;z-index:40;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(0,0,0,.4);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);animation:cri .25s}
+.umc{display:flex;flex-direction:column;width:min(440px,100%);max-height:82vh;background:var(--card);color:var(--tx);border:1px solid var(--ln);border-radius:22px;padding:16px 18px;box-shadow:0 20px 60px #0008;animation:ump .3s}
+@keyframes ump{from{transform:scale(.92);opacity:0}}
+.umh{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}.umh h2{margin:0;font-size:20px}
+.umx{width:36px;height:36px;flex:0 0 36px;border-radius:50%;padding:0;margin:0;font-size:16px;background:var(--bg);color:var(--tx);border:1px solid var(--ln)}
+.umb{overflow:auto;padding:2px 0}.umt{font-weight:700;color:var(--tx);margin:0 0 6px}
+.umc ul,.m-upd ul{padding-left:20px;margin:6px 0}.umc li,.m-upd li{margin:6px 0}
+.umok{margin:12px 0 0}
+.m-upd{max-width:660px;margin:0 auto}
+</style></head><body><div id="app"></div><nav id="nav" hidden></nav><div id="ts" hidden></div><div id="ov" hidden></div><div id="ld"><span>Fake it</span></div><script>setTimeout(function(){var l=document.getElementById("ld");if(l)l.className="off"},12000)</script>
 <script type="module">
 import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import {getFirestore,doc,collection,getDoc,setDoc,updateDoc,deleteDoc,onSnapshot} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
@@ -193,7 +208,7 @@ const ACH=[];AD.forEach(a=>[0,1,2,3].forEach(t=>ACH.push([t,a[1],a[2][t],a[4](a[
 function chk(){const tcn=TR_.filter(t=>P.total>=t[2]).length;if(P.trn===undefined)P.trn=tcn;else if(tcn>P.trn){P.trn=tcn;SND.trophy();toast(TR_[tcn-1][0]+' Nowe trofeum: '+TR_[tcn-1][1]+'!')}const u=new Set(P.cards.map(c=>c[0])).size;ACH.forEach((a,i)=>{if(!P.ach.includes(i)&&a[4](P.st,u,P)){P.ach.push(i);P.coins+=1;SND.ach();toast(a[1]+' Osiągnięcie: '+a[2]+' (+1 🪙)')}});if(P.col&&!unlocked().includes(P.col))P.col='';save()}
 const unlocked=()=>[...new Set([...[0,1,2,3].filter(t=>ACH.every((a,i)=>a[0]!==t||P.ach.includes(i))).map(t=>NC[t]),...TR_.filter(t=>P.total>=t[2]).map(t=>t[3])])];
 const TR_=[['🥉','Brąz',150,'#cd7f32'],['🥈','Srebro',300,'#c0c0c0'],['🥇','Złoto',500,'#ffd700'],['🔷','Platyna',650,'#e5e4e2'],['💎','Diament',800,'#4fc3f7'],['💚','Szmaragd',1000,'#2ecc71'],['❤️','Rubin',1400,'#e0115f'],['🌈','Tęczowy',1500,'rainbow'],['👑','Legendarny',2500,'#b66bff']];
-const FRN={hal:'🎃 Halloween'};const AV=p=>{const i=p.ph?`<img src="${p.ph}" class="ph">`:E(p.av||'🙂');return p.fr&&FRN[p.fr]?`<span class="fw ${p.fr}"><span class="fi">${i}</span></span>`:i},NM=p=>`<span${p.col==='rainbow'?' class="rb"':p.col?` style="color:${p.col}"`:''}>${E(p.name||'')}</span>`;
+const FRN={hal:'🎃 Halloween'};const AV=p=>{const pho=p.ph||p.photo,i=pho?`<img src="${pho}" class="ph">`:E(p.av||'🙂');return p.fr&&FRN[p.fr]?`<span class="fw ${p.fr}"><span class="fi">${i}</span></span>`:i},NM=p=>`<span${p.col==='rainbow'?' class="rb"':p.col?` style="color:${p.col}"`:''}>${E(p.name||'')}</span>`;
 /* ---- nawigacja ---- */
 let FT=-1,FO=0,code='',G=null,PL=[],CH=[],sig='',unsubs=[],busy=false,hid=[],T='play',WR=0,spin=false,RG=14,blk=false,gF=0,gT=0,EM='',prevN=0;
 const NAV=[['play','🎮','Graj'],['shop','🛒','Sklep'],['col','🃏','Karty'],['rank','🏅','Ranking'],['me','👤','Profil']];
@@ -252,7 +267,7 @@ $('#main').innerHTML=`<div class="c"><div style="text-align:center;font-size:44p
 <div class="c"><h3>📊 Statystyki</h3><div class="pill">Punkty: ${P.total}</div><div class="pill">Gry: ${P.st.g}</div><div class="pill">Wygrane: ${P.st.w}</div><div class="pill">Wkręceni: ${P.st.f}</div><div class="pill">Prawdy: ${P.st.t}</div><div class="pill">Wymiany: ${P.st.tr}</div></div>
 <div class="c"><h3>🏅 Trofea</h3><div class="wr">${TR_.map(t=>`<div style="text-align:center;width:30%;opacity:${P.total>=t[2]?1:.3}"><div style="font-size:32px">${t[0]}</div><small>${t[1]}<br>${t[2]} pkt</small></div>`).join('')}</div></div>
 <div class="c"><h3>🎖️ Osiągnięcia (+1 🪙)</h3>${[0,1,2,3].map(t=>`<p><b>${TI[t]} ${TIN[t]}</b></p>`+ACH.map((a,i)=>a[0]===t?`<div class="ach ${P.ach.includes(i)?'':'off'}"><span>${a[1]}</span><span><b>${a[2]}</b><br><small>${a[3]}</small></span></div>`:'').join('')).join('')}</div>
-<div class="c"><h3>📅 Kalendarz gier – ${cal.toLocaleDateString('pl',{month:'long',year:'numeric'})}</h3><div class="cal">${'PWŚCPSN'.split('').map(x=>`<small>${x}</small>`).join('')}${'<i></i>'.repeat(off)}${[...Array(dn)].map((_,i)=>`<b class="${pl.has(i+1)?'d':''}">${i+1}</b>`).join('')}</div>${P.hist.slice(-5).reverse().map(h=>`<div class="pl"><span>${h.d} · 🏆 ${E(h.w)}</span><span>${h.pts} pkt · ${h.n} os.</span></div>`).join('')||'<p>Zagraj pierwszą grę, a pojawi się tu historia.</p>'}</div><p class="ver" id="vr">v2.1</p>`;
+<div class="c"><h3>📅 Kalendarz gier – ${cal.toLocaleDateString('pl',{month:'long',year:'numeric'})}</h3><div class="cal">${'PWŚCPSN'.split('').map(x=>`<small>${x}</small>`).join('')}${'<i></i>'.repeat(off)}${[...Array(dn)].map((_,i)=>`<b class="${pl.has(i+1)?'d':''}">${i+1}</b>`).join('')}</div>${P.hist.slice(-5).reverse().map(h=>`<div class="pl"><span>${h.d} · 🏆 ${E(h.w)}</span><span>${h.pts} pkt · ${h.n} os.</span></div>`).join('')||'<p>Zagraj pierwszą grę, a pojawi się tu historia.</p>'}</div><p class="ver" id="vr">v2.2</p>`;
 $('#th').value=P.theme;$('#th').onchange=e=>{P.theme=e.target.value;theme();save()};$('#nm').onchange=e=>{P.name=e.target.value.trim();save()};$('#av').onchange=e=>{P.av=e.target.value||'🙂';save()};$('#lo').onclick=()=>signOut(auth);$('#sd').onclick=()=>{P.mute=!P.mute;save();show('me')};{let rc=0,rt;$('#vr').onclick=()=>{rc++;clearTimeout(rt);rt=setTimeout(()=>rc=0,2000);if(rc>=3){rc=0;resetAll()}}}
 document.querySelectorAll('[data-c]').forEach(b=>b.onclick=()=>{P.col=b.dataset.c;save();show('me')});
 $('#ph').onclick=()=>$('#pf').click();const rp=$('#rp');if(rp)rp.onclick=()=>{P.photo='';save();show('me')};
@@ -344,7 +359,7 @@ function showInvite(i){const o=$('#ov');o.hidden=false;SND.ach();o.innerHTML=`<p
 $('#ia').onclick=async()=>{o.hidden=true;await db.doc('invites/'+i.id).update({st:'accepted'}).catch(()=>{});if(P.name)join(i.code)};$('#ib').onclick=()=>{o.hidden=true;db.doc('invites/'+i.id).update({st:'declined'}).catch(()=>{})}}
 /* ---- logowanie ---- */
 const mkDoc=ref=>({get:async()=>{const x=await getDoc(ref);return{id:x.id,exists:x.exists(),data:()=>x.data()}},set:d=>setDoc(ref,d),update:d=>updateDoc(ref,d),delete:()=>deleteDoc(ref),onSnapshot:(n,e)=>onSnapshot(ref,x=>n({id:x.id,exists:x.exists(),data:()=>x.data()}),e)});
-function loginScreen(msg){unsub();$('#nav').hidden=true;$('#app').className='';$('#app').innerHTML=`<h1>Fake it</h1><div class="c"><input id="em" type="email" placeholder="E-mail"><input id="pw" type="password" placeholder="Hasło (min. 6 znaków)" style="margin-top:8px"><button id="li">Zaloguj</button><button class="s" id="rg">Załóż konto</button><button class="s" id="gg">Zaloguj przez Google</button></div><div class="c"><button class="s" id="gu">Graj jako gość</button><p>Gość nie trafia do rankingu i traci statystyki po wyczyszczeniu przeglądarki.</p></div><p id="msg" style="color:#d33">${E(msg||'')}</p>`;
+function loginScreen(msg){hideLoad();unsub();$('#nav').hidden=true;$('#app').className='';$('#app').innerHTML=`<h1>Fake it</h1><div class="c"><input id="em" type="email" placeholder="E-mail"><input id="pw" type="password" placeholder="Hasło (min. 6 znaków)" style="margin-top:8px"><button id="li">Zaloguj</button><button class="s" id="rg">Załóż konto</button><button class="s" id="gg">Zaloguj przez Google</button></div><div class="c"><button class="s" id="gu">Graj jako gość</button><p>Gość nie trafia do rankingu i traci statystyki po wyczyszczeniu przeglądarki.</p></div><p id="msg" style="color:#d33">${E(msg||'')}</p>`;
 const go=fn=>async()=>{try{await fn()}catch(e){$('#msg').textContent='Błąd: '+(e.code||e.message)}};
 $('#li').onclick=go(()=>signInWithEmailAndPassword(auth,$('#em').value,$('#pw').value));$('#rg').onclick=go(()=>createUserWithEmailAndPassword(auth,$('#em').value,$('#pw').value));$('#gg').onclick=go(()=>signInWithPopup(auth,new GoogleAuthProvider()));$('#gu').onclick=go(()=>signInAnonymously(auth))}
 if(!firebaseConfig.apiKey||firebaseConfig.apiKey==='WKLEJ_TUTAJ'){$('#app').innerHTML='<h1>Fake it</h1><div class="c"><p>Uzupełnij firebaseConfig na początku pliku.</p></div>'}
@@ -356,7 +371,7 @@ AUTH={anon:u.isAnonymous,email:u.email,google:u.providerData.some(p=>p.providerI
 let f=fresh();try{const x=await pref.get();if(x.exists)f=Object.assign(f,JSON.parse(x.data().j))}catch(e){}
 P=f;P.id=u.uid;norm();theme();await cp;
 gsubs.push(db.collection('cardstats').onSnapshot(s=>{CS={};s.docs.forEach(d=>CS[d.id]=d.data().n||0)}),db.collection('trades').onSnapshot(s=>{TR=s.docs.map(d=>({id:d.id,...d.data()}));claim()}),db.collection('invites').onSnapshot(s=>{INV=s.docs.map(d=>({id:d.id,...d.data()}));chkInv()}));
-daily();chk();grantFrames(u);show('play');if(!frameNotice())giftIfPending()})}
+daily();chk();grantFrames(u);show('play');if(!frameNotice())giftIfPending();hideLoad();updNotice()})}
 
 /* ===== RAMKI AWATARA + NAPISY KOŃCOWE (update) ===== */
 const HAL_END=new Date(2026,10,1).getTime();
@@ -388,4 +403,16 @@ const item=id=>{const t=cd(id)[2],price=SHP[t],own=P.cards.filter(c=>c[0]===id).
 return `<div class="shi"><div class="shc">${ct(id)}</div><div class="sho${own?' y':''}">${own?'✅ Masz ×'+own:'Nie masz tej karty'}</div>${done?'<div class="shd">✔ Kupiono</div>':`<div class="shp">🪙 ${price}</div><div class="bar"><i style="width:${Math.min(100,P.coins/price*100)}%"></i></div><button class="shb" data-buy="${id}" ${need>0?'disabled':''}>${need>0?'Brakuje '+need+' 🪙':'Kup'}</button>`}</div>`};
 mn.insertAdjacentHTML('afterbegin',`<div class="c"><h3>🛍️ Karty tygodnia</h3><p>Trzy karty tylko dla Ciebie, każdy gracz ma inne. Oferta odnowi się w poniedziałek (za ${nd} ${nd===1?'dzień':'dni'}). Ceny zależą od rzadkości: ${TN.map((n,i)=>n+' '+SHP[i]).join(' · ')} 🪙. Każdą kartę możesz kupić raz na tydzień.</p><div class="shg">${offs.map(item).join('')}</div></div>`);
 mn.querySelectorAll('[data-buy]').forEach(b=>b.onclick=()=>{const id=+b.dataset.buy,price=SHP[Math.floor(id/44)];if(P.sh.b.includes(id))return;if(P.coins<price)return toast('Za mało coinów');P.coins-=price;P.sh.b.push(id);addCard(id);chk();packAnim([id])})};
+/* ===== EKRAN WCZYTYWANIA + AKTUALIZACJE ===== */
+function hideLoad(){const l=document.getElementById('ld');if(!l||l.dataset.h)return;l.dataset.h=1;setTimeout(()=>{l.classList.add('off');setTimeout(()=>l.remove(),700)},Math.max(0,2000-performance.now()))}
+/* Nowa aktualizacja? Dodaj nowy wpis NA POCZĄTKU listy UPD (inna wersja v). Okno pokaże się wszystkim raz. */
+const UPD=[
+{v:'2.2',d:'08.11.2026',t:'Wczytywanie, aktualizacje i poprawka zdjęć',it:['⏳ Ekran wczytywania z napisem Fake it w kolorach wszystkich motywów','📋 Nowa zakładka Aktualizacje z historią zmian','🔔 Okno z nowościami po każdej aktualizacji','🖼️ Naprawione zdjęcie profilowe: widać je teraz w menu i w Profilu']},
+{v:'2.1',d:'08.11.2026',t:'Ramki, karty tygodnia i nowy wygląd',it:['🎃 Ramka Halloween dla graczy, którzy założyli konto przed 1 listopada','🖼️ Ramki awatara można zakładać i zdejmować w Profilu, a lista ramek przesuwa się w prawo','🛍️ Karty tygodnia w sklepie: 3 losowe karty, inne dla każdego gracza, odnawiane co poniedziałek','🪙 Ceny kart zależą od rzadkości, a przy karcie widać, czy ją masz i ile sztuk','🎨 Nowy motyw: Różowy pudrowy','💻 Lepszy wygląd na tablecie i komputerze','🎬 Napisy końcowe na dole Profilu']}
+];
+function updNotice(){const u=UPD[0];if(!u||P.upv===u.v||document.getElementById('um'))return;const m=document.createElement('div');m.id='um';
+m.innerHTML=`<div class="umc"><div class="umh"><h2>🆕 Aktualizacja ${E(u.v)}</h2><button class="umx" aria-label="Zamknij">✕</button></div><div class="umb"><p class="umt">${E(u.t)}</p><ul>${u.it.map(x=>`<li>${E(x)}</li>`).join('')}</ul></div><button class="umok">OK</button></div>`;
+document.body.appendChild(m);const cl=()=>{P.upv=u.v;save();m.remove()};m.querySelector('.umx').onclick=cl;m.querySelector('.umok').onclick=cl}
+NAV.splice(4,0,['upd','📋','Zmiany']);
+TABS.upd=function(){$('#main').innerHTML=`<h2>📋 Aktualizacje</h2><p>Historia zmian w grze. Najnowsza jest na górze.</p>`+UPD.map((u,i)=>`<div class="c"><h3>${i?'':'🆕 '}v${E(u.v)} · ${E(u.t)}</h3><p>${E(u.d)}</p><ul>${u.it.map(x=>`<li>${E(x)}</li>`).join('')}</ul></div>`).join('')};
 </script></body></html>
