@@ -201,14 +201,27 @@ nav button span{font-size:11px}nav button.on{color:var(--ac)}
 .crl p.crt{font-size:19px;line-height:1.65;letter-spacing:.5px;opacity:.92;max-width:520px;margin:18px auto}
 @media(min-width:700px){.crl p.crt{font-size:22px;max-width:620px}}
 /* ===== update 7: weteran, gracze, paczki, kalendarz, tour, champion, responsywnosc ===== */
+/* ===== poprawki: ranking i ramka Weteran ===== */
+#lb{overflow:hidden}
+#lb .plr{gap:10px;padding:12px 2px;min-width:0}
+#lb .rk{flex:0 0 34px;font-size:20px;line-height:1}
+#lb .plav{flex:0 0 44px;width:44px;height:44px;font-size:24px}
+#lb .plm{flex:1 1 0;min-width:0;gap:2px}
+#lb .plm b{font-size:16px;line-height:1.25;max-width:100%}
+#lb .plm small{display:flex;flex-wrap:wrap;gap:0 10px;font-size:12.5px;line-height:1.35}
+#lb .plm small span{white-space:nowrap}
+.rsc{flex:0 0 auto;min-width:40px;max-width:35%;text-align:right;font-size:20px;font-weight:800;color:var(--ac);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.plr .plw{flex:0 0 auto;white-space:nowrap}
+@media(max-width:380px){#lb .plav{flex-basis:38px;width:38px;height:38px}#lb .rk{flex-basis:28px;font-size:17px}.rsc{font-size:18px}}
+
 @property --ang{syntax:'<angle>';inherits:false;initial-value:0deg}
 .fw.vet{background:conic-gradient(from var(--ang),#08255c 0deg,#08255c 225deg,#1e6fd9 275deg,#7fd0ff 318deg,#fff 334deg,#7fd0ff 348deg,#08255c 360deg);animation:vs 2.2s linear infinite;box-shadow:0 0 .35em #2ea8ff99,0 0 .9em #1e6fd966}
 @keyframes vs{to{--ang:360deg}}
 .fw.vet::before{content:'\1F570\FE0F';position:absolute;bottom:-.25em;left:-.3em;font-size:.5em;line-height:1}
 .fw.vet::after{content:'\23F3';position:absolute;top:-.3em;right:-.3em;font-size:.55em;line-height:1;animation:vh 3s ease-in-out infinite}
 @keyframes vh{50%{transform:rotate(180deg)}}
-.fl{display:none;position:absolute;left:50%;bottom:-9px;transform:translateX(-50%);font-size:9px;font-weight:800;letter-spacing:.08em;white-space:nowrap;background:#08255c;color:#bfe3ff;border:1px solid #2ea8ff;border-radius:99px;padding:1px 7px;line-height:1.3;z-index:2}
-.pav .fl,.avl .fl,.fpv .fl,.pvp .fl{display:block}
+.vfl{display:none;position:absolute;left:50%;bottom:-9px;transform:translateX(-50%);font-size:9px;font-weight:800;letter-spacing:.08em;white-space:nowrap;background:#08255c;color:#bfe3ff;border:1px solid #2ea8ff;border-radius:99px;padding:1px 7px;line-height:1.3;z-index:2}
+.pav .vfl,.avl .vfl,.fpv .vfl,.pvp .vfl{display:block}
 .chm{display:inline-flex;align-items:center;gap:6px;color:#ff3b5c;font-weight:800;letter-spacing:.06em;font-size:13px;margin:2px 0 4px}
 .crn{width:20px;height:20px;fill:#e0115f;stroke:#ffc2d1;stroke-width:1;stroke-linejoin:round;filter:drop-shadow(0 0 4px #e0115f88);flex:0 0 auto;vertical-align:middle}
 .plm .crn,.pl .crn{width:15px;height:15px}
@@ -217,7 +230,7 @@ nav button span{font-size:11px}nav button.on{color:var(--ac)}
 .plr:last-child{border-bottom:0}
 .plav{flex:0 0 42px;height:42px;font-size:22px;display:flex;align-items:center;justify-content:center}
 .plm{flex:1;min-width:0;display:flex;flex-direction:column}.plm b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.plm small{color:var(--mu)}
-.plw,.rv{font-weight:800}.rk{flex:0 0 30px;text-align:center}
+.plw{font-weight:800}.rk{flex:0 0 30px;text-align:center}
 #pv{position:fixed;inset:0;z-index:45;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(0,0,0,.45);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);animation:cri .25s}
 .pvc{position:relative;width:min(480px,100%);max-height:90vh;overflow:auto;background:var(--card);color:var(--tx);border:1px solid var(--ln);border-radius:24px;padding:22px 16px 16px;text-align:center;box-shadow:0 20px 60px #0008;animation:ump .3s}
 .pvc h2{margin:6px 0 2px;font-size:24px}.pvs{margin:4px 0;font-size:14px}
@@ -331,7 +344,7 @@ const ACH=[];AD.forEach(a=>[0,1,2,3].forEach(t=>ACH.push([t,a[1],a[2][t],a[4](a[
 function chk(){const tcn=TR_.filter(t=>P.total>=t[2]).length;if(P.trn===undefined)P.trn=tcn;else if(tcn>P.trn){P.trn=tcn;SND.trophy();toast(TR_[tcn-1][0]+' Nowe trofeum: '+TR_[tcn-1][1]+'!')}const u=new Set(P.cards.map(c=>c[0])).size;ACH.forEach((a,i)=>{if(!P.ach.includes(i)&&a[4](P.st,u,P)){P.ach.push(i);P.coins+=1;SND.ach();toast(a[1]+' Osiągnięcie: '+a[2]+' (+1 🪙)')}});if(P.col&&!unlocked().includes(P.col))P.col='';save()}
 const unlocked=()=>[...new Set([...[0,1,2,3].filter(t=>ACH.every((a,i)=>a[0]!==t||P.ach.includes(i))).map(t=>NC[t]),...TR_.filter(t=>P.total>=t[2]).map(t=>t[3])])];
 const TR_=[['🥉','Brąz',150,'#cd7f32'],['🥈','Srebro',300,'#c0c0c0'],['🥇','Złoto',500,'#ffd700'],['🔷','Platyna',650,'#e5e4e2'],['💎','Diament',800,'#4fc3f7'],['💚','Szmaragd',1000,'#2ecc71'],['❤️','Rubin',1400,'#e0115f'],['🌈','Tęczowy',1500,'rainbow'],['👑','Legendarny',2500,'#b66bff']];
-const FRN={hal:'🎃 Halloween'};const AV=p=>{const pho=p.ph||p.photo,i=pho?`<img src="${pho}" class="ph">`:E(p.av||'🙂');return p.fr&&FRN[p.fr]?`<span class="fw ${p.fr}"><span class="fi">${i}</span>${p.fr==='vet'?'<span class="fl">⚡ WETERAN ⚡</span>':''}</span>`:i},NM=p=>`<span${p.col==='rainbow'?' class="rb"':p.col?` style="color:${p.col}"`:''}>${E(p.name||'')}</span>`;
+const FRN={hal:'🎃 Halloween'};const AV=p=>{const pho=p.ph||p.photo,i=pho?`<img src="${pho}" class="ph">`:E(p.av||'🙂');return p.fr&&FRN[p.fr]?`<span class="fw ${p.fr}"><span class="fi">${i}</span>${p.fr==='vet'?'<span class="vfl">⚡ WETERAN ⚡</span>':''}</span>`:i},NM=p=>`<span${p.col==='rainbow'?' class="rb"':p.col?` style="color:${p.col}"`:''}>${E(p.name||'')}</span>`;
 /* ---- nawigacja ---- */
 let FT=-1,FO=0,code='',G=null,PL=[],CH=[],sig='',unsubs=[],busy=false,hid=[],T='play',WR=0,spin=false,RG=14,blk=false,gF=0,gT=0,EM='',prevN=0;
 const NAV=[['play','🎮','Graj'],['shop','🛒','Sklep'],['col','🃏','Karty'],['rank','🏅','Ranking'],['me','👤','Profil']];
@@ -714,7 +727,7 @@ const d=m.querySelector('#pvd');if(d)d.onclick=()=>{const ks=Object.keys(DB);if(
 /* ---- ranking z liczba gier ---- */
 const RV={w:p=>p.w||0,bw:p=>p.bw||0,g:p=>p.g||0,c:p=>p.c||0,v:p=>Math.round(p.v||0),mw:p=>p.mm===mkey(new Date())?(p.mw||0):0};
 function rankTab2(keys,k){const rl=()=>{const el=$('#lb');if(!el)return;const s=[...LB].sort((a,b)=>RV[k](b)-RV[k](a)||(b.g||0)-(a.g||0)).slice(0,50);
-el.innerHTML=s.map((p,i)=>`<button class="plr" data-p="${p.id}"><span class="rk">${medal(i)}</span><span class="plav">${AV({ph:p.ph,av:p.av,fr:p.fr})}</span><span class="plm"><b>${NM({name:p.n,col:p.col})}${isChamp(p)?' '+CROWN:''}</b><small>🎮 ${(p.g||0)+(p.bg||0)} ${(p.g||0)+(p.bg||0)===1?'gra':'gier'} · ${lastAct(p)}</small></span><b class="rv">${RV[k](p)}</b></button>`).join('')||'<p>Brak graczy w rankingu.</p>';
+el.innerHTML=s.map((p,i)=>`<button class="plr" data-p="${p.id}"><span class="rk">${medal(i)}</span><span class="plav">${AV({ph:p.ph,av:p.av,fr:p.fr})}</span><span class="plm"><b>${NM({name:p.n,col:p.col})}${isChamp(p)?' '+CROWN:''}</b><small><span>🎮 ${(p.g||0)+(p.bg||0)} ${(p.g||0)+(p.bg||0)===1?'gra':'gier'}</span><span>${lastAct(p)}</span></small></span><b class="rsc">${RV[k](p)}</b></button>`).join('')||'<p>Brak graczy w rankingu.</p>';
 el.querySelectorAll('[data-p]').forEach(b=>b.onclick=()=>openProfile(b.dataset.p))};
 const ch=CHAMP&&CHAMP.uid?`<div class="c">👑 Champion miesiąca (${E(monthName(CHAMP.m))}): <b>${E(CHAMP.n||'Gracz')}</b>, ${CHAMP.w} wygranych</div>`:'';
 $('#main').innerHTML=`<h2>🏅 Ranking</h2>${GM?'':ch}<div class="row">${keys.map(x=>`<button class="${x[0]===k?'':'s'}" data-k="${x[0]}">${x[1]}</button>`).join('')}</div><div class="c" id="lb"></div><p>${AUTH.google?'Jesteś w rankingu jako gracz zalogowany przez Google.':'W rankingu są tylko gracze zalogowani przez Google.'} Dotknij gracza, aby zobaczyć jego profil.</p>`;
