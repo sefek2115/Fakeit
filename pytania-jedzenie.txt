@@ -1,0 +1,214 @@
+﻿​[TEKST] Jaki kraj jest uważany za ojczyznę pizzy w jej nowoczesnej, okrągłej formie z sosem pomidorowym? : Włochy | e: Neapol to historyczna stolica pizzy, gdzie w XVIII i XIX wieku powstały pierwsze placki z pomidorami i mozzarellą.
+[TEKST] Jak nazywa się tradycyjna japońska potrawa składająca się z zakwaszonego octem ryżu i owoców morza? : sushi | e: Sushi pierwotnie służyło jako metoda konserwacji ryb w sfermentowanym ryżu.
+[TEKST] Jaki główny składnik jest podstawą przygotowania klasycznego włoskiego sosu pesto z Genui? : bazylia | e: Klasyczne pesto genovese zawiera świeże liście bazylii, oliwę z oliwek, czosnek, orzechy pinii oraz ser pecorino i parmezan.
+[TEKST] Jak nazywa się meksykański sos na bazie awokado, pomidorów, limonki i kolendry? : guacamole | e: Awokado było podstawą tej pasty już w czasach starożytnych Azteków.
+[TEKST] Jakie państwo jest największym producentem i eksporterem kawy na świecie? : Brazylia | e: Brazylia odpowiada za blisko jedną trzecią całkowitej światowej produkcji ziaren kawowca.
+[TEKST] Jak nazywa się francuski deser składający się z zapieczonego kremu z paloną skorupką cukrową? : crème brûlée | e: Charakterystyczna skorupka z karmelu jest rozbijana małą łyżeczką przed zjedzeniem deseru.
+[TEKST] Jaki główny owoc jest bazą do produkcji tradycyjnego hiszpańskiego chłodnika gazpacho? : pomidor | e: Gazpacho to orzeźwiająca zupa kuchni andaluzyjskiej podawana na zimno z surowych warzyw.
+[TEKST] Jak nazywa się popularny wietnamski bulion z makaronem ryżowym i ziołami? : pho | e: Bulion pho gotuje się przez wiele godzin z dodatkiem przypraw korzennych, takich jak orzech muszkatołowy i cynamon.
+[TEKST] Jaki gatunek sera produkowany jest wyłącznie w regionie wokół Parmy i Reggio Emilia we Włoszech? : parmezan (Parmigiano Reggiano) | e: Prawdziwy parmezan musi dojrzewać przez co najmniej 12 miesięcy, a często znacznie dłużej.
+[TEKST] Jak nazywa się japońska zupa na bazie bulionu rybnego z dodatkiem pasty ze sfermentowanej soi? : miso | e: Pasta miso powstaje w wyniku fermentacji soi z solą oraz grzybami koji.
+[TEKST] Jak nazywa się tradycyjny polski chłodnik na bazie sfermentowanego nabiału z warzywami? : chłodnik litewski | e: Charakterystyczny różowy kolor chłodnik zawdzięcza dodatkowi młodych buraków i botwinki.
+[TEKST] Jaki główny składnik jest podstawą tradycyjnego greckiego sosu tzatziki? : jogurt grecki | e: Sos tzatziki przygotowuje się z gęstego jogurtu owczego lub koziego, ogórka, czosnku i oliwy.
+[TEKST] Jak nazywa się meksykański placek kukurydziany lub pszenny nadziewany mięsem? : tortilla | e: Tortilla stanowi absolutną bazę do przygotowania dań takich jak tacos, burrito czy quesadilla.
+[TEKST] Jaki kraj słynie z produkcji sera roquefort z niebieską pleśnią dojrzewającego w jaskiniach? : Francja | e: Ser roquefort powstaje z mleka owczego i porastany jest pleśnią Penicillium roqueforti.
+[TEKST] Jak nazywa się mała, okrągła kluska ziemniaczana lub twarogowa popularna w Polsce? : kopytka (lub pyzy / kluski śląskie) | e: Kopytka zawdzięczają swoją nazwę charakterystycznemu romboidalnemu kształtowi przypominającemu kopyto.
+[TEKST] Jaki główny owoc jest surowcem do produkcji tradycyjnego cydru? : jabłko | e: Cydr powstaje w wyniku naturalnej fermentacji soków wyciśnionych ze świeżych jabłek.
+[TEKST] Jak nazywa się tradycyjna potrawa węgierska będąca gęstą zupą mięsną z papryką? : gulasz (bogracz) | e: Prawdziwy węgierski gulasz gotowany jest na wolnym ogniu w żeliwnym kotle nad ogniskiem.
+[TEKST] Jaki składnik nadaje charakterystyczny zielony kolor tradycyjnemu indyjskiemu curry szpinakowemu? : szpinak | e: Potrawa znana jako saag lub palak paneer łączy szpinak z serem paneer i przyprawami.
+[TEKST] Jak nazywa się popularny włoski deser składający się z nasączonych kawą biszkoptów i mascarpone? : tiramisu | e: Nazwa tiramisu oznacza dosłownie „podnieś mnie” ze względu na pobudzające właściwości kawy.
+[TEKST] Jakie warzywo jest kluczowym składnikiem tradycyjnego polskiego żurku? : zakwas z mąki żytniej | e: Wyjątkowy kwasowy smak żurku pochodzi z fermentacji mąki żytniej z czosnkiem i skórką chleba.
+[TEKST] Jak nazywa się cienki naleśnik z mąki gryczanej lub pszennej popularny we Francji? : crêpe | e: Słodkie naleśniki crêpes suzette podaje się z sosem pomarańczowym i likierem flambé.
+[TEKST] Jaki orzech jest podstawowym składnikiem tradycyjnego marcepana? : migdał | e: Marcepan powstaje przez dokładne zmielenie słodkich migdałów z cukrem pudrem.
+[TEKST] Jak nazywa się tradycyjny bliskowschodni sos z ciecierzycy, tahini i czosnku? : hummus | e: Pasta tahini wchodząca w skład hummusu produkowana jest z prażonych nasion sezamu.
+[TEKST] Jaki owoc morza jest głównym składnikiem hiszpańskiej paelli obok szafranowego ryżu? : krewetki (lub owoce morza / kurczak) | e: Paella to narodowe danie Walencji przygotowywane na wielkiej, płaskiej patelni.
+[TEKST] Jak nazywa się popularna w Azji Południowo-Wschodniej niezwykle aromatyczna zupa z trawą cytrynową? : tom yum | e: Tajska zupa tom yum słynie z idealnego połączenia smaków kwaśnego, ostrego i słodkiego.
+[TEKST] Jaki rodzaj mąki jest tradycyjnie używany do wypieku oryginalnej włoskiej pizzy neapolitańskiej? : mąka pszenna typu „00” | e: Mąka o takim zmieleniu zawiera odpowiednią ilość glutenu, co pozwala na długie wyrastanie ciasta.
+[TEKST] Jak nazywa się tradycyjna potrawa z surowego posiekanego mięsa wołowego z żółtkiem? : tatar (steak tartare) | e: Tatar podaje się zazwyczaj z posiekaną cebulą, ogórkiem kiszonym i żółtkiem jajka.
+[TEKST] Jaki główny składnik nadaje charakterystyczny żółty kolor indyjskiej przyprawie kurkuma? : kurkuminę (kłącze ostryżu) | e: Kurkuma jest bliską krewną imbiru i od tysiącleci stosowana jest w medycynie ajurwedyjskiej.
+[TEKST] Jak nazywa się tradycyjne małe pierożki chińskie gotowane na parze lub smażone? : dim sum (lub jiaozi / wonton) | e: Pierożki te nadziewane są najczęściej mieloną wieprzowiną i warzywami.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego barszczu czerwonego? : burak ćwikłowy | e: Buraki zawierają cenne betalainy, które nadają zupie głęboką, ciemnoczerwoną barwę.
+[TEKST] Jak nazywa się popularne danie koreańskie ze sfermentowanej i pikantnej kapusty? : kimchi | e: Kimchi jest narodowym symbolem Korei i powstaje w procesie długiej fermentacji mlekowej.
+[TEKST] Jaki ser jest tradycyjnie używany do przygotowania oryginalnej pizzy Margherita? : mozzarella di bufala (lub fior di latte) | e: Mozzarella produkowana z mleka bawolic nadaje pizzy wyjątkową kremową konsystencję.
+[TEKST] Jak nazywa się gorzki napój bezalkoholowy produkowany ze sfermentowanych nasion kakaowca? : czekolada na gorąco | e: Kakao pierwotnie spożywane było przez Majów i Azteków jako pikantny napój wytrawny.
+[TEKST] Jak nazywa się tradycyjne małe włoskie kluski robione z ziemniaków lub mąki? : gnocchi | e: Gnocchi podaje się najczęściej w towarzystwie aromatycznych sosów maślanych lub pomidorowych.
+[TEKST] Jaki główny składnik zawiera tradycyjny brytyjski deser Eton Mess? : beza, truskawki i bita śmietana | e: Nazwa deseru („bałagan z Eton”) pochodzi z elitarnej szkoły w Anglii, gdzie tradycyjnie jest podawany.
+[TEKST] Jak nazywa się mała pieczona bułeczka nadziewana mięsem w kuchni chińskiej? : baozi (bao) | e: Puszyste bułeczki drożdżowe baozi przygotowuje się najczęściej w bambusowych parnikach.
+[TEKST] Jaki produkt pszczeli jest naturalnym słodzikiem produkowanym przez pszczoły? : miód | e: Skład chemiczny miodu zależy bezpośrednio od gatunków kwiatów, z których pszczoły zbierały nektar.
+[TEKST] Jak nazywa się tradycyjna potrawa gruzińska w kształcie łódki z serem i jajkiem? : czachapuri (wersja adżarska) | e: Gorące czachapuri po wyjęciu z pieca miesza się widelcem przed jedzeniem.
+[TEKST] Jakie owoce są podstawą produkcji tradycyjnego francuskiego wina szampańskiego? : winogrona (Chardonnay, Pinot Noir, Pinot Meunier) | e: Prawdziwy szampan może pochodzić wyłącznie z francuskiego regionu Szampanii.
+[TEKST] Jak nazywa się tradycyjna meksykańska potrawa z mięsa pieczonego na pionowym rożnie? : tacos al pastor | e: Sposób przyrządzania tego mięsa został przywieziony do Meksyku przez imigrantów z Libanu.
+[TEKST] Jak nazywa się ostry zielony japoński chrzan podawany do sushi? : wasabi | e: Prawdziwe wasabi jest niezwykle drogie w uprawie, dlatego w wielu restauracjach zastępuje je chrzan z musztardą.
+[TEKST] Jakie warzywo jest głównym składnikiem popularnych placków ziemniaczanych? : ziemniak | e: Placki ziemniaczane to klasyczne danie kuchni środkowoeuropejskiej i żydowskiej (latkes).
+[TEKST] Jak nazywa się tradycyjny turecki deser z cienkiego ciasta filo z orzechami i syropem? : baklava | e: Baklava słynie ze swojej niezwykłej słodyczy i chrupkości dziesiątek warstw ciasta.
+[TEKST] Jaki główny tłuszcz jest fundamentem kuchni śródziemnomorskiej? : oliwa z oliwek | e: Oliwa z oliwek extra virgin bogata jest w zdrowe kwasy tłuszczowe jednonienasycone.
+[TEKST] Jak nazywa się mały włoski pierożek z nadzieniem, często formowany w kształcie pierścienia? : tortellini (lub ravioli) | e: Tortellini tradycyjnie podaje się w czystym bulionie mięsnym podczas świąt.
+[TEKST] Jakie ziarno jest podstawą diety ponad połowy światowej populacji ludzi? : ryż | e: Uprawa ryżu odgrywa kluczową rolę gospodarki i kultury w krajach Azji.
+[TEKST] Jak nazywa się tradycyjny szkocki przysmak z podrobów owczych zaszytych w żołądku? : haggis | e: Haggis doprawiany jest pieprzem i tradycyjnie podawany z purée z brukwi i ziemniaków.
+[TEKST] Jaki owoc botanicznie zaliczany jest do jagód, mimo że potocznie nazywamy go warzywem? : pomidor | e: Spór prawny w USA pod koniec XIX wieku zakwalifikował pomidor jako warzywo dla celów celnych.
+[TEKST] Jak nazywa się tradycyjna mała przekąska hiszpańska podawana do wina? : tapas | e: Tapas mogą przybierać formę oliwek, kawałków szynki serrano lub miniaturowych kanapek.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnego kremu portobello lub pieczarkowego? : pieczarki (lub grzyby leśne) | e: Zupy krem z grzybów z dodatkiem śmietanki to klasyka kuchni jesiennej.
+[TEKST] Jak nazywa się mały francuski wypiek z ciasta francuskiego w kształcie półksiężyca? : rogalik (croissant) | e: Croissant zawdzięcza swoją listkowatą strukturę wielokrotnemu wałkowaniu ciasta z masłem.
+[TEKST] Jaki popularny napój bezalkoholowy powstaje z naparu liści krzewu Camellia sinensis? : herbata | e: Herbata jest drugim najchętniej spożywanym napojem na świecie po czystej wodzie.
+[TEKST] Jak nazywa się tradycyjny włoski chleb o puszystym wnętrzu i chrupiącej skórce pieczony z oliwą? : ciabatta | e: Ciabatta została stworzona w 1982 roku jako odpowiedź na popularność francuskich bagietek.
+[TEKST] Jaki główny składnik zawiera tradycyjna polska sałatka jarzynowa? : gotowane warzywa korzeniowe, groszek, ogórki kiszone i majonez | e: Sałatka jarzynowa to niezastąpiony element tradycyjnego polskiego stołu świątecznego.
+[TEKST] Jak nazywa się tradycyjna potrawa z surowej ryby w marynacie z limonki z Ameryki Południowej? : ceviche | e: Kwas z soku limonki powoduje denaturację białek ryby, dając efekt „ugotowania” bez ciepła.
+[TEKST] Jaki produkt mleczny jest bazą do produkcji tradycyjnego polskiego twarogu? : mleko ukwaszone (kefir lub zrębka serowa) | e: Twaróg powstaje w procesie odcedzania serwatki z podgrzanego skrzepu mlecznego.
+[TEKST] Jak nazywa się tradycyjna japońska potrawa z grillowanego mięsa na szaszłykach? : yakitori | e: Yakitori to popularny street food składający się głównie z kawałków kurczaka w sosie sojowym.
+[TEKST] Jakie warzywo jest podstawowym składnikiem tradycyjnego włoskiego risotto? : ryż (arborio lub carnaroli) | e: Kluczem do idealnego risotto jest powolne dodawanie bulionu i ciągłe mieszanie ryżu.
+[TEKST] Jak nazywa się mała okrągła kluska w kuchni śląskiej z charakterystyczną dziurką? : kluski śląskie | e: Dziurka w kluskach śląskich służy do zatrzymywania pysznego sosu pieczeniowego.
+[TEKST] Jakie miasto w USA jest kolebką słynnej kanapki philly cheesesteak? : Filadelfia | e: Kanapka składa się z cienko pokrojonej wołowiny i topionego sera w podłużnej bułce.
+[TEKST] Jak nazywa się tradycyjna meksykańska potrawa z mięsa duszonena w liściach kukurydzy? : tamales | e: Tamales to jedno z najstarszych dań kuchni meksykańskiej sięgające czasów prekolumbijskich.
+[TEKST] Jaki główny owoc jest składnikiem tradycyjnego amerykańskiego ciasta szarlotkowego (apple pie)? : jabłko | e: Apple pie z cynamonem to kultowy symbol tradycyjnej amerykańskiej kuchni domowej.
+[TEKST] Jak nazywa się tradycyjny chłopski gęsty żur lub zupa na zakwasie w Polsce? : żurek (lub zalewajka) | e: Zalewajka różni się od żurku tym, że zakwas wlewa się bezpośrednio do gotujących się ziemniaków.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z dyni? : dynia | e: Dynia piżmowa lub hokkaido nadają zupie aksamitną konsystencję i lekko słodkawy posmak.
+[TEKST] Jak nazywa się popularna potrawa z ciecierzycy formowana w kulki i smażona na głębokim tłuszczu? : falafel | e: Falafel pochodzi z Bliskiego Wschodu i jest podstawą wegetariańskiego street foodu.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznego hamburgera amerykańskiego? : wołowina (mielona łopatka lub antrykot) | e: Dobry burger wymaga odpowiedniej proporcji chudego mięsa do tłuszczu (zazwyczaj 80/20).
+[TEKST] Jak nazywa się tradycyjny francuski gęsty sos na bazie żółtek, masła i soku z cytryny? : sos holenderski | e: Sos holenderski to nieodłączny element klasycznego śniadania z jajkami po benedyktyńsku.
+[TEKST] Jakie warzywo jest bazą do produkcji tradycyjnych powideł śliwkowych? : śliwka węgierka | e: Tradycyjne powidła śliwkowe gotuje się w miedzianych kotłach przez wiele dni bez cukru.
+[TEKST] Jak nazywa się tradycyjna potrawa z kapusty kiszonej i słodkiej z dodatkiem mięsa i grzybów? : bigos | e: Bigos według przysłowia im dłużej jest odgrzewany, tym staje się smaczniejszy.
+[TEKST] Jakie ziarno jest używane do produkcji tradycyjnych włoskich makaronów durum? : pszenica twarda (durum) | e: Mąka z pszenicy durum (semolina) gwarantuje, że makaron nie rozgotuje się i zachowa strukturę al dente.
+[TEKST] Jak nazywa się tradycyjny chleb polski wypiekany na zakwasie żytnim? : chleb wiejski (żytni) | e: Prawdziwy chleb na zakwasie nie wymaga dodatku drożdży piekarskich do wyroszenia.
+[TEKST] Jakie owoce są surowcem do produkcji tradycyjnych polskich powideł i śliwowicy? : śliwki | e: Śliwowica to mocny trunek alkoholowy o wyrazistym owocowym aromacie.
+[TEKST] Jak nazywa się tradycyjna grecka zapiekanka z bakłażanem, mielonym mięsem i sosem beszamelowym? : musaka | e: Musaka popularna jest również na Bałkanach i w krajach Bliskiego Wschodu.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej polskiej zupy ogórkowej? : ogórek kiszony | e: Kwasowość zupy ogórkowej zależy bezpośrednio od ilości i jakości dodanych kiszonek.
+[TEKST] Jak nazywa się tradycyjny mały włoski deser lodowy o konsystencji kremowej? : gelato | e: Włoskie gelato zawiera mniej powietrza i tłuszczu niż tradycyjne lody amerykańskie.
+[TEKST] Jakie zioło jest kluczowe w przygotowaniu tradycyjnego włoskiego sosu do spaghetti Bolognese? : oregano (lub bazylia) | e: Sos boloński (ragù) opiera się jednak przede wszystkim na długim duszeniu mięsa z warzywami i winem.
+[TEKST] Jak nazywa się tradycyjna potrawa z kaszy jaglanej lub gryczanej w Polsce? : kaszotto (lub krupnik) | e: Kaszotto to nowoczesna polska wersja włoskiego risotto przygotowywana na bazie kaszy.
+[TEKST] Jakie owoce są podstawą produkcji tradycyjnego wina tokajskiego na Węgrzech? : winogrona dotknięte szarą pleśnią (aszú) | e: Winogrona dotknięte tzw. szlachetną gniłością dają niezwykle słodkie i aromatyczne wino.
+[TEKST] Jak nazywa się tradycyjny wschodniopluski pieróg z nadzieniem ziemniaczano-twarogowym? : pierogi ruskie | e: Mimo nazwy pierogi ruskie są stałym elementem tradycyjnej kuchni polskiej i ukraińskiej.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z białych szparagów? : szparag biały | e: Sezon na świeże szparagowe rarytasy trwa w Europie od wiosny do końca czerwca.
+[TEKST] Jak nazywa się tradycyjna potrawa meksykańska z chili, fasolą i mięsem mielonym? : chili con carne | e: Choć potrawa kojarzy się z Meksykiem, jej współczesna wersja spopularyzowana została w Teksasie.
+[TEKST] Jakie owoce są głównym składnikiem tradycyjnego dżemu moru lub konfitury z czarnej porzeczki? : czarna porzeczka | e: Czarna porzeczka słynie z rekordowej zawartości naturalnej witaminy C.
+[TEKST] Jak nazywa się tradycyjny okrągły chleb z dziurką wypiekany w Polsce i na świecie przez społeczność żydowską? : bajgiel (bagel) | e: Bajgle przed upieczeniem są najpierw krótko obgotowywane we wrzącej wodzie.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej zupy krem z brokułów? : brokuł | e: Zupa z brokułów często podawana jest z dodatkiem sera pleśniowego lub prażonych migdałów.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska składająca się z cienkich plastrów surowej wołowiny? : carpaccio | e: Carpaccio skrapiane jest oliwą z oliwek, soku z cytryny i posypywane płatkami parmezanu.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego hiszpańskiego wina wzmacnianego sherry? : winogrona (Palomino) | e: Sherry produkowane jest w regionie Andaluzji wokół miasta Jerez de la Frontera.
+[TEKST] Jak nazywa się tradycyjna potrawa z ryżu, szafranu i bulionu z Mediolanu? : risotto alla milanese | e: Szafran nadaje temu daniu niepowtarzalny złocisty kolor i korzenny aromat.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznego polskiego schabowego? : schab wieprzowy z kością lub bez | e: Kotlet schabowy panierowany w bułce tartej to królowa niedzielnych obiadów w Polsce.
+[TEKST] Jak nazywa się tradycyjna japońska potrawa z octowego ryżu owiniętego nori? : maki sushi (norimaki) | e: Rolki sushi krojone są ostrym nożem na równe, mniejsze kawałki przed podaniem.
+[TEKST] Jakie warzywo jest podstawowym składnikiem tradycyjnej sałatki greckiej (horiatiki)? : pomidor, ogórek, paprika, cebula i oliwki | e: Prawdziwa sałatka grecka nie zawiera sałaty lodowej, a ser feta leży na wierzchu w całości.
+[TEKST] Jak nazywa się tradycyjna potrawa indyjska z soczewicy lub grochu? : dal (dhal) | e: Dal to podstawa wegetariańskiej kuchni Indii bogata w łatwo przyswajalne białko roślinne.
+[TEKST] Jakie owoce są surowcem do produkcji tradycyjnego francuskiego koniaku? : białe winogrona (Ugni Blanc) | e: Koniak to dwukrotnie destylowana brandy pochodząca wyłącznie z regionu Cognac we Francji.
+[TEKST] Jak nazywa się tradycyjna potrawa węgierska z kluseczkami z ciasta jajecznego? : nokedli (kopytka węgierskie) | e: Nokedli idealnie pasują do gęstych, paprykowych sosów gulaszowych.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej polskiej zupy jarzynowej? : mieszanka warzyw (marchew, pietruszka, seler, ziemniaki) | e: Zupa jarzynowa to lekka, domowa zupa przygotowywana na bazie bulionu warzywnego.
+[TEKST] Jak nazywa się tradycyjny francuski placek warzywny lub mięsny w cieście kruchej? : quiche | e: Najpopularniejsza wersja quiche lorraine zawiera boczek, śmietanę i ser gruyère.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego wina porto w Portugalii? : winogrona z Doliny Douro | e: Porto to słodkie wino wzmacniane spirytusem winnym podczas procesu fermentacji.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z zapiekanych warzyw z sosem beszamelowym i mięsem? : lasagne | e: Lasagne składa się z naprzemiennych warstw płatów makaronu i sosu mięsnego ragù.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z kalafiora? : kalafior | e: Aksamitny krem z kalafiora doskonale smakuje z dodatkiem chrupiącego boczku lub orzechów.
+[TEKST] Jak nazywa się tradycyjna potrawa meksykańska z tortilli z nadzieniem zapieczona pod serem? : enchiladas | e: Enchiladas polewane są obficie pikantnym sosem pomidorowym lub zielonym sosem salsa verde.
+[TEKST] Jakie owoce są surowcem do produkcji tradycyjnego likieru cytrusowego Cointreau lub Curaçao? : skórki gorzkich i słodkich pomarańczy | e: Likier ten nadaje charakterystyczny cytrusowy akcent wielu klasycznym koktajlom alkoholowym.
+[TEKST] Jak nazywa się tradycyjna polska zupa grzybowa gotowana na suszonych borowikach? : zupa grzybowa | e: Zupa grzybowa z domowym makaronem to stały element wigilijnej wieczerzy w Polsce.
+[TEKST] Jakie mięso jest tradycyjnym budulcem oryginalnego włoskiego ragù alla Bolognese? : mielona wołowina i pancetta (boczek) | e: Prawdziwe ragù gotuje się na wolnym ogniu z mlekiem i winem przez co najmniej kilka godzin.
+[TEKST] Jak nazywa się tradycyjna potrawa z Bliskiego Wschodu z kaszy bulgur i mielonego mięsa? : kibbeh | e: Kibbeh ma charakterystyczny wrzecionowaty kształt i jest przyprawiane miętą i kminem.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnej zupy cebulowej we Francji? : cebula | e: Francuska zupa cebulowa zapiekana jest z grzanką posypaną ciągnącym się serem gruyère.
+[TEKST] Jak nazywa się tradycyjna potrawa z marynowanego śledzia w Polsce podawana w oleju lub śmietanie? : śledź po polsku | e: Śledzie to tradycyjna zimna przekąska obecna na polskich stołach podczas uroczystości i świąt.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego francuskiego likieru owocowego cassis? : czarna porzeczka | e: Likier crème de cassis jest kluczowym składnikiem popularnego koktajlu Kir Royale.
+[TEKST] Jak nazywa się tradycyjna potrawa grecka z mięsa mielonego i ryżu zawijana w liście winogron? : dolmades (gołąbki liściowe) | e: Dolmades podawane są zazwyczaj na zimno z sosem cytrynowym lub jogurtowym.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznych polskich gołąbków w kapuście? : wieprzowina mielona z ryżem | e: Gołąbki duszone są w aromatycznym sosie pomidorowym lub grzybowym.
+[TEKST] Jak nazywa się tradycyjny napój fermentowany z miodu pszczelego w Polsce? : miód pitny | e: Miód pitny to jeden z najstarszych napojów alkoholowych produkowanych w Europie Środkowej.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu ze szpinaku? : szpinak | e: Zpua krem ze szpinaku podawana jest często z grzankami czosnkowymi i jajkiem przepiórczym.
+[TEKST] Jak nazywa się tradycyjna potrawa meksykańska z placków kukurydzianych z serem i dodatkami? : quesadilla | e: Quesadilla po podgrzaniu na patelni ma idealnie roztopiony ser wewnątrz złożonej tortilli.
+[TEKST] Jakie owoce są podstawą produkcji tradycyjnego francuskiego calvadosu? : jabłka (lub gruszki) | e: Calvados to mocny destylat jabłkowy pochodzący z regionu Normandii we Francji.
+[TEKST] Jak nazywa się tradycyjna zupa rybna z Marsylii z dodatkiem ziół prowansalskich? : bouillabaisse | e: Bouillabaisse przygotowywana była pierwotnie przez marsylskich rybaków z niesprzedanych ryb.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznych pulpetów w sosie koperkowym? : mięso mielone wieprzowo-wołowe | e: Pulpety w delikatnym sosie koperkowym to klasyczny smak polskiego obiadu domowego.
+[TEKST] Jak nazywa się tradycyjna potrawa z placków ziemniaczanych przekładanych gulaszem węgierskim? : placek po węgiersku | e: To sycące danie polskiej kuchni restauracyjnej podawane z kwaśną śmietaną.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej zupy szczawiowej w Polsce? : szczaw lśniący | e: Charakterystyczny kwaskowaty smak szczawiowej łagodzi dodatek ugotowanego na twardo jajka i śmietany.
+[TEKST] Jak nazywa się tradycyjna potrawa z kaszy gryczanej z grzybami i cebulą w Polsce? : kasza gryczana ze skwarkami i grzybami | e: Klasyczne danie kuchni polskiej stanowiące doskonały dodatek do pieczeni mięsnych.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego włoskiego likieru ziołowo-owocowego amaretto? : pestki moreli lub migdały | e: Amaretto charakteryzuje się wyraźnym aromatem marcepana i gorzkich migdałów.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z owoców morza i pomidorów podawana z makaronem? : spaghetti frutti di mare | e: Danie to łączy smaki małż, krewetek, kalmarów i świeżych ziół śródziemnomorskich.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z groszku zielonego? : zielony groszek | e: Krem z zielonego groszku z dodatkiem mięty ma piękny szmaragdowy kolor i świeży smak.
+[TEKST] Jak nazywa się tradycyjna potrawa meksykańska z ryżu, fasoli i mięsa w tubie z tortilli? : burrito | e: Burrito różni się od tacos tym, że tortilla jest całkowicie zwinięta i zamknięta na końcach.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznego steku ribeye? : wołowina (antykot z przerostami tłuszczowymi) | e: Stek ribeye ceniony jest przez smakoszy za niezwykłą soczystość dzięki marmurkowatości mięsa.
+[TEKST] Jak nazywa się tradycyjny francuski deser z małych ptysiów nadziewanych kremem z karmelem? : croquembouche | e: Croquembouche to efektowna piramida z ptysiów związanych nitkami karmelowymi na wesela.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej polskiej zupy grochowej? : łuskany groch | e: Grochówka gotowana na wędzonym boczku to pożywna zupa wojskowa i domowa.
+[TEKST] Jak nazywa się tradycyjna potrawa z surowego mięsa ryby siekanego z przyprawami? : sashimi / lub tatar z ryby (np. z łososia) | e: Tatar z łososia podawany jest z sokiem z cytryny, kaparami i oliwą z oliwek.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego włoskiego likieru cytrynowego limoncello? : skórki cytryn z regionu Amalfi | e: Limoncello podawane jest mocno schłodzone jako tradycyjny digestif po obiedzie.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z pierożków ravioli nadziewanych szpinakiem i ricottą? : ravioli con ricotta e spinaci | e: Ravioli podaje się najczęściej skropione masłem i posypane szałwią oraz parmezanem.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z białych warzyw korzeniowych? : pietruszka i seler | e: Krem z korzeniowych warzyw doskonale komponuje się z dodatkiem chipsów z boczku.
+[TEKST] Jak nazywa się tradycyjna potrawa meksykańska z grillowanego mięsa podawana w małych plackach? : tacos | e: Tacos to klasyczny meksykański street food jedzony ręcznie z dodatkiem salsy.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznego steku filet mignon? : wołowina (polędwica wołowa) | e: Filet mignon to najdelikatniejszy, choć mniej tłusty i aromatyczny kawałek wołowiny.
+[TEKST] Jak nazywa się tradycyjny polski placek drożdżowy z kruszonką? : drożdżówka z kruszonką (ciasto drożdżowe) | e: Puszyste ciasto drożdżowe z maślaną kruszonką to klasyk tradycyjnego wypieku domowego.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej zupy pomidorowej w Polsce? : przecier pomidorowy lub świeże pomidory | e: Zupy pomidorowa w Polsce podawana jest tradycyjnie z domowym makaronem lub ryżem.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z cienkich plastrów cielęciny z szynką i szałwią? : saltimbocca alla romana | e: Nazwa dania oznacza dosłownie „wskocz do ust” ze względu na wyśmienity smak.
+[TEKST] Jakie owoce są surowcem do produkcji tradycyjnego calvadosu i cydru w Normandii? : jabłka | e: Jabłczane tradycje kulinarne Normandii są znane na całym świecie od wieków.
+[TEKST] Jak nazywa się tradycyjna potrawa z kapusty i grochu przygotowywana na polskie święta? : kapusta z grochem | e: Tradycyjne danie postne i świąteczne bogate w błonnik i głęboki smak grzybów.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznej polskiej pieczeni rzymskiej? : mięso mielone wieprzowo-wołowe z jajkiem w środku | e: Pieczeń rzymska to zapiekany w keksówce klops mięsny z niespodzianką w postaci jaj.
+[TEKST] Jak nazywa się tradycyjny francuski chleb o podłużnym kształcie i chrupiącej skórce? : bagietka | e: Bagietka to narodowy symbol francuskiego piekarnictwa chroniony tradycyjnymi przepisami.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z porów i ziemniaków? : por i ziemniak (zupa vichyssoise) | e: Francuska zupa vichyssoise tradycyjnie podawana jest na zimno z dodatkiem śmietanki.
+[TEKST] Jak nazywa się tradycyjna potrawa z makaronu z boczkiem, jajkiem i serem pecorino? : spaghetti carbonara | e: Prawdziwa carbonara nie zawiera śmietanki, a kremowy sos powstaje z żółtek i sera.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego wina musującego Prosecco we Włoszech? : winogrona odmiany Glera | e: Prosecco produkowane jest w regionie Wenecji Euganejskiej metodą Charmat.
+[TEKST] Jak nazywa się tradycyjna potrawa polska z duszonych ziemniaków z boczkiem i cebulą? : prażone / pyry z gzikiem (ziemniaki z twarogiem) | e: Pyry z gzikiem to regionalny specyfiek kuchni wielkopolskiej.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznych zrazów wołowych zawijanych? : polędwica lub udziec wołowy | e: Zrazy wołowe nadziewane boczkiem, ogórkiem i musztardą duszone są do miękkości w sosie.
+[TEKST] Jak nazywa się tradycyjny mały pączek włoski lub puszysty wypiek karnawałowy? : bomboloni (lub faworki) | e: Włoskie bomboloni nadziewane są kremem waniliowym lub czekoladowym.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej zupy dyniowej z imbirem? : dynia i korzeń imbiru | e: Ostry imbir doskonale przełamuje naturalną słodycz kremowej zupy z dyni.
+[TEKST] Jak nazywa się tradycyjna potrawa z ryb słodkowodnych w galarecie w Polsce? : karp w galarecie | e: Karp w galarecie to tradycyjna potrawa podawana podczas wieczerzy wigilijnej.
+[TEKST] Jakie owoce są surowcem do produkcji tradycyjnej polskiej wódki żubrówki? : żyto lub pszenica z dodatkiem trawy żubrowej | e: Trawa żubrowa nadaje wódce charakterystyczny żółtawy kolor i aromat waniliowy.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z warzyw duszonych w oliwie z Prowansji/Włoch? : caponata (lub ratatouille) | e: Caponata to sycylijska potrawa z bakłażanów, kaparów, oliwek i pomidorów.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznego steku T-bone? : wołowina (steka z kością w kształcie litery T) | e: Stek T-bone łączy na jednej kości delikatną polędwicę oraz aromatyczny antrykot.
+[TEKST] Jak nazywa się tradycyjny polski deser z warstw galaretki i bitej śmietany? : galaretka owocowa z bitą śmietaną | e: Prosty domowy deser popularny w polskich domach od pokoleń.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z białych warzyw? : pietruszka, seler i ziemniak | e: Aksamitny krem warzywny to doskonała rozgrzewająca zupa na chłodne dni.
+[TEKST] Jak nazywa się tradycyjna potrawa z pierogów pieczonych z mięsem w Polsce? : pierogi pieczone z pieca | e: Pierogi drożdżowe pieczone w piecu to tradycyjny specjał kuchni staropolskiej.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego francuskiego likieru pomarańczowego Cointreau? : skórki pomarańczy słodkich i gorzkich | e: Likier ten jest kluczowym składnikiem koktajli takich jak Margarita czy Cosmopolitan.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z cienkich krążków kalmarów w panierce? : calamari fritti | e: Smażone krążki kalmarów podaje się z cząstkami świeżej cytryny i sosem majonezowym.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznych kotletów mielonych w Polsce? : mięso mielone wieprzowe z cebulą i bułką | e: Kotlety mielone panierowane w bułce to klasyczny obiad domowy w każdym polskim domu.
+[TEKST] Jak nazywa się tradycyjny napój fermentowany z buraków w Polsce? : zakwas buraczany | e: Zakwas buraczany pijany jest jako napój prozdrowotny lub stanowi bazę świątecznego barszczu.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej zupy chrzanowej w Polsce? : korzeń chrzanu | e: Zupa chrzanowa na wędzonce to tradycyjne danie serwowane na wielkanocnym śniadaniu.
+[TEKST] Jak nazywa się tradycyjna potrawa z ziemniaków i boczku zapiekana w piecu? : zapiekanka ziemniaczana (gratin) | e: Zapiekanka z ziemniaków pod śmietaną i zapieczonym serem to klasyk kuchni europejskiej.
+[TEKST] Jakie owoce są surowcem do produkcji tradycyjnej śliwowiczek i konfitur? : śliwki węgierki | e: Śliwki węgierki wyróżniają się wysoką zawartością naturalnych cukrów idealnych do przetworów.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z polenty z dodatkiem masła i sera? : polenta | e: Polenta to gęsta kasza kukurydziana popularna w północnych Włoszech.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznej pieczeni rzymskiej w Polsce? : mielona wieprzowina i wołowina | e: Pieczeń z mięsa mielonego z gotowanymi jajkami w środku to popularny obiad familijny.
+[TEKST] Jak nazywa się tradycyjny polski kompot z suszu owocowego podawany na Wigilię? : kompot z suszu | e: Kompot z wędzonych śliwek, jabłek i gruszek to tradycyjny napój wieczerzy wigilijnej.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z pomidorów z bazylią? : pomidory z puszki lub świeże | e: Krem z pomidorów podawany z oliwą z oliwek i grzankami to symbol kuchni śródziemnomorskiej.
+[TEKST] Jak nazywa się tradycyjna potrawa z klusek kładzionych z twarogiem w Polsce? : kluski kładzione z twarogiem i skwarkami | e: Proste domowe danie mączne przygotowywane szybko na maśle ze skwarkami.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego wina maderowego na Maderze? : winogrona poddawane podgrzewaniu | e: Madera to unikalne wino wzmacniane, które starzeje się w wysokich temperaturach na strychu.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z risotta formowanego w kulki i smażonego? : arancini | e: Sycylijskie arancini to nadziewane kulki ryżowe w panierce smażone na głębokim tłuszczu.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznego steku z polędwicy wołowej? : polędwica wołowa | e: Stek z polędwicy charakteryzuje się niezwykłą miękkością i delikatnością struktury.
+[TEKST] Jak nazywa się tradycyjny polski deser z bitej śmietany i galaretki w pucharku? : pucharek deserowy z galaretką | e: Klasyczny deser serwowany podczas domowych uroczystości rodzinnych w PRL i dziś.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej zupy pieczarkowej w Polsce? : pieczarki | e: Zupa pieczarkowa z dodatkiem domowego makaronu lub ziemniaków to ulubiona zupa dzieci.
+[TEKST] Jak nazywa się tradycyjna potrawa z pierogów z kapustą i grzybami w Polsce? : pierogi z kapustą i grzybami | e: Niezastąpiony, postny i świąteczny specjał polskiej kuchni narodowej.
+[TEKST] Jakie owoce są surowcem do produkcji tradycyjnego wina portwein w Portugalii? : winogrona z regionu Douro | e: Wino porto to słodki trunek o bogatym smaku owoców i orzechów.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z cienkich plastrów ryby w marynacie? : carpaccio di pesce (np. z tuńczyka lub łososia) | e: Delikatne danie rybne skrapiane oliwą z oliwek i sokiem z cytryny.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznych gołąbków w sosie grzybowym? : wieprzowina z ryżem | e: Gołąbki duszone w głębokim grzybowym sosie borowikowym to kulinarny majstersztyk.
+[TEKST] Jak nazywa się tradycyjny polski chleb baleronowy lub żytni na zakwasie? : chleb tradycyjny na zakwasie | e: Chleb wypiekany w tradycyjnych piecach chlebowych z chrupiącą skórką.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z zielonego groszku? : zielony groszek | e: Aksamitna zupa z groszku z dodatkiem mięty doskonale smakuje wiosną.
+[TEKST] Jak nazywa się tradycyjna potrawa z klusek śląskich z sosem pieczeniowym? : kluski śląskie z sosem i wołowiną | e: Tradycyjny obiad śląski składający się z rolad, klusek i modrej kapusty.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego likieru ziołowego Chartreuse we Francji? : destylat z ponad 130 ziół i roślin | e: Receptura likieru Chartreuse jest ściśle strzeżoną tajemnicą zakonników kartuzów.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z grzanek czosnkowych z pomidorami? : bruschetta | e: Bruschetta podawana jest jako przekąska antipasti ze świeżymi pomidorami i bazylią.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznej pieczeni rzymskiej z szynką? : mięso mielone z dodatkiem szynki i jaj | e: Tradycyjny pieczony klops mięsny idealny na zimno i ciepło.
+[TEKST] Jak nazywa się tradycyjny polski napój z fermentowanego chleba (kwas chlebowy)? : kwas chlebowy | e: Orzeźwiający, lekko sfermentowany napój o karmelowym posmaku i brązowej barwie.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej zupy cebulowej w Polsce? : cebula duszona na maśle | e: Polskie zupy cebulowe podawane są z grzankami i żółtym serem.
+[TEKST] Jak nazywa się tradycyjna potrawa z pierogów leniwych z bułką tartą? : pierogi leniwe | e: Kluski leniwe robione są szybko z twarogu, jajek i mąki bez konieczności lepienia.
+[TEKST] Jakie owoce są surowcem do produkcji tradycyjnego wina tokajskiego typu Aszú? : winogrona botrytyzowane | e: Wino tokajskie słynie ze swojej naturalnej słodyczy i legendarnych 3, 5 lub 6 puttonosów.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z cienkiego makaronu z serem i pieprzem? : cacio e pepe | e: Proste rzymskie danie z makaronu, pecorino i czarnego pieprzu wymagające wprawy w emulsyfikacji.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznego steku tomahawk? : wołowina (antykot z bardzo długą kością żebrową) | e: Tomahawk to efektowny stek wołowy przypominający swoim wyglądem indiański topór.
+[TEKST] Jak nazywa się tradycyjny polski deser z budyniu i kisielu warstwowego? : budyń z kisielem | e: Dwuwarstwowy domowy deser chętnie przygotowywany dla dzieci w Polsce.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z kalarepy? : kalarepa | e: Delikatny krem z kalarepy z dodatkiem śmietanki to ciekawa alternatywa dla kremu z brokułów.
+[TEKST] Jak nazywa się tradycyjna potrawa z pierogów z mięsem w Polsce? : pierogi z mięsem | e: Tradycyjne pierogi nadziewane mielonym gotowanym mięsem z cebulką i majerankiem.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego wina malagi w Hiszpanii? : winogrona Pedro Ximénez i Muscat | e: Słodkie wino deserowe produkowane w regionie Malagi na południu Hiszpanii.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z zapiekanych warzyw i mięsa w sosie? : parmigiana di melanzane | e: Zapiekanka z bakłażanów z sosem pomidorowym, mozzarellą i parmezanem.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznych zrazów wieprzowych? : schab wieprzowy rozklepany na roladki | e: Zrazy wieprzowe nadziewane boczkiem, ogórkiem i cebulą duszone w aromatycznym sosie.
+[TEKST] Jak nazywa się tradycyjny polski chleb z dodatkiem mąki razowej? : chleb razowy | e: Chleb wypiekany z mąki z pełnego przemiału, bogaty w błonnik i minerały.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej zupy fasolowej w Polsce? : sucha fasola jaś | e: Fasolówka gotowana na wędzonce z majerankiem to niezwykle pożywna polska zupa.
+[TEKST] Jak nazywa się tradycyjna potrawa z klusek śląskich z sosem grzybowym? : kluski śląskie z sosem borowikowym | e: Delikatne kluski ziemniaczane zanurzone w głębokim sosie z leśnych grzybów.
+[TEKST] Jakie owoce są surowcem do produkcji tradycyjnego calvadosu w dolinach Bretanii? : jabłka i gruszki | e: Alkohole owocowe z północnej Francji słyną ze swojego charakterystycznego aromatu.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z risotto z dodatkiem grzybów borowików? : risotto ai porcini | e: Kremowe risotto z dodatkiem świeżych lub suszonych borowików i parmezanu.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznego steku picanha? : wołowina (czubek zrazowy górny z tłuszczem) | e: Picanha to niezwykle popularny stek w kuchni brazylijskiej grillowany na szaszłykach.
+[TEKST] Jak nazywa się tradycyjny polski placek ziemniaczany z blachy? : pyra z pieca / babka ziemniaczana | e: Babka ziemniaczana z boczkiem pieczona w brytfannie to regionalny specjał kresowy.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z porów? : por | e: Delikatna zupa krem z porów z dodatkiem ziemniaków i śmietanki to klasyka bistro.
+[TEKST] Jak nazywa się tradycyjna potrawa z pierogów z truskawkami w Polsce? : pierogi z truskawkami | e: Letni polski przysmak podawany ze śmietaną i cukrem lub masłem.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego wina sherry w Andaluzji? : winogrona Palomino Fino | e: Sherry dojrzewa w systemie beczek solera w miastach Jerez de la Frontera.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z makaronu z sosem z mięsa i pomidorów? : spaghetti alla Bolognese | e: Klasyczny makaron z gęstym, aromatycznym sosem mięsnym i startym parmezanem.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznych kotletów mielonych z serem? : mięso mielone z zatopionym serem w środku | e: Kotlety mielone nadziewane ciągnącym się serem to ulubiony domowy przysmak.
+[TEKST] Jak nazywa się tradycyjny polski kompot z rabarbaru? : kompot z rabarbaru | e: Orzeźwiający, lekko kwaskowaty kompot ze świeżych łodyg rabarbaru gotowany wiosną.
+[TEKST] Jakie warzywo jest głównym składnikiem tradycyjnej zupy koperkowej w Polsce? : świeży koperek i bulion | e: Zupa koperkowa podawana z młodymi ziemniakami to klasyczny smak polskiego lata.
+[TEKST] Jak nazywa się tradycyjna potrawa z klusek kładzionych z masłem? : kluski kładzione na maśle | e: Szybkie i proste danie domowe z ciasta lanej kluski na bazie mąki i jajek.
+[TEKST] Jakie owoce są surowcem do produkcji tradycyjnego wina marsala na Sycylii? : winogrona Grillo i Inzolia | e: Marsala to wino wzmacniane stosowane chętnie w kuchni do sosów i deseru tiramisu.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z cienkich plastrów tuńczyka w marynacie? : carpaccio di tonno | e: Przekzkowa rybna z surowego tuńczyka krojonego w cienkie płatki z oliwą.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznego steku flat iron? : wołowina (mięsień z łopatki) | e: Flat iron steak charakteryzuje się niezwykłą kruchością i głębokim smakiem mięsa.
+[TEKST] Jak nazywa się tradycyjny polski deser z kisielu owocowego z sokiem? : domowy kisiel owocowy | e: Gęsty deser owocowy skrobiowy podawany na ciepło lub zimno w pucharku.
+[TEKST] Jakie warzywo jest podstawą przygotowania tradycyjnego kremu z selera? : korzeń selera | e: Aromatyczny krem z selera z dodatkiem orzechów włoskich to wykwintna zupa.
+[TEKST] Jak nazywa się tradycyjna potrawa z pierogów z czerniną lub makiem? : pierogi z makiem (lub z kaszą) | e: Słodkie pierogi z makiem i bakaliami to tradycyjna potrawa wigilijna w niektórych regionach.
+[TEKST] Jakie owoce są bazą do produkcji tradycyjnego wina madeurskiego na Maderze? : winogrona Tinta Negra Mole | e: Madera słynie ze swojej niezwykłej odporności na starzenie dzięki podgrzewaniu.
+[TEKST] Jak nazywa się tradycyjna potrawa włoska z zapiekanki makaronowej z serem? : makaron zapiekany (pasta al forno) | e: Sycąca zapiekanka z makaronu penne lub rigatoni pod grubą warstwą sera.
+[TEKST] Jakie mięso jest tradycyjnym budulcem klasycznych zrazów z polędwicy wołowej? : polędwica wołowa z farszem | e: Eleganckie danie mięsne duszone w wykwintnym sosie pieczeniowym z warzywami.
