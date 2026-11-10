@@ -1,0 +1,51 @@
+﻿​[TEKST] Jak nazywa się liczba, która dzieli się bez reszty tylko przez 1 i samą siebie? : liczba pierwsza | e: Liczby pierwsze to fundament teorii liczb; najmniejszą i zarazem jedyną parzystą liczbą pierwszą jest 2.
+[TEKST] Ile wynosi miara kąta prostego wyrażona w stopniach? : dziewięćdziesiąt | e: Kąt prosty tworzą dwie prostopadłe do siebie proste, co stanowi jedną czwartą pełnego okręgu.
+[TEKST] Jak nazywa się wynik dodawania do siebie dwóch lub więcej liczb? : suma | e: Suma to podstawowy termin arytmetyczny określający wynik operacji dodawania.
+[TEKST] Jak nazywa się wynik mnożenia dwóch lub więcej liczb? : iloczyn | e: Iloczyn to rezultat operacji mnożenia liczb całkowitych, wymiernych lub rzeczywistych.
+[TEKST] Jak nazywa się wynik dzielenia jednej liczby przez drugą? : iloraz | e: Iloraz określa, ile razy jedna liczba mieści się w drugiej; dzielenie przez zero jest niedozwolone.
+[TEKST] Jak nazywa się wynik odejmowania jednej liczby od drugiej? : różnica | e: Różnica wskazuje odległość liczbową między odjemną a odjemnikiem.
+[TEKST] Jaką nazwę nosi stała matematyczna oznaczющая stosunek obwodu koła do jego średnicy? : pi (\pi) | e: Liczba pi jest liczbą niewymierną, w przybliżeniu równą 3,14159.
+[TEKST] Jak nazywa się trójkąt, który ma wszystkie boki równej długości? : trójkąt równoboczny | e: W trójkącie równobocznym wszystkie trzy kąty wewnętrzne mają dokładnie po 60 stopni.
+[TEKST] Jak nazywa się trójkąt, który ma dwa boki równej długości? : trójkąt równoramienny | e: W trójkącie równoramiennym kąty przy podstawie mają równe miary.
+[TEKST] Jak nazywa się odcinek łączący środek okręgu z dowolnym punktem na tym okręgu? : promień | e: Promień (oznaczany często literą r) jest dokładnie dwa razy krótszy od średnicy okręgu.
+[TEKST] Jak nazywa się odcinek przechodzący przez środek okręgu i łączący jego dwa punkty? : średnica | e: Średnica jest najdłuższym cięciwem w okręgu i dzieli go na dwie równe połowy.
+[TEKST] Jak nazywa się czworokąt, który ma wszystkie boki równej długości i kąty proste? : kwadrat | e: Kwadrat jest szczególnym przypadkiem zarówno prostokąta, jak i rombu.
+[TEKST] Jak nazywa się wielokąt posiadający dokładnie pięć boków? : pięciokąt (pentagon) | e: Suma kątów wewnętrznych w każdym wypukłym pięciokącie wynosi 540 stopni.
+[TEKST] Jak nazywa się wielokąt posiadający dokładnie sześć boków? : sześciokąt (heksagon) | e: Sześciokąty foremne tworzą m.in. naturalną strukturę plastrów miodu.
+[TEKST] Jak nazywa się liczba, którą można przedstawić w postaci ułamka zwykłego? : liczba wymierna | e: Liczby wymierne to takie, które da się zapisać jako iloraz dwóch liczb całkowitych.
+[TEKST] Jak nazywa się liczba, której nie da się zapisać w postaci ułamka zwykłego? : liczba niewymierna | e: Przykładem liczby niewymiernej jest liczba pi lub pierwiastek kwadratowy z dwóch.
+[TEKST] Jak nazywa się najmniejsza wspólna wielokrotność dwóch liczb naturalnych? : NWW | e: NWW to najmniejsza dodatnia liczba, która dzieli się bez reszty przez obie dane liczby.
+[TEKST] Jak nazywa się największy wspólny dzielnik dwóch liczb naturalnych? : NWD | e: NWD to największa liczba naturalna, przez którą bez reszty dzielą się obie wyjściowe liczby.
+[TEKST] Jak nazywa się twierdzenie łączące boki trójkąta prostokątnego wzorem a^2 + b^2 = c^2? : twierdzenie Pitagorasa | e: Twierdzenie Pitagorasa to fundament geometrii euklidesowej odnoszący się do trójkątów prostokątnych.
+[TEKST] Jak nazywa się gałąź matematyki badająca kształty, rozmiary i własności przestrzeni? : geometria | e: Geometria wywodzi się ze starożytnego mierzenia ziemi i figur płaskich.
+[TEKST] Jak nazywa się funkcja matematyczna, której wykresem jest linia prosta? : funkcja liniowa | e: Wzór ogólny funkcji liniowej to y = ax + b, gdzie a to współczynnik kierunkowy.
+[TEKST] Jak nazywa się funkcja matematyczna, której wykresem jest parabola? : funkcja kwadratowa | e: Funkcja kwadratowa zapisywana jest wielomianem drugiego stopnia ax^2 + bx + c.
+[TEKST] Jak nazywa się punkt, w którym wykres funkcji przecina oś Y? : wyraz wolny (lub punkt przecięcia) | e: W funkcji liniowej y = ax + b współrzędna y tego punktu to właśnie wartość b.
+[TEKST] Jak nazywa się pierwiastek równania kwadratowego decydujący o liczbie rozwiązań? : delta (wyróżnik równania) | e: Delta obliczana jest ze wzoru \Delta = b^2 - 4ac.
+[TEKST] Ile wynosi wartość wyrażenia 5 podniesionego do potęgi zero (5^0)? : jeden | e: Każda liczba różna od zera podniesiona do potęgi zero daje w wyniku dokładnie 1.
+[TEKST] Jak nazywa się kąt, którego miara wynosi dokładnie 180 stopni? : kąt półpełny | e: Kąt półpełny tworzy prostą linię złożoną z dwóch promieni skierowanych przeciwnie.
+[TEKST] Jak nazywa się kąt, którego miara jest większa od 0, ale mniejsza od 90 stopni? : kąt ostry | e: Kąty ostre występują m.in. w trójkątach ostrokątnych.
+[TEKST] Jak nazywa się kąt, którego miara jest większa od 90, ale mniejsza od 180 stopni? : kąt rozwarty | e: Kąt rozwarty jest szerszy niż kąt prosty, ale węższy niż półpełny.
+[TEKST] Jak nazywa się czworokąt, który ma przynajmniej jedną parę boków równoległych? : trapez | e: Trapez ma dwa boki równoległe nazywane podstawami oraz dwa boki ramienne.
+[TEKST] Jak nazywa się czworokąt, który ma obie pary boków przeciwległych równoległych? : równoległobok | e: Szczególnymi przypadkami równoległoboku są prostokąt, romb oraz kwadrat.
+[TEKST] Jak nazywa się bryła obrotowa powstała z obrotu prostokąta wokół jego boku? : walec | e: Walec ma dwie równoległe podstawy będące przystającymi kołami oraz powierzchnię boczną.
+[TEKST] Jak nazywa się bryła obrotowa powstała z obrotu trójkąta prostokątnego wokół przyprostokątnej? : stożek | e: Stożek posiada jedną kolistą podstawę oraz wierzchołek połączony z brzegiem podstawy tworzącą.
+[TEKST] Jak nazywa się bryła, której wszystkie punkty powierzchni znajdują się w tej samej odległości od środka? : kula | e: Kula jest idealnie symetryczną bryłą trójwymiarową o największej objętości przy danej powierzchni.
+[TEKST] Jak nazywa się układ współrzędnych kartezjańskich złożony z dwóch prostopadłych osi? : układ współrzędnych (oś X i Y) | e: Układ ten został spopularyzowany przez francuskiego filozofa i matematyka René Descartes'a (Kartezjusza).
+[TEKST] Jak nazywa się oś pionowa w układzie współrzędnych kartezjańskich? : oś rzędnych (oś Y) | e: Oś Y służy do odczytywania drugiej współrzędnej punktu na płaszczyźnie.
+[TEKST] Jak nazywa się oś pozioma w układzie współrzędnych kartezjańskich? : oś odciętych (oś X) | e: Oś X służy do odczytywania pierwszej współrzędnej poziomej punktu.
+[TEKST] Jak nazywa się dział matematyki zajmujący się badaniem prawdopodobieństwa zdarzeń losowych? : rachunek prawdopodobieństwa | e: Rachunek prawdopodobieństwa pozwala ocenić szanse zajścia określonych zjawisk.
+[TEKST] Jak nazywa się nauka zajmująca się zbieraniem, analizą i prezentacją danych? : statystyka | e: Statystyka znajduje zastosowanie w ekonomii, medycynie, meteorologii i grach losowych.
+[TEKST] Jak nazywa się średnia wyliczana poprzez dodanie wszystkich liczb i podzielenie przez ich ilość? : średnia arytmetyczna | e: Średnia arytmetyczna to najpopularniejsza miara tendencji centralnej w statystyce.
+[TEKST] Jak nazywa się wartość środkowa w uporządkowanym niemalejąco zbiorze danych? : mediana | e: Mediana jest odporna na wartości skrajne w przeciwieństwie do średniej arytmetycznej.
+[TEKST] Jak nazywa się wartość, która w danym zbiorze danych pojawia się najczęściej? : dominanta (moda) | e: Zbiór danych może posiadać jedną dominantę, kilka dominant lub nie posiadać jej wcale.
+[TEKST] Jak nazywa się liczba wyrażona w postaci a + bi, gdzie i to jednostka urojona? : liczba zespolona | e: Liczby zespolone rozszerzają zbiór liczb rzeczywistych o pierwiastek z liczby minus jeden.
+[TEKST] Ile wynosi kwadrat jednostki urojonej (i^2)? : minus jeden (-1) | e: Jednostka urojona i z definicji spełnia równanie i^2 = -1.
+[TEKST] Jak nazywa się ciąg, w którym każdy wyraz począwszy od drugiego powstaje przez dodanie stałej liczby? : ciąg arytmetyczny | e: Stała ta nazywana jest różnicą ciągu arytmetycznego (oznaczaną literą r).
+[TEKST] Jak nazywa się ciąg, w którym każdy wyraz począwszy od drugiego powstaje przez pomnożenie przez stałą? : ciąg geometryczny | e: Stała ta nazywana jest ilorazem ciągu geometrycznego (oznaczaną literą q).
+[TEKST] Jak nazywa się operacja odwrotna do potęgowania pozwalająca znaleźć wykładnik? : logarytm | e: Logarytm odpowiada na pytanie: do jakiej potęgi trzeba podnieść podstawę, aby otrzymać daną liczbę?
+[TEKST] Jak nazywa się logarytm o podstawie równej liczbie e (Euler'a)? : logarytm naturalny (ln) | e: Liczba e to kolejna ważna stała matematyczna w przybliżeniu równa 2,71828.
+[TEKST] Jak nazywa się dział matematyki wyższej zajmujący się pochodnymi i całkami? : analiza matematyczna | e: Analiza matematyczna bada pojęcia nieskończoności, granic oraz zmian ciągłych.
+[TEKST] Jak nazywa się miara szybkości zmiany funkcji w danym punkcie? : pochodna | e: Pochodna funkcji w punkcie geometrycznie odpowiada nachyleniu stycznej do wykresu.
+[TEKST] Jak nazywa się operacja odwrotna do różniczkowania (wyznaczania pochodnych)? : całka (całkowanie) | e: Całka oznaczona pozwala m.in. obliczać pola powierzchni pod krzywymi.
+​Jeśli chcesz, mogę wygenerować kolejną partię pytań matematycznych w tym samym formacie!
