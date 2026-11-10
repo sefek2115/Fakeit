@@ -1,0 +1,298 @@
+﻿​[TEKST] Jak nazywał się pierwszy w historii w pełni elektroniczny komputer ogólnego przeznaczenia z 1946 roku? : ENIAC | e: ENIAC ważył ponad 27 ton i wykorzystywał tysiące lamp elektronowych.
+[TEKST] Kto jest uznawany za autorkę pierwszego na świecie algorytmu do maszyny analitycznej? : Ada Lovelace | e: Ada Lovelace napisała notatki do maszyny Charlesa Babbage'a w XIX wieku.
+[TEKST] Jak nazywał się pierwszy masowy komputer osobisty oparty na mikroprocesorze z 1975 roku? : Altair 8800 | e: Altair zadebiutował na okładce magazynu i zapoczątkował erę PC.
+[TEKST] W którym roku sieć ARPANET przeszła w pełni na protokół TCP/IP, tworząc współczesny Internet? : 1983 | e: Dzień 1 stycznia 1983 roku uznaje się za oficjalne narodziny dzisiejszego Internetu.
+[TEKST] Jak nazywała się pierwsza popularna przeglądarka internetowa z interfejsem graficznym WWW? : Mosaic | e: Mosaic została stworzona w 1993 roku w ośrodku NCSA.
+[TEKST] Jaka firma wprowadziła na rynek pierwszy komercyjny smartfon z systemem Android? : HTC | e: Był to model HTC Dream (T-Mobile G1) wydany pod koniec 2008 roku.
+[TEKST] Jak nazywał się kultowy komputer Apple z 1984 roku spopularyzujący interfejs graficzny? : Macintosh | e: Apple wypuściło wtedy słynną reklamę telewizyjną nawiązującą do Orwella.
+[TEKST] Od imienia jakiego historycznego króla wzięła nazwę technologia bezprzewodowa Bluetooth? : Harald Sinozęby | e: Król słynął z umiejętności łączenia ludzi, co zainspirowało nazwę standardu.
+[TEKST] Kto wynalazł globalną sieć World Wide Web (WWW) w 1989 roku w ośrodku CERN? : Tim Berners-Lee | e: Tim Berners-Lee napisał pierwszą stronę i przeglądarkę internetową.
+[TEKST] Jaki materiał półprzewodnikowy jest absolutnym fundamentem produkcji mikroprocesorów? : krzem | e: Krzem jest drugim najpowszechniejszym pierwiastkiem w skorupie ziemskiej.
+[TEKST] Jak nazywa się urządzenie sieciowe przekierowujące pakiety między różnymi sieciami? : router | e: Router dba o właściwą ścieżkę danych w globalnej sieci.
+[TEKST] Jak nazywa się protokół bezpiecznego szyfrowania połączeń sieciowych z kłódką? : HTTPS | e: Szyfrowanie TLS w ramach protokołu HTTPS chroni przesyłane dane.
+[TEKST] Jak nazywa się technologia płatności zbliżeniowych i łączności krótkiego zasięgu? : NFC | e: Near Field Communication pozwala na wymianę danych na odległość kilku centymetrów.
+[TEKST] Jak nazywał się pierwszy komercyjny telefon komórkowy od Motoroli z 1983 roku? : DynaTAC 8000X | e: Telefon ważył blisko kilogram i przypominał wielką cegłę.
+[TEKST] Jak nazywa się popularny otwartoźródłowy system operacyjny oparty na jądrze Torvaldsa? : Linux | e: Jądro Linuksa zasila większość serwerów na świecie oraz system Android.
+[TEKST] Jak nazywa się najpopularniejsza wyszukiwarka internetowa założona przez Page'a i Brina? : Google | e: Nazwa pochodzi od matematycznego pojęcia googol.
+[TEKST] Kto jest współzałożycielem giganta oprogramowania Microsoft obok Paula Allena? : Bill Gates | e: Bill Gates przez wiele lat był najbogatszym człowiekiem świata.
+[TEKST] Który wybitny brytyjski matematyk złamał szyfr niemieckiej maszyny Enigma? : Alan Turing | e: Turing stworzył podwaliny pod nowoczesną informatykę i sztuczną inteligencję.
+[TEKST] Jak nazywa się tradycyjny dysk komputerowy oparty na talerzach magnetycznych? : HDD | e: Hard Disk Drive posiada ruchome elementy mechaniczne wewnątrz obudowy.
+[TEKST] Jak nazywa się szybki nośnik danych pozbawiony całkowicie ruchomych części? : SSD | e: Solid State Drive opiera się na szybkich kościach pamięci flash.
+[TEKST] Jak nazywa się główna ulotna pamięć operacyjna komputera dla procesora? : RAM | e: Pamięć RAM traci całą zawartość po odcięciu zasilania elektrycznego.
+[TEKST] Jak nazywa się główny układ scalony będący logicznym mózgiem komputera? : procesor (CPU) | e: Procesor wykonuje miliony operacji arytmetycznych na sekundę.
+[TEKST] Jak nazywa się karta rozszerzeń renderująca grafikę 3D w grach i obliczeniach AI? : karta graficzna (GPU) | e: Procesory GPU stały się kluczowym napędem sztucznej inteligencji.
+[TEKST] Jak nazywa się główna płyta łącząca ze sobą wszystkie podzespoły komputera? : płyta główna | e: Płyta główna integruje procesor, pamięć RAM oraz sloty rozszerzeń.
+[TEKST] Jak nazywa się zasilacz komputerowy konwertujący prąd z gniazdka na napięcia stałe? : zasilacz PSU | e: Zasilacz dostarcza bezpieczną energię do wrażliwych komponentów komputera.
+[TEKST] Ile bitów liczy jeden standardowy bajt informacji cyfrowej w informatyce? : osiem | e: Jeden bajt pozwala na zapisanie jednego standardowego znaku tekstowego.
+[TEKST] Jak nazywa się złośliwe oprogramowanie szyfrujące pliki i żądające okupu? : ransomware | e: Ataki te blokują dostęp do danych, żądając opłaty za ich odszyfrowanie.
+[TEKST] Jak nazywa się technika kradzieży danych polegająca na podszywaniu się pod bank? : phishing | e: Phishing wykorzystuje fałszywe wiadomości e-mail oraz sfałszowane strony.
+[TEKST] Jak nazywa się zapora sieciowa kontrolująca ruch wchodzący i wychodzący z PC? : firewall | e: Zapora chroni komputer przed nieautoryzowanym dostępem z zewnątrz.
+[TEKST] Jak nazywa się podstawowy język znaczników struktury stron internetowych? : HTML | e: HyperText Markup Language definiuje nagłówki, akapity i linki na stronie.
+[TEKST] Jak nazywa się język stylów odpowiadający za wygląd wizualny stron WWW? : CSS | e: Cascading Style Sheets definiuje kolory, czcionki i układy elementów.
+[TEKST] Jak nazywa się język skryptowy odpowiadający za interaktywność stron w przeglądarce? : JavaScript | e: JS działa po stronie użytkownika, ożywiając statyczne strony.
+[TEKST] Jak nazywa się popularny w AI język programowania nazwany na cześć węża? : Python | e: Python słynie z prostej składni i potężnych bibliotek uczenia maszynowego.
+[TEKST] Jak nazywa się obiektowy język stworzony przez Stroustrupa jako rozwinięcie C? : C++ | e: C++ jest szeroko używany w silnikach wydajnych gier komputerowych.
+[TEKST] Jak nazywa się relacyjna baza danych wykorzystująca tabele i zapytania SQL? : MySQL | e: MySQL to popularna otwartoźródłowa baza obsługująca miliony serwisów.
+[TEKST] Jak nazywa się dziedzina informatyki zajmująca się imitowaniem ludzkiej myśli? : sztuczna inteligencja (AI) | e: AI obejmuje uczenie maszynowe, sieci neuronowe i modele generatywne.
+[TEKST] Jak nazywa się technologia przetwarzania danych w zdalnej chmurze obliczeniowej? : cloud computing | e: Usługi w chmurze pozwalają wynajmować moc obliczeniową na żądanie.
+[TEKST] Jak nazywa się koncepcja łączenia urządzeń domowych z siecią internetową? : Internet Rzeczy (IoT) | e: IoT dotyczy inteligentnych żarówek, termostatów i agd.
+[TEKST] Jak nazywa się technologia nakładania cyfrowych obiektów na realny obraz? : rozszerzona rzeczywistość (AR) | e: AR działa na ekranie telefonu lub w specjalnych okularach.
+[TEKST] Jak nazywa się technologia całkowicie immersyjnego świata w goglach? : wirtualna rzeczywistość (VR) | e: VR całkowicie odcina użytkownika od fizycznego otoczenia.
+[TEKST] Jak nazywa się bezprzewodowa sieć komórková piątej generacji o dużej prędkości? : 5G | e: Standard 5G oferuje minimalne opóźnienia i ultraszybki transfer.
+[TEKST] Jak nazywa się miniaturowe uniwersalne złącze do ładowania w telefonach i laptopach? : USB-C | e: Złącze USB-C stało się prawnie wymuszonym standardem unijnym.
+[TEKST] Jak nazywa się bezprzewodowe ładowanie baterii prądem indukcyjnym na matach? : Qi | e: Standard Qi pozwala na uzupełnianie energii bez plątaniny kabli.
+[TEKST] Jak nazywa się proces miniaturyzacji tranzystorów mierzony w nanometrach? : litografia półprzewodnikowa | e: Mniejsza litografia oznacza większą liczbę tranzystorów w procesorze.
+[TEKST] Jak nazywa się prawo mówiące o podwajaniu liczby tranzystorów co 2 lata? : prawo Moore'a | e: Prawo to napędzało przemysł mikroelektroniczny przez całe dekady.
+[TEKST] Jak nazywa się komputer operujący na kubitach i zjawiskach mechaniki kwantowej? : komputer kwantowy | e: Komputery kwantowe rozwiązują złożone zadania w ułamku sekundy.
+[TEKST] Jak nazywa się podstawowa jednostka informacyjna kubitu w fizyce kwantowej? : kubit | e: Kubit może reprezentować stan 0 i 1 jednocześnie w superpozycji.
+[TEKST] Jak nazywa się gigant technologiczny produkujący zaawansowane akceleratory AI? : NVIDIA | e: NVIDIA stała się symbolem rynkowego boomu na sztuczną inteligencję.
+[TEKST] Jak nazywa się popularny silnik gier stworzony przez firmę Epic Games? : Unreal Engine | e: Silnik ten napędza topowe gry wideo oraz nowoczesne produkcje filmowe.
+[TEKST] Jak nazywa się cyfrowa platforma dystrybucji gier PC należąca do firmy Valve? : Steam | e: Steam zrewolucjonizował cyfrowy rynek gier komputerowych na świecie.
+[TEKST] Jak nazywa się kultowa konsola przenośna Nintendo z ekranem z 1989 roku? : Game Boy | e: Game Boy z monochromatycznym ekranem podbił serca graczy.
+[TEKST] Jak nazywa się najlepiej sprzedająca się domowa konsola w historii branży? : PlayStation 2 | e: PS2 rozeszła się w kosmicznym nakładzie ponad 155 milionów sztuk.
+[TEKST] Jak nazywa się hybrydowa konsola do gier wydana przez Nintendo w 2017 roku? : Nintendo Switch | e: Switch pozwala na zabawę zarówno stacjonarną, jak i mobilną.
+[TEKST] Jak nazywa się gra z blokami stworzona pierwotnie przez Markusa Perssona? : Minecraft | e: To najlepiej sprzedająca się gra wideo w całej historii branży.
+[TEKST] Jak nazywa się technologia zamiany mowy użytkownika na edytowalny tekst? : STT (Speech-to-Text) | e: Systemy te napędzają wygodne dyktowanie wiadomości w smartfonach.
+[TEKST] Jak nazywa się technologia generowania sztucznego głosu ludzkiego z tekstu? : TTS (Text-to-Speech) | e: Nowoczesne syntezatory wiernie naśladują ludzkie emocje i akcent.
+[TEKST] Jak nazywa się lokalna sieć komputerowa obejmująca np. jeden budynek? : LAN | e: Local Area Network łączy komputery kablem ethernetowym lub przez Wi-Fi.
+[TEKST] Jak nazywa się rozległa sieć globalna łącząca komputery na całym świecie? : WAN | e: Najlepszym przykładem globalnej sieci WAN jest ogólnoświatowy Internet.
+[TEKST] Jak nazywa się bezpieczny protokół zdalnego logowania do systemów Linux? : SSH | e: Secure Shell szyfruje całą sesję tekstową administratora sieci.
+[TEKST] Jak nazywa się zamknięty system operacyjny smartfonów marki Apple? : iOS | e: System iOS działa wyłącznie na firmowych urządzeniach typu iPhone.
+[TEKST] Jak nazywa się mobilny system Google używany w większości smartfonów świata? : Android | e: Android to najpopularniejszy system operacyjny telefonów na Ziemii.
+[TEKST] Jak nazywa się technologia wirtualnych kart SIM zapisywanych w pamięci? : eSIM | e: eSIM całkowicie eliminuje potrzebę stosowania fizycznych kart plastikowych.
+[TEKST] Jak nazywa się domowy terminal konwertujący światłowód na sieć ethernet? : ONT | e: Modem światłowodowy dostarcza superszybki Internet bezpośrednio do domu.
+[TEKST] Jak nazywa się fizyczne włókno szklane przesyłające dane za pomocą światła? : światłowód | e: Światłowody zapewniają najwyższe prędkości transferu danych na świecie.
+[TEKST] Jak nazywa się system szyfrowania dysków wbudowany fabrycznie w system Windows? : BitLocker | e: BitLocker chroni dane użytkownika przed odczytem po kradzieży sprzętu.
+[TEKST] Jak nazywa się nowoczesne oprogramowanie układowe zastępujące dawny BIOS? : UEFI | e: UEFI oferuje graficzny interfejs oraz wsparcie dla nowoczesnych dysków.
+[TEKST] Jak nazywa się legalny haker testujący zabezpieczenia systemów informatycznych? : ethical hacker | e: Hakerzy w białych kapeluszach pomagają firmom łatać wykryte luki.
+[TEKST] Jak nazywa się nieznana wcześniej luka w oprogramowaniu wykorzystywana przez hakerów? : zero-day | e: Podatności zero-day są niezwykle groźne przed wydaniem oficjalnej łatki.
+[TEKST] Jak nazywa się algorytm porządkujący elementy listy rosnąco lub malejąco? : algorytm sortowania | e: Sortowanie danych to klasyczne fundamentalne zagadnienie informatyki.
+[TEKST] Jak nazywa się struktura danych działająca na zasadzie "ostatni wchodzi, pierwszy wychodzi"? : stos | e: Stos śledzi m.in. poprawne wywołania funkcji wewnątrz programów.
+[TEKST] Jak nazywa się struktura danych działająca na zasadzie "pierwszy wchodzi, pierwszy wychodzi"? : kolejka | e: Kolejka obsługuje m.in. napływające zadania w buforach drukowania.
+[TEKST] Jaki model flagowego procesora graficznego NVIDIA zadebiutował na początku 2026 roku? : GeForce RTX 5090 | e: Karta RTX 5090 to absolutny szczyt wydajnościowy w renderowaniu grafik i AI.
+[TEKST] Jak nazywa się flagowy model sztucznej inteligencji zaprezentowany przez OpenAI? : GPT-5 | e: GPT-5 przyniósł przełom w autonomicznych agentach wykonawczych.
+[TEKST] Jaka firma wprowadziła na rynek unikalny składany trzykrotnie smartfon (trifold)? : Huawei | e: Model Huawei Mate XT zadebiutował jako składak w kształcie litery Z.
+[TEKST] Jak nazywa się pakiet asystenta AI zintegrowany głęboko z systemem iOS od Apple? : Apple Intelligence | e: Oferuje prywatne przetwarzanie modeli językowych bezpośrednio na urządzeniu.
+[TEKST] Jaką serię procesorów do laptopów zaprezentował Qualcomm z architekturą ARM? : Snapdragon X Elite | e: Zapewniły laptopom z Windowsem rekordowy czas pracy na baterii.
+[TEKST] Jakie oznaczenie nosi najnowsza rodzina akceleratorów AI od firmy AMD na 2026 rok? : Instinct MI350 | e: Seria zaprojektowana jako bezpośrednia konkurencja dla układów NVIDIA.
+[TEKST] Jak nazywa się najnowszy mobilny system operacyjny Google z przełomu lat? : Android 16 | e: Android 16 wprowadził głęboką integrację modeli Gemini w systemie.
+[TEKST] Jaki system Apple dla iPhone zadebiutował jesienią 2025 roku? : iOS 19 | e: iOS 19 przyniósł odświeżony interfejs oraz zaawansowane funkcje personalizacji AI.
+[TEKST] Jaką nazwę nosi rewolucyjny model generowania wideo od OpenAI z tekstu? : Sora | e: Sora generuje spójne fizycznie i fotorealistyczne filmy o długości do minuty.
+[TEKST] Jak nazywa się flagowy model generowania filmów AI od Google? : Google Veo | e: Veo generuje wysokiej rozdzielczości wideo w różnych stylach artystycznych.
+[TEKST] Jak nazywa się procesor NPU zintegrowany w czipach dedykowany zadaniom AI? : NPU | e: Układ ten pozwala na szybkie i oszczędne działanie lokalnych modeli AI.
+[TEKST] Jakie gogle rzeczywistości mieszanej wprowadziła firma Apple na rynek? : Apple Vision Pro | e: Urządzenie zdefiniowało nową kategorię komputeryzacji przestrzennej.
+[TEKST] Jak nazywa się kompaktowa kamera sportowa DJI z serii Action? : DJI Osmo Action 5 Pro | e: Słynie z rewelacyjnej jakości w słabym oświetleniu i dłuższego działania.
+[TEKST] Jaki standard łączności bliskiego zasięgu służy do precyzyjnego lokalizowania? : UWB | e: Technologia ta określa pozycję urządzeń z dokładnością do centymetrów.
+[TEKST] Jak nazywa się popularny dron amatorski DJI poniżej 249 gramów? : DJI Mini 4 Pro | e: Oferuje omijanie przeszkód i nagrywanie w 4K w wadze piórkowej.
+[TEKST] Jak nazywa się otwarty model językowy od firmy Meta udostępniony deweloperom? : Llama 3.3 | e: Modele Llama to rynkowy standard do budowy własnych aplikacji AI.
+[TEKST] Jakie urządzenie naręczne Apple odświeżono w wersji Series 10? : Apple Watch Series 10 | e: Przyniósł największy wyświetlacz w historii tego smartwatcha.
+[TEKST] Jaki standard pamięci operacyjnej stosuje się w najnowszych kartach graficznych RTX 50? : GDDR7 | e: Zapewnia gigantyczną przepustowość danych niezbędną w obliczeniach.
+[TEKST] Jakie oznaczenie ma generacja kart AMD Radeon oparta na RDNA 4? : Radeon RX 8800 XT | e: Seria skupia się na stosunku wydajności w grach do ceny oraz ray tracingu.
+[TEKST] Jakie narzędzie GitHub pomaga deweloperom pisać kod za pomocą AI? : GitHub Copilot | e: Działa jako inteligentny współpilot w edytorze kodu źródłowego.
+[TEKST] Jak nazywa się funkcja AI w telefonach Samsunga do obróbki zdjęć? : Galaxy AI | e: Pakiet debiutujący w serii S24 jest stale rozwijany.
+[TEKST] Jak nazywa się model AI od Anthropic będący konkurentem ChatGPT? : Claude | e: Słynie z wyjątkowych zdolności programistycznych i analizy tekstu.
+[TEKST] Jak nazywa się platforma do generowania modeli 3D z tekstu za pomocą AI? : Meshy | e: Pozwala na błyskawiczne stworzenie gotowego modelu trójwymiarowego.
+[TEKST] Jaki nowy standard kart pamięci oferuje prędkości dysków SSD NVMe? : microSD Express | e: Przenosi miniaturowe rozmiary kart na ekstremalne prędkości transferu.
+[TEKST] Jaki standard bezprzewodowego ładowania oparto na magnesach Qi2? : Qi2 | e: Przenosi zalety pozycjonowania magnetycznego na uniwersalny standard.
+[TEKST] Jaki interfejs dysków SSD osiąga prędkości odczytu powyżej 14 000 MB/s? : PCIe 5.0 NVMe | e: Wymaga wydajnych radiatorów do chłodzenia w nowoczesnych komputerach.
+[TEKST] Jak nazywa się gra z elementami przetrwania ze stworkami Palworld? : Palworld | e: Zyskała gigantyczną popularność jako gra survivalowa z potworkami.
+[TEKST] Jak nazywa się nowoczesny format plików graficznych od Google z kompresją? : WebP | e: Skutecznie wypiera starsze pliki JPG i PNG w witrynach internetowych.
+[TEKST] Jaką wersję wydał popularny minikomputer Raspberry Pi? : Raspberry Pi 5 | e: Przyniósł autorski układ zasilania i drastyczny skok wydajności.
+[TEKST] Jak nazywa się darmowy potężny silnik do grafiki 3D i animacji? : Blender | e: Narzędzie używane nawet w profesjonalnych produkcjach filmowych.
+[TEKST] Jaką serię procesorów Apple M stosuje się w nowych Macach? : Apple M4 | e: Oferuje niesamowitą wydajność przy minimalnym poborze energii.
+[TEKST] Jak nazywa się technologia łączności satelitarnej telefonów z siecią? : Direct-to-Cell | e: Pozwala zwykłym smartfonom na łączenie się z satelitami na orbicie.
+[TEKST] Jak nazywa się generator grafiki AI od firmy Adobe z licencją komercyjną? : Adobe Firefly | e: Zintegrowany bezpośrednio z programami Photoshop i Illustrator.
+[TEKST] Jak nazywa się nowoczesna przeglądarka internetowa z nowatorską organizacją kart? : Arc Browser | e: Zrewolucjonizowała podejście do przestrzeni roboczych w sieci.
+[TEKST] Co to za rzecz: Niewielkie płaskie urządzenie Bluetooth pomagające odnaleźć klucze z telefonu? : lokalizator (np. AirTag) | e: Korzysta z sieci innych telefonów w okolicy do przekazania pozycji.
+[TEKST] Co to za rzecz: Urządzenie naręczne monitorujące sen, puls i aktywność sportową? : smartwatch | e: Współczesne zegarki posiadają EKG oraz wbudowany odbiornik GPS.
+[TEKST] Co to za rzecz: Małe plastikowe pudełko ze słuchawkami i wbudowaną ładowarką? : etui ładujące TWS | e: Pozwala na wielokrotne doładowanie słuchawek w podróży.
+[TEKST] Co to za rzecz: Kostka wpinana do gniazda OBDII aut przesyłająca dane do telefonu? : interfejs diagnostyczny OBD2 | e: Umożliwia odczyt błędów komputera pokładowego na żywo.
+[TEKST] Co to za rzecz: Przenośny magazyn energii z gniazdem 230V do zasilania sprzętu w terenie? : stacja zasilania (power station) | e: Posiada pojemne akumulatory ładowane m.in. z paneli słonecznych.
+[TEKST] Co to za rzecz: Urządzenie wpinane do gniazdka powielające zasięg domowego Wi-Fi? : repeater Wi-Fi | e: Odbiera sygnał z routera i nadaje go dalej, usuwając martwe strefy.
+[TEKST] Co to za rzecz: Wpinany do HDMI pendrive zamieniający zwykły telewizor w Smart TV? : odtwarzacz multimedialny (Chromecast) | e: Posiada własny system operacyjny sterowany pilotem.
+[TEKST] Co to za rzecz: Podłużna listwa z głośnikami poprawiająca dźwięk telewizora? : soundbar | e: Często występuje w zestawie z bezprzewodowym subwooferem basowym.
+[TEKST] Co to za rzecz: Urządzenie rzucające obraz z komputera na dużą ścianę? : projektor multimedialny | e: Nowoczesne modele oferują rozdzielczość 4K i lampy laserowe.
+[TEKST] Co to za rzecz: Mata z cewkami indukcyjnymi do bezprzewodowego ładowania telefonu? : ładowarka indukcyjna | e: Wykorzystuje zjawisko indukcji elektromagnetycznej.
+[TEKST] Co to za rzecz: Rysik z czujnikiem nacisku do rysowania na ekranie tabletu? : rysik aktywny | e: Rozpoznaje kąt nachylenia oraz siłę nacisku dłoni.
+[TEKST] Co to za rzecz: Czytnik z ekranem e-ink mieszczący tysiące książek bez męczenia oczu? : czytnik e-booków | e: Ekran zużywa prąd wyłącznie podczas zmiany strony tekstu.
+[TEKST] Co to za rzecz: Prosta opaska sportowa licząca kroki i monitorująca sen? : smartband | e: Jest lżejsza od smartwatcha i dłużej trzyma na baterii.
+[TEKST] Co to za rzecz: Kamera montowana na szybie auta rejestrująca zdarzenia drogowe? : rejestrator jazdy (dashcam) | e: Zapisuje w pętli materiał wideo na karcie pamięci.
+[TEKST] Co to za rzecz: Słuchawki na uszy aktywnie wygłuszające szum otoczenia mikrofalami? : słuchawki z ANC | e: Generują falę w przeciwfazie, która gaszy hałas z zewnątrz.
+[TEKST] Co to za rzecz: Dysk zewnętrzny USB służący do tworzenia kopii bezpieczeństwa? : zewnętrzny dysk SSD | e: Pozwala na szybkie przenoszenie gigabajtów danych.
+[TEKST] Co to za rzecz: Szybka ładowarka sieciowa oparta na azotku galu? : ładowarka GaN | e: Jest mniejsza i mniej się nagrzewa przy dużej mocy.
+[TEKST] Co to za rzecz: Klips zakładany na palec do szybkiego pomiaru tlenu we krwi? : pulsoksymetr | e: Wykorzystuje światło do badania wysycenia hemoglobiny.
+[TEKST] Co to za rzecz: Kamera z mikrofonem do zdalnego podglądu śpiącego dziecka? : elektroniczna niania | e: Przesyła obraz i dźwięk do odbiornika rodzica.
+[TEKST] Co to za rzecz: Głowica regulująca automatycznie temperaturę grzejnika? : inteligentna głowica termostatyczna | e: Steruje ogrzewaniem ze smartfona i wykrywa otwarte okno.
+[TEKST] Co to za rzecz: Urządzenie zamieniające prąd stały z akumulatora na 230V w aucie? : przetwornica napięcia | e: Pozwala podłączyć domowy zasilacz w podróży.
+[TEKST] Co to za rzecz: Sygnalizator GPS ukryty w rowerze do śledzenia kradzieży? : lokalizator rowerowy GPS | e: Pozwala namierzyć skradziony jednoślad na mapie w telefonie.
+[TEKST] Co to za rzecz: Bezprzewodowa myszka o ergonomicznym pionowym kształcie? : mysz pionowa (vertical mouse) | e: Odciąża nadgarstek i zapobiega zespołowi cieśni kanału.
+[TEKST] Co to za rzecz: Podkładka pod mysz z wbudowanym ładowaniem indukcyjnym? : podkładka z ładowaniem | e: Ładuje myszkę lub telefon w trakcie pracy przy biurku.
+[TEKST] Co to za rzecz: Mały adapter wpinany w USB dodający łączność Bluetooth do PC? : dongle Bluetooth | e: Umożliwia podłączenie słuchawek do starszego komputera.
+[TEKST] Co to za rzecz: Urządzenie filtrujące powietrze w pokoju z czujnikiem pyłów PM2.5? : oczyszczacz powietrza | e: Usuwa z otoczenia kurz, smog i alergeny za pomocą filtrów HEPA.
+[TEKST] Co to za rzecz: Automatyczny odkurzac mapujący mieszkanie i sprzątający podłogi? : robot sprzątający | e: Samodzielnie wraca do stacji dokującej po ukończeniu pracy.
+[TEKST] Co to za rzecz: Elektroniczna szczoteczka do zębów z technologią soniczną? : szczoteczka soniczna | e: Wykonuje dziesiątki tysięcy ruchów wibracyjnych na minutę.
+[TEKST] Co to za rzecz: Ekspres ciśniony z wbudowanym metalowym młynkiem żarnowym? : ekspres automatyczny | e: Mieli ziarna bezpośrednio przed zaparzeniem filiżanki kawy.
+[TEKST] Co to za rzecz: Urządzenie kuchenne piekące potrawy cyrkulującym gorącym powietrzem? : frytkownica beztłuszczowa (Airfryer) | e: Pozwala przygotować chrupiące posiłki z minimalną ilością tłuszczu.
+[TEKST] Co to za rzecz: Czajnik elektryczny z termometrem i regulacją temperatury wody? : czajnik z regulacją temperatury | e: Umożliwia idealne sparzenie różnych gatunków herbat i kawy.
+[TEKST] Co to za rzecz: Inteligentna żarówka zmieniająca kolory sterowana głosem? : żarówka smart | e: Pozwala na zmianę barwy światła za pomocą aplikacji.
+[TEKST] Co to za rzecz: Kamera bezpieczeństwa obracana montowana na elewacji domu? : kamera IP zewnętrzna | e: Wysyła powiadomienia o wykryciu ruchu na telefon właściciela.
+[TEKST] Co to za rzecz: Bezprzewodowy dzwonek do drzwi z wbudowaną kamerą i mikrofonem? : wideodomofon smart | e: Umożliwia rozmowę z kurierem stojącym pod drzwiami ze smartfona.
+[TEKST] Co to za rzecz: Elektroniczny zamek do drzwi otwierany kodem lub aplikacją? : zamek inteligentny (smart lock) | e: Eliminuje potrzebę noszenia tradycyjnych kluczy metalowych.
+[TEKST] Co to za rzecz: Urządzenie rozruchowe do auta z akumulatorem i kablami? : booster samochodowy | e: Pozwala odpalić silnik z rozładowanym akumulatorem bez pomocy innego auta.
+[TEKST] Co to za rzecz: Pompka elektryczna z wyświetlaczem do pompowania kół auta i roweru? : kompresor samochodowy akku | e: Automatycznie wyłącza się po osiągnięciu zadanego ciśnienia.
+[TEKST] Co to za rzecz: Urządzenie do testowania grubości lakieru na karoserii auta? : miernik lakieru | e: Wykrywa szpachlę i powtórne lakierowanie elementów blacharskich.
+[TEKST] Co to za rzecz: Mata grzewcza do łóżka z regulacją stref temperatury? : elektryczny materac grzewczy | e: Rozgrzewa łóżko przed snem w chłodne jesienne noce.
+[TEKST] Co to za rzecz: Urządzenie wyprowadzające wilgoć z pomieszczeń domowych? : osuszacz powietrza | e: Skrapla nadmiar wilgoci z powietrza do wbudowanego zbiornika.
+[TEKST] Jak nazywa się otwartoźródłowy silnik kontroli wersji stworzony przez Linusa Torvaldsa? : Git | e: Git pozwala programistom śledzić zmiany w kodzie źródłowym projektu.
+[TEKST] Jak nazywa się najpopularniejsza internetowa platforma do hostowania kodu Git? : GitHub | e: GitHub ułatwia współpracę programistom na całym świecie.
+[TEKST] Jak nazywa się lekka technologia konteneryzacji aplikacji informatycznych? : Docker | e: Kontenery Docker pakują aplikację wraz ze wszystkimi zależnościami.
+[TEKST] Jak nazywa się narzędzie automatyzujące zarządzanie konteneryzowanymi aplikacjami? : Kubernetes | e: Kubernetes stał się standardem branżowym w architekturze chmurowej.
+[TEKST] Jak nazywa się popularna metoda zwinnego zarządzania projektami IT w sprintach? : Scrum | e: Scrum organizuje pracę zespołu w krótkie, iteracyjne odcinki czasu.
+[TEKST] Jak nazywa się osoba w zespole Scrum dbająca o usuwanie przeszkód w pracy? : Scrum Master | e: Scrum Master wspiera zespół i ułatwia komunikację z interesariuszami.
+[TEKST] Jak nazywa się osoba odpowiedzialna za priorytetyzację zadań w projekcie Agile? : Product Owner | e: Właściciel produktu dba o maksymalizację jego biznesowej wartości.
+[TEKST] Jak nazywa się inżynier sprawdzający aplikacje pod kątem błędów i jakości? : QA Engineer | e: Inżynierowie jakości piszą testy automatyczne i manualne.
+[TEKST] Jak nazywa się specjalista łączący rozwój oprogramowania z administracją chmurą? : DevOps Engineer | e: DevOps automatyzuje procesy wdrażania i monitorowania aplikacji.
+[TEKST] Jak nazywa się protokół szyfrowanego przesyłania plików przez sieć będący następcą FTP? : SFTP | e: Secure File Transfer Protocol szyfruje całą sesję przesyłania danych.
+[TEKST] Jak nazywa się potężna komercyjna relacyjna baza danych tworzona przez Oracle? : Oracle Database | e: Baza Oracle to standard w największych światowych korporacjach i bankach.
+[TEKST] Jak nazywa się licencja oprogramowania wymuszająca otwartość kodu modyfikacji? : GPL (Copyleft) | e: Licencja chroni wolny charakter oprogramowania przed zamknięciem.
+[TEKST] Jak nazywa się licencja pozwalająca na niemal swobodne używanie kodu bez restrykcji? : licencja MIT | e: Licencja MIT pozwala na stosowanie kodu również w komercyjnych projektach.
+[TEKST] Jak nazywa się błąd polegający na jednoczesnym dostępie wątków do tego samego zasobu? : race condition | e: Wyścig wątków prowadzi do trudnych do wykrycia niespójności w danych.
+[TEKST] Jak nazywa się sytuacja, w której dwa procesy wzajemnie na siebie czyszczą blokadę? : deadlock | e: Zakleszczenie powoduje całkowite zamrożenie działania aplikacji.
+[TEKST] Jak nazywa się zaawansowana baza danych przechowująca rekordy w formacie JSON? : NoSQL (MongoDB) | e: Bazy NoSQL oferują wysoką elastyczność struktury danych.
+[TEKST] Jak nazywa się szybka baza danych działająca w pamięci RAM jako bufor? : Redis | e: Redis zapewnia błyskawiczny dostęp do często odpytywanych danych.
+[TEKST] Jak nazywa się najpopularniejszy system zarządzania treścią blogów i stron? : WordPress | e: WordPress napędza znaczną część wszystkich stron internetowych.
+[TEKST] Jak nazywa się chmurowa platforma ułatwiająca prowadzenie sklepu internetowego? : Shopify | e: Shopify dostarcza gotową infrastrukturę e-commerce dla przedsiębiorców.
+[TEKST] Jak nazywa się format uniwersalnych danych składający się z par klucz-wartość z JS? : JSON | e: JavaScript Object Notation to standard wymiany danych w sieci.
+[TEKST] Jak nazywa się format pliku konfiguracyjnego oparty na czytelnych wcięciach? : YAML | e: YAML jest chętnie wykorzystywany przez deweloperów w konfiguracjach.
+[TEKST] Jak nazywa się starszy tekstowy format wymiany danych oparty na znacznikach? : XML | e: XML był standardem zanim został wyparty przez lżejszy format JSON.
+[TEKST] Jak nazywa się narzędzie mierzące napięcia, prąd i opór w elektronice? : multimetr | e: Multimetr to podstawowe uniwersalne narzędzie każdego elektronika.
+[TEKST] Jak nazywa się przyrząd do wizualizacji przebiegów sygnałów elektrycznych w czasie? : oscyloskop | e: Oscyloskop pozwala obserwować zachowanie sygnałów w układach.
+[TEKST] Jak nazywa się urządzenie generujące sygnały testowe o ustalonej częstotliwości? : generator sygnałowy | e: Używany w warsztacie do testowania torów radiowych i filtrów.
+[TEKST] Jak nazywa się stabilizowane źródło prądowe z regulacją napięcia do prac w labie? : zasilacz laboratoryjny | e: Chroni testowane układy elektroniczne przed zwarciem i spaleniem.
+[TEKST] Jak nazywa się technologia ochrony przed wyładowaniami niszczącymi elektronikę? : ESD | e: Maty i bransoletki antystatyczne chronią wrażliwe układy scalone.
+[TEKST] Jak nazywa się protokół telefonii internetowej przesyłający głos przez sieć IP? : VoIP | e: Voice over IP zastępuje tradycyjne centrale telekomunikacyjne.
+[TEKST] Jak nazywa się proces wgrywania nowego oprogramowania układowego do pamięci czipu? : flashowanie | e: Aktualizacja firmware dodaje nowe funkcje i łata luki bezpieczeństwa.
+[TEKST] Jak nazywa się specjalne oprogramowanie do odzyskiwania skasowanych plików z dysku? : program do data recovery | e: Przeszukuje sektory dysku w poszukiwaniu nienadpisanych danych.
+[TEKST] Jak nazywa się automatyczny proces budowania i wdrażania oprogramowania? : CI/CD | e: Rurociągi te pozwalają zespołom na szybkie i bezbłędne wdrażanie kodu.
+[TEKST] Jak nazywa się metodologia zarządzania oparta na elastyczności i krótkich cyklach? : Agile | e: Zwinne zarządzanie pozwala szybko reagować na zmiany wymagań rynku.
+[TEKST] Jak nazywa się inżynier projektujący ogólną architekturę systemów IT? : Software Architect | e: Architekt dba o skalowalność i bezpieczeństwo budowanego oprogramowania.
+[TEKST] Jak nazywa się haker testujący zabezpieczenia systemów na zlecenie firm? : penetration tester | e: Przeprowadza kontrolowane ataki w celu wykrycia luk przed cyberprzestępcami.
+[TEKST] Jak nazywa się miara złożoności obliczeniowej algorytmu wzrostu czasu? : notacja Big O | e: Pozwala programistom ocenić wydajność i skalowalność kodu.
+[TEKST] Jak nazywa się protokół przesyłania poczty elektronicznej między serwerami? : SMTP | e: Simple Mail Transfer Protocol odpowiada za wysyłanie wiadomości.
+[TEKST] Jak nazywa się protokół pobierania poczty z serwera przez program klienta? : IMAP | e: Pozwala na synchronizację wiadomości na wielu urządzeniach jednocześnie.
+[TEKST] Jak nazywa się język zapytań do obsługi relacyjnych baz danych? : SQL | e: Structured Query Language służy do modyfikowania i wyszukiwania danych.
+[TEKST] Jak nazywa się unikalny sprzętowy adres karty sieciowej przypisany fabrycznie? : adres MAC | e: Media Access Control jednoznacznie identyfikuje interfejs w sieci.
+[TEKST] Jak nazywa się protokół automatycznego przydzielania adresów IP w sieci LAN? : DHCP | e: Zwalnia administratorów z ręcznego konfigurowania każdego komputera.
+[TEKST] Jak nazywa się przełącznik sieciowy działający w warstwie łącza danych? : switch | e: Przełącznik kieruje pakiety wyłącznie do właściwego portu docelowego.
+[TEKST] Jak nazywał się dawny prosty koncentrator sieciowy rozsyłający ruch na porty? : hub | e: Huby zostały całkowicie wyparte przez nowoczesne przełączniki.
+[TEKST] Jak nazywa się technologia bezprzewodowa słuchawek osobistych krótkiego zasięgi? : Bluetooth | e: Służy do łączenia akcesoriów z telefonem i komputerem.
+[TEKST] Jak nazywa się miniaturowy komputer na jednej płytce uwielbiany przez majsterkowiczów? : Raspberry Pi | e: Pozwala na budowę domowych serwerów i emulatorów retro gier.
+[TEKST] Jak nazywa się popularna rodzina tanich płytek mikrokontrolerów do elektroniki? : Arduino | e: Ułatwia naukę elektroniki i budowę prostych układów automatyki.
+[TEKST] Jak nazywa się wolny standard architektury procesorów RISC jako alternatywa dla x86? : RISC-V | e: Zyskuje popularność ze względu na otwartą licencję i energooszczędność.
+[TEKST] Jaką architekturą procesorów posługują się tradycyjne komputery stacjonarne PC? : x86-64 | e: Architektura zapoczątkowana przez Intela i AMD dominuje na blaszakach.
+[TEKST] Jaką architekturą procesorów posługują się nowoczesne smartfony i komputery Mac? : ARM | e: Słynie z niezwykłej energooszczędności przy wysokiej wydajności.
+[TEKST] Jak nazywa się technologia skalowania obrazu AI od firmy NVIDIA w grach? : DLSS | e: Renderuje grę w niższej rozdzielczości i skaluje ją z pomocą sztucznej inteligencji.
+[TEKST] Jak nazywa się technologia skalowania obrazu AI od firmy AMD o otwartym kodzie? : FSR | e: Działa na szerokiej gamie kart graficznych różnych producentów w grach.
+[TEKST] Jak nazywa się technika symulacji realistycznego odbicia światła w czasie rzeczywistym? : ray tracing | e: Śledzenie promieni pozwala na fotorealistyczne odwzorowanie cieni i odbić.
+[TEKST] Jak nazywa się otwarty silnik gier 2D i 3D uwielbiany przez twórców niezależnych? : Godot | e: Zyskuje potężną społeczność dzięki lekkości i przejrzystemu systemowi.
+[TEKST] Jak nazywa się popularny silnik gier oparty na języku C# dla platform mobilnych? : Unity | e: Napędza tysiące popularnych gier mobilnych i komputerowych na świecie.
+[TEKST] Jak nazywa się kultowa konsola domowa Atari z lat 70. na kartridże? : Atari 2600 | e: Spopularyzowała wymienne kartridże z grami w salonach domowych.
+[TEKST] Jak nazywa się dawna domowa konsola Microsoftu z 2001 roku z dyskiem twardym? : Xbox | e: Pierwszy Xbox wprowadził zintegrowaną obsługę sieci Xbox Live.
+[TEKST] Jak nazywa się kultowa gra zręcznościowa z żółtym stworkiem z lat 80.? : Pac-Man | e: Symbolem wczesnej kultury automatów do gier arcade na świecie.
+[TEKST] Jak nazywa się kultowa gra platformowa Nintendo z hydraulikiem Mario? : Super Mario Bros. | e: Uratowała branżę gier wideo przed kryzysowym załamaniem w 1983 roku.
+[TEKST] Jak nazywa się technologia cyfrowego znakowania ukrytego w plikach wideo? : cyfrowy znak wodny | e: Pozwala wykryć źródło wycieku poufnych materiałów lub wygenerowanie przez AI.
+[TEKST] Jak nazywa się technologia ochrony praw autorskich w cyfrowych plikach? : DRM | e: Digital Rights Management ogranicza nieautoryzowane kopiowanie treści.
+[TEKST] Jak nazywa się zdecentralizowany łańcuch bloków będący bazą kryptowalut? : blockchain | e: Gwarantuje niezmienność i bezpieczeństwo transakcji bez banku centralnego.
+[TEKST] Jak nazywa się pierwsza i najbardziej znana kryptowaluta stworzona przez Nakamoto? : Bitcoin | e: Wprowadziła koncepcję cyfrowego pieniądza opartego na kryptografii.
+[TEKST] Jak nazywa się platforma kryptowalutowa wprowadzająca inteligentne kontrakty? : Ethereum | e: Pozwala na uruchamianie zdecentralizowanych aplikacji i własnych tokenów.
+[TEKST] Jak nazywa się proces weryfikacji transakcji kryptowalut za pomocą mocy obliczeniowej? : kopanie (mining) | e: Górnicy zużywają energię do rozwiązywania zagadek matematycznych w sieci.
+[TEKST] Jak nazywa się ekologiczna metoda konsensusu w blockchain bez kopania mocą? : Proof of Stake | e: Zużywa drastycznie mniej energii elektrycznej niż tradycyjne kopanie.
+[TEKST] Jak nazywa się cyfrowy portfel do bezpiecznego przechowywania kluczy kryptowalut? : portfel kryptowalutowy | e: Może mieć postać bezpiecznej aplikacji mobilnej lub urządzenia sprzętowego.
+[TEKST] Jak nazywa się asystent głosowy firmy Apple wbudowany w systemy urządzeń? : Siri | e: Jeden z pionierskich asystentów sterowanych naturalną mową w telefonach.
+[TEKST] Jak nazywa się asystent głosowy Amazon wykorzystywany w głośnikach Echo? : Alexa | e: Służy do sterowania automatyką domową i odtwarzania muzyki głosowo.
+[TEKST] Jak nazywa się asystent głosowy Google dla urządzeń mobilnych i domu? : Google Assistant | e: Integruje się z ekosystemem wyszukiwarki i inteligentnym domem.
+[TEKST] Jak nazywa się technologia przesyłania obrazu z telefonu na telewizor od Google? : Chromecast | e: Pozwala na strumieniowanie treści z aplikacji mobilnych bezpośrednio na ekran.
+[TEKST] Jak nazywa się standard przesyłania nieskompresowanego wideo i audio w kablu? : HDMI | e: High-Definition Multimedia Interface to standard podłączania konsol do TV.
+[TEKST] Jak nazywa się dawny analogowy standard wideo oznaczany niebieską wtyczką? : VGA | e: Video Graphics Array powoli odchodzi do lamus ustępując cyfrowym złączom.
+[TEKST] Jak nazywa się nowoczesny cyfrowy interfejs wideo popularny w monitorach PC? : DisplayPort | e: Obsługuje bardzo wysokie częstotliwości odświeżania obrazu i rozdzielczości.
+[TEKST] Jak nazywa się technologia płynnego ruchu ekranu ze zmienną częstotliwością? : VRR | e: Variable Refresh Rate eliminuje efekt rozrywania obrazu podczas grania.
+[TEKST] Jak nazywa się technologia ekranu, w której każdy piksel emituje własne światło? : OLED | e: Oferuje nieskończony kontrast i idealną czerń bez podświetlenia matrycy.
+[TEKST] Jak nazywa się tradycyjny panel ciekłokrystaliczny z podświetleniem LED? : LCD | e: Wymaga osobnej warstwy podświetlenia, przez co czerń bywa mniej głęboka.
+[TEKST] Jak nazywa się ekran imitujący papier używany w czytnikach elektronicznych? : e-ink | e: Zużywa prąd tylko podczas zmiany treści i nie męczy wzroku w słońcu.
+[TEKST] Jak nazywa się popularny czytnik książek elektronicznych od firmy Amazon? : Kindle | e: Spopularyzował cyfrowe czytelnictwo dzięki wygodnym ekranom e-papieru.
+[TEKST] Jak nazywa się magnetyczne pozycjonowanie ładowarki w telefonach Apple? : MagSafe | e: Wykorzystuje pierścień z magnesów do idealnego dopasowania ładowarki.
+[TEKST] Jak nazywa się technologia satelitarna w telefonach do wiadomości bez zasięgu? : satelitarne SOS | e: Ratuje życie podróżnikom znajdującym się w głębokiej dziczy bez sieci.
+[TEKST] Jak nazywa się konstelacja tysięcy satelitów internetowych niskiej orbity SpaceX? : Starlink | e: Zapewnia szybki internet satelitarny w najodleglejszych zakątkach globu.
+[TEKST] Jak nazywa się bezzałogowy statek latający sterowany zdalnie, potocznie dron? : UAV | e: Zyskał gigantyczną popularność w fotografii, filmie i logistyce.
+[TEKST] Jak nazywa się autonomiczny pojazd z czujnikami LIDAR do jazdy bez kierowcy? : samochód autonomiczny | e: Testowany na drogach publicznych przez firmy technologiczne.
+[TEKST] Jak nazywa się technologia pomiaru odległości za pomocą impulsów laserowych? : LIDAR | e: Tworzy precyzyjne trójwymiarowe mapy otoczenia za pomocą wiązek światła.
+[TEKST] Jak nazywa się system wspomagania kierowcy opracowany przez firmę Tesla? : Autopilot | e: Wymaga ciągłego nadzoru człowieka za kierownicą pojazdu.
+[TEKST] Jak nazywa się pojazd suborbitalny firmy Blue Origin do turystyki kosmicznej? : New Shepard | e: Nazwany na cześć pierwszego amerykańskiego astronauty w kosmosie.
+[TEKST] Jak nazywa się technologia druku trójwymiarowego z rozgrzanego filamentu? : druk 3D FDM | e: Najpopularniejsza i najtańsza metoda domowego tworzenia modeli 3D.
+[TEKST] Jak nazywa się technologia druku 3D utrwalająca żywicę światłem UV? : druk 3D SLA | e: Oferuje niesamowitą precyzję detali idealną do miniaturowych figurek.
+[TEKST] Jak nazywa się popularny termoplast używany jako filament w druku 3D? : PLA | e: Polilaktyd produkowany jest z odnawialnych surowców roślinnych.
+[TEKST] Jak nazywa się program przygotowujący model 3D do druku przez cięcie na warstwy? : slicer | e: Przetwarza cyfrowy model na instrukcje ruchów zrozumiałe dla drukarki.
+[TEKST] Jak nazywa się uniwersalny kod sterujący obrabiarkami CNC i drukarkami 3D? : G-code | e: Zawiera współrzędne ruchu głowicy i parametry temperatury pracy.
+[TEKST] Jak nazywa się urządzenie wycinające i grawerujące materiały wiązką światła? : wycinarka laserowa | e: Pozwala precyzyjnie ciąć sklejkę, akryl oraz skórę w warsztacie.
+[TEKST] Jak nazywa się technologia optycznego rozpoznawania tekstu ze skanów? : OCR | e: Optical Character Recognition pozwala na cyfryzację papierowych dokumentów.
+[TEKST] Jak nazywa się protokół przesyłania plików przez sieć za pomocą klienta? : FTP | e: File Transfer Protocol służy webmasterom do wgrywania stron na serwer.
+[TEKST] Jak nazywa się protokół bezpiecznego przesyłania plików przez SSH? : SFTP | e: Szyfruje całą sesję przesyłania danych między klientem a serwerem.
+[TEKST] Jak nazywa się graficzny interfejs użytkownika w systemach operacyjnych? : GUI | e: Zastąpił dawne wpisywanie poleceń tekstowych w terminalu okienkowym.
+[TEKST] Jak nazywa się tekstowy edytor uniksowy znany z trudnego wychodzenia? : Vim | e: Wyjście z programu Vim stało się popularnym memem wśród programistów.
+[TEKST] Jak nazywa się domyślna powłoka poleceń w nowoczesnych systemach Linux? : Bash | e: Pozwala na automatyzację zadań i zarządzanie systemem w konsoli.
+[TEKST] Jak nazywa się zaawansowana powłoka skryptowa w systemach Microsoft Windows? : PowerShell | e: Oferuje administratorom zaawansowane możliwości automatyzacji zadań.
+[TEKST] Jak nazywa się technologia uruchamiania wielu systemów na jednym serwerze? : wirtualizacja | e: Optymalizuje wykorzystanie sprzętu w centrach danych i chmurach.
+[TEKST] Jak nazywa się lekka izolacja aplikacji w chmurze w postaci paczek? : kontener Docker | e: Pakuje aplikację wraz z zależnościami do uruchomienia wszędzie.
+[TEKST] Jak nazywa się proces wyszukiwania i usuwania błędów w napisanym kodzie? : debugowanie | e: Nazwa pochodzi od usunięcia prawdziwego owada ze starych przekaźników.
+[TEKST] Jak nazywa się błąd w oprogramowaniu powodujący jego nieprawidłowe działanie? : bug | e: Testowanie ma na celu wykrycie jak największej liczby bugów.
+[TEKST] Jak nazywa się publiczna wersja oprogramowania testowana przed premierą? : wersja beta | e: Pozwala deweloperom wykryć błędy w warunkach rzeczywistegoużytkowania.
+[TEKST] Jak nazywa się wolne oprogramowanie z otwartym kodem źródłowym dla każdego? : Open Source | e: Jest rozwijane wspólnie przez społeczność programistów z całego świata.
+[TEKST] Jak nazywa się największa internetowa encyklopedia tworzona przez wolontariuszy? : Wikipedia | e: Zadebiutowała w 2001 roku i stała się największą bazą wiedzy ludzkości.
+[TEKST] Jak nazywa się popularna platforma społecznościowa do dzielenia się zdjęciami? : Instagram | e: Zyskała popularność dzięki filtrom fotograficznym i relacjom.
+[TEKST] Jak nazywa się chińska platforma społecznościowa z krótkimi filmami wideo? : TikTok | e: Opiera się na zaawansowanym algorytmie rekomendacji krótkich treści.
+[TEKST] Jak nazywa się popularny komunikator z szyfrowaniem end-to-end od Meta? : WhatsApp | e: Obsługuje miliardy użytkowników do prywatnej i biznesowej komunikacji.
+[TEKST] Jak nazywa się platforma mikroblogowa Elona muscularnego dawniej Twitter? : X | e: Służy do publikowania krótkich wiadomości i dyskusji w czasie rzeczywistym.
+[TEKST] Jak nazywa się największy portal społecznościowy założony przez Zuckerberga? : Facebook | e: Zapoczątkował masową erę mediów społecznościowych w XXI wieku.
+[TEKST] Jak nazywa się profesjonalny portal społecznościowy do budowy sieci kariery? : LinkedIn | e: Standardowe narzędzie rekrutacyjne i platforma budowy marki osobistej.
+[TEKST] Jak nazywa się platforma wideo Google do publikowania i oglądania filmów? : YouTube | e: Druga najczęściej odwiedzana strona internetowa na całym świecie.
+[TEKST] Jak nazywa się serwis streamingowy skupiony na transmisjach z gier live? : Twitch | e: Spopularyzował interaktywne transmisje na żywo i kulturę streamerów.
+[TEKST] Jak nazywa się technologia zapisu danych laserem na krążkach optycznych? : płyta CD / DVD | e: Przez lata dominuły w dystrybucji muzyki, filmów i oprogramowania.
+[TEKST] Jak nazywa się format stratnej kompresji plików zdjęciowych w Internecie? : JPEG | e: Najpopularniejszy standard zapisu fotografii cyfrowych na świecie.
+[TEKST] Jak nazywa się bezstratny format graficzny obsługujący przezroczystość? : PNG | e: Zastąpił starszy format GIF w zaawansowanych grafikach internetowych.
+[TEKST] Jak nazywa się popularny stratny format kompresji plików audio z lat 90.? : MP3 | e: Pozwolił na drastyczne zmniejszenie rozmiaru plików dźwiękowych.
+[TEKST] Jak nazywa się złośliwy program rejestrujący wciśnięcia klawiszy użytkownika? : keylogger | e: Potrafi bez wiedzy użytkownika przesyłać poufne hasła do hakerów.
+[TEKST] Jak nazywa się oszustwo polegające na zmianie wpisów DNS na fałszywy bank? : pharming | e: Przekierowuje ruch ofiary na sfałszowaną stronę internetową.
+[TEKST] Jak nazywa się certyfikat własności dla unikalnych obiektów w blockchain? : NFT | e: Non-Fungible Token zyskał rozgłos na spekulacyjnym rynku sztuki.
+[TEKST] Jak nazywa się zaawansowany model językowy OpenAI popularyzujący czat z AI? : ChatGPT | e: Zapoczątkował rewolucję generatywnej sztucznej inteligencji na masową skalę.
+[TEKST] Jak nazywa się model generowania grafik z tekstu stworzony przez Midjourney? : Midjourney | e: Słynie z niezwykle artystycznych i fotorealistycznych rezultatów obrazu.
+[TEKST] Jak nazywa się otwartoźródłowy model generowania obrazów AI od Stability? : Stable Diffusion | e: Może być uruchamiany lokalnie na domowych komputerach z mocnym GPU.
+[TEKST] Co to za rzecz: Urządzenie medyczne do pomiaru cukru we krwi bez kłucia palca? : glukometr ciągły (CGM) | e: Sensory naklejane na skórę stale monitorują poziom glukozy.
+[TEKST] Co to za rzecz: Okulary pozwalające na oglądanie wirtualnych filmów na ogromnym ekranie? : okulary multimedialne AR | e: Tworzą prywatną wirtualną przestrzeń kinową przed oczami.
+[TEKST] Co to za rzecz: Małe pudełko podłączane do TV odtwarzające pliki z dysku sieciowego? : odtwarzacz multimedialny NAS | e: Pozwala strumieniować filmy w wysokiej rozdzielczości z domowego serwera.
+[TEKST] Co to za rzecz: Inteligentna waga łazienkowa mierząca masę mięśniową i tłuszcz? : waga z analizą składu ciała | e: Wykorzystuje analizę impedancji bioelektrycznej (BIA).
+[TEKST] Co to za rzecz: Urządzenie do masażu mięśni w kształcie pistoletu z wibracjami? : pistolet do masażu (perkusyjny) | e: Pomaga rozluźnić spięte mięśnie po intensywnym treningu fizycznym.
+[TEKST] Co to za rzecz: Elektryczna deska rozsuwana lub hulajnoga miejska na dwóch kołach? : hulajnoga elektryczna | e: Popularny środek zrównoważonego transportu w dużych miastach.
+[TEKST] Co to za rzecz: Urządzenie śledzące lokalizację roweru w ramie za pomocą GPS? : lokalizator rowerowy | e: Umożliwia odzyskanie skradzionego jednośladu przez policję.
+[TEKST] Co to za rzecz: Mały adapter wpinany do portu USB dodający Wi-Fi do starego PC? : karta sieciowa Wi-Fi USB | e: Umożliwia bezprzewodowe połączenie komputera stacjonarnego z routerem.
+[TEKST] Co to za rzecz: Profesjonalny mikrofon pojemnościowy podłączany przez USB do streamingu? : mikrofon USB | e: Zapewnia studyjną jakość głosu podczas nagrywania podcastów.
+[TEKST] Co to za rzecz: Stabilizator mechaniczny lub elektroniczny do kręcenia filmów telefonem? : gimbal | e: Niweluje drgania ręki, zapewniając idealnie płynne ujęcia wideo.
+[TEKST] Co to za rzecz: Przenośny głośnik Bluetooth odporny na zachlapania i wodę? : głośnik bezprzewodowy | e: Pozwala na odtwarzanie muzyki w terenie z telefonu przez Bluetooth.
+[TEKST] Co to za rzecz: Specjalna mata chłodząca pod laptopa z wbudowanymi wentylatorami? : podkładka chłodząca | e: Obniża temperatury podzespołów przenośnego komputera pod obciążeniem.
+[TEKST] Co to za rzecz: Zewnętrzna obudowa na dysk SSD zamieniająca go w szybki pendrive? : kieszeń na dysk USB | e: Umożliwia wykorzystanie starego dysku komputera jako przenośnego magazynu.
+[TEKST] Co to za rzecz: Mały tester kabli sieciowych RJ45 dla administratorów sieci? : tester okablowania LAN | e: Sprawdza poprawność zarobienia żył w przewodzie ethernetowym.
+[TEKST] Co to za rzecz: Urządzenie lutownicze z płynną regulacją temperatury grotu? : stacja lutownicza | e: Podstawowe narzędzie do precyzyjnego montażu elektroniki.
+[TEKST] Co to za rzecz: Bezprzewodowa klawiatura mechaniczna z podświetleniem RGB? : klawiatura mechaniczna RGB | e: Oferuje precyzyjny skok klawiszy uwielbiany przez graczy i pisarzy.
+[TEKST] Co to za rzecz: Mata biurowa z wbudowaną bezprzewodową ładowarką telefonu? : podkładka biurkowa z qi | e: Łączy funkcję dużej podkładki pod mysz z ładowarką indukcyjną.
+[TEKST] Co to za rzecz: Inteligentna listwa zasilająca ze sterowaniem gniazdek przez aplikację? : listwa zasilająca smart | e: Pozwala wyłączać zdalnie zasilanie podłączonych urządzeń AGD.
+[TEKST] Co to za rzecz: Mały rzutnik multimedialny wielkości puszki napoju na baterię? : projektor przenośny mini | e: Umożliwia wyświetlanie filmu na ścianie w dowolnym miejscu.
+[TEKST] Co to za rzecz: Urządzenie do szybkiego laminowania dokumentów papierowych na gorąco? : laminarka biurowa | e: Pokrywa papier ochronną przezroczystą folią termiczną.
+[TEKST] Jak nazywa się protokół bezpiecznego przesyłania poczty szyfrowanej w sieci? : SMTPS / STARTTLS | e: Zabezpiecza transmisję wiadomości e-mail między serwerem a klientem.
+[TEKST] Jak nazywa się protokół przeglądania katalogów serwera w sieci o nazwie LDAP? : LDAP | e: Lightweight Directory Access Protocol służy do uwierzytelniania w domenach.
+[TEKST] Jak nazywa się system operacyjny czasu rzeczywistego stosowany w mikrokontrolerach? : RTOS | e: Real-Time Operating System gwarantuje wykonanie zadań w ściśle określonym czasie.
+[TEKST] Jak nazywa się złośliwe oprogramowanie udające pożyteczną aplikację użytkownika? : trojan | e: Koń trojański ukrywa szkodliwy ładunek pod płaszczykiem przydatnego programu.
+[TEKST] Jak nazywa się atak polegający na podsłuchu ruchu sieciowego między dwoma hostami? : man-in-the-middle | e: Atakujący potajemnie przekazuje i modyfikuje wiadomości między stronami.
+[TEKST] Jak nazywa się technologia bezprzewodowa dużej przepustowości w sieciach lokalnych? : Wi-Fi 6 / 7 | e: Nowe standardy Wi-Fi oferują gigabitowe prędkości i niskie opóźnienia.
+[TEKST] Jak nazywa się komputerowa symulacja fizyki płynów i ciał stałych w grafice 3D? : silnik fizyczny | e: Odpowiada za realistyczne zachowanie obiektów, grawitacji i zniszczeń w grach.
+[TEKST] Jak nazywa się technologia kompresji tekstur w kartach graficznych? : kompresja tekstur GPU | e: Pozwala na zmniejszenie zużycia pamięci VRAM przez modele w grach.
+[TEKST] Jak nazywa się język zapytań do baz danych NoSQL oparty na dokumentach? : MQL / zapytania NoSQL | e: Służy do filtrowania i operowania na dokumentach w bazach typu MongoDB.
+[TEKST] Jak nazywa się zaawansowane narzędzie monitorowania zasobów serwera w Linuxie? : htop / top | e: Graficzny monitor procesów, pamięci RAM i obciążenia rdzeni procesora.
