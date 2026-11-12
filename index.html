@@ -231,11 +231,13 @@ nav button span{font-size:11px}nav button.on{color:var(--ac)}
 .plav{flex:0 0 42px;height:42px;font-size:22px;display:flex;align-items:center;justify-content:center}
 .plm{flex:1;min-width:0;display:flex;flex-direction:column}.plm b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.plm small{color:var(--mu)}
 .plw{font-weight:800}.rk{flex:0 0 30px;text-align:center}
-#pv{position:fixed;inset:0;z-index:45;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(0,0,0,.45);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);animation:cri .25s}
+#pv,#pk{position:fixed;inset:0;z-index:45;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(0,0,0,.45);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);animation:cri .25s}
 .pvc{position:relative;width:min(480px,100%);max-height:90vh;overflow:auto;background:var(--card);color:var(--tx);border:1px solid var(--ln);border-radius:24px;padding:22px 16px 16px;text-align:center;box-shadow:0 20px 60px #0008;animation:ump .3s}
 .pvc h2{margin:6px 0 2px;font-size:24px}.pvs{margin:4px 0;font-size:14px}
 .pvx{position:absolute;top:12px;right:12px;width:36px;height:36px;border-radius:50%;padding:0;margin:0;background:var(--bg);color:var(--tx);border:1px solid var(--ln)}
 .pvp{font-size:62px;line-height:1;display:inline-block;margin:6px 0 10px}
+.pcat{cursor:pointer;outline:1px solid var(--ln)}.pcat small{color:var(--ac)}
+#pk{z-index:46}#pk .grid{text-align:left}
 .pgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}
 .pst{background:var(--bg);border-radius:14px;padding:10px 4px;display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0}
 .pst span{font-size:18px}.pst b{font-size:17px}.pst small{color:var(--mu);font-size:11px;text-align:center}
@@ -508,23 +510,23 @@ db={doc:p=>mkDoc(doc(fdb,p)),collection:path=>({doc:id=>mkDoc(doc(fdb,path,id)),
 const cp=loadCats();
 onAuthStateChanged(auth,async u=>{gsubs.forEach(f=>f());gsubs=[];if(!u){pref=null;AUTH={};return loginScreen()}
 AUTH={anon:u.isAnonymous,email:u.email,google:u.providerData.some(p=>p.providerId==='google.com')};pref=db.collection('users/'+u.uid+'/data').doc('profile');
-let f=fresh();try{const x=await pref.get();if(x.exists)f=Object.assign(f,JSON.parse(x.data().j))}catch(e){}
-P=f;P.id=u.uid;norm();theme();await cp;if((P.rv||0)<RESET_V)resetProgress();
+let f=fresh(),okL=false;RAWJ='';for(let i=0;i<3&&!okL;i++){try{const x=await pref.get();if(x.exists){RAWJ=x.data().j;f=Object.assign(f,JSON.parse(RAWJ))}okL=true}catch(e){await new Promise(r=>setTimeout(r,1500))}}
+if(!okL){pref=null;AUTH={};unsub();$('#nav').hidden=true;$('#app').className='';$('#app').innerHTML='<h1>Fake it</h1><div class="c"><p>Nie udało się wczytać Twojego konta (słaby internet?). Nic nie zostało zmienione ani usunięte.</p><button id="rt">Spróbuj ponownie</button></div>';$('#rt').onclick=()=>location.reload();return}
+P=f;P.id=u.uid;norm();theme();backupMaybe(RAWJ);await cp;if((P.rv||0)<RESET_V)resetProgress();
 gsubs.push(db.collection('cardstats').onSnapshot(s=>{CS={};s.docs.forEach(d=>CS[d.id]=d.data().n||0)}),db.collection('trades').onSnapshot(s=>{TR=s.docs.map(d=>({id:d.id,...d.data()}));claim()}),db.collection('invites').onSnapshot(s=>{INV=s.docs.map(d=>({id:d.id,...d.data()}));chkInv()}));
-mroll();daily();chk();grantFrames(u);grantVet(u);GM='';show('home');if(!frameNotice()&&!vetNotice())giftIfPending();updNotice();beatStart();checkChampion()})}
+mroll();daily();chk();grantFrames();GM='';show('home');if(!frameNotice()&&!vetNotice())giftIfPending();updNotice();beatStart();checkChampion()})}
 
 /* ===== RAMKI AWATARA + NAPISY KOŃCOWE (update) ===== */
-const HAL_END=new Date(2026,10,1).getTime();
-function grantFrames(u){P.frs=P.frs||[];try{const c=Date.parse(u.metadata.creationTime);if(c&&c<HAL_END&&!P.frs.includes('hal')){P.frs.push('hal');P.fr='hal';P.frn=1;save()}}catch(e){}if(P.fr&&!P.frs.includes(P.fr))P.fr=''}
+function grantFrames(){P.frs=P.frs||[];if(P.fr&&!P.frs.includes(P.fr))P.fr=''}
 function frameNotice(){if(!P.frn)return false;const o=$('#ov');o.hidden=false;SND.trophy();
 o.innerHTML=`<div class="fn"><h1>🎃 Nowa ramka!</h1><p>Dostałeś ramkę <b>Halloween</b>, bo zalogowałeś się w grze przed Halloween.</p><div class="fpv">${AV({ph:P.photo,av:P.av,fr:'hal'})}</div><div class="fb"><h3>🆕 Update: ramki awatara</h3><ol><li>Wejdź w zakładkę <b>👤 Profil</b>.</li><li>Pod zdjęciem i nickiem znajdziesz sekcję <b>🖼️ Ramki awatara</b>.</li><li>Kliknij ramkę, aby ją <b>założyć</b>, albo <b>Bez ramki</b>, aby ją <b>zdjąć</b>.</li></ol><p>Ramka pokazuje się wokół Twojego awatara w grze, w rankingu i w profilu, więc inni gracze też ją widzą. Zdobyte ramki zostają u Ciebie na stałe i możesz je zakładać oraz zdejmować, kiedy chcesz.</p></div><button id="fo1">Super, rozumiem!</button><button class="s" id="fo2">Pokaż w profilu</button></div>`;
 const cl=t=>{o.hidden=true;P.frn=0;save();show(t);if(!vetNotice())giftIfPending()};$('#fo1').onclick=()=>cl('home');$('#fo2').onclick=()=>cl('me');return true}
 const _me=TABS.me;
 TABS.me=function(m){_me(m);const mn=$('#main');if(!mn)return;const fs=P.frs||[];
 const opt=(k,label)=>`<button class="s frb${(P.fr||'')===k?' on':''}" data-f="${k}"><div class="frp">${AV({ph:P.photo,av:P.av,fr:k})}</div>${label}${(P.fr||'')===k?' ✔':''}</button>`;
-mn.firstElementChild.insertAdjacentHTML('afterend',`<div class="c"><h3>🖼️ Ramki awatara</h3>${fs.length?`<p>Kliknij ramkę, aby ją założyć. „Bez ramki" ją zdejmuje.</p><div class="frg">${opt('','Bez ramki')}${fs.filter(k=>FRN[k]).map(k=>opt(k,FRN[k])).join('')}</div>`:'<p>Nie masz jeszcze żadnych ramek. Ramki zdobywa się w specjalnych eventach, np. na Halloween 🎃.</p>'}</div>`);
+mn.firstElementChild.insertAdjacentHTML('afterend',`<div class="c"><h3>🖼️ Ramki awatara</h3>${fs.length?`<p>Kliknij ramkę, aby ją założyć. „Bez ramki" ją zdejmuje.</p><div class="frg">${opt('','Bez ramki')}${fs.filter(k=>FRN[k]).map(k=>opt(k,FRN[k])).join('')}</div>`:'<p>Nie masz jeszcze żadnych ramek. Ramki zdobywa się w specjalnych eventach.</p>'}</div>`);
 mn.querySelectorAll('[data-f]').forEach(b=>b.onclick=()=>{P.fr=b.dataset.f;save();toast(P.fr?'🖼️ Założono ramkę':'Zdjęto ramkę');show('me')});
-const v=$('#vr');if(v){v.insertAdjacentHTML('beforebegin','<button class="s" id="crd">🎬 Napisy końcowe</button>');$('#crd').onclick=credits}};
+const v=$('#vr');if(v){v.insertAdjacentHTML('beforebegin','<button class="s" id="crd">🎬 Napisy końcowe</button>');$('#crd').onclick=credits;if(AUTH.google||AUTH.email){v.insertAdjacentHTML('beforebegin','<button class="s" id="rbk">♻️ Przywróć kopię zapasową konta</button>');$('#rbk').onclick=restoreBackup}}};
 function credits(){const o=document.createElement('div');o.id='cr';
 o.innerHTML=`<div class="crlogo">Fake it by Sefek</div><button class="crx">✕</button><div class="crm"><div class="crl"><h4>Twórca</h4><p>Sefek</p><h4>Testerzy</h4><p>Jula</p><p>Kuba W</p><p>Hubert P</p><h4>Podziękowania</h4><p class="crt">Dziękujemy każdemu, kto zagrał choćby jedną rundę, wymyślił najbardziej absurdalnego fejka albo dał się nabrać na cudzego.</p><p class="crt">Dziękujemy testerom za cierpliwość, dziesiątki rozegranych rund, zgłaszane błędy i pomysły, które zmieniły tę grę na lepsze.</p><p class="crt">Dziękujemy za każdy wieczór spędzony przy wspólnej grze, za śmiech, rywalizację i emocje, kiedy ktoś w ostatniej chwili znajdował prawdę.</p><p class="crt">To dopiero początek. Kolejne gry, karty, ramki i niespodzianki są w drodze, a wszystko po to, żebyś zawsze miał z kim i w co grać.</p><p class="crt">Miłej gry i do zobaczenia w następnej rundzie!</p><p class="crs">Wszelkie prawa zastrzeżone</p><p class="crs">© 2026 Sefek</p></div></div><div class="cre"><div class="crbig">Fake it by Sefek</div><button class="crx2">Zamknij</button></div>`;
 document.body.appendChild(o);const cl=()=>o.remove(),l=o.querySelector('.crl');o.querySelector('.crx').onclick=cl;o.querySelector('.crx2').onclick=cl;l.style.animationDuration=Math.max(42,Math.round(l.scrollHeight/45))+'s';
@@ -546,6 +548,7 @@ function gbar(g){const s=gstat(g);return `<div class="gb"><span>🪙 ${P.coins}<
 /* Nowa aktualizacja: dopisz wpis NA POCZĄTKU listy. g: hub / fakeit / bombowo. Numery rosnące: 2.3, 2.4, 2.5... (bez 2.10) */
 const GN={hub:'Menu główne',fakeit:'Fake it',bombowo:'Bombowo'};
 const UPD=[
+{v:'2.6',g:'hub',d:'12.11.2026',t:'Katalog kart i zabezpieczenie konta',it:['🃏 W statystykach gracza dotknij „Karty", aby zobaczyć jego całą kolekcję jak w katalogu','🛡️ Konto jest chronione przed przypadkowym wyzerowaniem, a w Profilu jest przycisk przywracania kopii zapasowej','🧹 Porządki w kodzie']},
 {v:'2.5',g:'hub',d:'08.11.2026',t:'Poradnik i nowe napisy końcowe',it:['📖 Poradnik z opisem wszystkich funkcji: co to jest, jak używać i po co (w Profilu i w menu głównym)','🔎 Wyszukiwarka w poradniku','🎬 Nowe napisy końcowe: Twórca, Testerzy, podziękowania i prawa zastrzeżone']},
 {v:'2.5',g:'fakeit',d:'08.11.2026',t:'Poradnik w grze',it:['📖 Przycisk „Jak grać w Fake it" w zakładce Graj otwiera poradnik od razu na zasadach gry']},
 {v:'2.4',g:'hub',d:'08.11.2026',t:'Nowy wygląd',it:['🎨 Nowy domyślny motyw Neonowy (inne motywy dalej są w Profilu)','🏠 Nowy układ menu głównego: coiny z przyciskiem +, powiadomienia, seria dni, karty tygodnia i skróty','👤 Nowy Profil: awatar, poziom, procent wygranych i tydzień gry','🧭 Nowe ikony w dolnym menu','🗑️ Usunięty ekran wczytywania']},
@@ -664,21 +667,24 @@ TABS.play=function(m){_play2(m);const mn=$('#main');if(!mn)return;mn.insertAdjac
 const _me4=TABS.me;
 TABS.me=function(m){_me4(m);const c=$('#crd');if(!c)return;c.insertAdjacentHTML('beforebegin','<button class="s" id="gdp">📖 Poradnik</button>');$('#gdp').onclick=()=>openGuide()};
 /* ===== UPDATE 7: reset, weteran, champion, paczki, gracze, kalendarz, boty ===== */
-const RESET_V=1,RESET_AT=Date.parse('2026-11-08T17:00:00+01:00'),VET_END=new Date(2026,10,10).getTime();
+const RESET_V=1,RESET_AT=Date.parse('2026-11-08T17:00:00+01:00');
 let CHAMP=null,BEAT=0;
 const mkey=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0');
 const prevM=()=>{const d=new Date();d.setDate(1);d.setMonth(d.getMonth()-1);return mkey(d)};
 const monthName=k=>{const [y,m]=k.split('-');return new Date(+y,+m-1,1).toLocaleDateString('pl',{month:'long',year:'numeric'})};
 function mroll(){const cur=mkey(new Date());if(!P.mo||P.mo.m!==cur){if(P.mo&&P.mo.m)P.mop=P.mo;P.mo={m:cur,w:0,g:0}}return P.mo}
 function mcount(win){mroll();P.mo.g++;if(win)P.mo.w++}
+var RAWJ='';
+const bkSc=j=>{try{const p=JSON.parse(j);return ((p.st&&p.st.g)||0)+(p.cards||[]).length*2+(p.ach||[]).length*3+(p.total||0)}catch(e){return 0}};
+async function backupMaybe(j){if(!j||!pref||!db||!P.id)return;try{const b=db.doc('users/'+P.id+'/data/backup'),o=await b.get();if(!o.exists||bkSc(j)>=bkSc(o.data().j))await b.set({j,t:Date.now()})}catch(e){}}
+async function restoreBackup(){try{const o=await db.doc('users/'+P.id+'/data/backup').get();if(!o.exists)return toast('Brak kopii zapasowej');const d=o.data(),b=JSON.parse(d.j),n=(b.cards||[]).length;if(!confirm('Przywrócić kopię z '+new Date(d.t).toLocaleString('pl')+'?\nKarty: '+n+', coiny: '+(b.coins||0)+', osiągnięcia: '+(b.ach||[]).length+'.\nObecny postęp zostanie zastąpiony.'))return;pref.set({j:d.j}).then(()=>location.reload()).catch(()=>toast('Nie udało się przywrócić'))}catch(e){toast('Nie udało się wczytać kopii')}}
 function lbDoc(){const mo=mroll(),mp=P.mop||{},tr=TR_.filter(t=>P.total>=t[2]).length;
-return {n:P.name||'Gracz',av:P.av,ph:P.photo||'',col:P.col||'',fr:P.fr||'',w:P.st.w,bw:P.st.bw||0,g:P.st.g||0,pts:P.total,lv:1+tr,c:P.coins,v:+cardValue().toFixed(1),u:new Set(P.cards.map(c=>c[0])).size,ac:P.ach.length,dy:(P.dy||{}).n||0,mm:mo.m,mw:mo.w,mg:mo.g,pm:mp.m||'',pw:mp.w||0,pg:mp.g||0,ch:P.champ?P.champ.m:'',chc:(P.champs||[]).length,vet:P.vet?1:0,ts:Date.now()}}
+return {n:P.name||'Gracz',av:P.av,ph:P.photo||'',col:P.col||'',fr:P.fr||'',w:P.st.w,bw:P.st.bw||0,g:P.st.g||0,pts:P.total,lv:1+tr,c:P.coins,v:+cardValue().toFixed(1),u:new Set(P.cards.map(c=>c[0])).size,cc:Object.entries(P.cards.reduce((o,c)=>(o[c[0]]=(o[c[0]]||0)+1,o),{})).map(a=>a[0]+'x'+a[1]).join(','),ac:P.ach.length,dy:(P.dy||{}).n||0,mm:mo.m,mw:mo.w,mg:mo.g,pm:mp.m||'',pw:mp.w||0,pg:mp.g||0,ch:P.champ?P.champ.m:'',chc:(P.champs||[]).length,vet:P.vet?1:0,ts:Date.now()}}
 function beatStart(){if(BEAT)return;BEAT=setInterval(()=>{if(AUTH.google&&db&&P.id&&document.visibilityState==='visible')db.doc('leaderboard/'+P.id).update({ts:Date.now()}).catch(()=>{})},90000)}
 /* ---- reset postepow (zostaja: nick, zdjecie, awatar, ramki, motyw, dzwiek) ---- */
 function resetProgress(){const k={id:P.id,name:P.name,av:P.av,photo:P.photo,theme:P.theme,mute:P.mute,frs:P.frs,fr:P.fr,frn:P.frn,upv:P.upv,upg:P.upg,vet:P.vet,vetn:P.vetn,freePk:P.freePk};
 [...(P.cards||[])].forEach(c=>remCard(c[0]));const f=Object.assign(fresh(),k);f.rv=RESET_V;f.rt=Date.now();P=f;norm()}
 /* ---- weteran: animowana ramka + darmowa paczka dla kont do 9.11 ---- */
-function grantVet(u){P.frs=P.frs||[];try{const c=Date.parse(u.metadata.creationTime);if(!P.vet&&c&&c<VET_END){P.vet=1;if(!P.frs.includes('vet'))P.frs.push('vet');P.fr='vet';P.freePk=(P.freePk||0)+1;P.vetn=1;save()}}catch(e){}if(P.fr&&!P.frs.includes(P.fr))P.fr=''}
 function vetNotice(){if(!P.vetn)return false;const o=$('#ov');o.hidden=false;SND.trophy();
 o.innerHTML=`<div class="fn"><h1>⚡ Weteran!</h1><p>Założyłeś konto w grze do 9 listopada, więc dostajesz nagrodę <b>Weteran</b>:</p><div class="fpv">${AV({ph:P.photo,av:P.av,fr:'vet'})}</div><div class="fb"><ul><li>⚡ animowana ramka <b>Weteran</b> z zegarem i klepsydrą</li><li>🎁 darmowa paczka kart (Podstawowa)</li></ul><p>Ramkę założysz lub zdejmiesz w Profilu, w sekcji „Ramki awatara". Darmową paczkę otworzysz teraz albo później w Sklepie.</p></div><button id="vo1">🎁 Otwórz darmową paczkę</button><button class="s" id="vo2">Później</button></div>`;
 $('#vo1').onclick=()=>{P.vetn=0;save();show(T);openPack(0,true)};$('#vo2').onclick=()=>{P.vetn=0;save();show(T);giftIfPending()};return true}
@@ -718,12 +724,17 @@ el.innerHTML=`<p><b class="k">${on}</b> online · ${l.length} ${l.length===1?'gr
 el.querySelectorAll('[data-p]').forEach(b=>b.onclick=()=>openProfile(b.dataset.p))};paint();
 unsubs.push(db.collection('leaderboard').onSnapshot(s=>{LB=s.docs.map(d=>({id:d.id,...d.data()}));paint()}));
 const iv=setInterval(()=>{if(!$('#plst'))return clearInterval(iv);paint()},30000);unsubs.push(()=>clearInterval(iv))};
+function openCatalog(p){if(document.getElementById('pk'))return;const cc={};(p.cc||'').split(',').forEach(x=>{const a=x.split('x');if(a.length===2)cc[+a[0]]=+a[1]});const own=Object.keys(cc).length,m=document.createElement('div');m.id='pk';let ft=-1,fo=0;
+const paint=()=>{const g=m.querySelector('.pkg');if(!g)return;const ids=[...Array(220).keys()].filter(i=>(ft<0||Math.floor(i/44)===ft)&&(!fo||cc[i])).sort((a,b)=>Math.floor(b/44)-Math.floor(a/44)||a-b);g.innerHTML=ids.map(i=>cc[i]?ct(i,' · ×'+cc[i]):ct(i,'',1)).join('')||'<p>Brak kart.</p>'};
+m.innerHTML=`<div class="pvc"><button class="pvx" aria-label="Zamknij">✕</button><h2>🃏 Kolekcja gracza ${NM({name:p.n,col:p.col})}</h2>${p.cc===undefined?'<p>Kolekcja pojawi się, gdy ten gracz wejdzie do gry po tej aktualizacji.</p>':`<p>Różnych kart: ${own}/220 · Wartość: ${Math.round(p.v||0)} 🪙</p><div class="wr">${TN.map((n,t)=>`<span class="pill">${n} ${Object.keys(cc).filter(i=>Math.floor(i/44)===t).length}/44</span>`).join('')}</div><div class="row"><select id="pkt"><option value="-1">Wszystkie rzadkości</option>${TN.map((n,i)=>`<option value="${i}">${n}</option>`).join('')}</select><select id="pko"><option value="0">Wszystkie karty</option><option value="1">Tylko zdobyte</option></select></div><div class="grid pkg"></div>`}</div>`;
+document.body.appendChild(m);const cl=()=>m.remove();m.querySelector('.pvx').onclick=cl;m.onclick=e=>{if(e.target===m)cl()};
+const a=m.querySelector('#pkt'),b=m.querySelector('#pko');if(a){a.onchange=()=>{ft=+a.value;paint()};b.onchange=()=>{fo=+b.value;paint()};paint()}}
 function openProfile(id){const p=LB.find(x=>x.id===id);if(!p)return;if(id===P.id){show('me');return}if(document.getElementById('pv'))return;
 const g=p.g||0,w=p.w||0,wr=g?Math.round(w/g*100):0,mw=p.mm===mkey(new Date())?(p.mw||0):0,m=document.createElement('div');m.id='pv';
 const st=(i,v,l)=>`<div class="pst"><span>${i}</span><b>${v}</b><small>${l}</small></div>`;
-m.innerHTML=`<div class="pvc"><button class="pvx" aria-label="Zamknij">✕</button><div class="pvp">${AV({ph:p.ph,av:p.av,fr:p.fr})}</div><h2>${NM({name:p.n,col:p.col})}</h2>${isChamp(p)?champBadge():''}<p class="pvs">${lastAct(p)}${p.vet?' · ⚡ Weteran':''}</p><div class="pgrid">${st('🏆',w,'Wygrane')}${st('🎮',g,'Rozegrane gry')}${st('🎯',wr+'%','Skuteczność')}${st('⚔️',p.bw||0,'Wygrane pojedynki')}${st('⭐',p.pts||0,'Punkty')}${st('🏅',p.lv||1,'Poziom')}${st('🔥',p.dy||0,'Dni z rzędu')}${st('🪙',p.c||0,'Coiny')}${st('🃏',(p.u||0)+'/220','Karty')}${st('💎',Math.round(p.v||0),'Wartość kart')}${st('🎖️',(p.ac||0)+'/'+ACH.length,'Osiągnięcia')}${st('📅',mw,'Wygrane w miesiącu')}${st('👑',p.chc||0,'Tytuły championa')}</div>${AUTH.google?'<button id="pvd">⚔️ Wyzwij na pojedynek</button>':''}</div>`;
+m.innerHTML=`<div class="pvc"><button class="pvx" aria-label="Zamknij">✕</button><div class="pvp">${AV({ph:p.ph,av:p.av,fr:p.fr})}</div><h2>${NM({name:p.n,col:p.col})}</h2>${isChamp(p)?champBadge():''}<p class="pvs">${lastAct(p)}${p.vet?' · ⚡ Weteran':''}</p><div class="pgrid">${st('🏆',w,'Wygrane')}${st('🎮',g,'Rozegrane gry')}${st('🎯',wr+'%','Skuteczność')}${st('⚔️',p.bw||0,'Wygrane pojedynki')}${st('⭐',p.pts||0,'Punkty')}${st('🏅',p.lv||1,'Poziom')}${st('🔥',p.dy||0,'Dni z rzędu')}${st('🪙',p.c||0,'Coiny')}<div class="pst pcat" id="pvk" role="button" tabindex="0"><span>🃏</span><b>${(p.u||0)+'/220'}</b><small>Karty ›</small></div>${st('💎',Math.round(p.v||0),'Wartość kart')}${st('🎖️',(p.ac||0)+'/'+ACH.length,'Osiągnięcia')}${st('📅',mw,'Wygrane w miesiącu')}${st('👑',p.chc||0,'Tytuły championa')}</div>${AUTH.google?'<button id="pvd">⚔️ Wyzwij na pojedynek</button>':''}</div>`;
 document.body.appendChild(m);const cl=()=>m.remove();m.querySelector('.pvx').onclick=cl;m.onclick=e=>{if(e.target===m)cl()};
-const d=m.querySelector('#pvd');if(d)d.onclick=()=>{const ks=Object.keys(DB);if(!ks.length)return toast('Brak pytań');cl();createBattle({id:p.id,n:p.n},ks.includes('all')?'all':ks[0],10)}}
+m.querySelector('#pvk').onclick=()=>openCatalog(p);const d=m.querySelector('#pvd');if(d)d.onclick=()=>{const ks=Object.keys(DB);if(!ks.length)return toast('Brak pytań');cl();createBattle({id:p.id,n:p.n},ks.includes('all')?'all':ks[0],10)}}
 /* ---- ranking z liczba gier ---- */
 const RV={w:p=>p.w||0,bw:p=>p.bw||0,g:p=>p.g||0,c:p=>p.c||0,v:p=>Math.round(p.v||0),mw:p=>p.mm===mkey(new Date())?(p.mw||0):0};
 function rankTab2(keys,k){const rl=()=>{const el=$('#lb');if(!el)return;const s=[...LB].sort((a,b)=>RV[k](b)-RV[k](a)||(b.g||0)-(a.g||0)).slice(0,50);
