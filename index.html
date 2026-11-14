@@ -296,7 +296,7 @@ nav button span{font-size:15px}
 }
 nav[hidden]{display:none}
 
-/* ===== update 2.9: paczki na srodku, szare karty, Hitster ===== */
+/* ===== update 2.9: paczki na srodku, szare karty, Songline ===== */
 .rv{--g:10px;display:flex;flex-wrap:wrap;justify-content:center;gap:var(--g);margin:0 auto}
 .rv .fl{width:calc((100% - 2*var(--g))/3);flex:0 0 auto}
 .rv.one .fl{width:min(170px,50vw)}
@@ -310,6 +310,12 @@ nav[hidden]{display:none}
 .htl .hy2{color:var(--tc,var(--ac))}
 .htl::before{background:linear-gradient(var(--tc,var(--ac)),#ffffff22)}
 .htl .hs{border-color:var(--tc,var(--ac));color:var(--tc,var(--ac))}
+.hwarn{color:#ef4444;font-weight:700;font-size:12px;margin:10px 0 4px}.hinfo{margin:8px 0 0;font-size:15px;background:#ffffff1a;border-radius:12px;padding:8px}
+.hk{text-decoration:none;cursor:pointer;margin-left:4px;color:#ef4444;font-size:12px;padding:2px 6px;border-radius:8px;background:#ef444422}
+#hfin{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:50}#hfin i{position:absolute;top:-8vh;font-style:normal;animation:hfall linear forwards}@keyframes hfall{to{transform:translateY(112vh) rotate(360deg)}}
+.hvin{width:120px;height:120px;border-radius:50%;margin:8px auto;background:radial-gradient(circle,#ef4444 0 14%,#111 15% 30%,#2a2a2a 31% 33%,#111 34% 52%,#2a2a2a 53% 55%,#111 56%);animation:hspin 3s linear infinite;box-shadow:0 0 30px #a855f788}@keyframes hspin{to{transform:rotate(360deg)}}
+.heq{display:flex;gap:5px;justify-content:center;align-items:flex-end;height:48px;margin:8px}.heq b{width:9px;border-radius:4px;background:linear-gradient(#a855f7,#22c55e);animation:heq .6s ease-in-out infinite alternate}@keyframes heq{from{height:6px}to{height:46px}}
+.hwn{animation:hglow 1.2s ease-in-out infinite alternate}@keyframes hglow{from{text-shadow:0 0 6px #a855f7}to{text-shadow:0 0 22px #ec4899,0 0 36px #22c55e}}
 .hch{border-color:var(--tc,var(--ln))}.hch.on{border-color:var(--tc,var(--ac));box-shadow:0 0 14px var(--tc,#fff3)}
 .hdot{display:inline-block;width:.8em;height:.8em;border-radius:50%;margin-right:.4em;vertical-align:baseline}
 .hdir{margin:0 0 6px;opacity:.7;font-size:12px}
@@ -360,7 +366,7 @@ const earn=n=>{P.coins+=n;SND.coin()};
 const dstr=d=>d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'),DR={7:5,14:10,21:15,28:20};
 /* ---- karty ---- */
 const NO=[['Lis','🦊'],['Wilk','🐺'],['Sowa','🦉'],['Smok','🐉'],['Kot','🐱'],['Pies','🐶'],['Orzeł','🦅'],['Rekin','🦈'],['Żółw','🐢'],['Lew','🦁'],['Tygrys','🐯'],['Niedźwiedź','🐻'],['Panda','🐼'],['Koala','🐨'],['Pingwin','🐧'],['Delfin','🐬'],['Ośmiornica','🐙'],['Motyl','🦋'],['Pszczoła','🐝'],['Żaba','🐸'],['Jednorożec','🦄'],['Feniks','🔥'],['Kruk','🐦'],['Jeleń','🦌'],['Zebra','🦓'],['Żyrafa','🦒'],['Słoń','🐘'],['Małpa','🐒'],['Papuga','🦜'],['Krab','🦀'],['Rybka','🐠'],['Rozdymka','🐡'],['Jaszczurka','🦎'],['Krokodyl','🐊'],['Nietoperz','🦇'],['Bóbr','🦫'],['Szop','🦝'],['Jeż','🦔'],['Królik','🐰'],['Wąż','🐍'],['Skorpion','🦂'],['Mamut','🦣'],['Wielbłąd','🐪'],['Kaktus','🌵']];
-const TN=['Zwykła','Rzadka','Epicka','Legendarna','Mityczna'],BV=[2,8,30,120,500],TW=[66,22,8.5,3,.5];
+const TN=['Zwykła','Rzadka','Epicka','Legendarna','Mityczna'],BV=[2,8,30,120,500],TW=[68.5,22.5,7.9,1,.1];
 const cd=id=>[NO[id%44][1],NO[id%44][0],Math.floor(id/44)],day=t=>Math.floor(t/864e5);
 let CS={},TR=[],LB=[],claimed=new Set();
 const scar=id=>Math.max(.5,1.8-.25*Math.log2(1+(CS[id]||0)));
@@ -414,7 +420,7 @@ $('#mk').onclick=()=>nick()&&create(0);$('#mkb').onclick=()=>nick()&&create(1);$
 shop(){const WS=[['💨',24],['🪙+2',14],['💨',23],['💡',5],['💨',23],['🪙+5',6],['🕵️',3.5],['🚫',1.5]];
 const sec=WS.map((x,i)=>{const p=a=>[Math.cos((i*45+a-90)*Math.PI/180)*100,Math.sin((i*45+a-90)*Math.PI/180)*100].map(Math.round).join(' '),m=[Math.cos((i*45-67.5)*Math.PI/180)*66,Math.sin((i*45-67.5)*Math.PI/180)*66];return `<path d="M0 0L${p(0)}A100 100 0 0 1 ${p(45)}Z" fill="var(--${i%2?'bg':'card'})" stroke="var(--ln)"/><text x="${m[0]}" y="${m[1]}" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="var(--tx)">${x[0]}</text>`}).join('');
 $('#main').innerHTML=`<div class="c"><h3>🎡 Koło fortuny</h3><p>4 🪙 za zakręcenie. Ułatwienia trafiają się bardzo rzadko, najczęściej wypada pusto.</p><svg viewBox="-110 -120 220 230" style="width:240px;display:block;margin:auto"><g id="wh" style="transform-box:fill-box;transform-origin:center;transition:transform 3.5s cubic-bezier(.2,.8,.2,1);transform:rotate(${WR}deg)">${sec}</g><path d="M-9 -118L9 -118L0 -96Z" fill="var(--ac)"/></svg><button id="sp">Zakręć (4 🪙)</button></div>
-<div class="c"><h3>📦 Paczka kart</h3><p>12 🪙 za 5 kart. Zwykłe 66%, rzadkie 22%, epickie 8,5%, legendarne 3%, mityczne 0,5% na kartę. Wartość karty zależy od tego, ilu graczy ją ma.</p><button id="op">Otwórz paczkę (12 🪙)</button></div>
+<div class="c"><h3>📦 Paczka kart</h3><p>12 🪙 za 5 kart. Zwykłe 68,5%, rzadkie 22,5%, epickie 7,9%, legendarne 1%, mityczne 0,1% na kartę. Wartość karty zależy od tego, ilu graczy ją ma.</p><button id="op">Otwórz paczkę (12 🪙)</button></div>
 <div class="c"><h3>🎒 Twoje ułatwienia</h3><div class="pill">💡 Podpowiedź ×${P.inv.hint}</div><div class="pill">🕵️ Podmiana ×${P.inv.steal}</div><div class="pill">🚫 Blokada ×${P.inv.block}</div><p>Podpowiedź ukrywa część błędnych opcji. Podmiana przenosi na Ciebie punkty za najpopularniejszego fejka. Blokada odbiera wybranemu graczowi ułatwienia i punkty za prawdę w danej rundzie. Używasz ich w głosowaniu.</p></div>`;
 $('#sp').onclick=()=>{if(spin)return;if(P.coins<4)return toast('Za mało coinów');P.coins-=4;P.st.sp++;spin=true;save();let r=Math.random()*100,i=0;while(i<7&&r>=WS[i][1]){r-=WS[i][1];i++}
 WR=WR-WR%360+1440+360-(i*45+22.5);$('#wh').style.transform=`rotate(${WR}deg)`;{let t=0,dl=50;const tk=()=>{if(t>3300)return;SND.tick();dl*=1.08;t+=dl;setTimeout(tk,dl)};tk()}setTimeout(()=>{spin=false;if(i===3){P.inv.hint++;SND.ach();toast('💡 Podpowiedź!')}else if(i===1){earn(2);toast('+2 🪙')}else if(i===5){earn(5);toast('+5 🪙')}else if(i===6){P.inv.steal++;SND.trophy();toast('🕵️ Podmiana – rzadka wygrana!')}else if(i===7){P.inv.block++;SND.trophy();toast('🚫 Blokada – mega rzadka wygrana!')}else{SND.miss();toast('💨 Pusto')}
@@ -489,8 +495,8 @@ const top=`<div class="top"><b>Gra ${code}</b><span><span class="pill">Runda ${G
 const bindX=()=>{const b=$('#ex2');if(b)b.onclick=()=>{if(G.phase==='lobby'||confirm('Wyjść z gry? Stracisz nagrody za tę grę.'))leave()}};
 if(G.phase==='lobby'){const bots=PL.filter(p=>p.bot).length,hs=humans().length,ok=hs>=2?PL.length>=3:(hs===1&&bots>=3);
 A.innerHTML=`${top}<div class="code">${code}</div><p style="text-align:center">Kod dla znajomych · rundy: ${G.n} · ${E((DB[G.cat]||{name:G.cat}).name)}</p><div class="c" id="pl">${pls()}</div>${G.battle?`<div class="c"><p>⚔️ Pojedynek 1 na 1 – ${hs<2?'czekam, aż rywal przyjmie wyzwanie…':'zaczynamy!'}</p></div>`:h?`<div class="c"><button class="s" id="ab">+ Dodaj bota</button><button id="go" ${ok?'':'disabled'}>Start gry</button>${ok?'':'<p>Do startu: min. 3 graczy (Ty, znajomi i ewentualnie boty), a w grze solo min. 3 boty.</p>'}</div>`:'<p>Czekasz na hosta…</p>'}
-<div class="c"><div id="chat"></div><div class="row"><input id="cm" placeholder="Czat"><button id="cs" style="max-width:80px">Wyślij</button></div></div>`;bindX();
-$('#cs').onclick=()=>{const v=$('#cm').value.trim();if(v){cc().doc(Date.now()+P.id).set({n:P.name,m:v,t:Date.now()});$('#cm').value=''}};
+${G.battle?'':'<div class="c"><button class="s" id="fiv">📨 Zaproś gracza</button></div>'}<div class="c"><div id="chat"></div><div class="row"><input id="cm" placeholder="Czat"><button id="cs" style="max-width:80px">Wyślij</button></div></div>`;bindX();
+{const fv=$('#fiv');if(fv)fv.onclick=fInvite}$('#cs').onclick=()=>{const v=$('#cm').value.trim();if(v){cc().doc(Date.now()+P.id).set({n:P.name,m:v,t:Date.now()});$('#cm').value=''}};
 if(h&&!G.battle){$('#ab').onclick=()=>{const used=new Set(PL.map(p=>p.name)),f=BN.filter(n=>!used.has(n+' ✨'));if(!f.length)return toast('Brak wolnych imion botów');pc().doc('bot'+Date.now()).set(botDoc(f[Math.random()*f.length|0]))};$('#go').onclick=()=>{$('#go').disabled=true;toast('Przygotowuję pytania…');pick()}}}
 else if(G.phase==='count'){gF=gT=0;A.innerHTML=`<div class="cdw"><p>Gra się zaczyna…</p><div class="cn" id="cn">3</div></div>`;SND.count();let n=3;const iv=setInterval(()=>{n--;const c=$('#cn');if(!c||n<0){clearInterval(iv);return}if(n>0){c.textContent=n;SND.count()}else{c.textContent='Start!';c.classList.add('st');SND.start()}c.style.animation='none';void c.offsetWidth;c.style.animation=''},1000)}
 else if(G.phase==='fake'){hid=[];blk=false;{const h2=q.h;if(!P.seen.includes(h2)){P.seen.push(h2);P.seen=P.seen.slice(-3000);save()}}
@@ -540,7 +546,8 @@ for(let i=0;i<20;i++){const c=String(Math.floor(100+Math.random()*900));if(!(awa
 await gd().set({host:P.id,phase:'lobby',round:0,ord:[],cat,n,t:Date.now(),opts:[],battle:1,opp:opp.id});await enter();
 const id='b'+Date.now()+P.id;curInv=id;await db.doc('invites/'+id).set({from:P.id,fn:P.name,fa:P.av,fp:P.photo||'',to:opp.id,code,cat,cn:(DB[cat]||{name:cat}).name,n,st:'open',t:Date.now()});toast('Wysłano wyzwanie: '+opp.n)}
 function chkInv(){INV.forEach(i=>{if(i.to===P.id&&i.st==='open'&&Date.now()-i.t<180000&&!shownInv.has(i.id)&&!code){shownInv.add(i.id);showInvite(i)}});const mine=INV.find(i=>i.id===curInv);if(mine&&code&&mine.st==='declined'){toast('Rywal odrzucił wyzwanie');curInv='';leave()}}
-function showInvite(i){const o=$('#ov');o.hidden=false;SND.ach();o.innerHTML=`<p style="font-size:24px;margin:0">⚔️ Pojedynek!</p><div class="avb" style="width:90px;height:90px;font-size:48px;margin:12px">${AV({ph:i.fp,av:i.fa})}</div><h2 style="margin:0">${E(i.fn)}</h2><p style="color:#fff;text-align:center">wyzywa Cię na pojedynek<br>${E(i.cn)} · ${i.n} rund · wygrany dostaje 2 🪙</p><button id="ia" style="max-width:260px">Przyjmij</button><button class="s" id="ib" style="max-width:260px">Odrzuć</button>`;
+function fInvite(){if($('#finvm')||!code)return;const m=document.createElement('div');m.id='finvm';m.className='bmod';m.innerHTML='<div class="bmc"><button class="pvx" aria-label="Zamknij">✕</button><h3>📨 Zaproś gracza</h3><input id="fis" placeholder="Szukaj gracza…" type="search"><div id="fil"></div></div>';document.body.appendChild(m);let L=[];const sent={},rl=()=>{if(!G||G.phase!=='lobby'){un();m.remove();return}const q=$('#fis').value.trim().toLowerCase(),inr=new Set(PL.map(p=>p.id));$('#fil').innerHTML=L.filter(p=>p.id!==P.id&&!inr.has(p.id)&&p.n&&(!q||p.n.toLowerCase().includes(q))).sort((a,b)=>(b.ts||0)-(a.ts||0)).slice(0,40).map(p=>`<div class="pl"><span class="bca"><span class="plav bav">${AV(p)}</span><b>${E(p.n)}</b></span><button data-i="${p.id}" style="width:auto"${sent[p.id]?' disabled':''}>${sent[p.id]?'Wysłano ✓':'Zaproś'}</button></div>`).join('')||'<p>Brak graczy.</p>';m.querySelectorAll('[data-i]').forEach(b=>b.onclick=()=>{const p=L.find(x=>x.id===b.dataset.i);if(!p||!G)return;sent[p.id]=1;db.doc('invites/r'+Date.now()+P.id).set({from:P.id,fn:P.name||'Gracz',fa:P.av,fp:P.photo||'',to:p.id,code,cat:G.cat,cn:(DB[G.cat]||{name:G.cat}).name,n:G.n,st:'open',t:Date.now(),room:1}).then(()=>toast('Wysłano zaproszenie: '+p.n)).catch(()=>toast('Nie udało się wysłać'));rl()})},un=db.collection('leaderboard').onSnapshot(s=>{L=s.docs.map(d=>({id:d.id,...d.data()}));rl()});m.querySelector('.pvx').onclick=()=>{un();m.remove()};$('#fis').oninput=rl}
+function showInvite(i){const o=$('#ov');o.hidden=false;SND.ach();o.innerHTML=`<p style="font-size:24px;margin:0">${i.room?'📨 Zaproszenie!':'⚔️ Pojedynek!'}</p><div class="avb" style="width:90px;height:90px;font-size:48px;margin:12px">${AV({ph:i.fp,av:i.fa})}</div><h2 style="margin:0">${E(i.fn)}</h2><p style="color:#fff;text-align:center">${i.room?'zaprasza Cię do pokoju Fake it':'wyzywa Cię na pojedynek'}<br>${E(i.cn)} · ${i.n} rund${i.room?'':' · wygrany dostaje 2 🪙'}</p><button id="ia" style="max-width:260px">Przyjmij</button><button class="s" id="ib" style="max-width:260px">Odrzuć</button>`;
 $('#ia').onclick=async()=>{o.hidden=true;await db.doc('invites/'+i.id).update({st:'accepted'}).catch(()=>{});if(P.name)join(i.code)};$('#ib').onclick=()=>{o.hidden=true;db.doc('invites/'+i.id).update({st:'declined'}).catch(()=>{})}}
 /* ---- logowanie ---- */
 const mkDoc=ref=>({get:async()=>{const x=await getDoc(ref);return{id:x.id,exists:x.exists(),data:()=>x.data()}},set:d=>setDoc(ref,d),update:d=>updateDoc(ref,d),delete:()=>deleteDoc(ref),onSnapshot:(n,e)=>onSnapshot(ref,x=>n({id:x.id,exists:x.exists(),data:()=>x.data()}),e)});
@@ -584,7 +591,7 @@ const NAV_HUB=[['home','🏠','Gry'],['cshop','🛒','Sklep'],['col','🃏','Kar
 const GAMES={
 fakeit:{name:'Fake it',icon:'🎭',desc:'Wymyślaj fejki i znajdź prawdę',pl:'2–8 graczy · online',ready:1,home:'play',nav:[['play','🎮','Graj'],['shop','🎡','Ułatwienia'],['rank','🏅','Ranking'],['upd','📋','Zmiany']]},
 bombowo:{name:'Bombowo',icon:'💣',desc:'Wpisz słowo z sylabą, zanim bomba wybuchnie',pl:'2–8 graczy · online lub 1 telefon',ready:1,home:'bplay',nav:[['bplay','🎮','Graj'],['bshop','🛒','Sklep'],['brank','🏅','Ranking'],['upd','📋','Zmiany']]},
-hitster:{name:'Hitster',icon:'🎵',desc:'Posłuchaj kawałka i dopasuj rok na osi czasu',pl:'2–6 graczy · online',ready:1,home:'hplay',nav:[['hplay','🎮','Graj'],['hrank','🏅','Ranking'],['upd','📋','Zmiany']]}
+hitster:{name:'Songline',icon:'🎵',desc:'Posłuchaj kawałka i dopasuj rok na osi czasu',pl:'2–12 graczy · online',ready:1,home:'hplay',nav:[['hplay','🎮','Graj'],['hshop','🛒','Sklep'],['hirank','🏅','Ranking'],['upd','📋','Zmiany']]}
 };
 function gstat(g){const b=P.bs||{};return g==='fakeit'?{w:P.st.w,p:P.total}:g==='hitster'?{w:(P.hs||{}).w||0,p:0}:{w:b.w||0,p:b.p||0}}
 /* ===== BOMBOWO ===== */
@@ -601,21 +608,24 @@ function bTurn(S){S.syl=bSyl(S);S.te=Date.now()+S.set.tm*1000;S.n++}
 function bNext(S){do{S.tu=(S.tu+1)%S.p.length}while(S.p[S.tu].lv<=0)}
 function bVer(S,w){if(!w.includes(S.syl))return 'Słowo musi zawierać '+S.syl.toUpperCase();if(S.used.includes(w))return 'To słowo zostało już użyte przez innego gracza';if(S.set.ban.includes(w))return 'To słowo jest zabronione';if(!inDict(w))return 'Nie ma takiego słowa (liczą się tylko polskie)';return ''}
 function bOk(S,w){S.used.push(w);S.ev={k:'ok',id:S.p[S.tu].id,w,t:Date.now()};bNext(S);bTurn(S)}
-function bBoom(S){const c=S.p[S.tu];c.lv--;S.ex++;S.ev={k:'boom',id:c.id,t:Date.now()};const al=S.p.filter(x=>x.lv>0);if(al.length<2){S.st='end';S.win=al[0]?al[0].id:''}else{bNext(S);bTurn(S)}}
+function bBoom(S){const c=S.p[S.tu];c.lv--;S.ex++;S.ev={k:'boom',id:c.id,t:Date.now()};const al=S.p.filter(x=>x.lv>0);if(al.length<2){S.st='end';S.ea=Date.now();S.win=al[0]?al[0].id:''}else{bNext(S);bTurn(S)}}
 function bInit(pl,set){const p=pl.map(x=>({id:x.id,n:x.n,bot:!!x.bot,lv:set.lv}));for(let i=p.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[p[i],p[j]]=[p[j],p[i]]}const S={st:'play',set,p,tu:0,syl:'',te:0,used:[],rs:[],ex:0,ev:null,win:'',n:0};bTurn(S);S.go=Date.now()+3600;S.te=S.go+set.tm*1000;return S}
 function bBang(){noise(0,1.6,.9);tn(55,0,1.4,'sawtooth',.35);tn(35,.05,1.6,'sine',.45);try{navigator.vibrate&&navigator.vibrate([200,60,300])}catch(e){}const x=document.createElement('div');x.id='bx';x.innerHTML='<i class="bf"></i><i class="bb"></i><i class="bk"></i><i class="br"></i><span>💥</span>';document.body.appendChild(x);setTimeout(()=>x.remove(),2200)}
 const bH=id=>Math.abs([...String(id)].reduce((a,ch)=>(a*31+ch.charCodeAt(0))|0,7))%360;
 function bTick(S,c){const cur=S.p[S.tu],rem=Math.max(0,S.te-Date.now()),tot=S.set.tm*1000,bm=document.querySelector('.bk.on .bmb');if(bm)bm.style.setProperty('--d',Math.max(.12,.9*rem/tot)+'s');const sec=Math.ceil(rem/(rem<3000?500:1000));if(sec!==c.ls){c.ls=sec;SND.tick()}const e=$('#t'+cur.id);if(e)e.textContent=c.ty(cur.id)||'…'}
+function bDead(S,c){const box=$('#bdc');if(!box||!c.say)return;const me=S.p.find(x=>x.id===c.me);if(!me||me.lv>0){if(box.firstChild)box.innerHTML='';return}
+if(!box.firstChild){box.innerHTML='<div class="c"><h3>💬 Czat dla odpadłych</h3><p class="bwm">Piszesz tylko do graczy, którzy też już odpadli. Grający tego nie widzą.</p><div id="bdl" class="bch"></div><div class="row"><input id="bdi" maxlength="120" placeholder="Napisz do odpadłych…"><button id="bds" style="width:auto">➤</button></div></div>';const sm=()=>{const v=$('#bdi').value.trim();if(!v)return;$('#bdi').value='';c.say(v)};$('#bds').onclick=sm;$('#bdi').onkeydown=e=>{if(e.key==='Enter')sm()};c.cl=-1}
+const l=c.chat?c.chat():[];if(c.cl!==l.length){c.cl=l.length;const e=$('#bdl');if(e){e.innerHTML=l.slice(-30).map(m=>`<div><b>${E(m.n)}:</b> ${E(m.m)}</div>`).join('');e.scrollTop=e.scrollHeight}}}
 function bView(S,c){c.S=S;const cur=S.p[S.tu];
 if(S.ev&&S.ev.t!==c.le){c.le=S.ev.t;if(S.ev.k==='boom')bBang();else if(S.ev.k==='skip'){const q=S.p.find(x=>x.id===S.ev.id);toast('⏭️ '+(q?q.n:'')+' pomija kolejkę');tn(660,0,.15,'triangle',.1)}else if(S.ev.k==='ok'){tn(880,0,.1,'triangle',.1);if(c.me&&S.ev.id===c.me&&P.st){P.st.bwd++;P.st.blw=Math.max(P.st.blw||0,S.ev.w.length)}const q=S.p.find(x=>x.id===S.ev.id),o=$('#bok');if(o){o.textContent='✅ '+(q?q.n:'')+': '+S.ev.w;o.classList.remove('sh');void o.offsetWidth;o.classList.add('sh')}}else if(S.ev.k==='bad'&&S.ev.id===(c.me||cur.id)){toast(S.ev.m);tn(200,0,.2,'sawtooth',.08)}}
 if(S.st==='end'){if(c.k!=='end'){c.k='end';c.built=0;const w=S.p.find(x=>x.id===S.win);$('#main').innerHTML=`<div class="c" style="text-align:center"><h1>🏆</h1><h2>${w?E(w.n):'Brak zwycięzcy'} wygrywa!</h2><p>${c.rw||''}</p><p>Wybuchów: ${S.ex}</p><button id="bx2">Wróć</button></div>`;$('#bx2').onclick=c.exit}return}
-if(!c.built){c.built=1;c.k='';c.cd0=S.n===1?Date.now():0;let hi=0;const hu=S.p.map(p=>p.bot?215:BPAL[hi++%BPAL.length]);$('#main').innerHTML=`<div class="bring">${S.p.map((p,i)=>`<div class="bk" id="cd${p.id}" style="--h:${hu[i]}"><div class="bkh">${c.av(p.id)}<b>${E(p.n)}</b></div><div class="bkm"><div class="bmb"><b></b></div><div class="bwt">⏳</div></div><div class="bt" id="t${p.id}"></div><div class="bhp" id="h${p.id}"></div></div>`).join('')}</div><div id="bin"></div><p class="bwm" id="bwm"></p><p class="bok" id="bok"></p><p class="bwm bst" id="bst"></p>`}
+if(!c.built){c.built=1;c.k='';c.cd0=S.n===1?Date.now():0;let hi=0;const hu=S.p.map(p=>p.bot?215:BPAL[hi++%BPAL.length]);$('#main').innerHTML=`<div class="bring">${S.p.map((p,i)=>`<div class="bk" id="cd${p.id}" style="--h:${hu[i]}"><div class="bkh">${c.av(p.id)}<b>${E(p.n)}</b></div><div class="bkm"><div class="bmb"><b></b></div><div class="bwt">⏳</div></div><div class="bt" id="t${p.id}"></div><div class="bhp" id="h${p.id}"></div></div>`).join('')}</div><div id="bin"></div><p class="bwm" id="bwm"></p><p class="bok" id="bok"></p><p class="bwm bst" id="bst"></p><div id="bdc"></div>`}
 const n=S.p.length,u=S.syl.toUpperCase();
 S.p.forEach((p,i)=>{const e=$('#cd'+p.id);if(!e)return;let o=(i-S.tu+n)%n;if(o>n/2)o-=n;e.style.setProperty('--o',o);e.style.setProperty('--a',Math.abs(o));e.style.visibility=Math.abs(o)>2?'hidden':'visible';e.classList.toggle('on',i===S.tu);e.classList.toggle('dead',p.lv<=0);$('#h'+p.id).textContent=p.lv>0?'❤️'.repeat(p.lv):'💀'});
 const mb=document.querySelector('.bk.on .bmb b');if(mb)mb.textContent=u;
 if(c.k!==S.n){c.k=S.n;const mine=c.me===null||cur.id===c.me;$('#bin').innerHTML=mine?`<div class="row"><input id="bi" autocomplete="off" autocapitalize="off" placeholder="${c.me===null?E(cur.n)+', wpisz słowo':'Wpisz słowo…'}"><button id="bsd" style="width:auto">OK</button></div>${c.skip?bItems():''}<p class="bwm" id="bhn"></p>`:'<p class="bwm">⏳ Czekaj na swoją kolej</p>';
 const i=$('#bi');if(i){const sn=()=>{const w=i.value.toLowerCase().trim();if(!w)return;c.send(w);i.value='';c.type('')};i.oninput=()=>c.type(i.value);i.onkeydown=e=>{if(e.key==='Enter')sn()};$('#bsd').onclick=sn;i.focus()}const ih=$('#bih'),is=$('#bis2');if(ih)ih.onclick=()=>{const w=botWord(S);if(!w)return toast('Brak podpowiedzi');P.bv.hint--;P.st.bsp++;save();$('#bhn').textContent='💡 '+w;ih.remove()};if(is)is.onclick=()=>{P.bv.skip--;P.st.bsp++;save();c.skip();is.remove()}}
-$('#bwm').innerHTML=`Słowo musi zawierać: <b>${u}</b>`;$('#bst').textContent=`Kolej: ${cur.n} · Graczy: ${n} · Gra: ${S.p.filter(x=>x.lv>0).length} · Wybuchło: ${S.ex}`;
+$('#bwm').innerHTML=`Słowo musi zawierać: <b>${u}</b>`;$('#bst').textContent=`Kolej: ${cur.n} · Graczy: ${n} · Gra: ${S.p.filter(x=>x.lv>0).length} · Wybuchło: ${S.ex}`;bDead(S,c);
 const r=3600-(Date.now()-(c.cd0||0));let cd=document.getElementById('bcd');if(c.cd0&&r>0){const nn=Math.ceil((r-600)/1000),t=nn>=1?String(nn):'START!';if(!cd){cd=document.createElement('div');cd.id='bcd';document.body.appendChild(cd)}if(cd.dataset.t!==t){cd.dataset.t=t;cd.style.fontSize=nn>=1?'':'16vmin';cd.innerHTML='<span>'+t+'</span>';tn(nn>=1?520:880,0,.18,'square',.1)}}else if(cd)cd.remove();
 bTick(S,c)}
 function bLocal(){const LP=[],set={tm:15,lv:3,ban:[]};let dp=null;loadDict().catch(()=>{});
@@ -637,14 +647,14 @@ function bRoom(code,host){unsub();let S=null,G=null,PLd={},CH=[],rw=false,botN=-
 $('#nav').hidden=true;if(host)loadDict().catch(()=>{});BX=host?()=>{gd().update({st:'closed'}).catch(()=>{});gd().delete().catch(()=>{})}:()=>pd(P.id).delete().catch(()=>{});unsubs.push(()=>{BX=null});
 const out=m=>{if(m)toast(m);GM='bombowo';show('bplay')},push=()=>gd().update({...S}).catch(()=>toast('Błąd połączenia')),
 leave=async()=>{try{await pd(P.id).delete();if(host){await gd().update({st:'closed'});setTimeout(()=>gd().delete().catch(()=>{}),4000)}}catch(e){}out()},
-c={me:P.id,k:'',le:0,ls:0,exit:leave,rw:'',av:id=>`<span class="plav bav">${AV(PLd[id]||{av:'🙂'})}</span>`,ty:id=>id===P.id?(($('#bi')||{}).value||''):(PLd[id]||{}).ty||'',type:v=>{clearTimeout(pend);pend=setTimeout(()=>pd(P.id).update({ty:v}).catch(()=>{}),200)},send:w=>pd(P.id).update({sub:{w,k:S.n,q:Date.now()},ty:''}).catch(()=>{}),skip:()=>pd(P.id).update({sub:{skip:1,k:S.n,q:Date.now()},ty:''}).catch(()=>{})};
+c={me:P.id,k:'',le:0,ls:0,exit:leave,chat:()=>CH.filter(m=>m.dead),say:v=>db.doc('bgames/'+code+'/chat/'+Date.now()+P.id).set({n:P.name||'Gracz',m:v,t:Date.now(),dead:1}).catch(()=>toast('Nie wysłano')),rw:'',av:id=>`<span class="plav bav">${AV(PLd[id]||{av:'🙂'})}</span>`,ty:id=>id===P.id?(($('#bi')||{}).value||''):(PLd[id]||{}).ty||'',type:v=>{clearTimeout(pend);pend=setTimeout(()=>pd(P.id).update({ty:v}).catch(()=>{}),200)},send:w=>pd(P.id).update({sub:{w,k:S.n,q:Date.now()},ty:''}).catch(()=>{}),skip:()=>pd(P.id).update({sub:{skip:1,k:S.n,q:Date.now()},ty:''}).catch(()=>{})};
 const goG=async()=>{const ps=Object.values(PLd).sort((a,b)=>a.st-b.st);if(ps.length<2)return toast('Potrzeba min. 2 graczy (możesz dodać boty)');try{await loadDict()}catch(e){return}S=bInit(ps,G.set);push()};
 const lobby=()=>{if(!$('#bl2')){$('#main').innerHTML=`<div class="c" style="text-align:center"><p>Kod pokoju</p><h1 style="letter-spacing:.2em">${code}</h1><p id="bsm"></p></div><div class="c"><h3>Gracze <span id="bcn"></span></h3><div id="bl2"></div>${host?'<button class="s" id="bab">🤖 Dodaj bota</button>':''}<button class="s" id="biv">📨 Zaproś gracza</button></div><div class="c"><h3>💬 Czat</h3><div id="bch" class="bch"></div><div class="row"><input id="bmi" maxlength="120" placeholder="Napisz wiadomość…"><button id="bms" style="width:auto">➤</button></div></div>${host?'<button id="bgo">▶️ Start</button>':'<p style="text-align:center">Czekaj, aż host rozpocznie grę…</p>'}<button class="s" id="blv">Wyjdź</button>`;$('#blv').onclick=leave;$('#biv').onclick=()=>bInvite(code);if(host)$('#bab').onclick=()=>{if(Object.keys(PLd).length>=G.set.max)return toast('Pokój jest pełny');db.doc('bgames/'+code+'/pl/bot'+Date.now()).set({n:'🤖 '+bR(BOTN),av:'🤖',bot:true,st:Date.now(),ty:''})};const sm=()=>{const v=$('#bmi').value.trim();if(!v)return;$('#bmi').value='';db.doc('bgames/'+code+'/chat/'+Date.now()+P.id).set({n:P.name||'Gracz',m:v,t:Date.now()})};$('#bms').onclick=sm;$('#bmi').onkeydown=e=>{if(e.key==='Enter')sm()};
 if(host)$('#bgo').onclick=goG}
 const ps=Object.values(PLd).sort((a,b)=>a.st-b.st);$('#bsm').textContent=`${G.set.tm} s · ${G.set.lv} ❤️ · ${G.pub?'publiczny':'prywatny'}${G.set.ban.length?' · zabronione: '+G.set.ban.join(', '):''}`;$('#bcn').textContent=ps.length+'/'+G.set.max;
 $('#bl2').innerHTML=ps.map(p=>`<div class="pl"><span class="bca">${c.av(p.id)}<b>${NM({name:p.n,col:p.col})}${p.id===G.host?' 👑':''}</b></span>${host&&p.id!==P.id?`<button class="s" data-k="${p.id}" style="width:auto">Wyrzuć</button>`:''}</div>`).join('');document.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>pd(b.dataset.k).delete());
-const ch=$('#bch');ch.innerHTML=CH.slice(-30).map(m=>`<div><b>${E(m.n)}:</b> ${E(m.m)}</div>`).join('');ch.scrollTop=ch.scrollHeight};
-const game=()=>{S=G;if(S.st==='end'&&!rw){rw=true;P.bs=P.bs||{};P.bs.g=(P.bs.g||0)+1;P.st.bg++;const me=S.p.find(x=>x.id===P.id);if(me){const wn=S.p.find(x=>x.id===S.win);P.hist.push({d:dstr(new Date()),w:wn?wn.n:'',pts:0,n:S.p.length,g:'bombowo'});P.hist=P.hist.slice(-500);if(S.win===P.id){P.bs.w=(P.bs.w||0)+1;P.st.bwn++;if(G.duel)P.st.bdw++}{const n=S.win===P.id?2:1;earn(n);c.rw='+'+n+' 🪙 '+(n===2?'za wygraną':'za udział')}}if(host)db.doc('bhist/'+code).set({w:(S.p.find(x=>x.id===S.win)||{}).n||'',n:S.p.length,t:Date.now(),du:G.duel?1:0}).catch(()=>{});chk();save()}bView(S,c)};
+const ch=$('#bch');ch.innerHTML=CH.filter(m=>!m.dead).slice(-30).map(m=>`<div><b>${E(m.n)}:</b> ${E(m.m)}</div>`).join('');ch.scrollTop=ch.scrollHeight};
+const game=()=>{S=G;if(S.st==='end'&&!rw){rw=true;P.bs=P.bs||{};P.bs.g=(P.bs.g||0)+1;P.st.bg++;const me=S.p.find(x=>x.id===P.id);if(me){const wn=S.p.find(x=>x.id===S.win);P.hist.push({d:dstr(new Date()),w:wn?wn.n:'',pts:0,n:S.p.length,g:'bombowo'});P.hist=P.hist.slice(-500);if(S.win===P.id){P.bs.w=(P.bs.w||0)+1;P.st.bwn++;if(G.duel)P.st.bdw++}{const win=S.win===P.id,lg=win&&S.ea&&S.go&&S.ea-S.go>3e5,n=win?(lg?4:2):1;earn(n);c.rw='+'+n+' 🪙 '+(win?(lg?'za wygraną w długiej grze (ponad 5 min)':'za wygraną'):'za udział');if(S.p.filter(x=>!x.bot).length>=2)mcount(win)}}if(host)db.doc('bhist/'+code).set({w:(S.p.find(x=>x.id===S.win)||{}).n||'',n:S.p.length,t:Date.now(),du:G.duel?1:0}).catch(()=>{});chk();save()}bView(S,c)};
 const step=()=>{if(!host||!S||S.st!=='play'||Date.now()<S.go)return;const cu=S.p[S.tu];if(Date.now()>=S.te)return bBoom(S),push();if(cu.bot&&botN!==S.n){const n0=S.n,id=cu.id,w=Math.random()<(S.set.bl||.65)?botWord(S):'';botN=n0;if(w){const sp=170,st=Math.max(500,Math.min(S.set.tm*1000*(.15+Math.random()*.5),S.set.tm*850-w.length*sp));for(let i=1;i<=w.length;i++)setTimeout(()=>{if(S&&S.n===n0)pd(id).update({ty:w.slice(0,i)}).catch(()=>{})},st+i*sp);setTimeout(()=>{if(S&&S.n===n0&&S.st==='play'){bOk(S,w);push()}pd(id).update({ty:''}).catch(()=>{})},st+w.length*sp+250)}}
 const d=PLd[cu.id];if(d&&d.sub&&d.sub.k===S.n&&d.sub.q!==lq){lq=d.sub.q;if(d.sub.skip){bSkip(S);push();return}const w=String(d.sub.w).toLowerCase().trim(),m=bVer(S,w);if(m){S.ev={k:'bad',id:cu.id,m,t:Date.now()}}else bOk(S,w);push()}};
 unsubs.push(gd().onSnapshot(s=>{if(!s.exists)return had?out('Pokój został zamknięty'):0;had=true;G=s.data();if(G.st==='closed'&&!host)return out('Host zamknął pokój');if(G.st==='lobby')lobby();else game()}));
@@ -854,8 +864,623 @@ Old Town Road|Lil Nas X|2019
 Dance Monkey|Tones and I|2019
 Cruel Summer|Taylor Swift|2019
 Heat Waves|Glass Animals|2020
-good 4 u|Olivia Rodrigo|2021`.trim().split('\n').map((l,i)=>{const a=l.split('|');return{id:i,title:a[0],artist:a[1],year:+a[2],pr:a[3]==='pr',previewUrl:''}});
-const HPAL=['#ef4444','#22c55e','#f59e0b','#a855f7','#ec4899','#14b8a6'],HBLUE='#3b82f6';
+good 4 u|Olivia Rodrigo|2021
+Oops!... I Did It Again|Britney Spears|2000
+Bye Bye Bye|*NSYNC|2000
+Independent Women Part I|Destiny's Child|2000
+Beautiful Day|U2|2000
+Kryptonite|3 Doors Down|2000
+The Real Slim Shady|Eminem|2000
+Rock DJ|Robbie Williams|2000
+Who Let the Dogs Out|Baha Men|2000
+It Wasn't Me|Shaggy|2000
+Music|Madonna|2000
+Maria Maria|Santana|2000
+Lady (Hear Me Tonight)|Modjo|2000
+Groovejet (If This Ain't Love)|Spiller|2000
+Try Again|Aaliyah|2000
+Pure Shores|All Saints|2000
+Spinning Around|Kylie Minogue|2000
+With Arms Wide Open|Creed|2000
+Ms. Jackson|OutKast|2000
+Come On Over Baby (All I Want Is You)|Christina Aguilera|2000
+Clint Eastwood|Gorillaz|2001
+Hero|Enrique Iglesias|2001
+Whenever, Wherever|Shakira|2001
+Lady Marmalade|Christina Aguilera|2001
+Fallin'|Alicia Keys|2001
+Drive|Incubus|2001
+Can't Get You Out of My Head|Kylie Minogue|2001
+Get Ur Freak On|Missy Elliott|2001
+Survivor|Destiny's Child|2001
+Bootylicious|Destiny's Child|2001
+All for You|Janet Jackson|2001
+Drops of Jupiter (Tell Me)|Train|2001
+Chop Suey!|System of a Down|2001
+The Middle|Jimmy Eat World|2001
+How You Remind Me|Nickelback|2001
+Hey Baby|No Doubt|2001
+Without Me|Eminem|2002
+Dilemma|Nelly|2002
+Hot in Herre|Nelly|2002
+A Thousand Miles|Vanessa Carlton|2002
+Don't Know Why|Norah Jones|2002
+Dirrty|Christina Aguilera|2002
+Foolish|Ashanti|2002
+Sk8er Boi|Avril Lavigne|2002
+Beautiful|Christina Aguilera|2002
+Cry Me a River|Justin Timberlake|2002
+Work It|Missy Elliott|2002
+Gimme the Light|Sean Paul|2002
+Just a Little|Liberty X|2002
+Bring Me to Life|Evanescence|2003
+Numb|Linkin Park|2003
+Faint|Linkin Park|2003
+Baby Boy|Beyoncé|2003
+Ignition (Remix)|R. Kelly|2003
+Stacy's Mom|Fountains of Wayne|2003
+Where Is the Love?|The Black Eyed Peas|2003
+Dragostea Din Tei|O-Zone|2003
+Right Thurr|Chingy|2003
+Milkshake|Kelis|2003
+Rock Your Body|Justin Timberlake|2003
+Shut Up|The Black Eyed Peas|2003
+Get Low|Lil Jon & The East Side Boyz|2003
+I Believe in a Thing Called Love|The Darkness|2003
+Me Against the Music|Britney Spears|2003
+Toxic|Britney Spears|2004
+Burn|Usher|2004
+Lose My Breath|Destiny's Child|2004
+Take Me Out|Franz Ferdinand|2004
+American Idiot|Green Day|2004
+This Love|Maroon 5|2004
+She Will Be Loved|Maroon 5|2004
+Call on Me|Eric Prydz|2004
+Vertigo|U2|2004
+Float On|Modest Mouse|2004
+Leave (Get Out)|JoJo|2004
+My Boo|Usher|2004
+Drop It Like It's Hot|Snoop Dogg|2004
+Lonely|Akon|2004
+Jesus Walks|Kanye West|2004
+Naughty Girl|Beyoncé|2004
+Just Lose It|Eminem|2004
+Somebody Told Me|The Killers|2004
+Let Me Love You|Mario|2004
+Dip It Low|Christina Milian|2004
+Feel Good Inc.|Gorillaz|2005
+Fix You|Coldplay|2005
+Don't Cha|The Pussycat Dolls|2005
+Run It!|Chris Brown|2005
+We Belong Together|Mariah Carey|2005
+Candy Shop|50 Cent|2005
+Bad Day|Daniel Powter|2005
+Hung Up|Madonna|2005
+Wake Me Up When September Ends|Green Day|2005
+Sugar, We're Goin Down|Fall Out Boy|2005
+Pon de Replay|Rihanna|2005
+You're Beautiful|James Blunt|2005
+Don't Phunk with My Heart|The Black Eyed Peas|2005
+Photograph|Nickelback|2005
+Dance, Dance|Fall Out Boy|2005
+My Humps|The Black Eyed Peas|2005
+Because of You|Kelly Clarkson|2005
+Dirty Little Secret|The All-American Rejects|2005
+Speed of Sound|Coldplay|2005
+Behind These Hazel Eyes|Kelly Clarkson|2005
+Lose Control|Missy Elliott|2005
+Beverly Hills|Weezer|2005
+SexyBack|Justin Timberlake|2006
+Welcome to the Black Parade|My Chemical Romance|2006
+Smack That|Akon|2006
+Maneater|Nelly Furtado|2006
+Promiscuous|Nelly Furtado|2006
+Put Your Records On|Corinne Bailey Rae|2006
+Chasing Cars|Snow Patrol|2006
+Buttons|The Pussycat Dolls|2006
+Irreplaceable|Beyoncé|2006
+Ain't No Other Man|Christina Aguilera|2006
+Unfaithful|Rihanna|2006
+Fergalicious|Fergie|2006
+London Bridge|Fergie|2006
+Dani California|Red Hot Chili Peppers|2006
+Stupid Girls|P!nk|2006
+Pump It|The Black Eyed Peas|2006
+Everytime We Touch|Cascada|2006
+Stronger|Kanye West|2007
+Don't Matter|Akon|2007
+Girlfriend|Avril Lavigne|2007
+Apologize|Timbaland|2007
+Bleeding Love|Leona Lewis|2007
+Big Girls Don't Cry|Fergie|2007
+Crank That (Soulja Boy)|Soulja Boy|2007
+Beautiful Girls|Sean Kingston|2007
+Valerie|Mark Ronson|2007
+Gimme More|Britney Spears|2007
+Piece of Me|Britney Spears|2007
+With You|Chris Brown|2007
+Love Today|MIKA|2007
+Grace Kelly|MIKA|2007
+The Pretender|Foo Fighters|2007
+Shut Up and Drive|Rihanna|2007
+Bubbly|Colbie Caillat|2007
+No One|Alicia Keys|2007
+The Way I Are|Timbaland|2007
+Makes Me Wonder|Maroon 5|2007
+Don't Stop the Music|Rihanna|2007
+1234|Feist|2007
+Love Story|Taylor Swift|2008
+Hot N Cold|Katy Perry|2008
+I Kissed a Girl|Katy Perry|2008
+Disturbia|Rihanna|2008
+Womanizer|Britney Spears|2008
+Paper Planes|M.I.A.|2008
+American Boy|Estelle|2008
+Mercy|Duffy|2008
+Pocketful of Sunshine|Natasha Bedingfield|2008
+Whatever You Like|T.I.|2008
+Forever|Chris Brown|2008
+Love Lockdown|Kanye West|2008
+Chasing Pavements|Adele|2008
+Heartless|Kanye West|2008
+Lollipop|Lil Wayne|2008
+I'm Yours|Jason Mraz|2008
+So What|P!nk|2008
+Closer|Ne-Yo|2008
+Take a Bow|Rihanna|2008
+If I Were a Boy|Beyoncé|2008
+Human|The Killers|2008
+Love in This Club|Usher|2008
+Time to Pretend|MGMT|2008
+Tik Tok|Kesha|2009
+Boom Boom Pow|The Black Eyed Peas|2009
+Fireflies|Owl City|2009
+Hey, Soul Sister|Train|2009
+Halo|Beyoncé|2009
+Down|Jay Sean|2009
+Paparazzi|Lady Gaga|2009
+You Belong with Me|Taylor Swift|2009
+Party in the U.S.A.|Miley Cyrus|2009
+Evacuate the Dancefloor|Cascada|2009
+When Love Takes Over|David Guetta|2009
+Run This Town|Jay-Z|2009
+Meet Me Halfway|The Black Eyed Peas|2009
+Replay|Iyaz|2009
+Whatcha Say|Jason Derulo|2009
+I Know You Want Me (Calle Ocho)|Pitbull|2009
+Obsessed|Mariah Carey|2009
+Right Round|Flo Rida|2009
+Bulletproof|La Roux|2009
+Waking Up in Vegas|Katy Perry|2009
+Stereo Love|Edward Maya|2009
+Waka Waka (This Time for Africa)|Shakira|2010
+Teenage Dream|Katy Perry|2010
+Just the Way You Are|Bruno Mars|2010
+Firework|Katy Perry|2010
+California Gurls|Katy Perry|2010
+Airplanes|B.o.B|2010
+Like a G6|Far East Movement|2010
+Alejandro|Lady Gaga|2010
+Telephone|Lady Gaga|2010
+Dynamite|Taio Cruz|2010
+Only Girl (In the World)|Rihanna|2010
+Rude Boy|Rihanna|2010
+OMG|Usher|2010
+Raise Your Glass|P!nk|2010
+Misery|Maroon 5|2010
+Grenade|Bruno Mars|2010
+We R Who We R|Kesha|2010
+DJ Got Us Fallin' in Love|Usher|2010
+Eenie Meenie|Sean Kingston|2010
+Marry You|Bruno Mars|2010
+Billionaire|Travie McCoy|2010
+Not Afraid|Eminem|2010
+Dancing On My Own|Robyn|2010
+The Time (Dirty Bit)|The Black Eyed Peas|2010
+Someone Like You|Adele|2011
+Party Rock Anthem|LMFAO|2011
+Moves Like Jagger|Maroon 5|2011
+Super Bass|Nicki Minaj|2011
+Born This Way|Lady Gaga|2011
+Pumped Up Kicks|Foster the People|2011
+Titanium|David Guetta|2011
+We Found Love|Rihanna|2011
+Last Friday Night (T.G.I.F.)|Katy Perry|2011
+E.T.|Katy Perry|2011
+The Edge of Glory|Lady Gaga|2011
+Give Me Everything|Pitbull|2011
+On the Floor|Jennifer Lopez|2011
+Sexy and I Know It|LMFAO|2011
+Domino|Jessie J|2011
+Price Tag|Jessie J|2011
+Without You|David Guetta|2011
+Good Feeling|Flo Rida|2011
+Paradise|Coldplay|2011
+Run the World (Girls)|Beyoncé|2011
+The A Team|Ed Sheeran|2011
+Skyscraper|Demi Lovato|2011
+Till the World Ends|Britney Spears|2011
+The One That Got Away|Katy Perry|2011
+Judas|Lady Gaga|2011
+What Makes You Beautiful|One Direction|2011
+Payphone|Maroon 5|2012
+Diamonds|Rihanna|2012
+Locked Out of Heaven|Bruno Mars|2012
+Skyfall|Adele|2012
+Ho Hey|The Lumineers|2012
+Some Nights|fun.|2012
+One More Night|Maroon 5|2012
+Sweet Nothing|Calvin Harris|2012
+Don't You Worry Child|Swedish House Mafia|2012
+Wild Ones|Flo Rida|2012
+Scream & Shout|will.i.am|2012
+Thrift Shop|Macklemore & Ryan Lewis|2012
+Climax|Usher|2012
+Whistle|Flo Rida|2012
+Starships|Nicki Minaj|2012
+Blow Me (One Last Kiss)|P!nk|2012
+Beauty and a Beat|Justin Bieber|2012
+Little Things|One Direction|2012
+Boyfriend|Justin Bieber|2012
+Wide Awake|Katy Perry|2012
+Girl on Fire|Alicia Keys|2012
+I Knew You Were Trouble|Taylor Swift|2012
+We Are Never Ever Getting Back Together|Taylor Swift|2012
+Hall of Fame|The Script|2012
+Born to Die|Lana Del Rey|2012
+Sorry Polsko|Maria Peszek|2012
+Blurred Lines|Robin Thicke|2013
+Wrecking Ball|Miley Cyrus|2013
+Treasure|Bruno Mars|2013
+Mirrors|Justin Timberlake|2013
+Demons|Imagine Dragons|2013
+Drunk in Love|Beyoncé|2013
+Timber|Pitbull|2013
+Dark Horse|Katy Perry|2013
+Say Something|A Great Big World|2013
+Let It Go|Idina Menzel|2013
+Talk Dirty|Jason Derulo|2013
+Burn|Ellie Goulding|2013
+Hold On, We're Going Home|Drake|2013
+Love Me Again|John Newman|2013
+Applause|Lady Gaga|2013
+Pompeii|Bastille|2013
+Do I Wanna Know?|Arctic Monkeys|2013
+Best Song Ever|One Direction|2013
+Story of My Life|One Direction|2013
+Gentleman|PSY|2013
+We Can't Stop|Miley Cyrus|2013
+Come & Get It|Selena Gomez|2013
+Hey Brother|Avicii|2013
+Atlas|Coldplay|2013
+The Monster|Eminem|2013
+I Need Your Love|Calvin Harris|2013
+Problem|Ariana Grande|2014
+Break Free|Ariana Grande|2014
+Bang Bang|Jessie J|2014
+Fancy|Iggy Azalea|2014
+Chandelier|Sia|2014
+Blank Space|Taylor Swift|2014
+A Sky Full of Stars|Coldplay|2014
+Maps|Maroon 5|2014
+Animals|Maroon 5|2014
+Anaconda|Nicki Minaj|2014
+All About That Bass|Meghan Trainor|2014
+Shut Up and Dance|WALK THE MOON|2014
+Prayer in C|Lilly Wood & The Prick|2014
+Rather Be|Clean Bandit|2014
+Boom Clap|Charli XCX|2014
+Centuries|Fall Out Boy|2014
+Don't Tell 'Em|Jeremih|2014
+Wiggle|Jason Derulo|2014
+Sing|Ed Sheeran|2014
+Summer|Calvin Harris|2014
+Black Widow|Iggy Azalea|2014
+Fireball|Pitbull|2014
+Love Me Harder|Ariana Grande|2014
+Heroes (We Could Be)|Alesso|2014
+Varsovie|Monika Brodka|2010
+Can't Feel My Face|The Weeknd|2015
+The Hills|The Weeknd|2015
+Lean On|Major Lazer|2015
+Love Me Like You Do|Ellie Goulding|2015
+Bad Blood|Taylor Swift|2015
+What Do You Mean?|Justin Bieber|2015
+Where Are Ü Now|Skrillex|2015
+Stitches|Shawn Mendes|2015
+Sugar|Maroon 5|2015
+Wildest Dreams|Taylor Swift|2015
+FourFiveSeconds|Rihanna|2015
+Writing's on the Wall|Sam Smith|2015
+Renegades|X Ambassadors|2015
+Drag Me Down|One Direction|2015
+Good for You|Selena Gomez|2015
+Same Old Love|Selena Gomez|2015
+Stressed Out|twenty one pilots|2015
+Fight Song|Rachel Platten|2015
+Cake by the Ocean|DNCE|2015
+Roses|The Chainsmokers|2015
+Never Forget You|Zara Larsson|2015
+Lush Life|Zara Larsson|2015
+How Deep Is Your Love|Calvin Harris|2015
+Alright|Kendrick Lamar|2015
+Hands to Myself|Selena Gomez|2015
+Waiting for Love|Avicii|2015
+Reality|Lost Frequencies|2015
+Cheap Thrills|Sia|2016
+One Dance|Drake|2016
+Work|Rihanna|2016
+Don't Let Me Down|The Chainsmokers|2016
+24K Magic|Bruno Mars|2016
+Starboy|The Weeknd|2016
+Side to Side|Ariana Grande|2016
+Let Me Love You|DJ Snake|2016
+This Is What You Came For|Calvin Harris|2016
+Hymn for the Weekend|Coldplay|2016
+Needed Me|Rihanna|2016
+Heathens|twenty one pilots|2016
+Love on the Brain|Rihanna|2016
+Don't Wanna Know|Maroon 5|2016
+Cold Water|Major Lazer|2016
+Treat You Better|Shawn Mendes|2016
+Mercy|Shawn Mendes|2016
+Black Beatles|Rae Sremmurd|2016
+Formation|Beyoncé|2016
+Cool Me Down|Margaret|2016
+Color of Your Life|Michał Szpak|2016
+Pillowtalk|ZAYN|2016
+Fake Love|Drake|2016
+Controlla|Drake|2016
+Too Good|Drake|2016
+I Hate U, I Love U|gnash|2016
+Say You Won't Let Go|James Arthur|2016
+Shout Out to My Ex|Little Mix|2016
+Bad and Boujee|Migos|2016
+No Problem|Chance the Rapper|2016
+Never Be Like You|Flume|2016
+Something Just Like This|The Chainsmokers|2017
+Perfect|Ed Sheeran|2017
+Havana|Camila Cabello|2017
+Attention|Charlie Puth|2017
+Believer|Imagine Dragons|2017
+Thunder|Imagine Dragons|2017
+Mi Gente|J Balvin|2017
+Look What You Made Me Do|Taylor Swift|2017
+DNA.|Kendrick Lamar|2017
+Issues|Julia Michaels|2017
+Stay|Zedd|2017
+Slow Hands|Niall Horan|2017
+Sign of the Times|Harry Styles|2017
+New Rules|Dua Lipa|2017
+Wild Thoughts|DJ Khaled|2017
+Mask Off|Future|2017
+Bodak Yellow|Cardi B|2017
+Galway Girl|Ed Sheeran|2017
+Castle on the Hill|Ed Sheeran|2017
+Feel It Still|Portugal. The Man|2017
+Praying|Kesha|2017
+It Ain't Me|Kygo|2017
+Body Like a Back Road|Sam Hunt|2017
+Unforgettable|French Montana|2017
+Passionfruit|Drake|2017
+Strip That Down|Liam Payne|2017
+Too Good at Goodbyes|Sam Smith|2017
+Paris|The Chainsmokers|2017
+Wolves|Selena Gomez|2017
+Silence|Marshmello|2017
+Young Dumb & Broke|Khalid|2017
+Location|Khalid|2017
+Swalla|Jason Derulo|2017
+I'm the One|DJ Khaled|2017
+What About Us|P!nk|2017
+Chained to the Rhythm|Katy Perry|2017
+Ready for It?|Taylor Swift|2017
+Thank U, Next|Ariana Grande|2018
+Shallow|Lady Gaga|2018
+In My Feelings|Drake|2018
+Sunflower|Post Malone|2018
+Lucid Dreams|Juice WRLD|2018
+Girls Like You|Maroon 5|2018
+Better Now|Post Malone|2018
+Natural|Imagine Dragons|2018
+Youngblood|5 Seconds of Summer|2018
+Nice for What|Drake|2018
+This Is America|Childish Gambino|2018
+Happier|Marshmello|2018
+Eastside|benny blanco|2018
+Taki Taki|DJ Snake|2018
+One Kiss|Calvin Harris|2018
+IDGAF|Dua Lipa|2018
+Love Lies|Khalid|2018
+Psycho|Post Malone|2018
+I Like It|Cardi B|2018
+Better|Khalid|2018
+No Tears Left to Cry|Ariana Grande|2018
+Never Be the Same|Camila Cabello|2018
+Bad Liar|Imagine Dragons|2018
+Light Me Up|Gromee|2018
+Fall in Line|Christina Aguilera|2018
+The Middle|Zedd|2018
+Lost in Japan|Shawn Mendes|2018
+Sad!|XXXTENTACION|2018
+Be Alright|Dean Lewis|2018
+Delicate|Taylor Swift|2018
+Without Me|Halsey|2018
+Yes Indeed|Lil Baby|2018
+Zeze|Kodak Black|2018
+Rise|Jonas Blue|2018
+Baby|Clean Bandit|2018
+Solo|Clean Bandit|2018
+God Is a Woman|Ariana Grande|2018
+Call Out My Name|The Weeknd|2018
+7 rings|Ariana Grande|2019
+Sucker|Jonas Brothers|2019
+Señorita|Shawn Mendes|2019
+Circles|Post Malone|2019
+Memories|Maroon 5|2019
+Break Up with Your Girlfriend, I'm Bored|Ariana Grande|2019
+Beautiful People|Ed Sheeran|2019
+Con Calma|Daddy Yankee|2019
+Talk|Khalid|2019
+Panini|Lil Nas X|2019
+Lover|Taylor Swift|2019
+You Need to Calm Down|Taylor Swift|2019
+Lose You to Love Me|Selena Gomez|2019
+Dancing With a Stranger|Sam Smith|2019
+Never Really Over|Katy Perry|2019
+Everything I Wanted|Billie Eilish|2019
+Higher Love|Kygo|2019
+If I Can't Have You|Shawn Mendes|2019
+Roxanne|Arizona Zervas|2019
+10,000 Hours|Dan + Shay|2019
+Tusa|KAROL G|2019
+I Don't Care|Ed Sheeran|2019
+Giant|Calvin Harris|2019
+Fire of Love (Pali się)|Tulia|2019
+Dynamite|BTS|2020
+Savage Love|Jawsh 685|2020
+Mood|24kGoldn|2020
+Positions|Ariana Grande|2020
+WAP|Cardi B|2020
+Rockstar|DaBaby|2020
+Ice Cream|BLACKPINK|2020
+Break My Heart|Dua Lipa|2020
+Hawái|Maluma|2020
+Life Goes On|BTS|2020
+Holy|Justin Bieber|2020
+Laugh Now Cry Later|Drake|2020
+Cardigan|Taylor Swift|2020
+Willow|Taylor Swift|2020
+Therefore I Am|Billie Eilish|2020
+Toosie Slide|Drake|2020
+Physical|Dua Lipa|2020
+Midnight Sky|Miley Cyrus|2020
+Rain on Me|Lady Gaga|2020
+Stupid Love|Lady Gaga|2020
+Savage|Megan Thee Stallion|2020
+Intentions|Justin Bieber|2020
+Prisoner|Miley Cyrus|2020
+Peaches|Justin Bieber|2021
+Montero (Call Me by Your Name)|Lil Nas X|2021
+Kiss Me More|Doja Cat|2021
+Stay|The Kid LAROI|2021
+Butter|BTS|2021
+Industry Baby|Lil Nas X|2021
+Bad Habits|Ed Sheeran|2021
+Easy on Me|Adele|2021
+Leave the Door Open|Bruno Mars|2021
+Deja Vu|Olivia Rodrigo|2021
+Shivers|Ed Sheeran|2021
+Happier Than Ever|Billie Eilish|2021
+Ghost|Justin Bieber|2021
+Permission to Dance|BTS|2021
+Zitti e buoni|Måneskin|2021
+Cold Heart (PNAU Remix)|Elton John|2021
+Need to Know|Doja Cat|2021
+Pepas|Farruko|2021
+Enemy|Imagine Dragons|2021
+The Ride|Rafał Brzozowski|2021
+Brutal|Olivia Rodrigo|2021
+Wellerman|Nathan Evans|2021
+My Universe|Coldplay|2021
+Take My Breath|The Weeknd|2021
+Woman|Doja Cat|2021
+Hold On|Justin Bieber|2021
+Fancy Like|Walker Hayes|2021
+Unholy|Sam Smith|2022
+About Damn Time|Lizzo|2022
+Late Night Talking|Harry Styles|2022
+Break My Soul|Beyoncé|2022
+Super Freaky Girl|Nicki Minaj|2022
+Calm Down|Rema|2022
+Bad Habit|Steve Lacy|2022
+Glimpse of Us|Joji|2022
+Cuff It|Beyoncé|2022
+Wait for U|Future|2022
+Rich Flex|Drake|2022
+Creepin'|Metro Boomin|2022
+Lift Me Up|Rihanna|2022
+Moscow Mule|Bad Bunny|2022
+Tití Me Preguntó|Bad Bunny|2022
+Me Porto Bonito|Bad Bunny|2022
+Hold Me Closer|Elton John|2022
+Despechá|ROSALÍA|2022
+River|Ochman|2022
+Shut Down|BLACKPINK|2022
+Pink Venom|BLACKPINK|2022
+Left and Right|Charlie Puth|2022
+I Ain't Worried|OneRepublic|2022
+First Class|Jack Harlow|2022
+Vegas|Doja Cat|2022
+Made You Look|Meghan Trainor|2022
+Bejeweled|Taylor Swift|2022
+Lavender Haze|Taylor Swift|2022
+Light Switch|Charlie Puth|2022
+I'm Good (Blue)|David Guetta|2022
+Vampire|Olivia Rodrigo|2023
+Paint the Town Red|Doja Cat|2023
+Last Night|Morgan Wallen|2023
+Fast Car|Luke Combs|2023
+Greedy|Tate McRae|2023
+Dance the Night|Dua Lipa|2023
+Barbie World|Nicki Minaj|2023
+Lovin on Me|Jack Harlow|2023
+What Was I Made For?|Billie Eilish|2023
+Seven|Jung Kook|2023
+TQG|KAROL G|2023
+Bzrp Music Sessions, Vol. 53|Bizarrap|2023
+Daylight|David Kushner|2023
+Rush|Troye Sivan|2023
+Water|Tyla|2023
+Houdini|Dua Lipa|2023
+Standing Next to You|Jung Kook|2023
+Cupid (Twin Version)|FIFTY FIFTY|2023
+Like Crazy|Jimin|2023
+Miracle|Calvin Harris|2023
+Sprinter|Dave|2023
+Bad Idea Right?|Olivia Rodrigo|2023
+Get Him Back!|Olivia Rodrigo|2023
+Tattoo|Loreen|2023
+Rich Baby Daddy|Drake|2023
+Search & Rescue|Drake|2023
+Take Two|BTS|2023
+Solo|Blanka|2023
+A Bar Song (Tipsy)|Shaboozey|2024
+Too Sweet|Hozier|2024
+Please Please Please|Sabrina Carpenter|2024
+Good Luck, Babe!|Chappell Roan|2024
+Million Dollar Baby|Tommy Richman|2024
+I Had Some Help|Post Malone|2024
+Lunch|Billie Eilish|2024
+Texas Hold 'Em|Beyoncé|2024
+Austin|Dasha|2024
+Taste|Sabrina Carpenter|2024
+Fortnight|Taylor Swift|2024
+Timeless|The Weeknd|2024
+Saturn|SZA|2024
+Squabble Up|Kendrick Lamar|2024
+That's So True|Gracie Abrams|2024
+Disease|Lady Gaga|2024
+Gata Only|FloyyMenor|2024
+Training Season|Dua Lipa|2024
+Belong Together|Mark Ambor|2024
+DtMF|Bad Bunny|2025
+Back to Friends|sombr|2025
+Soda Pop|Saja Boys|2025
+What I Want|Morgan Wallen|2025
+Tears|Sabrina Carpenter|2025
+Daisies|Justin Bieber|2025
+Opalite|Taylor Swift|2025
+The Fate of Ophelia|Taylor Swift|2025
+Gabriela|KATSEYE|2025
+Choosin' Texas|Ella Langley|2025
+The Tower|Luna|2025
+I Just Might|Bruno Mars|2026
+Aperture|Harry Styles|2026
+Swim|BTS|2026
+Drop Dead|Olivia Rodrigo|2026
+hate that i made you love me|Ariana Grande|2026`.trim().split('\n').map((l,i)=>{const a=l.split('|');return{id:i,title:a[0],artist:a[1],year:+a[2],pr:a[3]==='pr',previewUrl:''}});
+const HPAL=['#ef4444','#22c55e','#f59e0b','#a855f7','#ec4899','#14b8a6','#f97316','#84cc16','#e11d48','#8b5cf6','#eab308','#06b6d4'],HBLUE='#3b82f6';
 function hCol(S,p){if(!p||p.bot)return HBLUE;const h=S.p.filter(x=>!x.bot),i=h.findIndex(x=>x.id===p.id);return HPAL[(i<0?0:i)%HPAL.length]}
 function hStat(q,ev){if(!q||q.id!==P.id)return;const h=P.hs=P.hs||{g:0,w:0};if(ev.k==='ok'){h.ok=(h.ok||0)+1;h.cs=(h.cs||0)+1;h.sk=Math.max(h.sk||0,h.cs);if(HDB[ev.sg].pr)h.pr=(h.pr||0)+1}else h.cs=0;chk()}
 const HAUD=new Audio();HAUD.setAttribute('playsinline','');HAUD.setAttribute('webkit-playsinline','');HAUD.preload='auto';let HSILU='';
@@ -869,12 +1494,13 @@ async function hDeezer(q){const d=await hJsonp('https://api.deezer.com/search?ou
 async function hSrcs(sg){const s=HDB[sg];if(s.srcs&&s.srcs.length)return s.srcs;const q=s.title+' '+s.artist,tk=hnm(s.title).slice(0,8),ak=hnm(s.artist.split(/[ ,&]/)[0]);let res=[],lo=[];for(const f of[()=>hItunes(q,'PL'),()=>hDeezer(q),()=>hItunes(q,'US')]){try{const l=await f();res.push(...l.filter(x=>hnm(x.t).includes(tk)&&hnm(x.a).includes(ak)).map(x=>x.u));if(l.length&&!lo.length)lo=[l[0].u]}catch(e){}if(res.length>=2)break}if(!res.length)res=lo;res=[...new Set(res)];if(!res.length)throw new Error('none');return s.srcs=res}
 async function hPrev(sg){return(await hSrcs(sg))[0]}
 function hRecent(){try{return JSON.parse(localStorage.getItem('hrec')||'[]')}catch(e){return[]}}
-function hDraw(S){const rec=hRecent(),ua=S.used.slice(-4).map(i=>HDB[i].artist);let c=[];const pick=(rc,ar)=>{c=[];for(let i=0;i<HDB.length;i++){if(S.used.includes(i)||(rc&&rec.includes(i))||(ar&&ua.includes(HDB[i].artist)))continue;c.push(i);if(HDB[i].pr)c.push(i)}};pick(1,1);if(!c.length)pick(1,0);if(!c.length)pick(0,0);if(!c.length){S.used=S.p.flatMap(p=>p.tl);pick(0,0)}const x=bR(c);S.used.push(x);try{localStorage.setItem('hrec',JSON.stringify([...rec,x].slice(-120)))}catch(e){}return x}
+function hDraw(S){const rec=hRecent(),ua=S.used.slice(-4).map(i=>HDB[i].artist),lim=Math.min(HDB.length-80,500),era=y=>y<1990?0:y<2000?1:y<2010?2:y<2020?3:4;let c=[];const pick=(rc,ar)=>{c=[[],[],[],[],[]];for(let i=0;i<HDB.length;i++){if(S.used.includes(i)||(rc&&rec.includes(i))||(ar&&ua.includes(HDB[i].artist)))continue;const e=era(HDB[i].year);c[e].push(i);if(HDB[i].pr)c[e].push(i)}},has=()=>c.some(a=>a.length);pick(1,1);if(!has())pick(1,0);if(!has())pick(0,0);if(!has()){S.used=S.p.flatMap(p=>p.tl);pick(0,0)}const W=[.1,.12,.27,.3,.21];let tot=0;c.forEach((a,i)=>{if(a.length)tot+=W[i]});let r=Math.random()*tot,e=0;for(let i=0;i<5;i++){if(!c[i].length)continue;e=i;if(r<W[i])break;r-=W[i]}const x=bR(c[e]);S.used.push(x);try{localStorage.setItem('hrec',JSON.stringify([...rec,x].slice(-lim)))}catch(z){}return x}
 function hInit(pl,set){const S={st:'play',set,p:[],tu:0,sg:0,te:0,ph:'play',nx:0,used:[],ev:null,win:'',n:1,rr:0},p=pl.map(x=>({id:x.id,n:x.n,bot:!!x.bot,tl:[]}));for(let i=p.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[p[i],p[j]]=[p[j],p[i]]}S.p=p;p.forEach(q=>q.tl=[hDraw(S)]);S.sg=hDraw(S);S.te=Date.now()+set.tm*1000;return S}
 const hOk=(S,i)=>{const tl=S.p[S.tu].tl,y=HDB[S.sg].year;return i>=0&&i<=tl.length&&(i===0||HDB[tl[i-1]].year<=y)&&(i===tl.length||y<=HDB[tl[i]].year)};
 function hPlace(S,i){const cu=S.p[S.tu],ok=hOk(S,i);if(ok)cu.tl.splice(i,0,S.sg);S.ev={k:ok?'ok':'bad',id:cu.id,sg:S.sg,t:Date.now()};if(ok&&cu.tl.length>=S.set.tg){S.st='end';S.win=cu.id}else{S.ph='rev';S.nx=Date.now()+4500}}
 function hNext(S){S.tu=(S.tu+1)%S.p.length;S.sg=hDraw(S);S.ph='play';S.te=Date.now()+S.set.tm*1000;S.n++;S.rr=0}
-function hBot(S){const n=S.p[S.tu].tl.length,g=[],b=[];for(let i=0;i<=n;i++)(hOk(S,i)?g:b).push(i);return Math.random()<(S.set.bl||.7)&&g.length?bR(g):b.length?bR(b):0}
+const hGs=()=>{let u=0,v=0;while(!u)u=Math.random();while(!v)v=Math.random();return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v)};
+function hBot(S){const cu=S.p[S.tu],tl=cu.tl,y=HDB[S.sg].year,lv=S.set.bl||.7,sd=lv<=.5?7.5:lv<=.7?4.5:3,unk=lv<=.5?.35:lv<=.7?.2:.1,ho=[...String(cu.id)].reduce((a,ch)=>(a*31+ch.charCodeAt(0))|0,7),fac=.85+Math.abs(ho%36)/100,old=y<1990?1.3:1;if(Math.random()<unk)return Math.random()*(tl.length+1)|0;const est=y+hGs()*sd*fac*old;let i=0;while(i<tl.length&&HDB[tl[i]].year<=est)i++;return i}
 async function hPlay(c,S){const b=$('#hpl'),a=HAUD,lbl=x=>{const e=$('#hpl');if(e)e.textContent=x},inApp=/FBAN|FBAV|FB_IAB|Messenger|Instagram/i.test(navigator.userAgent);
 if(c.aud===a&&c.an===S.n){if(a.paused){const p=a.play();if(p&&p.catch)p.catch(()=>toast('Nie udało się wznowić utworu. Dotknij jeszcze raz.'));lbl('⏸️ Pauza')}else{a.pause();lbl('▶️ Wznów utwór')}return}
 hUnlock();lbl('⏳ Ładuję…');let srcs=[];try{srcs=await hSrcs(S.sg)}catch(e){}
@@ -882,56 +1508,77 @@ if(!srcs.length){lbl('▶️ Odtwórz utwór');return toast('Nie udało się pob
 let err=null;for(const u of srcs){try{a.onerror=null;a.pause();a.src=u;a.load();c.aud=a;c.an=S.n;await Promise.race([a.play(),new Promise((_,no)=>setTimeout(()=>no(new Error('timeout')),9000))]);a.onerror=()=>toast('Utwór przerwał się. Użyj „Inny utwór”.');a.onended=()=>{lbl('🔁 Odtwórz jeszcze raz');a.currentTime=0};lbl('⏸️ Pauza');return}catch(e){err=e;if(e&&e.name==='NotAllowedError')break}}
 lbl('▶️ Odtwórz utwór');if(err&&err.name==='NotAllowedError'){c.aud=a;c.an=S.n;return toast('iOS zablokował dźwięk. Dotknij „Odtwórz utwór” jeszcze raz.'+(inApp?' Jeśli nadal cicho, otwórz grę w Safari.':''))}
 c.aud=null;toast('Nie udało się odtworzyć utworu.'+(inApp?' Otwórz grę w Safari (⋯ → Otwórz w przeglądarce).':' Użyj „Inny utwór”.'))}
+function hFinOff(){const e=document.getElementById('hfin');if(e)e.remove()}
+function hEq(){return Array.from({length:14},(_,i)=>`<b style="animation-delay:${(i*.07).toFixed(2)}s;animation-duration:${(.45+i%5*.12).toFixed(2)}s"></b>`).join('')}
+function hFin(){hFinOff();const o=document.createElement('div');o.id='hfin';const em=['🎵','🎶','🎼','🎤','🎧','🎸','🥁','🎹','🎷','⭐'];let h='';for(let i=0;i<34;i++)h+=`<i style="left:${Math.random()*96|0}%;font-size:${18+Math.random()*26|0}px;animation-duration:${(3.5+Math.random()*3.5).toFixed(2)}s;animation-delay:${(Math.random()*2.5).toFixed(2)}s">${em[Math.random()*em.length|0]}</i>`;o.innerHTML=h;document.body.appendChild(o);setTimeout(()=>{if(o.parentNode)o.remove()},9500);[523,659,784,1047,0,784,1047,1319,0,1568].forEach((f,i)=>{if(f)tn(f,i*.17,.28,'triangle',.12)});[262,196,262,330].forEach((f,i)=>tn(f,i*.34,.4,'sine',.1));[1047,1319,1568,2093].forEach((f,i)=>tn(f,1.9+i*.09,.5,'triangle',.07))}
+function hRng(i){const y=HDB[i].year,o=(i*5+3)%7,lo=Math.max(1950,y-o);return[lo,Math.min(2026,lo+6)]}
+function hItems(c,S){const v=P.sv||{art:0,rng:0},u=c.hi&&c.hi.n===S.n&&c.hi.sg===S.sg?c.hi:{},sg=HDB[S.sg],b=[];let h='';if(u.art)h+=`<p class="hinfo">🎤 Wykonawca: <b>${E(sg.artist)}</b></p>`;if(u.rng){const r=hRng(S.sg);h+=`<p class="hinfo">📅 Piosenka wyszła między <b>${r[0]}</b> a <b>${r[1]}</b></p>`}if(v.art>0&&!u.art)b.push(`<button class="s" id="hia" style="width:auto">🎤 Wykonawca ×${v.art}</button>`);if(v.rng>0&&!u.rng)b.push(`<button class="s" id="hir" style="width:auto">📅 Widełki lat ×${v.rng}</button>`);return(b.length?`<div class="row">${b.join('')}</div>`:'')+h}
 function hView(S,c){c.S=S;const cu=S.p[S.tu],mine=cu.id===c.me,rev=S.ph==='rev',sg=HDB[S.sg];
 if(c.aud&&c.an!==S.n){c.aud.pause();c.aud=null}
 if(S.ev&&S.ev.t!==c.le){c.le=S.ev.t;const q=S.p.find(x=>x.id===S.ev.id),y=HDB[S.ev.sg];hStat(q,S.ev);if(S.ev.k==='ok'){SND.ach();toast('✅ '+(q?q.n:'')+' trafia! Rok '+y.year)}else{SND.miss();toast('❌ '+(q?q.n:'')+' pudło. Rok '+y.year)}}
-if(S.st==='end'){if(c.k!=='end'){c.k='end';if(c.aud)c.aud.pause();const w=S.p.find(x=>x.id===S.win);$('#main').innerHTML=`<div class="c" style="text-align:center"><h1>🏆</h1><h2>${w?E(w.n):'Brak zwycięzcy'} wygrywa!</h2><p>${c.rw||''}</p><p>Ostatni utwór: <b>${E(sg.title)}</b> · ${E(sg.artist)} (${sg.year})</p><button id="hx2">Wróć</button></div>`;$('#hx2').onclick=c.exit}return}
+if(S.st==='end'){if(c.k!=='end'){c.k='end';if(c.aud)c.aud.pause();const w=S.p.find(x=>x.id===S.win);$('#main').innerHTML=`<div class="c hwin" style="text-align:center"><div class="heq">${hEq()}</div><div class="hvin"></div><h1>🏆</h1><h2 class="hwn">${w?E(w.n):'Brak zwycięzcy'} wygrywa!</h2><p>${c.rw||''}</p><p>Ostatni utwór: <b>${E(sg.title)}</b> · ${E(sg.artist)} (${sg.year})</p><button id="hx2">Wróć</button></div>`;$('#hx2').onclick=()=>{hFinOff();c.exit()};hFin()}return}
 const k=S.n+'|'+S.ph+'|'+S.sg+'|'+S.p.map(p=>p.tl.length).join(',');
 if(c.k!==k){c.k=k;if(mine&&!rev)hPrev(S.sg).catch(()=>{});const tl=cu.tl,newI=rev&&S.ev.k==='ok'?tl.indexOf(S.sg):-1,sl=i=>mine&&!rev?`<button class="hs" data-s="${i}">➕ Wstaw tutaj</button>`:'',hcd=i=>{const id=tl[i];return `<div class="hc${i===newI?' new':''}"><span class="hy2">${HDB[id].year}</span><div><b>${E(HDB[id].title)}</b><small>${E(HDB[id].artist)}</small></div></div>`},tc=hCol(S,cu);let cards='';for(let i=tl.length-1;i>=0;i--)cards+=sl(i+1)+hcd(i);cards+=sl(0);
-$('#main').innerHTML=`<div class="hsb">${S.p.map(p=>`<div class="hch${p.id===cu.id?' on':''}" style="--tc:${hCol(S,p)}">${c.av(p.id)}<b>${E(p.n)}</b><small>${p.tl.length}/${S.set.tg}</small></div>`).join('')}</div><div class="hsg${rev?' '+S.ev.k:''}">${rev?`<div class="hy">${sg.year}</div><b>${E(sg.title)}</b><small>${E(sg.artist)}</small><p>${S.ev.k==='ok'?'✅ Dobrze!':'❌ Pudło'}</p>`:`<div class="hq">🎵</div>${mine?`<button id="hpl">${c.aud&&c.an===S.n?'⏸️ Pauza':'▶️ Odtwórz utwór'}</button><button class="s" id="hrr">🔁 Inny utwór</button>`:`<p>🎧 ${E(cu.n)} słucha utworu…</p>`}<p class="hmt">Czas: <b id="htm"></b> s</p>`}</div><h3><span class="hdot" style="background:${tc}"></span>${mine?'Twoja oś czasu':'Oś gracza '+E(cu.n)}</h3><p class="hdir">⬆ najnowsze · ⬇ najstarsze</p><div class="htl" style="--tc:${tc}">${cards}</div>`;
-const pl=$('#hpl');if(pl)pl.onclick=()=>hPlay(c,c.S);const rr=$('#hrr');if(rr)rr.onclick=()=>{if(c.S.rr)return toast('Utwór już zmieniono w tej turze');c.rr();toast('Losuję inny utwór…')};
+$('#main').innerHTML=`<div class="hsb">${S.p.map(p=>`<div class="hch${p.id===cu.id?' on':''}" style="--tc:${hCol(S,p)}">${c.av(p.id)}<b>${E(p.n)}</b><small>${p.tl.length}/${S.set.tg}</small>${c.host&&p.id!==c.me?`<u class="hk" data-kk="${p.id}" title="Wyrzuć z pokoju">✕</u>`:''}</div>`).join('')}</div><div class="hsg${rev?' '+S.ev.k:''}">${rev?`<div class="hy">${sg.year}</div><b>${E(sg.title)}</b><small>${E(sg.artist)}</small><p>${S.ev.k==='ok'?'✅ Dobrze!':'❌ Pudło'}</p>`:`<div class="hq">🎵</div>${mine?`<button id="hpl">${c.aud&&c.an===S.n?'⏸️ Pauza':'▶️ Odtwórz utwór'}</button>${hItems(c,S)}<p class="hwarn">Użycie tylko w sytuacji gdy dana piosenka nie działa lub za porozumieniem grupy</p><button class="s" id="hrr">🔁 Losuj inną piosenkę</button>`:`<p>🎧 ${E(cu.n)} słucha utworu…</p>`}<p class="hmt">Czas: <b id="htm"></b> s</p>`}</div><h3><span class="hdot" style="background:${tc}"></span>${mine?'Twoja oś czasu':'Oś gracza '+E(cu.n)}</h3><p class="hdir">⬆ najnowsze · ⬇ najstarsze</p><div class="htl" style="--tc:${tc}">${cards}</div>`;
+const pl=$('#hpl');if(pl)pl.onclick=()=>hPlay(c,c.S);const ia=$('#hia');if(ia)ia.onclick=()=>{if(!(P.sv&&P.sv.art>0))return;P.sv.art--;c.hi=Object.assign(c.hi&&c.hi.n===c.S.n&&c.hi.sg===c.S.sg?c.hi:{n:c.S.n,sg:c.S.sg},{art:1});save();SND.ach();c.k=''};const ir=$('#hir');if(ir)ir.onclick=()=>{if(!(P.sv&&P.sv.rng>0))return;P.sv.rng--;c.hi=Object.assign(c.hi&&c.hi.n===c.S.n&&c.hi.sg===c.S.sg?c.hi:{n:c.S.n,sg:c.S.sg},{rng:1});save();SND.ach();c.k=''};document.querySelectorAll('[data-kk]').forEach(b=>b.onclick=e=>{e.stopPropagation();if(confirm('Wyrzucić tego gracza z pokoju?'))c.kick(b.dataset.kk)});const rr=$('#hrr');if(rr)rr.onclick=()=>{if(c.S.rr)return toast('Utwór już zmieniono w tej turze');c.rr();toast('Losuję inny utwór…')};
 document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{if(c.sent===c.S.n)return;c.sent=c.S.n;if(c.aud)c.aud.pause();document.querySelectorAll('[data-s]').forEach(x=>x.disabled=true);c.place(+b.dataset.s)})}
 const t=$('#htm');if(t)t.textContent=Math.max(0,Math.ceil((S.te-Date.now())/1000))}
 const hMe=code=>db.doc('hgames/'+code+'/pl/'+P.id).set({n:P.name||'Gracz',av:P.av||'🙂',ph:P.photo||'',col:P.col||'',fr:P.fr||'',bot:false,st:Date.now(),sub:null});
 async function hMk(set,pub,ex){const code=Math.random().toString(36).slice(2,6).toUpperCase();await db.doc('hgames/'+code).set({host:P.id,hn:P.name||'Gracz',st:'lobby',set,pub,t:Date.now(),hb:Date.now(),pc:1+set.bots,...ex});await hMe(code);for(let i=0;i<set.bots;i++)await db.doc('hgames/'+code+'/pl/bot'+i).set({n:'🤖 '+BOTN[i],av:'🤖',bot:true,st:Date.now()+i});return code}
 async function hJoin(code){code=(code||'').trim().toUpperCase();if(!code)return toast('Wpisz kod');const s=await db.doc('hgames/'+code).get().catch(()=>null);if(!s||!s.exists)return toast('Nie ma takiego pokoju');const d=s.data();if(Date.now()-(d.hb||d.t)>6e4){db.doc('hgames/'+code).delete().catch(()=>{});return toast('Pokój jest nieaktywny')}if(d.st!=='lobby')return toast('Gra już trwa albo pokój zamknięty');if((d.pc||0)>=d.set.max)return toast('Pokój jest pełny');await hMe(code);hRoom(code,false)}
 var HSEEN=new Set();
-function hInvPop(m){if($('#hinvp'))return;HSEEN.add(m.id);const d=document.createElement('div');d.id='hinvp';d.className='bmod';d.innerHTML=`<div class="bmc" style="text-align:center"><h3>⚔️ Pojedynek w Hitsterze</h3><p><b>${E(m.fn)}</b> wyzywa Cię na pojedynek 1 na 1. Kto pierwszy zbierze 5 kart na osi, wygrywa.</p><button id="hia">Dołącz</button><button class="s" id="hid">Odrzuć</button></div>`;document.body.appendChild(d);const ref=db.doc('binv/'+m.id);$('#hia').onclick=()=>{ref.update({st:'acc'}).catch(()=>{});d.remove();hJoin(m.code)};$('#hid').onclick=()=>{ref.update({st:'dec'}).catch(()=>{});d.remove()}}
+function hInvPop(m){if($('#hinvp'))return;HSEEN.add(m.id);const d=document.createElement('div');d.id='hinvp';d.className='bmod';d.innerHTML=`<div class="bmc" style="text-align:center"><h3>⚔️ Pojedynek w Songline</h3><p><b>${E(m.fn)}</b> wyzywa Cię na pojedynek 1 na 1. Kto pierwszy zbierze 5 kart na osi, wygrywa.</p><button id="hia">Dołącz</button><button class="s" id="hid">Odrzuć</button></div>`;document.body.appendChild(d);const ref=db.doc('binv/'+m.id);$('#hia').onclick=()=>{ref.update({st:'acc'}).catch(()=>{});d.remove();hJoin(m.code)};$('#hid').onclick=()=>{ref.update({st:'dec'}).catch(()=>{});d.remove()}}
 async function hDuel(p){const code=await hMk({max:2,bots:0,tg:5,tm:45,bl:.7},0,{duel:1});db.doc('binv/'+p.id+'_'+code).set({to:p.id,from:P.id,fn:P.name||'Gracz',tn:p.n,code,st:'pending',t:Date.now(),du:1,h:1}).catch(()=>toast('Nie udało się wysłać wyzwania'));toast('Wysłano wyzwanie: '+p.n);hRoom(code,true)}
 function hInvite(){if($('#hinvm'))return;const m=document.createElement('div');m.id='hinvm';m.className='bmod';m.innerHTML='<div class="bmc"><button class="pvx" aria-label="Zamknij">✕</button><h3>⚔️ Wyzwij gracza</h3><input id="his" placeholder="Szukaj gracza…" type="search"><div id="hil"></div></div>';document.body.appendChild(m);let L=[];const rl=()=>{const q=$('#his').value.trim().toLowerCase();$('#hil').innerHTML=L.filter(p=>p.id!==P.id&&p.n&&(!q||p.n.toLowerCase().includes(q))).sort((a,b)=>(b.ts||0)-(a.ts||0)).slice(0,40).map(p=>`<div class="pl"><span class="bca"><span class="plav bav">${AV(p)}</span><b>${E(p.n)}</b></span><button data-i="${p.id}" style="width:auto">Wyzwij</button></div>`).join('')||'<p>Brak graczy.</p>';m.querySelectorAll('[data-i]').forEach(b=>b.onclick=()=>{const p=L.find(x=>x.id===b.dataset.i);if(!p)return;un();m.remove();hDuel(p)})},un=db.collection('leaderboard').onSnapshot(s=>{L=s.docs.map(d=>({id:d.id,...d.data()}));rl()});m.querySelector('.pvx').onclick=()=>{un();m.remove()};$('#his').oninput=rl}
-function hCreate(){$('#main').innerHTML=`<button class="s" id="bk">← Wróć</button><div class="c"><h3>➕ Nowy pokój Hitster</h3><p>Maks. graczy</p><select id="m1">${[2,3,4,5,6].map(x=>`<option>${x}</option>`).join('')}</select><p>Boty</p><select id="m2">${[0,1,2,3,4,5].map(x=>`<option>${x}</option>`).join('')}</select><p>Poziom botów</p><select id="m7"><option value=".5">Łatwe</option><option value=".7">Średnie</option><option value=".9">Trudne</option></select><p>Widoczność</p><select id="m3"><option value="1">Publiczny</option><option value="0">Prywatny (tylko kod)</option></select><p>Cel: tyle kart na osi czasu wygrywa</p><select id="m4">${[5,7,10].map(x=>`<option>${x}</option>`).join('')}</select><p>Czas na ruch</p><select id="m5">${[30,45,60].map(x=>`<option value="${x}">${x} s</option>`).join('')}</select></div><button id="mg">Stwórz pokój</button>`;$('#m1').value=4;$('#m7').value='.7';$('#m4').value=7;$('#m5').value=45;$('#bk').onclick=()=>show('hplay');
-$('#mg').onclick=async()=>{const mx=+$('#m1').value,set={max:mx,bots:Math.min(+$('#m2').value,mx-1),tg:+$('#m4').value,tm:+$('#m5').value,bl:+$('#m7').value};hRoom(await hMk(set,+$('#m3').value,{}),true)}}
+function hCreate(){$('#main').innerHTML=`<button class="s" id="bk">← Wróć</button><div class="c"><h3>➕ Nowy pokój Songline</h3><p>Maks. graczy (wpisz liczbę od 2 do 12)</p><input id="m1" type="number" inputmode="numeric" min="2" max="12" step="1" placeholder="np. 4"><p>Boty</p><select id="m2">${[0,1,2,3,4,5].map(x=>`<option>${x}</option>`).join('')}</select><p>Poziom botów (boty zgadują rok na słuch i mogą się mylić)</p><select id="m7"><option value=".5">Łatwe</option><option value=".7">Średnie</option><option value=".9">Trudne</option></select><p>Widoczność</p><select id="m3"><option value="1">Publiczny</option><option value="0">Prywatny (tylko kod)</option></select><p>Cel: tyle kart na osi czasu wygrywa</p><select id="m4">${[5,7,10,15].map(x=>`<option>${x}</option>`).join('')}</select><p>Czas na ruch</p><select id="m5">${[30,45,60].map(x=>`<option value="${x}">${x} s</option>`).join('')}</select></div><button id="mg">Stwórz pokój</button>`;$('#m1').value=4;$('#m7').value='.7';$('#m4').value=7;$('#m5').value=45;$('#bk').onclick=()=>show('hplay');
+$('#mg').onclick=async()=>{const raw=Math.round(+$('#m1').value),mx=Math.max(2,Math.min(12,raw||4));if(raw!==mx)toast('Liczba graczy ustawiona na '+mx);const set={max:mx,bots:Math.min(+$('#m2').value,mx-1),tg:+$('#m4').value,tm:+$('#m5').value,bl:+$('#m7').value};hRoom(await hMk(set,+$('#m3').value,{}),true)}}
 async function hQuick(){const code=await hMk({max:3,bots:2,tg:7,tm:45,bl:.7},0,{auto:1});hRoom(code,true)}
-function hRoom(code,host){unsub();let S=null,G=null,PLd={},CH=[],rw=false,botN=-1,lq=0,had=false,hbT=0,seenHb=0,seenAt=Date.now(),st0=0;const gd=()=>db.doc('hgames/'+code),pd=id=>db.doc('hgames/'+code+'/pl/'+id);
+function hRoom(code,host){unsub();let S=null,G=null,PLd={},CH=[],rw=false,botN=-1,lq=0,had=false,hbT=0,seenHb=0,seenAt=Date.now(),st0=0,left=0;const gd=()=>db.doc('hgames/'+code),pd=id=>db.doc('hgames/'+code+'/pl/'+id);
 $('#nav').hidden=true;BX=host?()=>{gd().update({st:'closed'}).catch(()=>{});gd().delete().catch(()=>{})}:()=>pd(P.id).delete().catch(()=>{});unsubs.push(()=>{BX=null});
 const out=m=>{if(m)toast(m);try{HAUD.pause()}catch(e){}GM='hitster';show('hplay')},push=()=>gd().update({...S}).catch(()=>toast('Błąd połączenia')),
-leave=async()=>{try{await pd(P.id).delete();if(host){await gd().update({st:'closed'});setTimeout(()=>gd().delete().catch(()=>{}),4000)}}catch(e){}out()},
-c={me:P.id,k:'',le:0,rw:'',exit:leave,av:id=>`<span class="plav bav">${AV(PLd[id]||{av:'🙂'})}</span>`,place:i=>pd(P.id).update({sub:{slot:i,k:S.n,q:Date.now()}}).catch(()=>{}),rr:()=>pd(P.id).update({sub:{rr:1,k:S.n,q:Date.now()}}).catch(()=>{})};
+leave=async()=>{left=1;try{await pd(P.id).delete();if(host){await gd().update({st:'closed'});setTimeout(()=>gd().delete().catch(()=>{}),4000)}}catch(e){}out()},
+c={me:P.id,host,kick:id=>pd(id).delete().catch(()=>toast('Nie udało się wyrzucić')),k:'',le:0,rw:'',exit:leave,av:id=>`<span class="plav bav">${AV(PLd[id]||{av:'🙂'})}</span>`,place:i=>pd(P.id).update({sub:{slot:i,k:S.n,q:Date.now()}}).catch(()=>{}),rr:()=>pd(P.id).update({sub:{rr:1,k:S.n,q:Date.now()}}).catch(()=>{})};
 const goG=async()=>{const ps=Object.values(PLd).sort((a,b)=>a.st-b.st);if(ps.length<2)return toast('Potrzeba min. 2 graczy (możesz dodać boty)');S=hInit(ps,G.set);push()};
 const lobby=()=>{if(!$('#bl2')){$('#main').innerHTML=`<div class="c" style="text-align:center"><p>Kod pokoju</p><h1 style="letter-spacing:.2em">${code}</h1><p id="bsm"></p></div><div class="c"><h3>Gracze <span id="bcn"></span></h3><div id="bl2"></div>${host?'<button class="s" id="bab">🤖 Dodaj bota</button>':''}</div><div class="c"><h3>💬 Czat</h3><div id="bch" class="bch"></div><div class="row"><input id="bmi" maxlength="120" placeholder="Napisz wiadomość…"><button id="bms" style="width:auto">➤</button></div></div>${host?'<button id="bgo">▶️ Start</button>':'<p style="text-align:center">Czekaj, aż host rozpocznie grę…</p>'}<button class="s" id="blv">Wyjdź</button>`;$('#blv').onclick=leave;if(host){$('#bgo').onclick=goG;$('#bab').onclick=()=>{if(Object.keys(PLd).length>=G.set.max)return toast('Pokój jest pełny');db.doc('hgames/'+code+'/pl/bot'+Date.now()).set({n:'🤖 '+bR(BOTN),av:'🤖',bot:true,st:Date.now()})}}const sm=()=>{const v=$('#bmi').value.trim();if(!v)return;$('#bmi').value='';db.doc('hgames/'+code+'/chat/'+Date.now()+P.id).set({n:P.name||'Gracz',m:v,t:Date.now()})};$('#bms').onclick=sm;$('#bmi').onkeydown=e=>{if(e.key==='Enter')sm()}}
 const ps=Object.values(PLd).sort((a,b)=>a.st-b.st);$('#bsm').textContent=`Cel: ${G.set.tg} kart · ${G.set.tm} s na ruch · ${G.pub?'publiczny':'prywatny'}`;$('#bcn').textContent=ps.length+'/'+G.set.max;
 $('#bl2').innerHTML=ps.map(p=>`<div class="pl"><span class="bca">${c.av(p.id)}<b>${NM({name:p.n,col:p.col})}${p.id===G.host?' 👑':''}</b></span>${host&&p.id!==P.id?`<button class="s" data-k="${p.id}" style="width:auto">Wyrzuć</button>`:''}</div>`).join('');document.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>pd(b.dataset.k).delete());
 const ch=$('#bch');ch.innerHTML=CH.slice(-30).map(m=>`<div><b>${E(m.n)}:</b> ${E(m.m)}</div>`).join('');ch.scrollTop=ch.scrollHeight};
-const game=()=>{S=G;if(S.st==='end'&&!rw){rw=true;P.hs=P.hs||{g:0,w:0};P.hs.g++;if(S.p.find(x=>x.id===P.id)){const wn=S.p.find(x=>x.id===S.win);P.hist.push({d:dstr(new Date()),w:wn?wn.n:'',pts:0,n:S.p.length,g:'hitster'});P.hist=P.hist.slice(-500);if(S.win===P.id){P.hs.w++;if(G.duel)P.hs.dw=(P.hs.dw||0)+1}const n=S.win===P.id?2:1;earn(n);c.rw='+'+n+' 🪙 '+(n===2?'za wygraną':'za udział')}chk();save()}hView(S,c)};
-const step=()=>{if(!host||!S||S.st!=='play')return;if(G&&G.duel&&S.p.length>=2&&Object.keys(PLd).length<2){const r=S.p.find(x=>PLd[x.id]);S.st='end';S.win=r?r.id:'';return push()}const cu=S.p[S.tu];if(S.ph==='rev'){if(Date.now()>=S.nx){hNext(S);push()}return}if(Date.now()>=S.te){hPlace(S,-1);return push()}
+const game=()=>{S=G;if(S.st==='end'&&!rw){rw=true;P.hs=P.hs||{g:0,w:0};P.hs.g++;if(S.p.find(x=>x.id===P.id)){const wn=S.p.find(x=>x.id===S.win);P.hist.push({d:dstr(new Date()),w:wn?wn.n:'',pts:0,n:S.p.length,g:'hitster'});P.hist=P.hist.slice(-500);if(S.win===P.id){P.hs.w++;if(G.duel)P.hs.dw=(P.hs.dw||0)+1}const win=S.win===P.id,n=win?({5:2,7:3,10:4,15:5}[S.set.tg]||2):1;earn(n);c.rw='+'+n+' 🪙 '+(win?'za wygraną na '+S.set.tg+' kart':'za udział');if(S.p.filter(x=>!x.bot).length>=2)mcount(win)}chk();save()}hView(S,c)};
+const step=()=>{if(!host||!S||S.st!=='play')return;if(G&&G.duel&&S.p.length>=2&&Object.keys(PLd).length<2){const r=S.p.find(x=>PLd[x.id]);S.st='end';S.win=r?r.id:'';return push()}const gone=S.p.filter(p=>!PLd[p.id]);if(gone.length&&Object.keys(PLd).length){const oi=S.tu,cid=S.p[oi].id,kept=S.p.filter(p=>PLd[p.id]),nt=S.p.slice(0,oi).filter(p=>PLd[p.id]).length;S.p=kept;if(kept.length<2){S.st='end';S.win=kept[0]?kept[0].id:'';return push()}S.tu=nt%kept.length;if(!PLd[cid]){S.sg=hDraw(S);S.ph='play';S.te=Date.now()+S.set.tm*1000;S.n++;S.rr=0}return push()}const cu=S.p[S.tu];if(S.ph==='rev'){if(Date.now()>=S.nx){hNext(S);push()}return}if(Date.now()>=S.te){hPlace(S,-1);return push()}
 if(cu.bot&&botN!==S.n){botN=S.n;const n0=S.n;setTimeout(()=>{if(!S||S.n!==n0||S.ph!=='play'||S.st!=='play')return;hPlace(S,hBot(S));push()},2500+Math.random()*Math.min(S.set.tm*400,6000))}
 const d=PLd[cu.id];if(d&&d.sub&&d.sub.k===S.n&&d.sub.q!==lq){lq=d.sub.q;if(d.sub.rr){if(!S.rr){S.rr=1;S.sg=hDraw(S);push()}}else if(S.ph==='play'){hPlace(S,+d.sub.slot);push()}}};
 unsubs.push(gd().onSnapshot(s=>{if(!s.exists)return had?out('Pokój został zamknięty'):0;had=true;G=s.data();if(G.st==='closed'&&!host)return out('Host zamknął pokój');if(G.st==='lobby')lobby();else game()}));
-unsubs.push(db.collection('hgames/'+code+'/pl').onSnapshot(s=>{const was=PLd[P.id];PLd={};s.docs.forEach(d=>PLd[d.id]={id:d.id,...d.data()});if(was&&!PLd[P.id]&&G&&G.st==='lobby')return out('Zostałeś wyrzucony z pokoju');const n=Object.keys(PLd).length;if(host&&G&&G.st==='lobby'&&G.pc!==n)gd().update({pc:n}).catch(()=>{});if(host&&G&&G.st==='lobby'&&!st0&&((G.auto&&n>=G.set.bots+1)||(G.duel&&n>=2))){st0=1;goG()}if(G&&G.st==='lobby')lobby();step()}));
+unsubs.push(db.collection('hgames/'+code+'/pl').onSnapshot(s=>{const was=PLd[P.id];PLd={};s.docs.forEach(d=>PLd[d.id]={id:d.id,...d.data()});if(was&&!PLd[P.id]&&G&&G.st!=='end'&&!left)return out('Zostałeś wyrzucony z pokoju');const n=Object.keys(PLd).length;if(host&&G&&G.st==='lobby'&&G.pc!==n)gd().update({pc:n}).catch(()=>{});if(host&&G&&G.st==='lobby'&&!st0&&((G.auto&&n>=G.set.bots+1)||(G.duel&&n>=2))){st0=1;goG()}if(G&&G.st==='lobby')lobby();step()}));
 const NSH=new Set();unsubs.push(db.collection('binv').onSnapshot(s=>{s.docs.forEach(d=>{const x=d.data();if(!x.h||x.from!==P.id||x.code!==code||x.st==='pending'||NSH.has(d.id))return;NSH.add(d.id);toast(x.st==='acc'?'✅ '+x.tn+' dołączył do pojedynku':'❌ '+x.tn+' odrzucił wyzwanie');db.doc('binv/'+d.id).delete().catch(()=>{})})}));
 unsubs.push(db.collection('hgames/'+code+'/chat').onSnapshot(s=>{CH=s.docs.map(d=>d.data()).sort((a,b)=>a.t-b.t);if(G&&G.st==='lobby'&&$('#bch'))lobby()}));
-const iv=setInterval(()=>{const t=Date.now();if(host&&t-hbT>8000){hbT=t;gd().update({hb:t}).catch(()=>{})}if(!host&&G){if(G.hb!==seenHb){seenHb=G.hb;seenAt=t}else if(t-seenAt>40000){gd().delete().catch(()=>{});return out('Host opuścił pokój')}}if(S&&S.st==='play'){step();hView(S,c)}},250);unsubs.push(()=>clearInterval(iv))}
-TABS.hplay=function(){$('#main').innerHTML=`<button class="s" id="hgd">📖 Jak grać w Hitster</button><div class="c"><h3>🎵 Hitster</h3><p>Posłuchaj kawałka i wstaw go we właściwe miejsce na swojej osi czasu.</p><button id="hn">➕ Stwórz własny pokój</button><div class="row"><input id="hc" placeholder="Kod pokoju" maxlength="5" autocapitalize="characters"><button id="hj" style="width:auto">Dołącz</button></div><button class="s" id="hq">⚡ Szybki start z botami</button></div><div class="c"><h3>⚔️ Pojedynek 1 na 1</h3><p>Wyzwij wybranego gracza. Kto pierwszy zbierze 5 kart na osi, wygrywa. Gdy rywal przyjmie, gra startuje od razu.</p><button class="s" id="hdu">Wyzwij gracza</button></div><div class="c"><h3>Publiczne pokoje</h3><div id="hpb"><p>Szukam pokoi…</p></div></div>`;
+const iv=setInterval(()=>{const t=Date.now();if(host&&t-hbT>8000){hbT=t;gd().update({hb:t}).catch(()=>{})}if(!host&&G){if(G.hb!==seenHb){seenHb=G.hb;seenAt=t}else if(t-seenAt>40000){gd().delete().catch(()=>{});return out('Host opuścił pokój')}}if(S&&S.st==='play'){step();hView(S,c)}},250);unsubs.push(()=>clearInterval(iv));unsubs.push(hFinOff)}
+TABS.hplay=function(){$('#main').innerHTML=`<button class="s" id="hgd">📖 Jak grać w Songline</button><div class="c"><h3>🎵 Songline</h3><p>Posłuchaj kawałka i wstaw go we właściwe miejsce na swojej osi czasu.</p><button id="hn">➕ Stwórz własny pokój</button><div class="row"><input id="hc" placeholder="Kod pokoju" maxlength="5" autocapitalize="characters"><button id="hj" style="width:auto">Dołącz</button></div><button class="s" id="hq">⚡ Szybki start z botami</button></div><div class="c"><h3>⚔️ Pojedynek 1 na 1</h3><p>Wyzwij wybranego gracza. Kto pierwszy zbierze 5 kart na osi, wygrywa. Gdy rywal przyjmie, gra startuje od razu.</p><button class="s" id="hdu">Wyzwij gracza</button></div><div class="c"><h3>Publiczne pokoje</h3><div id="hpb"><p>Szukam pokoi…</p></div></div>`;
 $('#hgd').onclick=()=>openGuide('hitster');$('#hn').onclick=hCreate;$('#hj').onclick=()=>hJoin($('#hc').value);$('#hq').onclick=hQuick;$('#hdu').onclick=()=>hInvite();unsubs.push(db.collection('binv').onSnapshot(s=>{const m=s.docs.map(d=>({id:d.id,...d.data()})).find(x=>x.h&&x.to===P.id&&x.st==='pending'&&Date.now()-x.t<3e5&&!HSEEN.has(x.id));if(m)hInvPop(m)}));
 unsubs.push(db.collection('hgames').onSnapshot(s=>{s.docs.forEach(d=>{const x=d.data();if(Date.now()-(x.hb||x.t||0)>18e4)db.doc('hgames/'+d.id).delete().catch(()=>{})});const l=s.docs.map(d=>({id:d.id,...d.data()})).filter(d=>d.pub&&d.st==='lobby'&&Date.now()-(d.hb||d.t)<45e3).sort((a,b)=>b.t-a.t),el=$('#hpb');if(el){el.innerHTML=l.length?l.map(d=>`<div class="pl"><span>${E(d.hn)} · ${d.pc||1}/${d.set.max} · cel ${d.set.tg}</span><button data-j="${d.id}" style="width:auto">Dołącz</button></div>`).join(''):'<p>Brak publicznych pokoi. Stwórz własny!</p>';el.querySelectorAll('[data-j]').forEach(b=>b.onclick=()=>hJoin(b.dataset.j))}}))};
-TABS.hrank=()=>rankTab2([['hiw','Wygrane'],['hig','Rozegrane gry']],'hiw');
+let HWR=0,hspin=false;
+TABS.hshop=function(){P.sv=P.sv||{art:0,rng:0};const WS=[['💨',24],['🪙+2',14],['💨',23],['🎤',5],['💨',23],['🪙+5',6],['📅',3.5],['📅',1.5]];
+const sec=WS.map((x,i)=>{const q=a=>[Math.cos((i*45+a-90)*Math.PI/180)*100,Math.sin((i*45+a-90)*Math.PI/180)*100].map(Math.round).join(' '),m=[Math.cos((i*45-67.5)*Math.PI/180)*66,Math.sin((i*45-67.5)*Math.PI/180)*66];return `<path d="M0 0L${q(0)}A100 100 0 0 1 ${q(45)}Z" fill="var(--${i%2?'bg':'card'})" stroke="var(--ln)"/><text x="${m[0]}" y="${m[1]}" font-size="15" text-anchor="middle" dominant-baseline="middle" fill="var(--tx)">${x[0]}</text>`}).join('');
+$('#main').innerHTML=`<div class="c"><h3>🎡 Koło fortuny</h3><p>4 🪙 za zakręcenie. Ułatwienia trafiają się rzadko, najczęściej wypada pusto.</p><svg viewBox="-110 -120 220 230" style="width:240px;display:block;margin:auto"><g id="wh" style="transform-box:fill-box;transform-origin:center;transition:transform 3.5s cubic-bezier(.2,.8,.2,1);transform:rotate(${HWR}deg)">${sec}</g><path d="M-9 -118L9 -118L0 -96Z" fill="var(--ac)"/></svg><button id="sp">Zakręć (4 🪙)</button></div><div class="c"><h3>🎒 Twoje ułatwienia</h3><div class="pill">🎤 Wykonawca ×${P.sv.art}</div><div class="pill">📅 Widełki lat ×${P.sv.rng}</div><p>🎤 pokazuje wykonawcę piosenki. 📅 pokazuje widełki lat, w których mogła zostać wydana. Używasz ich w grze online, gdy jest Twoja kolej, i działają tylko dla Ciebie.</p></div>`;
+$('#sp').onclick=()=>{if(hspin)return;if(P.coins<4)return toast('Za mało coinów');P.coins-=4;P.st.sp++;hspin=true;save();let r=Math.random()*100,i=0;while(i<7&&r>=WS[i][1]){r-=WS[i][1];i++}
+HWR=HWR-HWR%360+1440+360-(i*45+22.5);$('#wh').style.transform=`rotate(${HWR}deg)`;{let t=0,dl=50;const tk=()=>{if(t>3300)return;SND.tick();dl*=1.08;t+=dl;setTimeout(tk,dl)};tk()}
+setTimeout(()=>{hspin=false;if(i===3){P.sv.art++;SND.ach();toast('🎤 Wykonawca!')}else if(i===1){earn(2);toast('+2 🪙')}else if(i===5){earn(5);toast('+5 🪙')}else if(i>=6){P.sv.rng++;SND.trophy();toast('📅 Widełki lat!')}else{SND.miss();toast('💨 Pusto')}chk();show('hshop')},3600)}};
+TABS.hirank=()=>rankTab2([['hiw','Wygrane'],['hig','Rozegrane gry']],'hiw');
 function gbar(g){const s=gstat(g);return `<div class="gb"><span>🪙 ${P.coins}</span><span>🏆 ${s.w} wygranych</span><span>⭐ ${s.p} pkt</span></div>`}
 /* ---- aktualizacje ---- */
 /* Nowa aktualizacja: dopisz wpis NA POCZĄTKU listy. g: hub / fakeit / bombowo. Numery rosnące: 2.3, 2.4, 2.5... (bez 2.10) */
-const GN={hub:'Menu główne',fakeit:'Fake it',bombowo:'Bombowo',hitster:'Hitster'};
+const GN={hub:'Menu główne',fakeit:'Fake it',bombowo:'Bombowo',hitster:'Songline'};
+/* ╔══════════════════════════════════════════════════════════════════════╗
+   ║  ⚠️  UWAGA DLA OSOBY, KTÓRA EDYTUJE KOD I DODAJE COŚ NOWEGO  ⚠️       ║
+   ║  Przy KAŻDEJ zmianie, nowej funkcji, poprawce lub nowej grze         ║
+   ║  dopisz wpis NA POCZĄTKU listy UPD poniżej (najnowszy = pierwszy).   ║
+   ║  Z tej listy gracze widzą okno „Aktualizacja” oraz zakładki „Zmiany” ║
+   ║  (w menu głównym i w każdej grze), więc muszą wiedzieć, co doszło.   ║
+   ║  Pola: v = numer wersji (rosnący, bez 2.10), g = hub / fakeit /      ║
+   ║  bombowo / hitster (czyli Songline), d = data, t = tytuł, it = lista. ║
+   ╚══════════════════════════════════════════════════════════════════════╝ */
 const UPD=[
-{v:'2.8',g:'hub',d:'13.11.2026',t:'Nowa gra: Hitster',it:['🎵 Nowa gra: Hitster! Słuchasz fragmentu piosenki i wstawiasz ją na swojej osi czasu według roku wydania. Wygrywa ten, kto pierwszy zbierze 5, 7 lub 10 kart.','🎮 Jak zacząć: w menu głównym dotknij kafelka Hitster, stwórz pokój, dołącz kodem, wybierz pokój publiczny albo użyj Szybkiego startu z botami.','🪙 Nagrody jak w Bombowie: wygrany +2 🪙, pozostali +1 🪙, a gra zapisuje się w kalendarzu w Profilu.']},
-{v:'1.0',g:'hitster',d:'13.11.2026',t:'Premiera Hitstera',it:['🎧 Fragment utworu odtwarza się na Twoim telefonie po dotknięciu „Odtwórz utwór”','🧭 Oś czasu: wstaw piosenkę między karty z latami. Trafisz, a karta zostaje, pomylisz się, a kolej przechodzi dalej','👥 Pokoje online z czatem, boty, publiczne pokoje i ranking Hitstera','📚 Baza ponad 100 polskich i zagranicznych hitów z lat 1966 do 2025']},
+{v:'2.8',g:'hub',d:'13.11.2026',t:'Nowa gra: Songline',it:['🎵 Nowa gra: Songline! Słuchasz fragmentu piosenki i wstawiasz ją na swojej osi czasu według roku wydania. Wygrywa ten, kto pierwszy zbierze 5, 7 lub 10 kart.','🎮 Jak zacząć: w menu głównym dotknij kafelka Songline, stwórz pokój, dołącz kodem, wybierz pokój publiczny albo użyj Szybkiego startu z botami.','🪙 Nagrody jak w Bombowie: wygrany +2 🪙, pozostali +1 🪙, a gra zapisuje się w kalendarzu w Profilu.']},
+{v:'1.0',g:'hitster',d:'13.11.2026',t:'Premiera Songline',it:['🎧 Fragment utworu odtwarza się na Twoim telefonie po dotknięciu „Odtwórz utwór”','🧭 Oś czasu: wstaw piosenkę między karty z latami. Trafisz, a karta zostaje, pomylisz się, a kolej przechodzi dalej','👥 Pokoje online z czatem, boty, publiczne pokoje i ranking Songline','📚 Baza ponad 100 polskich i zagranicznych hitów z lat 1966 do 2025']},
 {v:'2.7',g:'hub',d:'13.11.2026',t:'Nowa gra: Bombowo',it:['💣 Nowa gra: Bombowo! Na bombie pojawiają się 2 litery, a Ty wpisujesz polskie słowo, które je zawiera, zanim bomba wybuchnie. Kto straci wszystkie życia, odpada, a wygrywa ostatni gracz.','🎮 Jak zacząć: w menu głównym dotknij kafelka Bombowo. Możesz stworzyć własny pokój, dołączyć kodem albo z listy pokoi publicznych, wyzwać kogoś na pojedynek 1 na 1 lub zagrać na jednym telefonie. Na górze menu Bombowa jest poradnik z zasadami.','🪙 Nagrody: w grach online wygrany dostaje +2 🪙, a pozostali gracze +1 🪙. Gra na jednym telefonie jest bez coinów.','📨 Zaproszenia: z pokoju możesz zaprosić wybranego gracza, a zaproszony zobaczy okno „Dołącz / Odrzuć” po wejściu w Bombowo. Ty dostaniesz informację, co wybrał.','🛒 Sklep Bombowa: koło fortuny z ułatwieniami, czyli podpowiedzią (pokazuje pasujące słowo) i skipem (pomija Twoją kolejkę bez utraty życia).','🏅 Ranking Bombowa (wygrane, pojedynki, rozegrane gry), lista ostatnich gier z informacją, kto wygrał, i własna zakładka Zmiany.','🎖️ Nowe osiągnięcia: 24 osiągnięcia Bombowa, od łatwych do bardzo trudnych. Za każde dostajesz 1 🪙. Zobaczysz je w Profilu po dotknięciu „Pokaż wszystkie osiągnięcia”.','🃏 Kolekcja innych graczy: wejdź w kartę „Gracze” albo Ranking, dotknij wybranego gracza, a w jego statystykach dotknij kafelka „Karty ›”. Zobaczysz jego kolekcję jak w katalogu i możesz filtrować po rzadkości.','📅 Gry Bombowa zapisują się w kalendarzu w Profilu z datą i zwycięzcą, tak jak Fake it.','🛡️ Konto jest chronione przed przypadkowym wyzerowaniem. W Profilu jest przycisk „Przywróć kopię zapasową konta”.','🔧 Poprawki: ramka Weteran w profilu i układ rankingu.']},
 {v:'1.2',g:'bombowo',d:'13.11.2026',t:'Pojedynki, koło fortuny i ranking',it:['⚔️ Pojedynek 1 na 1: wyzwij wybranego gracza z menu Bombowa','🎡 Koło fortuny z ułatwieniami: skip kolejki i podpowiedź (pasujące słowo)','🏅 Ranking Bombowa: wygrane, pojedynki i rozegrane gry','🕒 Lista ostatnich gier z informacją, kto wygrał','🎖️ 24 nowe osiągnięcia Bombowa, od łatwych do bardzo trudnych']},
 {v:'1.1',g:'bombowo',d:'13.11.2026',t:'Nowości w Bombowie',it:['📖 Poradnik gry w menu Bombowa','🔤 Teraz zawsze 2 litery','🎨 Każdy gracz ma kartę w innym kolorze, boty są niebieskie','⏱️ Odliczanie 3, 2, 1 przed startem','🤖 Dodawanie botów w lobby i boty z prawdziwymi, popularnymi słowami','📨 Zapraszanie graczy do pokoju','📅 Gry Bombowa zapisują się w kalendarzu w Profilu']},
@@ -952,7 +1599,9 @@ m.innerHTML=`<div class="umc"><div class="umh"><h2>🆕 Aktualizacja</h2><button
 document.body.appendChild(m);const cl=()=>{m.remove();after()};m.querySelector('.umx').onclick=cl;m.querySelector('.umok').onclick=cl}
 function updNotice(){const l=UPD.filter(u=>vn(u.v)>vn(P.upv)).slice(0,3);showUpd(l,1,()=>{P.upv=UPD[0].v;P.upg=P.upg||{};UPD.forEach(u=>{P.upg[u.g]=UPD.find(x=>x.g===u.g).v});save();const dd=document.querySelector('#tbl .dot');if(dd)dd.remove()})}
 function gameUpd(g){const l=UPD.filter(u=>u.g===g&&vn(u.v)>vn((P.upg||{})[g])).slice(0,2);showUpd(l,0,()=>{P.upg=P.upg||{};P.upg[g]=UPD.find(x=>x.g===g).v;save()})}
+/* ZMIANY (menu główne): pokazuje całą listę UPD. Dodając coś nowego, dopisz wpis do UPD (patrz baner nad UPD). */
 TABS.hupd=function(){$('#main').innerHTML=`<h2>📋 Aktualizacje</h2><p>Zmiany we wszystkich grach. Najnowsze na górze.</p>`+UPD.map((u,i)=>`<div class="c"><h3>${i?'':'🆕 '}${E(GN[u.g]||u.g)} · v${E(u.v)}</h3><p>${E(u.t)} · ${E(u.d)}</p><ul>${u.it.map(x=>`<li>${E(x)}</li>`).join('')}</ul></div>`).join('')};
+/* ZMIANY (w grze): pokazuje wpisy UPD tej gry. Dodając coś nowego, dopisz wpis do UPD (patrz baner nad UPD). */
 TABS.upd=function(){const l=UPD.filter(u=>u.g===GM);$('#main').innerHTML=`<h2>📋 Aktualizacje</h2>`+(l.map((u,i)=>`<div class="c"><h3>${i?'':'🆕 '}v${E(u.v)} · ${E(u.t)}</h3><p>${E(u.d)}</p><ul>${u.it.map(x=>`<li>${E(x)}</li>`).join('')}</ul></div>`).join('')||'<p>Brak zmian.</p>')};
 /* ---- menu glowne ---- */
 /* ---- Fake it: ekran Graj ---- */
@@ -984,7 +1633,7 @@ const item=id=>{const t=cd(id)[2],price=SHP[t],own=P.cards.filter(c=>c[0]===id).
 return `<div class="shi"><div class="shc">${ct(id)}</div><div class="sho${own?' y':''}">${own?'✅ Masz ×'+own:'Nie masz tej karty'}</div>${done?'<div class="shd">✔ Kupiono</div>':`<div class="shp">🪙 ${price}</div><div class="bar"><i style="width:${Math.min(100,P.coins/price*100)}%"></i></div><button class="shb" data-buy="${id}" ${need>0?'disabled':''}>${need>0?'Brakuje '+need+' 🪙':'Kup'}</button>`}</div>`};
 return `<div class="c"><h3>🛍️ Karty tygodnia</h3><p>Trzy karty tylko dla Ciebie, każdy gracz ma inne. Oferta odnowi się w poniedziałek (za ${nd} ${nd===1?'dzień':'dni'}). Ceny zależą od rzadkości: ${TN.map((n,i)=>n+' '+SHP[i]).join(' · ')} 🪙. Każdą kartę możesz kupić raz na tydzień.</p><div class="shg">${offs.map(item).join('')}</div></div>`}
 function bindWeekly(mn){mn.querySelectorAll('[data-buy]').forEach(b=>b.onclick=()=>{const id=+b.dataset.buy,price=SHP[Math.floor(id/44)];if(P.sh.b.includes(id))return;if(P.coins<price)return toast('Za mało coinów');P.coins-=price;P.sh.b.push(id);addCard(id);chk();packAnim([id])})}
-TABS.cshop=function(){const mn=$('#main');mn.innerHTML=`${weeklyCard()}<div class="c"><h3>📦 Paczka kart</h3><p>12 🪙 za 5 kart. Zwykłe 66%, rzadkie 22%, epickie 8,5%, legendarne 3%, mityczne 0,5% na kartę. Wartość karty zależy od tego, ilu graczy ją ma.</p><button id="op">Otwórz paczkę (12 🪙)</button></div>`;bindWeekly(mn);
+TABS.cshop=function(){const mn=$('#main');mn.innerHTML=`${weeklyCard()}<div class="c"><h3>📦 Paczka kart</h3><p>12 🪙 za 5 kart. Zwykłe 68,5%, rzadkie 22,5%, epickie 7,9%, legendarne 1%, mityczne 0,1% na kartę. Wartość karty zależy od tego, ilu graczy ją ma.</p><button id="op">Otwórz paczkę (12 🪙)</button></div>`;bindWeekly(mn);
 $('#op').onclick=()=>{if(P.coins<12)return toast('Za mało coinów');P.coins-=12;P.st.pk++;const got=[0,1,2,3,4].map(roll);got.forEach(addCard);chk();packAnim(got)}};
 /* ---- profil: osiagniecia zwiniete, zdobyte na gorze ---- */
 const _me2=TABS.me;
@@ -1027,9 +1676,9 @@ mn.insertAdjacentHTML('afterbegin',`<div class="phd"><div class="pav${P.fr?' nr'
 const gk=t=>`<b class="k">${t}</b>`;
 const GUIDE=[
 {id:'menu',i:'🏠',t:'Menu główne',b:`<p>${gk('Co to:')} strona startowa. Na górze są trzy skróty: ⚙ (Profil i ustawienia), 🔔 (aktualizacje, kropka oznacza coś nowego) i moneta z plusem (Twoje coiny i skok do sklepu). Niżej: kafelki gier, karta „Gracze" (prowadzi do rankingu), karta „Tak trzymaj!" z serią dni, baner Kart tygodnia i skróty do osiągnięć oraz kolekcji.</p><p>${gk('Jak używać:')} dotknij kafelka gry, żeby w nią wejść. Z gry wracasz przyciskiem „← Gry".</p><p>${gk('Po co:')} wszystkie gry mają wspólne konto, coiny, karty, ramki i osiągnięcia, a menu to miejsce, z którego wszystko jest pod ręką.</p>`},
-{id:'hitster',i:'🎵',t:'Hitster: jak grać',b:`<p>${gk('Co to:')} gra muzyczna. Słuchasz fragmentu piosenki i układasz ją na swojej osi czasu we właściwym miejscu według roku wydania.</p><p>${gk('Jak grać:')} na początku masz jedną kartę z rokiem. Gdy jest Twoja kolej, dotknij „Odtwórz utwór”, posłuchaj i wybierz „Wstaw tutaj” w miejscu, gdzie według Ciebie pasuje piosenka (np. między 2010 a 2018). Trafisz, a karta ląduje na Twojej osi. Pomylisz się, a karta przepada i kolej przechodzi dalej. Wygrywa pierwszy, kto zbierze ustaloną liczbę kart (5, 7 lub 10).</p><p>${gk('Pokoje:')} stwórz własny pokój (publiczny lub z kodem), dołącz kodem albo z listy, albo użyj „Szybkiego startu z botami”. W lobby jest czat, dodawanie botów i wyrzucanie graczy. Pozostali widzą, czyja jest kolej, oraz osie czasu wszystkich graczy na żywo.</p><p>${gk('Dźwięk:')} fragment piosenki jest pobierany z darmowego podglądu iTunes. Jeśli któryś utwór się nie załaduje, użyj przycisku „Inny utwór” (raz na turę).</p><p>${gk('Nagrody:')} wygrany dostaje +2 🪙, pozostali +1 🪙, a gra zapisuje się w kalendarzu w Profilu.</p>`},
-{id:'bombowo',i:'💣',t:'Bombowo: jak grać',b:`<p>${gk('Co to:')} gra na refleks i słownictwo. Na bombie pojawiają się 2 litery, a Ty musisz wpisać polskie słowo, które je zawiera, zanim bomba wybuchnie.</p><p>${gk('Jak grać:')} gdy jest Twoja kolej, wpisz słowo (np. dla „CH” słowo „ochrona”) i zatwierdź. Słowo musi istnieć po polsku i nikt nie mógł go użyć wcześniej w tej grze. Gdy bomba wybuchnie, gracz traci życie. Wygrywa ostatni gracz, który ma jeszcze życia.</p><p>${gk('Pokoje:')} stwórz własny pokój (prywatny z kodem albo publiczny), dołącz po kodzie lub z listy pokoi publicznych. W lobby możesz pisać na czacie, dodać bota i zaprosić gracza. Host ustawia liczbę graczy, boty, czas, życia i zabronione słowa.</p><p>${gk('Jeden telefon:')} dodajesz graczy ręcznie i przekazujesz telefon. Za taką grę nie ma coinów.</p><p>${gk('Nagrody:')} w grach online wygrany dostaje +2 🪙, pozostali +1 🪙. Rozegrane gry zapisują się w kalendarzu w Profilu.</p><p>${gk('Pojedynek:')} w menu dotknij „Wyzwij gracza”, wybierz kogoś z listy. Gdy przyjmie wyzwanie, gra startuje od razu, 1 na 1.</p><p>${gk('Ułatwienia:')} w zakładce Sklep możesz zakręcić kołem (4 🪙). Wygrasz 💡 podpowiedź (pokazuje pasujące słowo) albo ⏭️ skip (pomija Twoją kolejkę bez utraty życia). Używasz ich w grze online, gdy jest Twoja kolej.</p><p>${gk('Ranking i osiągnięcia:')} ranking Bombowa liczy wygrane, pojedynki i rozegrane gry. Bombowo ma też własne osiągnięcia w Profilu.</p>`},
-{id:'fakeit',i:'🎭',t:'Fake it: jak grać',b:`<p>${gk('Co to:')} gra w wymyślanie fałszywych odpowiedzi. Dostajesz pytanie, każdy wpisuje swoją odpowiedź, która ma wyglądać na prawdziwą, a potem wszyscy głosują, która jest prawdziwa.</p><p>${gk('Punkty:')} prawdziwa odpowiedź to +2. Za każdą osobę, która da się nabrać na Twój fejk, dostajesz +1. Nie możesz wpisać prawdziwej odpowiedzi, gra Cię o tym uprzedzi.</p><p>${gk('Jak zacząć:')} wejdź w Fake it i w zakładce Graj wybierz:</p><ul><li>${gk('Z botami:')} gra solo, do pokoju dochodzą 3 boty.</li><li>${gk('Ze znajomymi:')} tworzysz pokój z 3-cyfrowym kodem. Znajomi wpisują go w „Dołącz kodem". Start jest możliwy od 3 graczy (boty też się liczą).</li><li>${gk('Dołącz kodem:')} wpisujesz kod od znajomego.</li></ul><p>W ustawieniach gry wybierasz kategorię i liczbę rund (od 5 do 50). Po każdej rundzie przycisk „Wyjaśnij" pokazuje wyjaśnienie prawdziwej odpowiedzi. Host może przyciskiem „Wymuś dalej" przyspieszyć rundę.</p><p>${gk('Po co:')} to zabawa ze znajomymi, a za dobre miejsce dostajesz coiny.</p>`},
+{id:'hitster',i:'🎵',t:'Songline: jak grać',b:`<p>${gk('Co to:')} gra muzyczna. Słuchasz fragmentu piosenki i układasz ją na swojej osi czasu we właściwym miejscu według roku wydania.</p><p>${gk('Jak grać:')} na początku masz jedną kartę z rokiem. Gdy jest Twoja kolej, dotknij „Odtwórz utwór”, posłuchaj i wybierz „Wstaw tutaj” w miejscu, gdzie według Ciebie pasuje piosenka (np. między 2010 a 2018). Trafisz, a karta ląduje na Twojej osi. Pomylisz się, a karta przepada i kolej przechodzi dalej. Wygrywa pierwszy, kto zbierze ustaloną liczbę kart (5, 7 lub 10).</p><p>${gk('Pokoje:')} stwórz własny pokój (publiczny lub z kodem), dołącz kodem albo z listy, albo użyj „Szybkiego startu z botami”. W lobby jest czat, dodawanie botów i wyrzucanie graczy. Pozostali widzą, czyja jest kolej, oraz osie czasu wszystkich graczy na żywo.</p><p>${gk('Dźwięk:')} fragment piosenki jest pobierany z darmowego podglądu iTunes. Jeśli któryś utwór się nie załaduje, użyj przycisku „Inny utwór” (raz na turę).</p><p>${gk('Nagrody:')} wygrany dostaje +2 🪙, pozostali +1 🪙, a gra zapisuje się w kalendarzu w Profilu.</p>`},
+{id:'bombowo',i:'💣',t:'Bombowo: jak grać',b:`<p>${gk('Co to:')} gra na refleks i słownictwo. Na bombie pojawiają się 2 litery, a Ty musisz wpisać polskie słowo, które je zawiera, zanim bomba wybuchnie.</p><p>${gk('Jak grać:')} gdy jest Twoja kolej, wpisz słowo (np. dla „CH” słowo „ochrona”) i zatwierdź. Słowo musi istnieć po polsku i nikt nie mógł go użyć wcześniej w tej grze. Gdy bomba wybuchnie, gracz traci życie. Wygrywa ostatni gracz, który ma jeszcze życia.</p><p>${gk('Pokoje:')} stwórz własny pokój (prywatny z kodem albo publiczny), dołącz po kodzie lub z listy pokoi publicznych. W lobby możesz pisać na czacie, dodać bota i zaprosić gracza. Host ustawia liczbę graczy, boty, czas, życia i zabronione słowa.</p><p>${gk('Jeden telefon:')} dodajesz graczy ręcznie i przekazujesz telefon. Za taką grę nie ma coinów.</p><p>${gk('Nagrody:')} w grach online wygrany dostaje +2 🪙 (+4 🪙, gdy gra trwała ponad 5 minut), pozostali +1 🪙. Rozegrane gry zapisują się w kalendarzu w Profilu.</p><p>${gk('Czat odpadłych:')} gdy stracisz wszystkie życia, na dole pojawia się czat tylko dla odpadłych. Grający nie widzą tej rozmowy.</p><p>${gk('Pojedynek:')} w menu dotknij „Wyzwij gracza”, wybierz kogoś z listy. Gdy przyjmie wyzwanie, gra startuje od razu, 1 na 1.</p><p>${gk('Ułatwienia:')} w zakładce Sklep możesz zakręcić kołem (4 🪙). Wygrasz 💡 podpowiedź (pokazuje pasujące słowo) albo ⏭️ skip (pomija Twoją kolejkę bez utraty życia). Używasz ich w grze online, gdy jest Twoja kolej.</p><p>${gk('Ranking i osiągnięcia:')} ranking Bombowa liczy wygrane, pojedynki i rozegrane gry. Bombowo ma też własne osiągnięcia w Profilu.</p>`},
+{id:'fakeit',i:'🎭',t:'Fake it: jak grać',b:`<p>${gk('Co to:')} gra w wymyślanie fałszywych odpowiedzi. Dostajesz pytanie, każdy wpisuje swoją odpowiedź, która ma wyglądać na prawdziwą, a potem wszyscy głosują, która jest prawdziwa.</p><p>${gk('Punkty:')} prawdziwa odpowiedź to +2. Za każdą osobę, która da się nabrać na Twój fejk, dostajesz +1. Nie możesz wpisać prawdziwej odpowiedzi, gra Cię o tym uprzedzi.</p><p>${gk('Jak zacząć:')} wejdź w Fake it i w zakładce Graj wybierz:</p><ul><li>${gk('Z botami:')} gra solo, do pokoju dochodzą 3 boty.</li><li>${gk('Ze znajomymi:')} tworzysz pokój z 3-cyfrowym kodem. Znajomi wpisują go w „Dołącz kodem". Start jest możliwy od 3 graczy (boty też się liczą). W pokoju możesz też zaprosić gracza przyciskiem „Zaproś gracza”.</li><li>${gk('Dołącz kodem:')} wpisujesz kod od znajomego.</li></ul><p>W ustawieniach gry wybierasz kategorię i liczbę rund (od 5 do 50). Po każdej rundzie przycisk „Wyjaśnij" pokazuje wyjaśnienie prawdziwej odpowiedzi. Host może przyciskiem „Wymuś dalej" przyspieszyć rundę.</p><p>${gk('Po co:')} to zabawa ze znajomymi, a za dobre miejsce dostajesz coiny.</p>`},
 {id:'duel',i:'⚔️',t:'Pojedynek 1 na 1',b:`<p>${gk('Co to:')} gra dwóch osób. Działa tylko dla graczy zalogowanych przez Google.</p><p>${gk('Jak:')} w zakładce Graj dotknij „Pojedynek", wybierz kategorię i liczbę rund, znajdź rywala na liście (najpierw ostatnio aktywni) i kliknij „Wyzwij". Rywal dostaje okno z zaproszeniem, które możesz przyjąć albo odrzucić.</p><p>${gk('Nagroda:')} wygrany dostaje +2 🪙. Przy remisie nikt nic nie dostaje. Jeśli rywal wyjdzie z gry, wygrywasz walkowerem. Wygrane pojedynki liczą się do osobnego rankingu.</p><p>${gk('Po co:')} szybka rywalizacja jeden na jednego.</p>`},
 {id:'help',i:'🧰',t:'Ułatwienia i koło fortuny',b:`<p>${gk('Co to:')} trzy jednorazowe ułatwienia, których używasz podczas głosowania, pod odpowiedziami:</p><ul><li>💡 ${gk('Podpowiedź:')} ukrywa połowę błędnych odpowiedzi.</li><li>🕵️ ${gk('Podmiana:')} przenosi na Ciebie punkty za najpopularniejszy fejk w tej rundzie.</li><li>🚫 ${gk('Blokada:')} wybranemu graczowi odbiera ułatwienia i punkty za prawdę w tej rundzie.</li></ul><p>${gk('Skąd je wziąć:')} w Fake it, w zakładce Ułatwienia, jest koło fortuny. Zakręcenie kosztuje 4 🪙. Najczęściej wypada pusto (ok. 70%), czasem +2 albo +5 🪙, a bardzo rzadko ułatwienie: podpowiedź ok. 5%, podmiana 3,5%, blokada 1,5%.</p><p>${gk('Po co:')} dają przewagę taktyczną i zmieniają przebieg rundy.</p>`},
 {id:'coins',i:'🪙',t:'Coiny: skąd i na co',b:`<p>${gk('Skąd:')}</p><ul><li>Codziennie +1 🪙 za wejście do gry (Daily).</li><li>Prezenty za serię dni: 7 dni +5, 14 dni +10, 21 dni +15, 28 dni +20 🪙.</li><li>Po grze za miejsce: 1. miejsce 5 🪙, 2. miejsce 3, 3. miejsce 2, dalsze 1. Do tego +1 za każde 4 wkręcone osoby (maks. +3) i +1 za nos do prawdy (znalezienie prawdy w co najmniej 60% rund). W grze z samymi botami nagroda jest o połowę mniejsza.</li><li>Za każde nowe osiągnięcie +1 🪙.</li><li>Za wygrany pojedynek +2 🪙.</li></ul><p>${gk('Na co:')} paczki kart (12 🪙), koło fortuny (4 🪙) i karty tygodnia (od 30 🪙).</p><p>${gk('Po co:')} coiny są wspólne dla wszystkich gier, więc zdobywasz je w jednej, a wydajesz w dowolnej.</p>`},
@@ -1093,7 +1742,7 @@ function champPopup(c){if(document.getElementById('um'))return;const m=document.
 m.innerHTML=`<div class="umc"><div class="umh"><h2>👑 Champion miesiąca!</h2><button class="umx" aria-label="Zamknij">✕</button></div><div class="umb"><div class="chbig">${CROWN}</div><p class="umt">Wygrałeś najwięcej gier w miesiącu: ${E(monthName(c.m))}.</p><ul><li>🪙 Nagroda: +40 coinów</li><li>Odznaka „Champion miesiąca" w Twoim profilu do końca bieżącego miesiąca</li></ul></div><button class="umok">OK</button></div>`;
 document.body.appendChild(m);const cl=()=>m.remove();m.querySelector('.umx').onclick=cl;m.querySelector('.umok').onclick=cl}
 /* ---- paczki kart ---- */
-const PACKS=[{n:'Podstawowa',ic:'📦',p:12,w:[66,22,8.5,3,.5],min:0},{n:'Srebrna',ic:'🥈',p:45,w:[40,36,16,6.5,1.5],min:1},{n:'Złota',ic:'🥇',p:140,w:[15,35,32,14,4],min:2},{n:'Diamentowa',ic:'💎',p:450,w:[0,20,40,30,10],min:3}];
+const PACKS=[{n:'Podstawowa',ic:'📦',p:12,w:[68.5,22.5,7.9,1,.1],min:0},{n:'Srebrna',ic:'🥈',p:45,w:[42,37,17,3.5,.5],min:1},{n:'Złota',ic:'🥇',p:140,w:[16,37,35,11,1],min:2},{n:'Diamentowa',ic:'💎',p:450,w:[0,22,45,29,4],min:3}];
 function rollW(w,min){const ww=w.map((x,t)=>t<(min||0)?0:x),sum=ww.reduce((a,b)=>a+b,0);let r=Math.random()*sum,t=0;while(t<4&&r>=ww[t]){r-=ww[t];t++}return t*44+Math.floor(Math.random()*44)}
 function rollPack(k){const got=[0,1,2,3,4].map(()=>rollW(k.w));if(k.min>0&&!got.some(id=>Math.floor(id/44)>=k.min))got[4]=rollW(k.w,k.min);return got}
 function openPack(i,free){const k=PACKS[i];if(!k)return;if(free){if(!(P.freePk>0))return;P.freePk--}else{if(P.coins<k.p)return toast('Za mało coinów');P.coins-=k.p}
@@ -1126,12 +1775,23 @@ document.body.appendChild(m);const cl=()=>m.remove();m.querySelector('.pvx').onc
 m.querySelector('#pvk').onclick=()=>openCatalog(p);const d=m.querySelector('#pvd');if(d)d.onclick=()=>{const ks=Object.keys(DB);if(!ks.length)return toast('Brak pytań');cl();createBattle({id:p.id,n:p.n},ks.includes('all')?'all':ks[0],10)}}
 /* ---- ranking z liczba gier ---- */
 const RV={hiw:p=>p.hiw||0,hig:p=>p.hig||0,bow:p=>p.bow||0,bod:p=>p.bod||0,bog:p=>p.bog||0,w:p=>p.w||0,bw:p=>p.bw||0,g:p=>p.g||0,c:p=>p.c||0,v:p=>Math.round(p.v||0),mw:p=>p.mm===mkey(new Date())?(p.mw||0):0};
-function rankTab2(keys,k){const rl=()=>{const el=$('#lb');if(!el)return;const s=[...LB].sort((a,b)=>RV[k](b)-RV[k](a)||(b.g||0)-(a.g||0)).slice(0,50);
+const RDESC={c:['Ile masz teraz monet 🪙 na koncie (coiny są wspólne dla wszystkich gier).','Graj i wygrywaj (każda gra daje coiny), odbieraj codzienne Daily i prezenty za serię dni, zdobywaj osiągnięcia. Wydane coiny (paczki, koło fortuny) obniżają wynik.'],
+v:['Łączna wartość Twoich kart kolekcjonerskich. Karta jest tym więcej warta, im mniej graczy ją ma.','Otwieraj paczki, zbieraj rzadkie karty oraz takie, których mało kto ma.'],
+mw:['Ile gier wygrałeś w tym miesiącu (liczy się od 1. dnia miesiąca i zeruje z nowym miesiącem). Zaliczane są wygrane w Fake it, Bombowie i Songline, ale tylko w grach z co najmniej 2 prawdziwymi graczami, a gry z samymi botami się nie liczą. Wygrany pojedynek też się liczy. Przy remisie wyżej jest ten, kto rozegrał mniej gier w tym miesiącu.','Wygrywaj gry z innymi graczami w dowolnej z gier. Najlepszy gracz miesiąca zostaje Championem (+40 🪙 i korona w profilu).'],
+w:['Ile razy zająłeś 1. miejsce w grze Fake it (pojedynki liczą się osobno).','Wymyślaj fejki, na które nabiorą się inni, i trafnie wskazuj prawdę.'],
+bw:['Ile pojedynków 1 na 1 w Fake it wygrałeś.','Wyzywaj graczy na pojedynki i zdobywaj w nich więcej punktów niż rywal.'],
+g:['Ile gier Fake it rozegrałeś (także pojedynków).','Graj i dokańczaj gry, każda rozegrana liczy się do wyniku.'],
+hiw:['Ile gier Songline wygrałeś (pierwszy zebrałeś ustaloną liczbę kart).','Ćwicz słuch muzyczny, zgaduj lata piosenek i korzystaj z ułatwień ze sklepu.'],
+hig:['Ile gier Songline rozegrałeś do końca.','Dołączaj do pokoi i dogrywaj partie do końca.'],
+bow:['Ile gier Bombowo wygrałeś (zostałeś ostatnim graczem z życiami).','Wpisuj szybko polskie słowa z sylabą i używaj ułatwień ze sklepu.'],
+bod:['Ile pojedynków 1 na 1 w Bombowie wygrałeś.','Wyzywaj graczy na pojedynki i wygrywaj je.'],
+bog:['Ile gier Bombowo rozegrałeś.','Dołączaj do pokoi i graj do końca.']};
+function rankTab2(keys,k){const ds=()=>{const e=$('#rds'),d=RDESC[k];if(e)e.innerHTML=d?`<b>📖 Czego dotyczy ten ranking</b><p>${d[0]}</p><b>⬆ Jak być wyżej</b><p>${d[1]}</p>`:''},rl=()=>{const el=$('#lb');if(!el)return;const s=[...LB].sort((a,b)=>RV[k](b)-RV[k](a)||(k==='mw'?((a.mm===mkey(new Date())?(a.mg||0):0)-(b.mm===mkey(new Date())?(b.mg||0):0)):(b.g||0)-(a.g||0))).slice(0,50);
 el.innerHTML=s.map((p,i)=>`<button class="plr" data-p="${p.id}"><span class="rk">${medal(i)}</span><span class="plav">${AV({ph:p.ph,av:p.av,fr:p.fr})}</span><span class="plm"><b>${NM({name:p.n,col:p.col})}${isChamp(p)?' '+CROWN:''}</b><small><span>🎮 ${(p.g||0)+(p.bg||0)} ${(p.g||0)+(p.bg||0)===1?'gra':'gier'}</span><span>${lastAct(p)}</span></small></span><b class="rsc">${RV[k](p)}</b></button>`).join('')||'<p>Brak graczy w rankingu.</p>';
 el.querySelectorAll('[data-p]').forEach(b=>b.onclick=()=>openProfile(b.dataset.p))};
 const ch=CHAMP&&CHAMP.uid?`<div class="c">👑 Champion miesiąca (${E(monthName(CHAMP.m))}): <b>${E(CHAMP.n||'Gracz')}</b>, ${CHAMP.w} wygranych</div>`:'';
-$('#main').innerHTML=`<h2>🏅 Ranking</h2>${GM?'':ch}<div class="row">${keys.map(x=>`<button class="${x[0]===k?'':'s'}" data-k="${x[0]}">${x[1]}</button>`).join('')}</div><div class="c" id="lb"></div><p>${AUTH.google?'Jesteś w rankingu jako gracz zalogowany przez Google.':'W rankingu są tylko gracze zalogowani przez Google.'} Dotknij gracza, aby zobaczyć jego profil.</p>`;
-document.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>{k=b.dataset.k;document.querySelectorAll('[data-k]').forEach(x=>x.className=x===b?'':'s');rl()});unsubs.push(db.collection('leaderboard').onSnapshot(s=>{LB=s.docs.map(d=>({id:d.id,...d.data()}));rl()}));rl()}
+$('#main').innerHTML=`<h2>🏅 Ranking</h2>${GM?'':ch}<div class="row">${keys.map(x=>`<button class="${x[0]===k?'':'s'}" data-k="${x[0]}">${x[1]}</button>`).join('')}</div><div class="c" id="lb"></div><p>${AUTH.google?'Jesteś w rankingu jako gracz zalogowany przez Google.':'W rankingu są tylko gracze zalogowani przez Google.'} Dotknij gracza, aby zobaczyć jego profil.</p><div class="c" id="rds"></div>`;
+document.querySelectorAll('[data-k]').forEach(b=>b.onclick=()=>{k=b.dataset.k;document.querySelectorAll('[data-k]').forEach(x=>x.className=x===b?'':'s');rl();ds()});ds();unsubs.push(db.collection('leaderboard').onSnapshot(s=>{LB=s.docs.map(d=>({id:d.id,...d.data()}));rl()}));rl()}
 TABS.rank=()=>rankTab2([['w','Wygrane'],['bw','Pojedynki'],['g','Rozegrane gry']],'w');
 TABS.hrank=()=>rankTab2([['c','Coiny'],['v','Wartość kart'],['mw','Wygrane w miesiącu']],'c');
 /* ---- kalendarz gier z przegladaniem miesiecy wstecz ---- */
@@ -1140,7 +1800,7 @@ function calHTML(){const now=new Date();if(!CAL)CAL={y:now.getFullYear(),m:now.g
 const isCur=y===now.getFullYear()&&m===now.getMonth(),back=(now.getFullYear()-y)*12+now.getMonth()-m;
 const cells=[...Array(dn)].map((_,i)=>{const k=y+'-'+String(m+1).padStart(2,'0')+'-'+String(i+1).padStart(2,'0'),c=cnt[k]||0;return `<b class="${c?'d':''}${CAL.s===k?' sel':''}${isCur&&i+1===now.getDate()?' td':''}" data-d="${k}">${i+1}${c>1?`<sup>${c}</sup>`:''}</b>`}).join('');
 const dl=CAL.s?P.hist.filter(h=>h.d===CAL.s):[];
-return `<div class="calh"><button class="s" id="calp" aria-label="Poprzedni miesiąc" ${back>=24?'disabled':''}>‹</button><b>${new Date(y,m,1).toLocaleDateString('pl',{month:'long',year:'numeric'})}</b><button class="s" id="caln" aria-label="Następny miesiąc" ${isCur?'disabled':''}>›</button></div><div class="cal">${'PWŚCPSN'.split('').map(x=>`<small>${x}</small>`).join('')}${'<i></i>'.repeat(off)}${cells}</div>${CAL.s?`<div class="cald"><b>${CAL.s}</b>${dl.length?dl.map(h=>`<div class="pl"><span>${({bombowo:'💣 Bombowo · ',hitster:'🎵 Hitster · '})[h.g]||''}🏆 ${E(h.w)}</span><span>${h.g?'':h.pts+' pkt · '}${h.n} os.</span></div>`).join(''):'<p>Tego dnia nie rozegrano gier.</p>'}</div>`:'<p>Dotknij dnia, aby zobaczyć rozegrane gry. Strzałkami przejdziesz do wcześniejszych miesięcy.</p>'}`}
+return `<div class="calh"><button class="s" id="calp" aria-label="Poprzedni miesiąc" ${back>=24?'disabled':''}>‹</button><b>${new Date(y,m,1).toLocaleDateString('pl',{month:'long',year:'numeric'})}</b><button class="s" id="caln" aria-label="Następny miesiąc" ${isCur?'disabled':''}>›</button></div><div class="cal">${'PWŚCPSN'.split('').map(x=>`<small>${x}</small>`).join('')}${'<i></i>'.repeat(off)}${cells}</div>${CAL.s?`<div class="cald"><b>${CAL.s}</b>${dl.length?dl.map(h=>`<div class="pl"><span>${({bombowo:'💣 Bombowo · ',hitster:'🎵 Songline · '})[h.g]||''}🏆 ${E(h.w)}</span><span>${h.g?'':h.pts+' pkt · '}${h.n} os.</span></div>`).join(''):'<p>Tego dnia nie rozegrano gier.</p>'}</div>`:'<p>Dotknij dnia, aby zobaczyć rozegrane gry. Strzałkami przejdziesz do wcześniejszych miesięcy.</p>'}`}
 function bindCal(){const b=$('#calb');if(!b)return;const paint=()=>{b.innerHTML=calHTML();bindCal()};
 $('#calp').onclick=()=>{CAL.m--;if(CAL.m<0){CAL.m=11;CAL.y--}CAL.s='';paint()};$('#caln').onclick=()=>{CAL.m++;if(CAL.m>11){CAL.m=0;CAL.y++}CAL.s='';paint()};
 b.querySelectorAll('[data-d]').forEach(x=>x.onclick=()=>{CAL.s=CAL.s===x.dataset.d?'':x.dataset.d;paint()})}
@@ -1246,22 +1906,23 @@ TABS.me=function(m){_me6(m);const b=$('#gdp');if(b)b.onclick=()=>startTour('all'
 /* ---- poprawki i nowosci w danych ---- */
 FRN.vet='⚡ Weteran';
 ICO.shop=SVG('<circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M3 4h2.4l2.2 11.2h10.6l2-8.2H6.2"/>');
-ICO.bshop=ICO.shop;ICO.bplay=ICO.play;ICO.brank=ICO.rank;ICO.hplay=ICO.play;ICO.hrank=ICO.rank;GAMES.fakeit.nav=[['play','🎮','Graj'],['shop','🛒','Sklep'],['rank','🏅','Ranking'],['upd','📋','Zmiany']];
+ICO.bshop=ICO.shop;ICO.bplay=ICO.play;ICO.brank=ICO.rank;ICO.hplay=ICO.play;ICO.hrank=ICO.rank;ICO.hshop=ICO.shop;ICO.hirank=ICO.rank;GAMES.fakeit.nav=[['play','🎮','Graj'],['shop','🛒','Sklep'],['rank','🏅','Ranking'],['upd','📋','Zmiany']];
 GAMES.fakeit.gk='g';
 UPD.unshift({v:'2.6',g:'hub',d:'08.11.2026',t:'Nowy start, Weteran i wiele nowości',it:['🔄 Reset postępów: wszyscy zaczynają od zera, żeby każdy miał takie same szanse (zostają nicki, zdjęcia i ramki)','⚡ Animowana ramka Weteran z zegarem i klepsydrą oraz darmowa paczka kart dla kont założonych do 9 listopada','👥 Zakładka Gracze: kto jest online i kiedy był aktywny, a po dotknięciu profil gracza ze wszystkimi statystykami','📦 Cztery rodzaje paczek kart: Podstawowa, Srebrna, Złota i Diamentowa','📅 Kalendarz gier z przeglądaniem poprzednich miesięcy','👑 Champion miesiąca: najwięcej wygranych w miesiącu daje +40 🪙 i czerwoną odznakę w profilu','🧭 Poradnik prowadzi teraz po całym panelu gry krok po kroku','💻 Lepszy wygląd na tablecie i komputerze: na dużych ekranach menu jest z boku']},
 {v:'2.6',g:'fakeit',d:'08.11.2026',t:'Boty, ranking i sklep',it:['🤖 Boty wybierają odpowiedzi pasujące do pytania i kategorii','📊 W rankingu liczba rozegranych gier oraz sortowanie po niej','🛒 Zakładka gry nazywa się teraz „Sklep" i ma ikonę koszyka','🗂️ Nowe kategorie pytań: wystarczy dodać plik pytania-nazwa.txt na GitHubie']});
-UPD.unshift({v:'2.9',g:'hub',d:'13.11.2026',t:'Paczki na środku i poprawki Hitstera',it:['📦 Otwieranie paczek: paczka i karty są wyśrodkowane, a zamiast znaków zapytania są szare karty, które odwracają się po dotknięciu','🎵 Hitster: działa muzyka na iPhonie, oś czasu jest odwrócona (najnowsze na górze), więcej utworów i polskiego rapu, osiągnięcia oraz pojedynki 1 na 1']},{v:'1.1',g:'hitster',d:'13.11.2026',t:'Pojedynki, osiągnięcia i kolory osi',it:['🔊 Naprawiona muzyka na iPhonie','⬆ Oś czasu: najnowsze utwory na górze, najstarsze na dole','🎲 Większa losowość: ponad 190 utworów, unikanie powtórek z poprzednich gier i tego samego wykonawcy pod rząd','🎤 Więcej polskiego rapu (Liroy, Paktofonika, Kaliber 44, Quebonafide, Taco Hemingway, Mata i inni), który wypada częściej','🎖️ Nowe osiągnięcia Hitstera (gry, wygrane, trafienia, serie, polski rap, pojedynki)','⚔️ Pojedynki 1 na 1: wyzwij gracza, a po przyjęciu gra startuje od razu','🎨 Każdy gracz ma inny kolor osi czasu, a boty mają kolor niebieski']});
+UPD.unshift({v:'2.9',g:'hub',d:'13.11.2026',t:'Paczki na środku i poprawki Songline',it:['📦 Otwieranie paczek: paczka i karty są wyśrodkowane, a zamiast znaków zapytania są szare karty, które odwracają się po dotknięciu','🎵 Songline: działa muzyka na iPhonie, oś czasu jest odwrócona (najnowsze na górze), więcej utworów i polskiego rapu, osiągnięcia oraz pojedynki 1 na 1']},{v:'1.1',g:'hitster',d:'13.11.2026',t:'Pojedynki, osiągnięcia i kolory osi',it:['🔊 Naprawiona muzyka na iPhonie','⬆ Oś czasu: najnowsze utwory na górze, najstarsze na dole','🎲 Większa losowość: ponad 190 utworów, unikanie powtórek z poprzednich gier i tego samego wykonawcy pod rząd','🎤 Więcej polskiego rapu (Liroy, Paktofonika, Kaliber 44, Quebonafide, Taco Hemingway, Mata i inni), który wypada częściej','🎖️ Nowe osiągnięcia Songline (gry, wygrane, trafienia, serie, polski rap, pojedynki)','⚔️ Pojedynki 1 na 1: wyzwij gracza, a po przyjęciu gra startuje od razu','🎨 Każdy gracz ma inny kolor osi czasu, a boty mają kolor niebieski']});
+UPD.unshift({v:'3.0',g:'hub',d:'14.11.2026',t:'Songline, rankingi i poprawki',it:['🎵 Nowa gra: Songline! Słuchasz fragmentu piosenki i wstawiasz ją na swojej osi czasu według roku wydania. Wygrywa ten, kto pierwszy zbierze 5, 7, 10 albo 15 kart.','💣 Pamiętaj też o niedawno wydanym Bombowie: wpisuj polskie słowa z sylabą, zanim bomba wybuchnie. Teraz za długą grę (ponad 5 minut) wygrany dostaje +4 🪙, a odpadnięci gracze mają własny czat.','🏅 Pod każdym rankingiem jest opis, czego dotyczy i jak być wyżej.','👑 Wygrane w miesiącu: naprawione liczenie. Liczą się wygrane w Fake it, Bombowie i Songline, ale tylko w grach z co najmniej 2 prawdziwymi graczami.','🃏 Mniejsze szanse na legendarne i mityczne karty w paczkach, więc są jeszcze rzadsze','📋 W zakładce Zmiany każdej gry widać najnowszą aktualizację']},{v:'1.2',g:'hitster',d:'14.11.2026',t:'Sklep, 15 kart i duża baza piosenek',it:['🔢 Liczbę graczy w pokoju wpisujesz ręcznie (od 2 do 12)','🃏 Nowy tryb: gra do 15 kart','🛒 Sklep z kołem fortuny (4 🪙, takie same szanse jak w Bombowie): 🎤 pokazuje wykonawcę piosenki, a 📅 pokazuje widełki lat, w których mogła zostać wydana','🔴 Nad „Losuj inną piosenkę” jest czerwone ostrzeżenie: używaj tylko, gdy piosenka nie działa lub za porozumieniem grupy','👢 Host może wyrzucić gracza z pokoju także w trakcie gry','🎶 Muzyczna animacja na koniec gry z ogłoszeniem zwycięzcy','🪙 Nagrody: +1 🪙 za udział, a za wygraną +2 (5 kart), +3 (7 kart), +4 (10 kart), +5 (15 kart)','🤖 Boty zgadują rok na słuch i potrafią się pomylić, więc da się z nimi wygrać, ale łatwo nie jest','📚 Znacznie większa baza: ponad 800 piosenek, najwięcej z lat 2000–2026. Utwory losują się tak, żeby się nie powtarzały','🏅 Songline ma własny ranking: wygrane i rozegrane gry']},{v:'2.7',g:'fakeit',d:'14.11.2026',t:'Zaproszenia do pokoju',it:['📨 W pokoju przed grą możesz zaprosić gracza przyciskiem „Zaproś gracza”. Zaproszony zobaczy okno z zaproszeniem i dołączy jednym dotknięciem','👑 Wygrane w miesiącu liczą się teraz też z innych gier (opis jest pod rankingiem)']},{v:'1.3',g:'bombowo',d:'14.11.2026',t:'Więcej coinów i czat dla odpadłych',it:['🪙 Gra dłuższa niż 5 minut: wygrany dostaje +4 🪙 zamiast +2 🪙','💬 Gracze, którzy odpadli, mają na dole czat tylko dla siebie. Grający go nie widzą','👑 Wygrane z gier online liczą się teraz do rankingu „Wygrane w miesiącu”']});
 {const dk=d=>{const a=String(d).split('.');return +(a[2]+a[1]+a[0])};UPD.sort((a,b)=>dk(b.d)-dk(a.d))}
 /* ---- poradnik tekstowy: aktualizacja tresci ---- */
 const gset=(id,b)=>{const g=GUIDE.find(x=>x.id===id);if(g)g.b=b};
-gset('coins',`<p>${gk('Skąd:')}</p><ul><li>Codziennie +1 🪙 za wejście do gry (Daily).</li><li>Prezenty za serię dni: 7 dni +5, 14 dni +10, 21 dni +15, 28 dni +20 🪙.</li><li>Po grze za miejsce: 1. miejsce 5 🪙, 2. miejsce 3, 3. miejsce 2, dalsze 1. Do tego +1 za każde 4 wkręcone osoby (maks. +3) i +1 za nos do prawdy. W grze z samymi botami nagroda jest o połowę mniejsza.</li><li>Za każde nowe osiągnięcie +1 🪙 i za wygrany pojedynek +2 🪙.</li><li>Champion miesiąca dostaje +40 🪙.</li></ul><p>${gk('Na co:')} paczki kart (od 12 🪙), koło fortuny (4 🪙) i karty tygodnia (od 30 🪙).</p><p>${gk('Po co:')} coiny są wspólne dla wszystkich gier.</p>`);
+gset('coins',`<p>${gk('Skąd:')}</p><ul><li>Codziennie +1 🪙 za wejście do gry (Daily).</li><li>Prezenty za serię dni: 7 dni +5, 14 dni +10, 21 dni +15, 28 dni +20 🪙.</li><li>Po grze za miejsce: 1. miejsce 5 🪙, 2. miejsce 3, 3. miejsce 2, dalsze 1. Do tego +1 za każde 4 wkręcone osoby (maks. +3) i +1 za nos do prawdy. W grze z samymi botami nagroda jest o połowę mniejsza.</li><li>Bombowo: wygrana +2 🪙 (+4 🪙, gdy gra trwała ponad 5 minut), udział +1 🪙. Songline: udział +1 🪙, wygrana +2 (5 kart), +3 (7), +4 (10) lub +5 (15 kart).</li><li>Za każde nowe osiągnięcie +1 🪙 i za wygrany pojedynek +2 🪙.</li><li>Champion miesiąca dostaje +40 🪙.</li></ul><p>${gk('Na co:')} paczki kart (od 12 🪙), koło fortuny (4 🪙) i karty tygodnia (od 30 🪙).</p><p>${gk('Po co:')} coiny są wspólne dla wszystkich gier.</p>`);
 gset('cards',`<p>${gk('Co to:')} 220 kolekcjonerskich kart w 5 rzadkościach po 44 karty: Zwykła, Rzadka, Epicka, Legendarna i Mityczna.</p><p>${gk('Paczki:')} Podstawowa 12 🪙, Srebrna 45 🪙 (gwarancja karty Rzadkiej lub lepszej), Złota 140 🪙 (Epickiej lub lepszej) i Diamentowa 450 🪙 (Legendarnej lub lepszej). Każda zawiera 5 kart, a szanse na rzadsze karty rosną razem z ceną. Dokładne szanse są podpisane w Sklepie.</p><p>${gk('Wartość:')} zmienia się z dnia na dzień i zależy od tego, ilu graczy ma daną kartę. W zakładce Karty widzisz wykres wartości kolekcji i filtry.</p><p>${gk('Po co:')} kolekcjonowanie, ranking wartości kart i handel.</p>`);
-gset('rank',`<p>${gk('Co to:')} listy najlepszych graczy. Przy każdym widać liczbę rozegranych gier i ostatnią aktywność.</p><p>${gk('Gdzie:')} w menu głównym zakładka Ranking (coiny, wartość kart i wygrane w miesiącu). W grze zakładka Ranking pokazuje wygrane, pojedynki i rozegrane gry w tej grze. Dotknij gracza, aby zobaczyć jego profil.</p><p>${gk('Uwaga:')} w rankingu są tylko gracze zalogowani przez Google.</p>`);
+gset('rank',`<p>${gk('Co to:')} listy najlepszych graczy. Przy każdym widać liczbę rozegranych gier i ostatnią aktywność.</p><p>${gk('Gdzie:')} w menu głównym zakładka Ranking (coiny, wartość kart i wygrane w miesiącu). W grze zakładka Ranking pokazuje wygrane, pojedynki i rozegrane gry w tej grze. Dotknij gracza, aby zobaczyć jego profil.</p><p>${gk('Opisy:')} pod każdym rankingiem jest opis, czego dotyczy i jak być wyżej.</p><p>${gk('Uwaga:')} w rankingu są tylko gracze zalogowani przez Google.</p>`);
 GUIDE.splice(GUIDE.findIndex(g=>g.id==='upd'),0,
 {id:'players',i:'👥',t:'Gracze i profile',b:`<p>${gk('Co to:')} lista graczy z informacją, kto jest online (zielona kropka) i kiedy ostatnio był aktywny.</p><p>${gk('Jak:')} dotknij karty „Gracze" w menu głównym. Dotknięcie gracza otwiera jego profil z pełnymi statystykami: wygrane, rozegrane gry, skuteczność, punkty, poziom, seria, coiny, karty, osiągnięcia i tytuły championa. Stamtąd możesz wyzwać go na pojedynek.</p>`},
-{id:'champ',i:'👑',t:'Champion miesiąca',b:`<p>${gk('Co to:')} gracz, który wygrał najwięcej gier w danym miesiącu.</p><p>${gk('Zasady:')} liczą się wygrane w grach z co najmniej dwiema prawdziwymi osobami (także pojedynki), a nie w grach z samymi botami. Pierwszego dnia nowego miesiąca champion dostaje +40 🪙, a w jego profilu pod nickiem pojawia się czerwona odznaka z rubinową koroną do końca tego miesiąca.</p>`},
+{id:'champ',i:'👑',t:'Champion miesiąca',b:`<p>${gk('Co to:')} gracz, który wygrał najwięcej gier w danym miesiącu.</p><p>${gk('Zasady:')} liczą się wygrane w grach z co najmniej dwiema prawdziwymi osobami (także pojedynki), a nie w grach z samymi botami. Liczą się gry Fake it, Bombowo i Songline. Pierwszego dnia nowego miesiąca champion dostaje +40 🪙, a w jego profilu pod nickiem pojawia się czerwona odznaka z rubinową koroną do końca tego miesiąca.</p>`},
 {id:'vet',i:'⚡',t:'Weteran i reset',b:`<p>${gk('Reset:')} wszyscy zaczęli od zera, żeby każdy miał takie same szanse. Zostały nicki, zdjęcia i ramki.</p><p>${gk('Weteran:')} konta założone do 9 listopada dostały animowaną ramkę Weteran (niebieski piorun, zegar i klepsydra) oraz darmową paczkę kart.</p>`});
-/* ---- Hitster: osiagniecia i poradnik ---- */
-[['g','🎧',['Słuchacz','Meloman','Fan Hitstera','Legenda eteru'],[1,10,40,150],n=>`Hitster: zagraj ${n} gier`],['w','🥇',['Pierwszy hit','Zwycięzca list','Mistrz Hitstera','Król playlisty'],[1,5,20,75],n=>`Hitster: wygraj ${n} gier`],['ok','👂',['Dobre ucho','Znawca lat','Chodząca encyklopedia','Absolutny słuch'],[5,40,200,1000],n=>`Hitster: trafnie wstaw ${n} utworów`],['sk','🔥',['Dobra passa','Seria','Niepokonany słuch','Maszyna do lat'],[3,5,8,12],n=>`Hitster: trafiaj ${n} razy z rzędu`],['dw','⚔️',['Pierwszy pojedynek','Pojedynkowicz Hitstera','Mistrz duetów','Postrach playlist'],[1,5,20,50],n=>`Hitster: wygraj ${n} pojedynków 1 na 1`],['pr','🎤',['Rapowy debiut','Fan polskiego rapu','Hip-hopowa głowa','Rap Game Poland'],[1,10,40,120],n=>`Hitster: trafnie wstaw ${n} polskich utworów rapowych`]].forEach(a=>[0,1,2,3].forEach(k=>ACH.push([k,a[1],a[2][k],a[4](a[3][k]),(s,u,p)=>((p.hs||{})[a[0]]||0)>=a[3][k],1])));
-gset('hitster',`<p>${gk('Co to:')} gra muzyczna. Słuchasz fragmentu piosenki i układasz ją na swojej osi czasu we właściwym miejscu według roku wydania.</p><p>${gk('Jak grać:')} na początku masz jedną kartę z rokiem. Gdy jest Twoja kolej, dotknij „Odtwórz utwór”, posłuchaj i wybierz „Wstaw tutaj” w miejscu, gdzie według Ciebie pasuje piosenka. Oś czasu jest ułożona od najnowszych (na górze) do najstarszych (na dole). Trafisz, a karta ląduje na Twojej osi. Pomylisz się, a karta przepada i kolej przechodzi dalej. Wygrywa pierwszy, kto zbierze ustaloną liczbę kart (5, 7 lub 10).</p><p>${gk('Kolory osi:')} każdy gracz ma inny kolor osi czasu, a boty mają kolor niebieski.</p><p>${gk('Pokoje:')} stwórz własny pokój (publiczny lub z kodem), dołącz kodem albo z listy, albo użyj „Szybkiego startu z botami”. W lobby jest czat, dodawanie botów i wyrzucanie graczy.</p><p>${gk('Pojedynek 1 na 1:')} w zakładce Graj dotknij „Wyzwij gracza”, wybierz rywala z listy i poczekaj, aż przyjmie zaproszenie. Gra startuje od razu, a wygrywa pierwszy z 5 kartami. Rywal widzi zaproszenie, gdy jest w zakładce Graj w Hitsterze.</p><p>${gk('Osiągnięcia:')} Hitster ma własne osiągnięcia (gry, wygrane, trafienia, serie, polski rap i pojedynki). Za każde dostajesz +1 🪙.</p><p>${gk('Dźwięk:')} fragment piosenki jest pobierany z darmowego podglądu iTunes. Jeśli któryś utwór się nie załaduje, użyj przycisku „Inny utwór” (raz na turę). Na iPhonie dotknij „Odtwórz utwór” bezpośrednio, a dźwięk uruchomi się od razu.</p><p>${gk('Nagrody:')} wygrany dostaje +2 🪙, pozostali +1 🪙, a gra zapisuje się w kalendarzu w Profilu.</p>`);
+/* ---- Songline: osiagniecia i poradnik ---- */
+[['g','🎧',['Słuchacz','Meloman','Fan Songline','Legenda eteru'],[1,10,40,150],n=>`Songline: zagraj ${n} gier`],['w','🥇',['Pierwszy hit','Zwycięzca list','Mistrz Songline','Król playlisty'],[1,5,20,75],n=>`Songline: wygraj ${n} gier`],['ok','👂',['Dobre ucho','Znawca lat','Chodząca encyklopedia','Absolutny słuch'],[5,40,200,1000],n=>`Songline: trafnie wstaw ${n} utworów`],['sk','🔥',['Dobra passa','Seria','Niepokonany słuch','Maszyna do lat'],[3,5,8,12],n=>`Songline: trafiaj ${n} razy z rzędu`],['dw','⚔️',['Pierwszy pojedynek','Pojedynkowicz Songline','Mistrz duetów','Postrach playlist'],[1,5,20,50],n=>`Songline: wygraj ${n} pojedynków 1 na 1`],['pr','🎤',['Rapowy debiut','Fan polskiego rapu','Hip-hopowa głowa','Rap Game Poland'],[1,10,40,120],n=>`Songline: trafnie wstaw ${n} polskich utworów rapowych`]].forEach(a=>[0,1,2,3].forEach(k=>ACH.push([k,a[1],a[2][k],a[4](a[3][k]),(s,u,p)=>((p.hs||{})[a[0]]||0)>=a[3][k],1])));
+gset('hitster',`<p>${gk('Co to:')} gra muzyczna. Słuchasz fragmentu piosenki i układasz ją na swojej osi czasu we właściwym miejscu według roku wydania.</p><p>${gk('Jak grać:')} na początku masz jedną kartę z rokiem. Gdy jest Twoja kolej, dotknij „Odtwórz utwór”, posłuchaj i wybierz „Wstaw tutaj” w miejscu, gdzie według Ciebie pasuje piosenka. Oś czasu jest ułożona od najnowszych (na górze) do najstarszych (na dole). Trafisz, a karta ląduje na Twojej osi. Pomylisz się, a karta przepada i kolej przechodzi dalej. Wygrywa pierwszy, kto zbierze ustaloną liczbę kart (5, 7, 10 lub 15).</p><p>${gk('Pokoje:')} stwórz własny pokój (liczbę graczy wpisujesz ręcznie, od 2 do 12), dołącz kodem albo z listy, albo użyj „Szybkiego startu z botami”. W lobby jest czat, dodawanie botów i wyrzucanie graczy. Host może wyrzucić gracza także w trakcie gry (✕ przy graczu).</p><p>${gk('Boty:')} zgadują rok na słuch, więc potrafią się pomylić. Poziom łatwy, średni i trudny zmienia ich skuteczność.</p><p>${gk('Pojedynek 1 na 1:')} w zakładce Graj dotknij „Wyzwij gracza”, wybierz rywala z listy i poczekaj, aż przyjmie zaproszenie. Gra startuje od razu, a wygrywa pierwszy z 5 kartami.</p><p>${gk('Sklep:')} koło fortuny (4 🪙) daje m.in. 🎤 Wykonawca (pokazuje, kto wykonuje piosenkę) i 📅 Widełki lat (pokazuje przedział lat wydania). Używasz ich w swojej turze pod przyciskiem odtwarzania.</p><p>${gk('Losuj inną piosenkę:')} tylko gdy utwór się nie ładuje albo za zgodą grupy (raz na turę).</p><p>${gk('Osiągnięcia:')} Songline ma własne osiągnięcia (gry, wygrane, trafienia, serie, polski rap i pojedynki). Za każde dostajesz +1 🪙.</p><p>${gk('Dźwięk:')} fragment piosenki jest pobierany z darmowego podglądu iTunes. Na iPhonie dotknij „Odtwórz utwór” bezpośrednio, a dźwięk uruchomi się od razu.</p><p>${gk('Nagrody:')} +1 🪙 za udział, a za wygraną +2 🪙 (5 kart), +3 (7 kart), +4 (10 kart) lub +5 (15 kart). Gra zapisuje się w kalendarzu w Profilu i liczy do wygranych w miesiącu, gdy grało min. 2 prawdziwych graczy.</p>`);
 </script></body></html>
